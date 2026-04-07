@@ -49,12 +49,20 @@
 
 ### per-episode song rule
 
-각 화의 곡은 다음 셋 중 하나만 맡는다.
+`1화 = 1곡`을 기본 원칙으로 고정한다.
+
+곡 기능은 다음 넷 중 하나만 맡는다.
 - inner monologue track
 - relationship theme
 - in-world performance
+- ending reflection track
 
-한 곡이 세 역할을 동시에 수행하면 정체성이 흐려진다.
+한 곡이 여러 역할을 동시에 수행하면 정체성이 흐려진다.
+
+운영 규칙:
+- 각 곡은 그 화의 핵심 감정 하나만 압축한다
+- 곡은 스포일러가 아니라 정서의 압축이어야 한다
+- 후렴은 사건 요약보다 감정 잔향을 우선한다
 
 ## 5. Visual Canon
 

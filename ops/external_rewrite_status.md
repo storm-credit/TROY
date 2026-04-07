@@ -80,6 +80,10 @@
 
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\04-스토리\111-120화 상세 줄거리.md`
 
+### Media System Sync Pass
+
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\11-미디어\미디어 인덱스.md`
+
 ## 2. Canon Basis Used
 
 이 재작성은 아래 TROY 캐논을 기준으로 했다.
