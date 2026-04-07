@@ -193,3 +193,4 @@
 
 세부 기준표:
 - `ops/manuscript_length_plan_001_020.md`
+- `ops/manuscript_length_plan_021_040.md`
