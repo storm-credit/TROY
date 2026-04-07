@@ -76,6 +76,10 @@
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\05-수업용단편집\L_6개월의공백.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\3화_아린이라는존재.md`
 
+### Ending Sync Pass
+
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\04-스토리\111-120화 상세 줄거리.md`
+
 ## 2. Canon Basis Used
 
 이 재작성은 아래 TROY 캐논을 기준으로 했다.
