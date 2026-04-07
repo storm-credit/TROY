@@ -58,6 +58,7 @@
 - `ops/episode_song_allocation_001_010.md`
 - `ops/episode_song_prompt_sheet_001_010.md`
 - `ops/final_song_brief.md`
+- `ops/visual_bible.md`
 - `ops/E001_visual_cut_list.md`
 - `ops/E002_visual_cut_list.md`
 

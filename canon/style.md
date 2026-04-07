@@ -100,6 +100,16 @@
 - 캐릭터 외형, 계절 팔레트, 공간 상징은 화마다 흔들리면 안 된다
 - 같은 장소는 같은 감정 기억 장치로 다시 호출되어야 한다
 
+### visual mode lock
+
+- base visual mode is cinematic live-action style
+- anime styling is not the default house look
+- illustrated or semi-animated treatment is allowed only for memory, inner hearing, symbolic inserts, or lyric-video accents
+- faces, skin, and posture should remain realistic and filmic
+
+see:
+- `ops/visual_bible.md`
+
 ## 7. House Style Goal
 
 장기적으로는 "우리 작품만의 하우스 사운드"와 "우리 작품만의 하우스 룩"을 만든다.
