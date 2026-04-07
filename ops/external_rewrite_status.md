@@ -96,6 +96,27 @@
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E001_무료한일상_리라이트.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E002_서점에서의충격_리라이트.md`
 
+### Canon-First Manuscript Draft Pass
+
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E003_아린이라는존재_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E004_네가들리는거리_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E005_내일을기다리며_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E006_문학과철학_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E007_같은조가되다_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E008_도서관첫미팅_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E009_마음의비밀_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E010_특별한관심_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E011_첫공연_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E012_방음실의고백_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E013_새로운운율_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E014_음악이야기_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E015_연결되는마음_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E016_체육대회_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E017_족구경기_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E018_손이닿은순간_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E019_이어달리기_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E020_뒤풀이_정본초고.md`
+
 ## 2. Canon Basis Used
 
 이 재작성은 아래 TROY 캐논을 기준으로 했다.
@@ -127,5 +148,6 @@
 
 - 일부 원고 초안에는 예전 표현이 남아 있을 수 있다.
 - 예: `10-집필` 이하 원고 문장은 설정 문서와 달리 아직 개별 문장 단위 교정이 끝나지 않았다.
+- E001-E020은 현재 `정본 초고` 단계이며, 이후 장면 밀도와 문장 온도를 추가 보정할 예정이다.
 - 반면 워크플로우, 프롬프트, 캐릭터 카드, 구조 문서는 `120화 기준`으로 동기화 완료했다.
 - 검색 결과에 남는 `완전한 무음` 문구 2건은 현재 `금지 예시` 문장으로 의도적으로 남긴 것이다.
