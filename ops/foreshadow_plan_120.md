@@ -89,3 +89,41 @@
 차순위:
 - Taeyul's final role
 - mature distance rule in the final relationship
+
+## 13. Ending Reverse Design Locks
+
+### Final emotional line
+
+- 여름이 끝난 뒤의 공기처럼, 뜨겁지 않은데도 확실한 사랑
+
+### Final three episodes
+
+- 118화: 재결합, `돌아감`이 아니라 `새로 시작함`
+- 119화: 침묵의 완성, 들리지 않는데도 흔들리지 않는 첫날
+- 120화: 에필로그, 고요가 공백이 아니라 두 사람의 방식이 되었음을 증명
+
+### Required payoff set
+
+- Arin exception의 의미
+- 심해와 침묵의 완성의 차이
+- 이어폰 상징 전환
+- heard vs said 문법의 최종 회수
+- 거리/접촉 법칙의 성숙한 재해석
+- 아린의 마지막 노래의 의미
+- 기대/현실 서사의 자기 인정
+
+## 14. Seasonal Motif Thread
+
+이 작품의 계절선은 `봄 -> 여름 -> 늦여름/장마 -> 가을 -> 늦가을`로 이동한다.
+
+- Phase 1: 봄 초입, 소음 속 얇은 빛
+- Phase 2: 봄 끝, 따뜻함과 그림자
+- Phase 3: 여름, 열과 과밀한 행복
+- Phase 4: 늦여름/장마, 젖은 공기와 관계 균열
+- Phase 5: 가을, 투명한 공기와 재해석
+- Phase 6: 늦가을, 맑고 단단한 종지
+
+운영 규칙:
+- 계절은 설명이 아니라 증거로 보여준다
+- 여름이 가고 가을이 오는 감각은 햇빛 각도, 바람, 옷깃, 저녁의 속도 같은 요소로 표현한다
+- `여름이 끝났다` 같은 직설 문장은 피한다

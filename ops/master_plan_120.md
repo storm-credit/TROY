@@ -25,6 +25,10 @@
 | Episode Planner | 120화 구조, 챕터/비트 설계 | gpt-5.1-codex-mini |
 | Foreshadowing Architect | 장기 복선 스레드 설계 | gpt-5.2 low |
 | Audiovisual Bible Specialist | Suno/MV 규격, 스타일 드리프트 방지 | gpt-5.2 low |
+| Music Imagery Dramatist | 클래식 감각을 촉감/빛/공기로 번역 | gpt-5.2 high |
+| Critical Musicologist | 음악 용어 과잉 감수, 문학성 교정 | gpt-5.2 medium |
+| Composer / Audio Director | 악기 정서 매핑, 소설-Suno-MV 역할 분리 | gpt-5.1-codex-mini |
+| Seasonal Motif Architect | 봄-여름-가을 감정 이동 설계 | gpt-5.2 medium |
 
 ## 3. Execution Principle
 
@@ -86,6 +90,12 @@
 - Suno 문서 포맷
 - MV 문서 포맷
 - 아크 단위 스타일 체크포인트
+
+### Step 7. Seasonal Language Lock
+
+- 500일의 섬머식 `Summer -> Autumn` 감각을 직접 복제하지 않고 작품식 계절 문법으로 번역한다
+- 여름의 뜨거움이 식는 이야기가 아니라, `확인의 필요가 줄어드는 방향`으로 이동한다
+- 본문에서는 계절 이름보다 `햇빛 각도`, `공기 밀도`, `그늘 길이`, `저녁이 오는 속도`를 우선 사용한다
 
 ## 5. 120-Episode Skeleton
 
