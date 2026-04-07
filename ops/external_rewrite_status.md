@@ -156,6 +156,26 @@
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E058_잘못읽은마음_정본초고.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E059_쌓이는피로_정본초고.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E060_돌아볼수없는선_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E061_후퇴_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E062_압박_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E063_말할수없는진실_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E064_흔들리는운율_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E065_어긋난타이밍_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E066_큰충돌의시작_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E067_상처의언어_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E068_rupture_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E069_파열이후_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E070_돌이킬수없는금_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E071_거리두기_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E072_재시도_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E073_어색한친절_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E074_소실심화_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E075_놓치고있는것_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E076_마지막대화의준비_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E077_서로다른언어_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E078_결별_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E079_이후_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E080_청취소실전환_정본초고.md`
 
 ## 2. Canon Basis Used
 
@@ -188,6 +208,6 @@
 
 - 일부 원고 초안에는 예전 표현이 남아 있을 수 있다.
 - 예: `10-집필` 이하 원고 문장은 설정 문서와 달리 아직 개별 문장 단위 교정이 끝나지 않았다.
-- E001-E060은 현재 `정본 초고` 단계이며, 이후 장면 밀도와 문장 온도를 추가 보정할 예정이다.
+- E001-E080은 현재 `정본 초고` 단계이며, 이후 장면 밀도와 문장 온도를 추가 보정할 예정이다.
 - 반면 워크플로우, 프롬프트, 캐릭터 카드, 구조 문서는 `120화 기준`으로 동기화 완료했다.
 - 검색 결과에 남는 `완전한 무음` 문구 2건은 현재 `금지 예시` 문장으로 의도적으로 남긴 것이다.

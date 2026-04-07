@@ -136,6 +136,37 @@
   - `canon/world.md`
   - `canon/characters.md`
 
+### E061-E080
+
+- status: canon-first manuscript drafts created outside repo
+- manuscript paths:
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E061_후퇴_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E062_압박_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E063_말할수없는진실_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E064_흔들리는운율_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E065_어긋난타이밍_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E066_큰충돌의시작_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E067_상처의언어_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E068_rupture_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E069_파열이후_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E070_돌이킬수없는금_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E071_거리두기_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E072_재시도_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E073_어색한친절_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E074_소실심화_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E075_놓치고있는것_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E076_마지막대화의준비_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E077_서로다른언어_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E078_결별_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E079_이후_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter4\E080_청취소실전환_정본초고.md`
+- basis:
+  - `ops/prose_house_bible.md`
+  - `ops/outline_skeleton_120.md`
+  - `canon/style.md`
+  - `canon/world.md`
+  - `canon/characters.md`
+
 ## 3. Rule
 
 - 기존 원고는 보존한다
