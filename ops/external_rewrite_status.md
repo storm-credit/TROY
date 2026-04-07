@@ -84,6 +84,13 @@
 
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\11-미디어\미디어 인덱스.md`
 
+### Campus Modeling Pass
+
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\02-세계관\캠퍼스 모델링 방침.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\02-세계관\장소 설정집.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\02-세계관\장소\혜담대학교.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\02-세계관\장소\성균관대.md`
+
 ## 2. Canon Basis Used
 
 이 재작성은 아래 TROY 캐논을 기준으로 했다.
@@ -103,6 +110,7 @@
 - ability end-state: 청취 소실 -> 침묵의 완성
 - Kim Eunji branch: removed from current canon
 - Kim Eunji file: preserved as deprecated archive note, not active canon
+- campus policy: real-world reference kept internal, public-facing campus fictionalized as 혜담대학교 인문캠퍼스
 
 ## 4. Note
 
