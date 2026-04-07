@@ -1,0 +1,65 @@
+# External Rewrite Status
+
+이 문서는 `TROY` 바깥 원본 작업 공간에서 수행한 재작성 상태를 기록한다.
+
+## 1. Rewritten Outside The Repo
+
+다음 파일들은 로컬 작업 공간에서 `120화 / 재결합 / true silence` 기준으로 재작성되었다.
+
+### Planning
+
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\기획\시리즈바이블.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\기획\전권_아웃라인_통합본.md`
+
+### Story Structure
+
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\04-스토리\전체 구조.md`
+
+### Phase Docs
+
+- `Phase-1 (1-20화).md`
+- `Phase-2 (21-35화).md`
+- `Phase-3 (36-60화).md`
+- `Phase-4 (61-80화).md`
+- `Phase-5 (81-105화).md`
+- `Phase-6 (106-120화).md`
+
+### Detail Docs
+
+- `1-10화 상세 줄거리.md`
+- `11-20화 상세 줄거리.md`
+- `21-30화 상세 줄거리.md`
+- `31-40화 상세 줄거리.md`
+- `41-50화 상세 줄거리.md`
+- `51-60화 상세 줄거리.md`
+- `61-70화 상세 줄거리.md`
+- `71-80화 상세 줄거리.md`
+- `81-90화 상세 줄거리.md`
+- `91-100화 상세 줄거리.md`
+- `101-110화 상세 줄거리.md`
+- `111-120화 상세 줄거리.md`
+
+## 2. Canon Basis Used
+
+이 재작성은 아래 TROY 캐논을 기준으로 했다.
+
+- `canon/series.md`
+- `canon/world.md`
+- `canon/characters.md`
+- `ops/master_plan_120.md`
+- `ops/outline_skeleton_120.md`
+
+## 3. Locked Direction Applied
+
+- total episodes: 120
+- chapters: 24
+- phases: 6
+- ending: Seojun-Arin reunion
+- ability end-state: true silence
+- Kim Eunji branch: removed from current canon
+
+## 4. Note
+
+이 파일은 `TROY` 바깥 원본 문서가 이미 손으로 재작성되었음을 저장소에 기록하기 위한 것이다.
+
+해당 원본 문서들은 이 저장소의 tracked files가 아니므로, 실제 Git diff와 커밋에는 포함되지 않는다.
