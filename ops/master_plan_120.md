@@ -42,9 +42,9 @@
 ### Step 1. Ending Lock
 
 결정 완료:
-- A: 서준-아린 재결합
+- A: 서준-아린 아름다운 이별
 - ending language: `청취 소실` -> `침묵의 완성`
-- mature hopeful ending
+- bittersweet lucid ending
 
 ### Step 2. World Lock
 
@@ -106,7 +106,7 @@
 | 3 | 36-60 | 5 | 연애 시작, 황금기, 행복의 정점 |
 | 4 | 61-80 | 4 | 균열, 파국, 결별 |
 | 5 | 81-105 | 5 | 이별 후 성장, 재해석, 재회 접근 |
-| 6 | 106-120 | 3 | 재결합, 최종 선택, 엔딩 |
+| 6 | 106-120 | 3 | 마지막 재회, 최종 선택, 엔딩 |
 
 ## 6. Milestone Targets
 
@@ -117,7 +117,7 @@
 | dating peak | 54-55 |
 | rupture | 68-70 |
 | breakup | 78-80 |
-| reunion | 103-105 |
+| re-encounter | 103-105 |
 | ending | 118-120 |
 
 ## 7. Rewrite Order

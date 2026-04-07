@@ -4,7 +4,7 @@
 
 ## 1. Rewritten Outside The Repo
 
-다음 파일들은 로컬 작업 공간에서 `120화 / 재결합 / 침묵의 완성` 기준으로 재작성되었다.
+다음 파일들은 로컬 작업 공간에서 `120화 / 아름다운 이별 / 침묵의 완성` 기준으로 재작성되었다.
 
 ### Planning
 
@@ -91,7 +91,7 @@
 - total episodes: 120
 - chapters: 24
 - phases: 6
-- ending: Seojun-Arin reunion
+- ending: Seojun-Arin beautiful separation
 - ability end-state: 청취 소실 -> 침묵의 완성
 - Kim Eunji branch: removed from current canon
 - Kim Eunji file: preserved as deprecated archive note, not active canon

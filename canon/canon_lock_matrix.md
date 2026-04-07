@@ -53,7 +53,7 @@ locked so far:
 | total chapters | 24 |
 | chapter size | 5 episodes |
 | total phases | 6 |
-| milestone model | confession around 30, breakup around 80, reunion around 105, ending around 120 |
+| milestone model | confession around 30, breakup around 80, re-encounter around 105, ending around 120 |
 
 ## 5. Audiovisual Lock
 
@@ -84,7 +84,7 @@ locked so far:
 These are the decisions that stop all downstream work if unresolved.
 
 resolved:
-- final ending is `Seojun-Arin reunion`
+- final ending is `Seojun-Arin beautiful separation`
 - the ability ends in `청취 소실`, and the ending meaning is `침묵의 완성`
 - Arin's exception is primarily about `relationship-state`
 - `Kim Eunji` is removed from current canon

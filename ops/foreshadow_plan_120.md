@@ -5,7 +5,7 @@
 ## 1. Arin Exception
 
 - seed: early exception scenes, earphones pierced, distance anomaly
-- echo: discomfort, being read, reunion with changed tone
+- echo: discomfort, being read, re-encounter with changed tone
 - payoff: define whether the exception is person, relationship, or state
 - ending dependency: high
 
@@ -98,9 +98,9 @@
 
 ### Final three episodes
 
-- 118화: 재결합, `돌아감`이 아니라 `새로 시작함`
-- 119화: 침묵의 완성, 들리지 않는데도 흔들리지 않는 첫날
-- 120화: 에필로그, 고요가 공백이 아니라 두 사람의 방식이 되었음을 증명
+- 118화: 마지막 재회, 오해 없이 서로를 마주 보는 밤
+- 119화: 침묵의 완성, 들리지 않는데도 가장 정확하게 이해하는 순간
+- 120화: 에필로그, 함께하지 않더라도 사랑이 진짜였음을 받아들이는 종지
 
 ### Required payoff set
 

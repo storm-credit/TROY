@@ -55,7 +55,7 @@
 | 2 | 21-35 | mutual pull, rising intimacy, confession |
 | 3 | 36-60 | romance peak, dating expansion, golden period |
 | 4 | 61-80 | cracks, rupture, breakup, fading pressure |
-| 5 | 81-105 | aftermath, growth, reframing, reunion approach |
+| 5 | 81-105 | aftermath, growth, reframing, re-encounter approach |
 | 6 | 106-120 | final choice, payoff, ending resolution |
 
 ## 7. Major Beat Targets
@@ -69,20 +69,20 @@ These are planning anchors, not final scene locks.
 | dating peak | 54-55 |
 | rupture | 68-70 |
 | breakup | 78-80 |
-| reunion | 103-105 |
+| re-encounter | 103-105 |
 | ending | 118-120 |
 
 ## 8. Ending Model Lock
 
 Locked ending model:
-- Seojun and Arin reunite
+- Seojun and Arin part after fully understanding each other
 - Seojun reaches the completion of silence
-- the ending is hopeful, mature, and relational rather than bittersweet drift
+- the ending is bittersweet, mature, and lucid rather than hopeless collapse
 
 Interpretation rule:
 - the completion of silence is not a punishment ending
 - it means Seojun no longer needs supernatural proof to love and trust
-- reunion is not reward for suffering, but a mutual adult choice after growth
+- the separation is not failure, but a mutual adult choice made after growth and understanding
 
 language rule:
 - `true silence` is kept only as an internal planning alias if needed
@@ -96,7 +96,7 @@ language rule:
 - 공감각적이고 음악적인 로맨스
 - 달콤함만이 아니라 오해와 현실을 통과하는 성장
 - 장소와 소리가 감정을 기억하는 영화적 서사
-- 능력을 잃어가며 오히려 진실에 가까워지는 사랑
+- 능력을 잃어가며 오히려 진실에 가까워지는 사랑과, 함께하지 않아도 남는 이해의 여운
 
 ## 10. Production Rule
 
