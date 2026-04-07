@@ -61,6 +61,28 @@
   - `canon/world.md`
   - `canon/characters.md`
 
+### E021-E030
+
+- status: canon-first manuscript drafts created outside repo
+- manuscript paths:
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E021_가까워지는거리_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E022_익숙해진목소리_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E023_작은질투_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E024_기다리는사람_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E025_말해야하는이유_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E026_고백의예감_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E027_망설임_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E028_질문의문장_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E029_고백_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E030_대답_정본초고.md`
+- basis:
+  - `ops/prose_house_bible.md`
+  - `ops/outline_skeleton_120.md`
+  - `ops/manuscript_length_plan_021_040.md`
+  - `canon/style.md`
+  - `canon/world.md`
+  - `canon/characters.md`
+
 ## 3. Rule
 
 - 기존 원고는 보존한다
