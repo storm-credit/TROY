@@ -74,7 +74,7 @@ This means:
 - the director controls change and final sign-off
 
 Inside this repo:
-- `TROY engine` = ending-first reverse-design writing engine
+- `TROY engine` = ending-first reverse-design writing method system for this novel
 - `orchestra engine` = director/control layer that operates the TROY engine
 
 ## Current Source Material
