@@ -136,6 +136,26 @@
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E038_둘만의세계_정본초고.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E039_안정의표면_정본초고.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E040_첫키스_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E041_세계의확장_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E042_낯선시선_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E043_도현등장_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E044_다른방식의다정함_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E045_흔들리는해석_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E046_행복의리듬_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E047_읽힌다는불편함_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E048_말보다빠른해석_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E049_친구들의개입_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E050_일기의문장_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E051_가장행복한날들_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E052_함께있는미래의환상_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E053_익숙한행복_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E054_정점_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E055_금의시작_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E056_말하지않은것들_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E057_다르게느끼는사랑_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E058_잘못읽은마음_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E059_쌓이는피로_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter3\E060_돌아볼수없는선_정본초고.md`
 
 ## 2. Canon Basis Used
 
@@ -168,6 +188,6 @@
 
 - 일부 원고 초안에는 예전 표현이 남아 있을 수 있다.
 - 예: `10-집필` 이하 원고 문장은 설정 문서와 달리 아직 개별 문장 단위 교정이 끝나지 않았다.
-- E001-E040은 현재 `정본 초고` 단계이며, 이후 장면 밀도와 문장 온도를 추가 보정할 예정이다.
+- E001-E060은 현재 `정본 초고` 단계이며, 이후 장면 밀도와 문장 온도를 추가 보정할 예정이다.
 - 반면 워크플로우, 프롬프트, 캐릭터 카드, 구조 문서는 `120화 기준`으로 동기화 완료했다.
 - 검색 결과에 남는 `완전한 무음` 문구 2건은 현재 `금지 예시` 문장으로 의도적으로 남긴 것이다.
