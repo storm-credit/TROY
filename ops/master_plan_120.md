@@ -183,3 +183,13 @@
 - lead characters locked
 - 120-episode structure locked
 - audiovisual bible locked
+
+## 11. Manuscript Length Standard
+
+- baseline episode length: `4,000-5,000자`
+- key emotional episodes: `5,500-7,000자`
+- bridge episodes: `3,200-4,000자`
+- target total manuscript length: 약 `54만 자`
+
+세부 기준표:
+- `ops/manuscript_length_plan_001_020.md`
