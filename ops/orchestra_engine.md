@@ -63,6 +63,10 @@
 ### Engine D. Audiovisual Engine
 
 관리 문서:
+- `ops/media_subengines.md`
+- `ops/music_engine.md`
+- `ops/image_engine.md`
+- `ops/video_engine.md`
 - `ops/episode_song_system_120.md`
 - `ops/episode_song_allocation_001_010.md`
 - `ops/episode_song_prompt_sheet_001_010.md`
@@ -75,6 +79,7 @@
 - 1화 1곡 체계를 유지한다
 - 소설 감정을 음악과 이미지로 번역한다
 - 곡과 MV가 본문보다 앞서거나 어긋나지 않게 조절한다
+- 음악, 이미지, 영상의 판단 기준을 각기 분리하면서도 상위 캐논 아래에서 통합한다
 
 ### Engine E. Change Control Engine
 

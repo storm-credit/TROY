@@ -63,6 +63,10 @@ This repo is now managed as a `TROY engine`, not a loose planning folder.
 Core engine docs:
 - `ops/orchestra_engine.md`
 - `ops/troy_engine_method.md`
+- `ops/media_subengines.md`
+- `ops/music_engine.md`
+- `ops/image_engine.md`
+- `ops/video_engine.md`
 - `ops/episode_harness_template.md`
 - `ops/engine_gates.md`
 
@@ -71,6 +75,7 @@ This means:
 - structure distributes payoff across 120 episodes
 - each episode is produced through one shared harness
 - song and MV are downstream of story truth
+- music, image, and video each run on their own sub-engine
 - the director controls change and final sign-off
 
 Inside this repo:
