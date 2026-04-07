@@ -76,13 +76,18 @@ These are planning anchors, not final scene locks.
 
 Locked ending model:
 - Seojun and Arin reunite
-- Seojun reaches true silence
+- Seojun reaches the completion of silence
 - the ending is hopeful, mature, and relational rather than bittersweet drift
 
 Interpretation rule:
-- true silence is not a punishment ending
-- true silence means Seojun no longer needs supernatural proof to love and trust
+- the completion of silence is not a punishment ending
+- it means Seojun no longer needs supernatural proof to love and trust
 - reunion is not reward for suffering, but a mutual adult choice after growth
+
+language rule:
+- `true silence` is kept only as an internal planning alias if needed
+- the user-facing canon term is `침묵의 완성`
+- prose should describe the state as `들리지 않아도 믿게 되는 순간`, not as a mechanical shutdown
 
 ## 9. Canon Promise
 

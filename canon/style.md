@@ -16,6 +16,16 @@
 - 소리와 색, 온도, 거리감을 함께 묘사한다
 - 과장된 운명론보다 일상의 미세한 떨림을 우선한다
 - 침묵과 망설임도 사건처럼 다룬다
+- 설정 용어와 본문 언어를 분리한다
+
+### terminology rule
+
+- setting bible can use precise management terms
+- prose should convert them into image and feeling
+- example:
+  - `청취 소실` -> `소리가 멀어졌다`, `귀가 아니라 계절이 닫혔다`
+  - `침묵의 완성` -> `이제는 들리지 않아도 믿을 수 있었다`
+  - `예외적 청취` -> `그 사람의 마음만 다른 결로 다가왔다`
 
 ## 4. Audio Canon
 

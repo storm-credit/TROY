@@ -39,7 +39,7 @@
 
 결정 완료:
 - A: 서준-아린 재결합
-- true silence at the end
+- ending language: `청취 소실` -> `침묵의 완성`
 - mature hopeful ending
 
 ### Step 2. World Lock

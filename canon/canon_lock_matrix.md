@@ -85,7 +85,7 @@ These are the decisions that stop all downstream work if unresolved.
 
 resolved:
 - final ending is `Seojun-Arin reunion`
-- the ability ends in `true silence`
+- the ability ends in `청취 소실`, and the ending meaning is `침묵의 완성`
 - Arin's exception is primarily about `relationship-state`
 - `Kim Eunji` is removed from current canon
 
