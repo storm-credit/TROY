@@ -44,6 +44,8 @@
 ### World + Characters + Media
 
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\02-세계관\운율 시스템.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\00-대시보드\README.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\01-작품개요\작품 설정.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\윤서준.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\지아린.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\최이든.md`
@@ -51,6 +53,8 @@
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\송유빈.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\배소나.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\이태율.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\06-운율묘사\캐릭터별 운율.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\06-운율묘사\화별 운율 사용표.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\11-미디어\미디어 인덱스.md`
 
 ## 2. Canon Basis Used
