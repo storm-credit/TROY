@@ -126,6 +126,16 @@
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E028_질문의문장_정본초고.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E029_고백_정본초고.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E030_대답_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E031_어색한기쁨_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E032_서로의속도_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E033_기대와현실_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E034_아린의닫힘_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E035_다시맞춘호흡_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E036_연애시작_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E037_가까운행복_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E038_둘만의세계_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E039_안정의표면_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter2\E040_첫키스_정본초고.md`
 
 ## 2. Canon Basis Used
 
@@ -158,6 +168,6 @@
 
 - 일부 원고 초안에는 예전 표현이 남아 있을 수 있다.
 - 예: `10-집필` 이하 원고 문장은 설정 문서와 달리 아직 개별 문장 단위 교정이 끝나지 않았다.
-- E001-E030은 현재 `정본 초고` 단계이며, 이후 장면 밀도와 문장 온도를 추가 보정할 예정이다.
+- E001-E040은 현재 `정본 초고` 단계이며, 이후 장면 밀도와 문장 온도를 추가 보정할 예정이다.
 - 반면 워크플로우, 프롬프트, 캐릭터 카드, 구조 문서는 `120화 기준`으로 동기화 완료했다.
 - 검색 결과에 남는 `완전한 무음` 문구 2건은 현재 `금지 예시` 문장으로 의도적으로 남긴 것이다.
