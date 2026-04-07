@@ -56,6 +56,22 @@ This repo now follows a simple change-control rule.
 See:
 - `ops/change_control.md`
 
+## Orchestra Engine
+
+This repo is now managed as an `orchestra engine`, not a loose planning folder.
+
+Core engine docs:
+- `ops/orchestra_engine.md`
+- `ops/episode_harness_template.md`
+- `ops/engine_gates.md`
+
+This means:
+- canon protects the project identity
+- structure distributes payoff across 120 episodes
+- each episode is produced through one shared harness
+- song and MV are downstream of story truth
+- the director controls change and final sign-off
+
 ## Current Source Material
 
 The active source material still lives outside this repo:

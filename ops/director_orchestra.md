@@ -59,3 +59,17 @@
 - character endings locked
 - audio style locked
 - visual style locked
+
+## 6. Engine Rule
+
+이 프로젝트는 이제 `오케스트라 엔진`으로 운영한다.
+
+핵심 문서:
+- `ops/orchestra_engine.md`
+- `ops/episode_harness_template.md`
+- `ops/engine_gates.md`
+
+원칙:
+- 총괄이 엔진을 관리한다
+- 각 회차는 하네스 템플릿을 통과해야 한다
+- 캐논, 구조, 음악, 비주얼, 문체는 개별 문서가 아니라 연결된 엔진으로 취급한다
