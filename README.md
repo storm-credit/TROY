@@ -45,6 +45,17 @@ TROY/
 4. Lock the 120-episode structure and milestone beats.
 5. Only then migrate episodes one by one.
 
+## Change Control
+
+This repo now follows a simple change-control rule.
+
+- locked decisions are not changed casually
+- new ideas are classified as `locked`, `parked`, or `experimental`
+- the orchestra director decides when an idea changes the main canon
+
+See:
+- `ops/change_control.md`
+
 ## Current Source Material
 
 The active source material still lives outside this repo:
