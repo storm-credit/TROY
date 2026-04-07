@@ -11,7 +11,7 @@
 ## 2. Yoon Seojun
 
 - age: 22
-- department: Sungkyunkwan University, business
+- department: Hyedam University, business administration
 - image keywords: gray, quiet, receiver, earphones, distance
 - visible trait: 항상 이어폰을 끼고 있음
 
@@ -45,7 +45,7 @@
 ## 3. Ji Arin
 
 - age: 21
-- department: Sungkyunkwan University, Korean literature
+- department: Hyedam University, Korean literature
 - image keywords: spring, clear, piano, sender, warmth
 - visible trait: 밴드 동아리 보컬
 
@@ -100,10 +100,18 @@
 - 강도현: 진심은 있으나 최종 상대는 아닌 `false-right choice`로 고정한다
 - 송유빈: 후반 재등장은 새 삼각관계가 아니라 과거 상처 봉합 장치다
 - 배소나: 갈등을 풀어주는 해결사가 아니라, 아린의 현실 거울로 제한한다
+- 이태율: 유지한다. 다만 로맨스 경쟁자가 아니라 `후반부 윤리적 거울`로 한정한다
+
+### support timing lock
+
+- 최이든: 전 구간 유지, Phase 1-6의 생활 리듬 담당
+- 강도현: Phase 2-4에서 가장 강하게 작동, 이후에는 미련보다 `다른 선택의 형상`으로 후퇴
+- 송유빈: Phase 4-5에서 과거 상처 회수 장치로 재등장
+- 배소나: Phase 2부터 아린의 현실 거울로 누적, 후반부에는 감정 통역보다 경계 확인 역할
+- 이태율: Phase 5-6에서 제한적으로 작동, `떠나는 선택도 성숙일 수 있다`는 윤리적 그림자 제공
 
 ### provisional roster
 
-- 이태율: 유지 여부 보류, 필요 시 윤리적 거울 역할에 한정
 - 김은지: 현재 캐논에서는 제거한다
 
 ## 5. Character Design Rule
@@ -126,6 +134,4 @@ locked:
 - 서준의 청취 소실 이후 사랑은 `검증 없는 신뢰`의 방향으로 쓴다
 
 still open:
-- 이태율의 최종 강도
-- 도현의 구체적 퇴장 시점
-- 최종 이별 장면의 형태
+- 없음. 현재 원고 집필을 막는 캐릭터 블로커는 없다.

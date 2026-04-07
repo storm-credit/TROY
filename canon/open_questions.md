@@ -1,62 +1,23 @@
 # Open Canon Questions
 
-이 문서는 아직 충돌하거나 미확정인 설정만 모아둔 잠금 대기 목록이다.
+현재 `집필을 막는 수준의 블로킹 질문`은 없다.
 
-## 1. Role Of The Song Per Episode
+남은 것은 선택적 확장 영역뿐이다.
 
-잠금 완료:
+## 1. Optional Expansion
 
-- `1화 = 1곡`을 공식 원칙으로 채택한다
-- 모든 곡은 해당 화의 `테마곡`이다
-- 다만 테마곡의 기능은 아래 네 가지 중 하나로 분류한다
-  - 서준 내면 독백형
-  - 관계 테마형
-  - 아린의 in-world 창작곡형
-  - 엔딩 감정 정리형
+- campus internal maps at room-level detail
+- side-character micro-habits and wardrobe notes
+- later-phase production asset batching
 
-원칙:
-- 한 곡은 한 화의 감정 핵심 하나만 맡는다
-- 곡이 본편보다 더 많은 사실을 말하면 안 된다
-- 곡 제목보다 episode id가 우선이다
+## 2. Locked References
 
-## 2. MV Canon Lock
+resolved in:
+- `ops/asset_naming_spec.md`
+- `ops/ending_scene_lock.md`
+- `ops/support_exit_map.md`
+- `ops/prose_house_bible.md`
 
-다음을 어디까지 고정할지 정해야 한다.
-- 캐릭터 외형
-- 계절별 색채 팔레트
-- 운율 시각화 방식
-- 컷 수 기본값
-- 반복 소품과 장소
+## 3. Director Note
 
-## 3. Asset Naming Consistency
-
-현재 바깥 작업 파일에는 회차명과 미디어 이름이 엇갈리는 구간이 있다.
-
-필수 원칙:
-- episode id 하나만 기준으로 삼기
-- 제목은 바뀔 수 있어도 id는 고정하기
-- song, MV, story가 같은 episode id를 공유하기
-
-## 4. Taeyul Final Scope
-
-- 이태율을 유지할지
-- 유지한다면 어느 시점부터 중요한 윤리적 거울이 되는지
-- 도현과 기능이 겹치지 않게 어떻게 분리할지
-
-## 5. Final Song Meaning
-
-잠금 완료:
-
-- 최종곡은 재결합 선언이 아니다
-- 사랑이 진짜였음을 승인하고, 함께하지 않더라도 그 시간이 거짓이 아니었다고 남기는 노래여야 한다
-- 청취보다 신뢰, 소유보다 이해, 현재형 감정보다 지나온 계절의 승인에 가깝다
-
-권장 제목 방향:
-- `너라는 계절`
-- `지나간 계절의 이름으로`
-- `늦가을의 종지`
-
-금지:
-- 다시 사랑하자는 직접 선언
-- 영원, 운명, 다시 시작 같은 과잉 약속
-- 울부짖는 후회형 가사
+이 문서가 비어 있다는 뜻은 `설정집이 충분히 끓여졌고, 이제 원고 단계로 넘어가도 된다`는 뜻이다.

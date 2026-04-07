@@ -17,6 +17,8 @@ locked so far:
 - ending model A
 - 120 episodes / 24 chapters / 6 phases
 - Kim Eunji removed from current canon branch
+- final song meaning locked
+- MV house mode locked
 
 ## 2. World Rules
 
@@ -88,8 +90,11 @@ resolved:
 - the ability ends in `청취 소실`, and the ending meaning is `침묵의 완성`
 - Arin's exception is primarily about `relationship-state`
 - `Kim Eunji` is removed from current canon
+- final song meaning
+- Taeyul is retained only as a late ethical mirror
+- visual house mode is cinematic live-action
 
 still blocking:
-- exact wording of Arin exception
-- Taeyul final role
-- final song meaning
+- support cast exact exit timing
+- final scene physical form
+- prose house bible expansion
