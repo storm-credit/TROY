@@ -37,14 +37,10 @@
 
 ### Step 1. Ending Lock
 
-반드시 하나만 남긴다.
-
+결정 완료:
 - A: 서준-아린 재결합
-- B: 열린 결말
-- C: 새 관계 엔딩
-
-권장:
-- 현재 정체성과 모티브를 고려하면 `A`가 가장 강하다.
+- true silence at the end
+- mature hopeful ending
 
 ### Step 2. World Lock
 
@@ -68,8 +64,10 @@
 - 배소나
 
 보류:
-- 김은지
 - 이태율
+
+제거:
+- 김은지
 
 ### Step 4. Structure Lock
 
@@ -139,7 +137,6 @@
 - lock Seojun ending state
 - lock Arin ending state
 - decide `Yubin = first love`
-- keep or cut `Eunji`
 - keep or cut `Taeyul`
 
 ### Structure

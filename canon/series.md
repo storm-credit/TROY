@@ -72,7 +72,19 @@ These are planning anchors, not final scene locks.
 | reunion | 103-105 |
 | ending | 118-120 |
 
-## 8. Canon Promise
+## 8. Ending Model Lock
+
+Locked ending model:
+- Seojun and Arin reunite
+- Seojun reaches true silence
+- the ending is hopeful, mature, and relational rather than bittersweet drift
+
+Interpretation rule:
+- true silence is not a punishment ending
+- true silence means Seojun no longer needs supernatural proof to love and trust
+- reunion is not reward for suffering, but a mutual adult choice after growth
+
+## 9. Canon Promise
 
 독자는 이 작품에서 다음을 기대해야 한다.
 
@@ -81,7 +93,7 @@ These are planning anchors, not final scene locks.
 - 장소와 소리가 감정을 기억하는 영화적 서사
 - 능력을 잃어가며 오히려 진실에 가까워지는 사랑
 
-## 9. Production Rule
+## 10. Production Rule
 
 모든 파생물은 본편의 감정 중심을 훼손하면 안 된다.
 

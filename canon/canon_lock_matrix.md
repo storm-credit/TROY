@@ -13,6 +13,11 @@
 7. audiovisual standards
 8. media/index synchronization
 
+locked so far:
+- ending model A
+- 120 episodes / 24 chapters / 6 phases
+- Kim Eunji removed from current canon branch
+
 ## 2. World Rules
 
 | Topic | Current status | Priority | Action |
@@ -24,8 +29,8 @@
 | range and environment | partial | P0 | define crowd and performance behavior |
 | lie / self-deception logic | partial | P1 | formalize error cases |
 | deep sea mechanics | ambiguous | P1 | define metaphor vs functioning state |
-| Arin exception | missing | P0 | define exactly |
-| fade stages | stable at high level, unstable in plot | P0 | define trigger and reversibility |
+| Arin exception | locked at high level | P0 | refine wording only |
+| fade stages | locked at high level | P0 | mirror into source docs |
 
 ## 3. Character Lock
 
@@ -38,7 +43,7 @@
 | 송유빈 | support | P1 | explicit first-love identity |
 | 배소나 | support | P2 | intervention boundaries |
 | 이태율 | provisional | P2 | keep, merge, or cut |
-| 김은지 | provisional | P0 | keep as true canon or remove now |
+| 김은지 | removed | P0 | cut from current canon |
 
 ## 4. Structure Lock
 
@@ -78,7 +83,13 @@
 
 These are the decisions that stop all downstream work if unresolved.
 
-- Is the final ending `Seojun-Arin reunion`, `open ending`, or `new relationship ending`?
-- Does the ability end in `true silence`, `partial return`, or `transformed form`?
-- Is Arin’s exception about `person`, `relationship`, or `state`?
-- Is `Kim Eunji` a real endgame track or leftover branching material?
+resolved:
+- final ending is `Seojun-Arin reunion`
+- the ability ends in `true silence`
+- Arin's exception is primarily about `relationship-state`
+- `Kim Eunji` is removed from current canon
+
+still blocking:
+- exact wording of Arin exception
+- Taeyul final role
+- final song meaning
