@@ -16,6 +16,16 @@
   - `canon/style.md`
   - `canon/world.md`
 
+### E002
+
+- status: rewritten draft created outside repo
+- manuscript path: `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E002_서점에서의충격_리라이트.md`
+- basis:
+  - `ops/E002_visual_cut_list.md`
+  - `ops/prose_house_bible.md`
+  - `canon/style.md`
+  - `canon/world.md`
+
 ## 3. Rule
 
 - 기존 원고는 보존한다
