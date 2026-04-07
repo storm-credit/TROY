@@ -57,6 +57,17 @@
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\06-운율묘사\화별 운율 사용표.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\11-미디어\미디어 인덱스.md`
 
+### Supporting Workflow + Prompt + Course Docs
+
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\.agent\workflows\에피소드작성.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\기획\AI_운율묘사_가이드.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\기획\AI_Writer_Prompt.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\05-수업용단편집\수업용 단편집 개요.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\05-수업용단편집\P_졸업식잔향.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\05-수업용단편집\Q_새로운주파수.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\김은지.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\.obsidian\workspace.json`
+
 ## 2. Canon Basis Used
 
 이 재작성은 아래 TROY 캐논을 기준으로 했다.
@@ -75,9 +86,16 @@
 - ending: Seojun-Arin reunion
 - ability end-state: true silence
 - Kim Eunji branch: removed from current canon
+- Kim Eunji file: preserved as deprecated archive note, not active canon
 
 ## 4. Note
 
 이 파일은 `TROY` 바깥 원본 문서가 이미 손으로 재작성되었음을 저장소에 기록하기 위한 것이다.
 
 해당 원본 문서들은 이 저장소의 tracked files가 아니므로, 실제 Git diff와 커밋에는 포함되지 않는다.
+
+## 5. Intentional Legacy Residue
+
+- 일부 원고 초안에는 예전 표현이 남아 있을 수 있다.
+- 예: `10-집필` 이하 원고 문장은 설정 문서와 달리 아직 개별 문장 단위 교정이 끝나지 않았다.
+- 반면 워크플로우, 프롬프트, 캐릭터 카드, 구조 문서는 `120화 기준`으로 동기화 완료했다.
