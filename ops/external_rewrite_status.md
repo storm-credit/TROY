@@ -10,6 +10,8 @@
 
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\기획\시리즈바이블.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\기획\전권_아웃라인_통합본.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\기획\캐릭터_성장_지도.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\기획\시리즈로드맵.md`
 
 ### Story Structure
 
@@ -38,6 +40,18 @@
 - `91-100화 상세 줄거리.md`
 - `101-110화 상세 줄거리.md`
 - `111-120화 상세 줄거리.md`
+
+### World + Characters + Media
+
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\02-세계관\운율 시스템.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\윤서준.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\지아린.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\최이든.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\강도현.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\송유빈.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\배소나.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\03-캐릭터\이태율.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\11-미디어\미디어 인덱스.md`
 
 ## 2. Canon Basis Used
 
