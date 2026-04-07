@@ -93,8 +93,8 @@
 
 ### Manuscript Launch Pass
 
-- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E001_무료한일상_리라이트.md`
-- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E002_서점에서의충격_리라이트.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E001_무료한일상_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E002_서점에서의충격_정본초고.md`
 
 ### Canon-First Manuscript Draft Pass
 

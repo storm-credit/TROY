@@ -8,8 +8,8 @@
 
 ### E001
 
-- status: canon-aligned rewrite draft created outside repo
-- manuscript path: `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E001_무료한일상_리라이트.md`
+- status: canon-first manuscript draft normalized outside repo
+- manuscript path: `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E001_무료한일상_정본초고.md`
 - basis:
   - `ops/E001_visual_cut_list.md`
   - `ops/prose_house_bible.md`
@@ -18,8 +18,8 @@
 
 ### E002
 
-- status: canon-aligned rewrite draft created outside repo
-- manuscript path: `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E002_서점에서의충격_리라이트.md`
+- status: canon-first manuscript draft normalized outside repo
+- manuscript path: `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E002_서점에서의충격_정본초고.md`
 - basis:
   - `ops/E002_visual_cut_list.md`
   - `ops/prose_house_bible.md`
