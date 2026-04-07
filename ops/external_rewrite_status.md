@@ -91,6 +91,10 @@
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\02-세계관\장소\혜담대학교.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\02-세계관\장소\성균관대.md`
 
+### Manuscript Launch Pass
+
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter1\E001_무료한일상_리라이트.md`
+
 ## 2. Canon Basis Used
 
 이 재작성은 아래 TROY 캐논을 기준으로 했다.
