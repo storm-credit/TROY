@@ -35,3 +35,28 @@
 - canon first
 - story truth first
 - no media decision may override ending meaning
+
+## 5. Composition Logic
+
+각 하위 엔진은 서로 다른 질문으로 움직인다.
+
+- music engine: what emotion remains
+- image engine: what visual memory remains
+- video engine: what sequence makes that residue linger
+
+즉, 같은 화라도 세 엔진은 서로 다른 방식으로 번역한다.
+
+## 6. Contract
+
+하위 엔진은 반드시 공통 계약서를 통해 움직인다.
+
+see:
+
+- `ops/media_engine_contract.md`
+
+핵심:
+
+- same input packet
+- different media outputs
+- shared gate system
+- no canonical override from downstream media

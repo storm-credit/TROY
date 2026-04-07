@@ -64,6 +64,7 @@
 
 관리 문서:
 - `ops/media_subengines.md`
+- `ops/media_engine_contract.md`
 - `ops/music_engine.md`
 - `ops/image_engine.md`
 - `ops/video_engine.md`
