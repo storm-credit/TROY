@@ -36,11 +36,17 @@
 - `ops/foreshadow_plan_120.md`
 - `ops/movement_map_120.md`
 - `ops/ending_reverse_design_120.md`
+- `ops/relationship_thermometer_120.md`
+- `ops/reveal_matrix_120.md`
+- `ops/silence_transition_map.md`
+- `ops/emotion_budget_120.md`
+- `canon/motif_ledger.md`
 
 역할:
 - 120화 구조를 악장, 챕터, 마일스톤으로 유지한다
 - 장기 복선의 심기-반향-회수를 관리한다
 - 결말에서 역방향으로 앞부분을 설계한다
+- 관계, 정보, 모티프, 침묵, 감정 고저를 별도 축으로 관리한다
 
 ### Engine C. Episode Harness Engine
 

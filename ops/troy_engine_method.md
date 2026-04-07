@@ -11,6 +11,11 @@
 - 복선 회수 구조
 - 캐릭터 아크 설계
 - 장면 리듬 설계
+- 관계 온도 관리
+- 정보/폭로 설계
+- 모티프/반복 이미지 관리
+- 침묵 전환 설계
+- 감정 예산 관리
 - 수정 루프 검증
 
 한 줄 정의:
@@ -126,6 +131,95 @@
 
 - `ops/manuscript_revision_pass_01.md`
 
+### G. Relationship Thermometer
+
+이 작품은 사건보다 관계의 온도 이동이 중요하다.
+
+각 화에서 반드시 확인한다:
+
+- 가까워졌는가
+- 멀어졌는가
+- 보류되었는가
+- 잘못 가까워졌는가
+- 다시 정의되었는가
+
+핵심:
+
+- 사건보다 선택이 온도를 바꾼다
+- `묻기 / 말하기 / 피하기 / 기다리기`가 관계 변화의 단위다
+
+운용 문서:
+
+- `ops/relationship_thermometer_120.md`
+
+### H. Reveal Matrix
+
+이 작품은 `누가 무엇을 아는가`가 무너지면 감정선도 무너진다.
+
+관리 질문:
+
+- 서준은 무엇을 들었는가
+- 무엇을 오해했는가
+- 아린은 무엇을 말하지 않았는가
+- 독자는 무엇을 먼저 알고 있는가
+- 무엇이 언제 폭로되어야 하는가
+
+운용 문서:
+
+- `ops/reveal_matrix_120.md`
+
+### I. Motif Ledger
+
+복선과 모티프는 다르다.
+
+- 복선은 나중에 회수될 사실/단서다
+- 모티프는 작품 전체 정서를 묶는 반복 이미지다
+
+이 작품에서 관리해야 하는 핵심 모티프:
+
+- 이어폰
+- 종이
+- 창가
+- 계단
+- 바람
+- 계절 이동
+- 카페 달 조명
+
+운용 문서:
+
+- `canon/motif_ledger.md`
+
+### J. Silence Transition Engine
+
+`청취 소실`은 사건이고, `침묵의 완성`은 의미다.
+
+후반부는 이 둘을 연결하는 별도 엔진이 필요하다.
+
+관리 질문:
+
+- 덜 들릴수록 무엇을 더 말해야 하는가
+- 침묵이 회피인지 존중인지 신뢰인지 지금은 무엇인가
+- 마지막에는 무엇이 사라지고 무엇이 남는가
+
+운용 문서:
+
+- `ops/silence_transition_map.md`
+
+### K. Emotional Budget
+
+120화 장편은 감정 고저를 관리하지 않으면 독자가 무뎌진다.
+
+원칙:
+
+- 고통은 몰아치게 하지 않는다
+- 회복 없는 갈등은 피로만 남긴다
+- 행복 구간에도 균열의 예고를 소량만 심는다
+- 엔딩 직전은 과열보다 맑은 압력으로 간다
+
+운용 문서:
+
+- `ops/emotion_budget_120.md`
+
 ## 3. Why TROY Engine Fits This Project
 
 `너라는 운율`은 일반 연애물보다 엔진 의존도가 높다.
@@ -147,10 +241,15 @@
 1. ending lock
 2. reverse design
 3. seed register
-4. movement/phase allocation
-5. episode harness
-6. manuscript draft
-7. revision pass
+4. relationship thermometer
+5. reveal matrix
+6. motif ledger
+7. silence transition map
+8. movement/phase allocation
+9. emotion budget
+10. episode harness
+11. manuscript draft
+12. revision pass
 
 ## 5. Guardrails
 
@@ -159,6 +258,9 @@
 - 결말 의미는 함부로 바꾸지 않는다
 - 설정집은 원고를 위해 존재하며, 설정집 확장 자체가 목적이 되면 안 된다
 - 복선은 분위기와 구분해 등록한다
+- 정보 흐름은 감정 흐름과 분리해 따로 관리한다
+- 반복 이미지는 우연처럼 보여도 장부에 등록한다
+- 관계는 사건이 아니라 선택 단위로 이동시킨다
 - 회차는 사건보다 감정 이동을 기준으로 나눈다
 - 원고는 설명보다 감각이 먼저 와야 한다
 - 수정은 즉흥이 아니라 패스 단위로 수행한다
