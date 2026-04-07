@@ -56,12 +56,13 @@ This repo now follows a simple change-control rule.
 See:
 - `ops/change_control.md`
 
-## Orchestra Engine
+## TROY Engine
 
-This repo is now managed as an `orchestra engine`, not a loose planning folder.
+This repo is now managed as a `TROY engine`, not a loose planning folder.
 
 Core engine docs:
 - `ops/orchestra_engine.md`
+- `ops/troy_engine_method.md`
 - `ops/episode_harness_template.md`
 - `ops/engine_gates.md`
 
@@ -71,6 +72,10 @@ This means:
 - each episode is produced through one shared harness
 - song and MV are downstream of story truth
 - the director controls change and final sign-off
+
+Inside this repo:
+- `TROY engine` = ending-first reverse-design writing engine
+- `orchestra engine` = director/control layer that operates the TROY engine
 
 ## Current Source Material
 
