@@ -200,6 +200,41 @@
   - `canon/world.md`
   - `canon/characters.md`
 
+### E101-E120
+
+- status: canon-first manuscript drafts created outside repo
+- manuscript paths:
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E101_재회의예감_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E102_다시만난두사람_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E103_재회_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E104_말로묻기_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E105_남겨진감정_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E106_재접속_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E107_예외의의미_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E108_들리지않아도_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E109_거리와예의_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E110_다시이어지는리듬_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E111_선택의시작_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E112_말로하는고백_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E113_아린의선택_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E114_마지막시험_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E115_증명_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E116_마지막화음의시작_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E117_끝내피하지않는이유_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E118_마지막재회_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E119_침묵의완성_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E120_에필로그_정본초고.md`
+- basis:
+  - `ops/prose_house_bible.md`
+  - `ops/outline_skeleton_120.md`
+  - `ops/ending_reverse_design_120.md`
+  - `ops/final_episodes_scene_sheet_118_120.md`
+  - `Obsidian/04-스토리/101-110화 상세 줄거리.md`
+  - `Obsidian/04-스토리/111-120화 상세 줄거리.md`
+  - `canon/style.md`
+  - `canon/world.md`
+  - `canon/characters.md`
+
 ## 3. Rule
 
 - 기존 원고는 보존한다

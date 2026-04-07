@@ -196,6 +196,26 @@
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E098_그때우리는_정본초고.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E099_다시만나기전_정본초고.md`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E100_문턱_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E101_재회의예감_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E102_다시만난두사람_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E103_재회_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E104_말로묻기_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E105_남겨진감정_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E106_재접속_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E107_예외의의미_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E108_들리지않아도_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E109_거리와예의_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E110_다시이어지는리듬_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E111_선택의시작_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E112_말로하는고백_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E113_아린의선택_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E114_마지막시험_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E115_증명_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E116_마지막화음의시작_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E117_끝내피하지않는이유_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E118_마지막재회_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E119_침묵의완성_정본초고.md`
+- `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter6\E120_에필로그_정본초고.md`
 
 ## 2. Canon Basis Used
 
@@ -228,6 +248,6 @@
 
 - 일부 원고 초안에는 예전 표현이 남아 있을 수 있다.
 - 예: `10-집필` 이하 원고 문장은 설정 문서와 달리 아직 개별 문장 단위 교정이 끝나지 않았다.
-- E001-E100은 현재 `정본 초고` 단계이며, 이후 장면 밀도와 문장 온도를 추가 보정할 예정이다.
+- E001-E120은 현재 `정본 초고` 단계이며, 이후 장면 밀도와 문장 온도를 추가 보정할 예정이다.
 - 반면 워크플로우, 프롬프트, 캐릭터 카드, 구조 문서는 `120화 기준`으로 동기화 완료했다.
 - 검색 결과에 남는 `완전한 무음` 문구 2건은 현재 `금지 예시` 문장으로 의도적으로 남긴 것이다.
