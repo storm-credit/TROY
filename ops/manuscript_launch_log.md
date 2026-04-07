@@ -167,6 +167,39 @@
   - `canon/world.md`
   - `canon/characters.md`
 
+### E081-E100
+
+- status: canon-first manuscript drafts created outside repo
+- manuscript paths:
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E081_침묵이후_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E082_익숙하지않은평온_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E083_남겨진습관_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E084_혼자서배우는언어_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E085_작은성숙_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E086_과거의직면_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E087_기억의장소_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E088_아린없는세계_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E089_관계의의미_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E090_다음문턱_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E091_우연한재회_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E092_과거의해석_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E093_편안함과사랑_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E094_말로하는이해_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E095_상처봉합_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E096_다시읽는아린_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E097_내이야기의오류_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E098_그때우리는_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E099_다시만나기전_정본초고.md`
+  - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian\10-집필\Chapter5\E100_문턱_정본초고.md`
+- basis:
+  - `ops/prose_house_bible.md`
+  - `ops/outline_skeleton_120.md`
+  - `Obsidian/04-스토리/81-90화 상세 줄거리.md`
+  - `Obsidian/04-스토리/91-100화 상세 줄거리.md`
+  - `canon/style.md`
+  - `canon/world.md`
+  - `canon/characters.md`
+
 ## 3. Rule
 
 - 기존 원고는 보존한다
