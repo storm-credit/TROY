@@ -68,6 +68,7 @@ Core engine docs:
 - `ops/image_engine.md`
 - `ops/video_engine.md`
 - `ops/episode_harness_template.md`
+- `ops/episode_packet_index_001_010.md`
 - `ops/engine_gates.md`
 
 This means:
