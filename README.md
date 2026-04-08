@@ -70,6 +70,7 @@ Core engine docs:
 - `ops/episode_harness_template.md`
 - `ops/episode_packet_index_001_010.md`
 - `ops/episode_packet_index_011_020.md`
+- `ops/episode_packet_index_021_030.md`
 - `ops/engine_gates.md`
 
 This means:
