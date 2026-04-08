@@ -65,6 +65,9 @@ Core engine docs:
 - `ops/troy_engine_method.md`
 - `ops/media_subengines.md`
 - `ops/music_engine.md`
+- `ops/music_sound_arc_001_030.md`
+- `ops/refrain_reprise_register.md`
+- `ops/arin_in_world_song_map_120.md`
 - `ops/image_engine.md`
 - `ops/video_engine.md`
 - `ops/episode_harness_template.md`

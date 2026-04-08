@@ -55,6 +55,13 @@
 
 - E031-E040부터 연애 시작/첫 키스 구간으로 넘어가면서 곡이 모두 달콤한 relationship theme으로 쏠릴 위험이 있다.
 - E034 같은 닫힘 회차는 반드시 `complete silence`가 아니라 `blurred distance` 질감으로 유지해야 한다.
+- E001-E030에서 `piano / guitar / restrained strings / close vocal` 조합이 반복되므로, 장기 120곡 운영에서는 사운드 피로 관리가 필요하다.
+
+추가 반영:
+
+- `ops/music_sound_arc_001_030.md`
+- `ops/refrain_reprise_register.md`
+- `ops/arin_in_world_song_map_120.md`
 
 ### C. 이미지 / MV 스토리보드 전문가
 
@@ -105,14 +112,17 @@
 - `relationship_thermometer_021_040_update`
 - `reveal_matrix_021_040_update`
 - `motif_ledger_021_040_update`
+- `music_sound_arc_001_030.md` 완료
+- `refrain_reprise_register.md` 완료
+- `arin_in_world_song_map_120.md` 완료
 
 우선순위:
 
 1. E031-E040 song brief
 2. E031-E040 visual cut list
 3. E031-E040 packet index
-4. E001-E040 expert audit update
-5. character visual continuity sheet
+4. character visual continuity sheet
+5. location geometry sheet
 
 ## 5. Risk Level
 
@@ -128,4 +138,3 @@
 
 - 10화 단위 패킷 완료 후 `orchestra expert audit` 문서를 남긴다.
 - 반복 제작은 직접 처리하되, 엔진 변경은 전문가 점검을 거친다.
-
