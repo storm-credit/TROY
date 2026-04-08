@@ -79,6 +79,7 @@ Core engine docs:
 - `ops/episode_packet_index_051_060.md`
 - `ops/episode_packet_index_061_070.md`
 - `ops/episode_packet_index_071_080.md`
+- `ops/episode_packet_index_081_090.md`
 - `ops/engine_gates.md`
 
 This means:
