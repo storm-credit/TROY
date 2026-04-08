@@ -13,6 +13,11 @@
 - 중간 아이디어를 즉시 본체에 반영하지 않고 분류/통제한다
 - 즉, 작법 체계가 흔들리지 않도록 상위에서 조율한다
 
+운영 원칙:
+- 반복 제작은 총괄 오케스트라가 직접 처리한다
+- 엔진 변경, 복선 구조 변경, 캐논 충돌, 미디어 방향 변경은 전문가 점검을 거친다
+- 10화 또는 20화 단위 패킷이 닫힐 때마다 필요하면 `orchestra expert audit`을 남긴다
+
 ## 2. Five Core Engines
 
 ### Engine A. Canon Engine
@@ -136,3 +141,6 @@
 
 상세 분업표:
 - `ops/skills_and_agents_architecture.md`
+
+전문가 점검 로그:
+- `ops/orchestra_expert_audit_001.md`
