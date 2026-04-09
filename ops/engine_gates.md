@@ -1,5 +1,15 @@
 # Engine Gates
 
+## Gate 0. Orchestration Gate
+
+질문:
+- 이번 작업의 director mode가 선언되었는가
+- source truth가 명시되었는가
+- 필요한 MCP / skill / agent / hook 조합이 정해졌는가
+- locked field 변경 가능성이 있으면 총괄 승인 경로가 잡혀 있는가
+
+하나라도 no면 제작 전 정지 후 총괄 재설계.
+
 ## Gate 1. Canon Gate
 
 질문:
@@ -46,8 +56,9 @@
 
 ## Final Gate. Director Sign-Off
 
-총괄은 아래 셋을 확인한다.
+총괄은 아래 항목을 확인한다.
 
 1. 이 화는 엔진에 맞게 생산되었는가
 2. 이 화는 전체 구조에 기여하는가
 3. 이 화는 작품의 문학성을 깎지 않는가
+4. orchestration / hook 기록이 남았는가

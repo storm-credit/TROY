@@ -5,7 +5,7 @@
 Current mode:
 - canon first
 - 120-episode target locked
-- no manuscript migration yet
+- full manuscript migration complete: E001-E120
 - no media asset commits yet
 - story, music, and MV decisions must all follow one shared canon
 
@@ -62,7 +62,9 @@ This repo is now managed as a `TROY engine`, not a loose planning folder.
 
 Core engine docs:
 - `ops/orchestra_engine.md`
+- `ops/orchestra_harness_contract.md`
 - `ops/troy_engine_method.md`
+- `ops/model_reasoning_policy.md`
 - `ops/media_subengines.md`
 - `ops/music_engine.md`
 - `ops/music_sound_arc_001_030.md`
@@ -71,6 +73,7 @@ Core engine docs:
 - `ops/image_engine.md`
 - `ops/video_engine.md`
 - `ops/episode_harness_template.md`
+- `ops/episode_packet_index_001_120.md`
 - `ops/episode_packet_index_001_010.md`
 - `ops/episode_packet_index_011_020.md`
 - `ops/episode_packet_index_021_030.md`
@@ -80,7 +83,29 @@ Core engine docs:
 - `ops/episode_packet_index_061_070.md`
 - `ops/episode_packet_index_071_080.md`
 - `ops/episode_packet_index_081_090.md`
+- `ops/episode_packet_index_091_100.md`
+- `ops/episode_packet_index_101_110.md`
+- `ops/episode_packet_index_111_120.md`
 - `ops/engine_gates.md`
+- `ops/orchestra_expert_audit_101_120.md`
+- `ops/manuscript_migration_checklist.md`
+- `ops/continuity_sweep_111_120.md`
+- `ops/manuscript_migration_dry_run_001_010.md`
+- `ops/manuscript_migration_log_001_010.md`
+- `ops/manuscript_migration_log_011_020.md`
+- `ops/manuscript_migration_log_021_030.md`
+- `ops/manuscript_migration_log_031_040.md`
+- `ops/manuscript_migration_log_041_050.md`
+- `ops/manuscript_migration_log_051_060.md`
+- `ops/manuscript_migration_log_061_070.md`
+- `ops/manuscript_migration_log_071_080.md`
+- `ops/manuscript_migration_log_081_090.md`
+- `ops/manuscript_migration_log_091_100.md`
+- `ops/manuscript_migration_log_101_110.md`
+- `ops/manuscript_migration_log_111_120.md`
+- `ops/novel_orchestra_report_001_120.md`
+- `ops/novel_line_edit_sweep_001_120.md`
+- `ops/chapter_revision_memo_001_120.md`
 
 This means:
 - canon protects the project identity

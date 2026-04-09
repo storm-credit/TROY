@@ -14,7 +14,25 @@
 - 모든 파생물은 캐논에서 출발한다
 - 비싼 모델은 결정 지점에서만 쓰고, 탐색은 저비용 모델로 처리한다
 
-## 2. Agent Roster
+## 2. Orchestra Advantage Lock
+
+총괄 오케스트라를 두는 이유는 아래 네 가지로 잠근다.
+
+- single lock point: 최종 잠금권이 한 곳에 모인다
+- parallel specialists: 분야별 전문가를 동시에 붙여도 기준점이 하나다
+- cost discipline: 반복 작업은 skills/hooks로, 해석 지점만 agents로 보낸다
+- stable merge: 초안이 많아져도 본체 반영 규칙이 흔들리지 않는다
+
+## 3. Operating Modes
+
+총괄은 매 작업 시작 시 아래 둘 중 하나를 선언한다.
+
+- 직접 오케스트라 모드: 반복 제작, 경미한 확장, 낮은 해석 리스크
+- 전문가 에이전트 모드: 캐논 충돌 가능성, 구조 변경, 윤리 판단, 미디어 방향 조정
+
+`이어서 진행` 요청만 들어와도 총괄은 먼저 모드를 선언하고 시작한다.
+
+## 4. Agent Roster
 
 | Role | Mission | Model | Why |
 |---|---|---|---|
@@ -28,7 +46,7 @@
 | MV Storyboard Director | 장면 구성, 상징 반복, 샷 리스트 | gpt-5.2 low | 영상 감정선과 시각 모티프 해석 필요 |
 | Continuity QA | 이름, 설정, 장소, 회차 참조 검수 | gpt-5.1-codex-mini | 반복 검수에 최적 |
 
-## 3. Escalation Rule
+## 5. Escalation Rule
 
 다음 경우에만 상위 추론 비용을 올린다.
 
@@ -39,7 +57,7 @@
 
 그 외 대부분의 탐색, 정리, 비교, 체크는 `gpt-5.1-codex-mini`로 처리한다.
 
-## 4. Current Phase
+## 6. Current Phase
 
 현재는 `canon lock phase`다.
 
@@ -50,7 +68,7 @@
 4. 회차별 song 역할 확정
 5. MV 시각 캐논 확정
 
-## 5. Exit Criteria
+## 7. Exit Criteria
 
 아래 다섯 가지가 확정되면 원고 이관을 시작한다.
 
@@ -60,12 +78,25 @@
 - audio style locked
 - visual style locked
 
-## 6. Engine Rule
+## 8. Authority Lock
+
+아래 항목은 총괄 승인 없이는 수정하지 않는다.
+
+- ending model
+- movement / phase naming
+- exception meaning
+- silence language
+- episode harness schema
+- engine gates schema
+- release decision
+
+## 9. Engine Rule
 
 이 프로젝트는 이제 `오케스트라 엔진`으로 운영한다.
 
 핵심 문서:
 - `ops/orchestra_engine.md`
+- `ops/orchestra_harness_contract.md`
 - `ops/episode_harness_template.md`
 - `ops/engine_gates.md`
 
@@ -73,3 +104,5 @@
 - 총괄이 엔진을 관리한다
 - 각 회차는 하네스 템플릿을 통과해야 한다
 - 캐논, 구조, 음악, 비주얼, 문체는 개별 문서가 아니라 연결된 엔진으로 취급한다
+- MCP는 truth source를 가져오고, skills는 초안을 만들고, agents는 판단하고, hooks는 자동 검수한다
+- 마지막 반영 여부는 총괄만 잠근다

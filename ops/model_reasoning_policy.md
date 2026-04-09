@@ -50,6 +50,21 @@
 - 음악/이미지/영상 전문 구성이 필요한 경우
 - 결말에서 역산한 복선 의미를 다시 검토해야 하는 경우
 
+토큰 운용 원칙:
+
+- 서브에이전트는 별도 컨텍스트와 토큰을 사용해 병렬 검토한다
+- 메인 오케스트라 문맥은 최종 판단, 충돌 조정, 잠금 기록에 집중한다
+- 전체 사용량은 합산되므로, 에이전트 수는 필요한 전문 분야 수만큼만 연다
+- 작업이 끝난 에이전트는 닫아 대기 컨텍스트를 늘리지 않는다
+
+권장 모델 배치:
+
+- repetitive packet filling: mini model, medium reasoning
+- routine indexing / naming / archive checks: mini model, low reasoning
+- song / visual / prose style refinement: mini model or standard model, medium reasoning
+- ending / canon / engine lock review: main orchestra or higher reasoning model, high reasoning
+- unresolved canon conflict: main orchestra final decision, high reasoning
+
 ## 7. Director Rule
 
 최종 잠금은 총괄 오케스트라가 한다.

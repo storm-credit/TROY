@@ -222,6 +222,22 @@
 
 - `ops/emotion_budget_120.md`
 
+### L. Orchestra Operating Stack
+
+`TROY 엔진`은 작법 엔진이지만, 실제 실행은 별도 운영 스택으로 잠근다.
+
+역할 분리:
+
+- MCP: source truth fetch
+- skills: 정형 초안 생성
+- agents: 해석/윤리/구조 판단
+- hooks: 자동 강제 검수
+- director: 최종 잠금
+
+운용 문서:
+
+- `ops/orchestra_harness_contract.md`
+
 ## 3. Why TROY Engine Fits This Project
 
 `너라는 운율`은 일반 연애물보다 엔진 의존도가 높다.
@@ -249,9 +265,13 @@
 7. silence transition map
 8. movement/phase allocation
 9. emotion budget
-10. episode harness
-11. manuscript draft
-12. revision pass
+10. source acquisition + orchestra mode declaration
+11. episode harness
+12. skill generation
+13. agent review
+14. hook enforcement
+15. manuscript draft
+16. revision pass
 
 ## 5. Guardrails
 
@@ -266,6 +286,10 @@
 - 회차는 사건보다 감정 이동을 기준으로 나눈다
 - 원고는 설명보다 감각이 먼저 와야 한다
 - 수정은 즉흥이 아니라 패스 단위로 수행한다
+- MCP는 가져오기만 하고 결정하지 않는다
+- skills는 만들 수 있지만 잠그지 못한다
+- agents는 판단할 수 있지만 반영을 단독 승인하지 못한다
+- hooks 실패는 설명 없이 무시하지 않는다
 
 ## 6. TROY Engine Status
 

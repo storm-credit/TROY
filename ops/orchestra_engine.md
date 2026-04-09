@@ -20,6 +20,15 @@
 - 사용자가 `이어서 진행`만 말해도, 총괄 오케스트라는 먼저 `이번은 전문가 에이전트 모드` 또는 `이번은 직접 오케스트라 모드`를 짧게 선언하고 진행한다
 - 전문가를 붙이지 않는 경우에는 대기열을 줄이기 위한 반복 제작 판단임을 명시한다
 
+오케스트라 방식의 이점:
+- source of truth가 하나로 고정된다
+- 반복 작업과 해석 작업이 섞이지 않는다
+- 전문가를 병렬로 써도 잠금권은 하나로 유지된다
+- 많은 초안이 생겨도 본체 반영 기준이 흔들리지 않는다
+
+운영 계약:
+- `ops/orchestra_harness_contract.md`
+
 ## 2. Five Core Engines
 
 ### Engine A. Canon Engine
@@ -100,20 +109,35 @@
 - 본체 수정 전에 연쇄 영향 범위를 먼저 검사한다
 - 외부 원본과 TROY 기준이 어긋나지 않게 추적한다
 
-## 3. Production Flow
+## 3. Orchestration Stack
+
+`TROY 엔진`의 실행 레이어는 아래 순서로 잠근다.
+
+1. director orchestra
+2. MCP or canon source fetch
+3. skill draft
+4. agent review
+5. hook enforcement
+6. director sign-off
+
+각 레이어의 역할은 `ops/orchestra_harness_contract.md`를 따른다.
+
+## 4. Production Flow
 
 모든 회차는 아래 순서로 진행한다.
 
-1. canon check
-2. structure check
-3. episode harness draft
-4. song brief
-5. mv cut list
-6. prose draft
-7. continuity pass
-8. archive to canon-facing status log
+1. orchestra mode declaration
+2. source truth acquisition
+3. canon check
+4. structure check
+5. episode harness draft
+6. song brief / mv cut list / prose draft
+7. agent review when interpretation risk exists
+8. hook and gate pass
+9. archive to canon-facing status log
+10. director lock
 
-## 4. Director Gates
+## 5. Director Gates
 
 총괄 오케스트라 승인 없이는 아래 항목을 바꾸지 않는다.
 
@@ -122,9 +146,12 @@
 - 6악장 체계
 - 청취 소실 / 침묵의 완성 언어
 - 주연 인물의 엔드포인트
+- 아린 예외성의 의미
+- episode harness schema
+- engine gates schema
 - 공개용 캠퍼스와 핵심 장소 체계
 
-## 5. Engine Success Condition
+## 6. Engine Success Condition
 
 `TROY 엔진`이 제대로 작동하고 있다는 뜻은 아래와 같다.
 
@@ -132,17 +159,21 @@
 - 새 아이디어가 들어와도 즉시 구조가 흔들리지 않는다
 - 소설, 곡, MV가 서로 다른 이야기를 하지 않는다
 - 결말에서 거꾸로 읽어도 복선이 맞물린다
+- 어떤 레이어가 무엇을 결정하는지 항상 설명 가능하다
 
-## 6. Skills vs Agents
+## 7. Skills vs Agents
 
 엔진은 `스킬`과 `에이전트`를 다르게 쓴다.
 
+- MCP: truth source 조회와 context fetch
 - skills: 반복 가능하고 형식이 중요한 작업
 - agents: 해석과 선택이 중요한 작업
+- hooks: 자동 강제 검수
 - director: 최종 잠금과 변경 통제
 
 상세 분업표:
 - `ops/skills_and_agents_architecture.md`
+- `ops/orchestra_harness_contract.md`
 
 전문가 점검 로그:
 - `ops/orchestra_expert_audit_001.md`

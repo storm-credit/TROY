@@ -1,5 +1,17 @@
 # Episode Harness Template
 
+## 0. Orchestration Harness
+
+- orchestra mode:
+- director intent:
+- truth source:
+- MCP used:
+- skills run:
+- agent reviews:
+- hook checks:
+- escalation status:
+- director lock note:
+
 ## 1. Episode Identity
 
 - episode id:
@@ -94,6 +106,7 @@
 
 ## 10. Delivery Gate
 
+- orchestration pass:
 - canon pass:
 - structure pass:
 - pre-gen gate:
@@ -102,6 +115,12 @@
 - post-gen gate:
 - release gate:
 - prose pass:
+- hook pass:
 - director approval:
 
 이 템플릿을 통과한 회차만 `official in-engine episode`로 간주한다.
+
+추가 원칙:
+
+- `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
+- `director lock note`가 비어 있으면 release 직전 초안으로 본다

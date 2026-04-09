@@ -1,4 +1,4 @@
-# Skills And Agents Architecture
+# Skills, Agents, MCP, And Hooks Architecture
 
 ## 1. Director Decision
 
@@ -6,11 +6,42 @@
 
 기준은 단순하다.
 
+- source/context 조회는 `MCP`
 - 반복 가능하고 형식이 중요한 일은 `스킬`
 - 해석, 판단, 논쟁, 선택이 중요한 일은 `에이전트`
+- 자동 강제 검수는 `훅`
 - 최종 잠금과 충돌 조정은 `총괄 오케스트라`
 
-## 2. What Should Be A Skill
+## 2. What Should Be MCP
+
+### MCP 1. canon-context-fetch
+
+역할:
+- canon, structure, manuscript source를 정확한 원문 기준으로 불러온다
+- 작업 시작 전에 truth source를 고정한다
+
+왜 MCP인가:
+- 조회와 fetch는 해석보다 정확성이 중요하다
+- source path와 schema를 안정적으로 재사용할 수 있다
+
+### MCP 2. workspace-search
+
+역할:
+- 회차, 인물, 모티프, 장소 관련 기존 문서를 빠르게 찾는다
+- 중복 생산 전에 기존 상태를 확인한다
+
+왜 MCP인가:
+- 사람이 매번 수동 탐색하는 것보다 빠르고 일관적이다
+
+### MCP 3. external-data-fetch
+
+역할:
+- Notion, 외부 인덱스, 연결된 작업 공간이 있을 때 최신 상태를 가져온다
+
+왜 MCP인가:
+- 외부 시스템은 조회 계층과 판단 계층을 분리해야 안전하다
+
+## 3. What Should Be A Skill
 
 ### Skill 1. canon-lock-check
 
@@ -80,7 +111,7 @@
 왜 스킬인가:
 - 같은 구조의 지도 문서가 여러 개 필요하다
 
-## 3. What Should Stay An Agent
+## 4. What Should Stay An Agent
 
 ### Agent A. Character Psychologist
 
@@ -116,18 +147,60 @@
 - 여름에서 가을로 식는 감정의 속도 조정
 - 계절을 직접 말하지 않고 공간과 빛으로 보여주는 방식 검토
 
-## 4. Division Of Labor
+## 5. What Should Be A Hook
 
-### skill first
+### Hook 1. harness-required-fields
 
-아래는 먼저 스킬이 초안을 만든다.
+역할:
+- 하네스 필수 필드 누락 여부를 자동 검사
+
+왜 훅인가:
+- 사람이 가장 쉽게 빠뜨리는 반복 체크다
+
+### Hook 2. forbidden-language-guard
+
+역할:
+- `능력 회복`, `운명적 재회`, 실명 캠퍼스 표기 같은 금지 표현을 자동 탐지
+
+왜 훅인가:
+- 룰 위반은 초기에 끊어내는 편이 비용이 낮다
+
+### Hook 3. naming-and-archive-check
+
+역할:
+- 파일명, episode id, 인덱스 반영, 로그 업데이트 필요 여부를 점검
+
+왜 훅인가:
+- 산출물이 많아질수록 수동 정합성 유지가 어렵다
+
+### Hook 4. release-gate-check
+
+역할:
+- gate pass, review status, director approval 필드가 비어 있지 않은지 확인
+
+왜 훅인가:
+- 초안과 잠긴 산출물을 운영상 명확히 구분해야 한다
+
+## 6. Division Of Labor
+
+### mcp first
+
+아래는 먼저 MCP가 고정한다.
+
+- canon source fetch
+- episode/source search
+- external workspace state fetch
+
+### skill second
+
+그 다음 스킬이 초안을 만든다.
 
 - episode harness 초안
 - Suno brief 초안
 - MV cut list 초안
 - continuity sweep 초안
 
-### agent second
+### agent third
 
 그 다음 에이전트가 아래를 판단한다.
 
@@ -136,6 +209,15 @@
 - 결말과 맞닿는지
 - 이미지가 작품답게 남는지
 
+### hook fourth
+
+그 다음 훅이 아래를 강제한다.
+
+- required field check
+- forbidden language check
+- naming consistency
+- release gate completeness
+
 ### director final
 
 마지막에는 총괄이 잠근다.
@@ -143,8 +225,9 @@
 - 본체 반영 여부
 - 보류 여부
 - 실험안 전환 여부
+- escalation 필요 여부
 
-## 5. Recommended Build Order
+## 7. Recommended Build Order
 
 실제로 만들 스킬 우선순위는 아래가 좋다.
 
@@ -161,7 +244,7 @@
 - 엔진 하네스와 직접 연결된다
 - 초기부터 품질 편차를 줄일 수 있다
 
-## 6. Immediate Recommendation
+## 8. Immediate Recommendation
 
 지금 당장 실제로 만들 가치가 가장 큰 것은 세 개다.
 
@@ -170,3 +253,8 @@
 3. `mv-cutlist-builder`
 
 이 세 개만 있어도 `한 화 생산 엔진`이 거의 자동 정렬된다.
+
+다만 운영 잠금을 위해 아래 둘도 함께 붙이는 것이 좋다.
+
+- MCP truth-source fetch
+- hook-based required-field and forbidden-language checks
