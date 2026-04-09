@@ -152,6 +152,22 @@
 
 ## 5. Lock Rights
 
+## 5. Routing Modes
+
+director orchestra는 질문 성격에 따라 아래 셋 중 하나를 선언한다.
+
+- discussion-first: 설정 의미, 감정선, 개연성 판단을 먼저 만들고 이후 repo 반영
+- repo-first: 파일 구조, 중복, naming, schema, frontmatter를 먼저 정리하고 필요한 판단만 상위 모델에 올림
+- hybrid: 설정 판단과 파일 반영이 같이 걸린 안건에 사용하며, 의미 판단과 repo 실행을 분리해서 진행
+
+기본 배치:
+
+- ChatGPT: discussion-first 상위 판단
+- Codex: repo-first 실행, 정합성 검사, 자동화
+- orchestra: hybrid 조정, hook 통과 확인, 최종 잠금
+
+## 6. Lock Rights
+
 아래 항목은 director orchestra 승인 없이는 바꿀 수 없다.
 
 - ending model
@@ -164,7 +180,7 @@
 - engine gates schema
 - public campus/location naming rule
 
-## 6. Harness Requirement
+## 7. Harness Requirement
 
 모든 `official in-engine episode`는 아래를 기록해야 한다.
 
@@ -181,7 +197,7 @@
 - 어떤 레이어를 쓰지 않았으면 `not used`가 아니라 이유를 짧게 남긴다
 - 이유 없이 비어 있으면 생산물은 초안일 뿐, 잠긴 산출물이 아니다
 
-## 7. Failure Conditions
+## 8. Failure Conditions
 
 아래 중 하나라도 발생하면 director 재판단 전까지 진행 중지다.
 
@@ -191,7 +207,7 @@
 - locked field가 director note 없이 수정된다
 - media output이 source packet보다 앞서 의미를 확정한다
 
-## 8. Benefit Lock
+## 9. Benefit Lock
 
 오케스트라 방식의 이점은 아래 네 가지로 잠근다.
 
