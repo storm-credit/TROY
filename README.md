@@ -118,6 +118,8 @@ Core engine docs:
 - `ops/media_orchestra_opening_brief.md`
 - `ops/novel_post_lock_expert_orchestra_audit.md`
 - `ops/novel_marketability_orchestra_assessment.md`
+- `ops/canon_to_media_bridge_memo.md`
+- `ops/music_lane_pilot_opening.md`
 
 This means:
 - canon protects the project identity
