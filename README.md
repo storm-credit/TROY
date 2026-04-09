@@ -113,6 +113,7 @@ Core engine docs:
 - `ops/read_aloud_cadence_pass_anchors.md`
 - `ops/export_facing_layout_prep.md`
 - `ops/chapter_bundle_export_copies.md`
+- `ops/full_book_merged_export.md`
 
 This means:
 - canon protects the project identity

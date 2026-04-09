@@ -17,9 +17,11 @@
 - `chapter_bundles/chapter4_E061-E080_bundle.md`
 - `chapter_bundles/chapter5_E081-E100_bundle.md`
 - `chapter_bundles/chapter6_E101-E120_bundle.md`
+- `full_book/TROY_full_book_E001-E120_export.md`
 
 현재 상태:
 
 - chapter bundle export copies complete
-- full-book merged export not created yet
+- full-book merged export complete
 - submission-facing cosmetic formatting not applied yet
+- current full-book export keeps episode headings for editor readability
