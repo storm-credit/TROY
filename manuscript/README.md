@@ -18,3 +18,10 @@ Current migrated range:
 - `chapter4/E061-E080`
 - `chapter5/E081-E100`
 - `chapter6/E101-E120`
+
+Export rule:
+
+- repo manuscript is the truth source
+- export copies must preserve `E###` filename order
+- chapter bundle export is the default external handoff shape
+- export layout prep is locked in `ops/export_facing_layout_prep.md`
