@@ -106,6 +106,7 @@ Core engine docs:
 - `ops/novel_orchestra_report_001_120.md`
 - `ops/novel_line_edit_sweep_001_120.md`
 - `ops/chapter_revision_memo_001_120.md`
+- `ops/vocabulary_style_consistency_pass_001_120.md`
 
 This means:
 - canon protects the project identity

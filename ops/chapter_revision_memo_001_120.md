@@ -250,7 +250,8 @@ Status:
 
 - selective line edit applied files: 120
 - chapter revision memo: complete
-- remaining work: vocabulary / style consistency pass
+- vocabulary / style consistency pass: complete
+- remaining work: optional deep polish only
 
 Director note:
 

@@ -170,9 +170,9 @@ Edit direction:
 
 다음 소설 작업:
 
-- 위 priority 순서대로 selective line edit
-- 수정 후 chapter별 revision memo 생성
-- 마지막으로 `E001-E120` 어휘/표기 일관성 교열
+- selective line edit complete
+- chapter revision memo complete
+- vocabulary / style consistency pass complete
 
 분리 유지:
 
@@ -334,4 +334,4 @@ Edit direction:
 - additional sweep files 15: `E014`, `E027`, `E044`, `E066`, `E084`, `E106`
 - additional sweep files 16: `E015`, `E028`, `E049`, `E070`, `E085`, `E108`
 - additional sweep files 17: `E016`, `E017`, `E050`, `E075`, `E087`, `E090`
-- remaining files: selective line edit complete; vocabulary / style consistency pass pending
+- remaining files: selective line edit complete; vocabulary / style consistency pass complete
