@@ -115,6 +115,11 @@ This means:
 - music, image, and video each run on their own sub-engine
 - the director controls change and final sign-off
 
+Operating split:
+- ChatGPT is strongest for upstream worldbuilding, plausibility comparison, and emotional-arc alternatives
+- Codex is strongest for vault/repo execution, normalization, hooks, logs, and batch edits
+- orchestra merges both and holds final canon sign-off
+
 Inside this repo:
 - `TROY engine` = ending-first reverse-design writing method system for this novel
 - `orchestra engine` = director/control layer that operates the TROY engine
