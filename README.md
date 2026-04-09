@@ -109,6 +109,7 @@ Core engine docs:
 - `ops/vocabulary_style_consistency_pass_001_120.md`
 - `ops/ending_cluster_prestige_polish_101_120.md`
 - `ops/opening_cluster_prestige_polish_001_010.md`
+- `ops/print_facing_paragraph_rhythm_pass_anchors.md`
 
 This means:
 - canon protects the project identity
