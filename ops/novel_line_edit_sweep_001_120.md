@@ -297,7 +297,7 @@ Edit direction:
 - chapter1-2 selected files: second pass applied
 - chapter3-4 selected files: second pass applied
 - chapter5-6 selected files: second pass applied
-- total applied files: 102
+- total applied files: 108
 - original priority 6 files: first pass applied
 - additional sweep files: `E002`, `E023`, `E043`, `E063`, `E086`, `E103`
 - additional sweep files 2: `E004`, `E025`, `E045`, `E064`, `E089`, `E112`
@@ -313,4 +313,5 @@ Edit direction:
 - additional sweep files 12: `E020`, `E021`, `E041`, `E061`, `E081`, `E102`
 - additional sweep files 13: `E011`, `E022`, `E042`, `E062`, `E082`, `E104`
 - additional sweep files 14: `E013`, `E026`, `E046`, `E065`, `E083`, `E105`
+- additional sweep files 15: `E014`, `E027`, `E044`, `E066`, `E084`, `E106`
 - remaining files: expanded line-edit pending

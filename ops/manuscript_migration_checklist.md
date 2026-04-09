@@ -54,7 +54,7 @@ Status: pass for E001-E120 novel-only orchestra sweep; media-separated report pe
 - music jargon is translated into sensory prose
 - ending tone remains dignified, not melodramatic
 
-Status: pass for E001-E120 novel-only orchestra sweep; line-edit sweep complete, selective edits 102 files applied, revision memo complete
+Status: pass for E001-E120 novel-only orchestra sweep; line-edit sweep complete, selective edits 108 files applied, revision memo complete
 
 ### Gate D. Migration Scope
 
