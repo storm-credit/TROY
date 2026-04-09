@@ -115,6 +115,7 @@ Core engine docs:
 - `ops/chapter_bundle_export_copies.md`
 - `ops/full_book_merged_export.md`
 - `ops/submission_facing_cosmetic_pass.md`
+- `ops/media_orchestra_opening_brief.md`
 - `ops/novel_post_lock_expert_orchestra_audit.md`
 
 This means:
