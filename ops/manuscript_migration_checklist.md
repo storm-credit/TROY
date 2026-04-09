@@ -126,6 +126,7 @@ Current progress:
 - chapter bundle export copies complete: `ops/chapter_bundle_export_copies.md`
 - full-book merged export complete: `ops/full_book_merged_export.md`
 - submission-facing cosmetic pass complete: `ops/submission_facing_cosmetic_pass.md`
+- novel post-lock expert audit complete: `ops/novel_postlock_expert_audit_2026_04_09.md`
 
 ## 6. Lock Note
 

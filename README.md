@@ -115,6 +115,7 @@ Core engine docs:
 - `ops/chapter_bundle_export_copies.md`
 - `ops/full_book_merged_export.md`
 - `ops/submission_facing_cosmetic_pass.md`
+- `ops/novel_postlock_expert_audit_2026_04_09.md`
 
 This means:
 - canon protects the project identity
