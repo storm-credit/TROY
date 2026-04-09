@@ -54,7 +54,7 @@ Status: pass for E001-E120 novel-only orchestra sweep; media-separated report pe
 - music jargon is translated into sensory prose
 - ending tone remains dignified, not melodramatic
 
-Status: pass for E001-E120 novel-only orchestra sweep; line-edit sweep complete, selective edits 120 files applied, vocabulary/style consistency pass complete, revision memo complete
+Status: pass for E001-E120 novel-only orchestra sweep; line-edit sweep complete, selective edits 120 files applied, vocabulary/style consistency pass complete, revision memo complete, print-facing anchor rhythm pass complete, read-aloud cadence anchor pass complete
 
 ### Gate D. Migration Scope
 
@@ -120,6 +120,8 @@ Current progress:
 - E001-E120 novel-only orchestra report complete: `ops/novel_orchestra_report_001_120.md`
 - E001-E120 novel line-edit sweep complete: `ops/novel_line_edit_sweep_001_120.md`
 - E001-E120 chapter revision memo complete: `ops/chapter_revision_memo_001_120.md`
+- print-facing paragraph rhythm anchor pass complete: `ops/print_facing_paragraph_rhythm_pass_anchors.md`
+- read-aloud cadence anchor pass complete: `ops/read_aloud_cadence_pass_anchors.md`
 
 ## 6. Lock Note
 
