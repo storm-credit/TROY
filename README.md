@@ -108,6 +108,7 @@ Core engine docs:
 - `ops/chapter_revision_memo_001_120.md`
 - `ops/vocabulary_style_consistency_pass_001_120.md`
 - `ops/ending_cluster_prestige_polish_101_120.md`
+- `ops/opening_cluster_prestige_polish_001_010.md`
 
 This means:
 - canon protects the project identity
