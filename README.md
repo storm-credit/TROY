@@ -112,6 +112,7 @@ Core engine docs:
 - `ops/print_facing_paragraph_rhythm_pass_anchors.md`
 - `ops/read_aloud_cadence_pass_anchors.md`
 - `ops/export_facing_layout_prep.md`
+- `ops/chapter_bundle_export_copies.md`
 
 This means:
 - canon protects the project identity

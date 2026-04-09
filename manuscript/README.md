@@ -25,3 +25,4 @@ Export rule:
 - export copies must preserve `E###` filename order
 - chapter bundle export is the default external handoff shape
 - export layout prep is locked in `ops/export_facing_layout_prep.md`
+- generated chapter bundles live in `export/chapter_bundles/`
