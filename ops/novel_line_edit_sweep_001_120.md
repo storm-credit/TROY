@@ -200,6 +200,8 @@ Edit direction:
 - `manuscript/chapter1/E013_새로운운율_정본초고.md`
 - `manuscript/chapter1/E014_음악이야기_정본초고.md`
 - `manuscript/chapter1/E015_연결되는마음_정본초고.md`
+- `manuscript/chapter1/E016_체육대회_정본초고.md`
+- `manuscript/chapter1/E017_족구경기_정본초고.md`
 - `manuscript/chapter1/E012_방음실의고백_정본초고.md`
 - `manuscript/chapter2/E023_작은질투_정본초고.md`
 - `manuscript/chapter2/E024_기다리는사람_정본초고.md`
@@ -237,6 +239,7 @@ Edit direction:
 - `manuscript/chapter3/E044_다른방식의다정함_정본초고.md`
 - `manuscript/chapter3/E046_행복의리듬_정본초고.md`
 - `manuscript/chapter3/E049_친구들의개입_정본초고.md`
+- `manuscript/chapter3/E050_일기의문장_정본초고.md`
 - `manuscript/chapter3/E060_돌아볼수없는선_정본초고.md`
 - `manuscript/chapter3/E047_읽힌다는불편함_정본초고.md`
 - `manuscript/chapter3/E054_정점_정본초고.md`
@@ -256,7 +259,9 @@ Edit direction:
 - `manuscript/chapter5/E083_남겨진습관_정본초고.md`
 - `manuscript/chapter5/E084_혼자서배우는언어_정본초고.md`
 - `manuscript/chapter5/E085_작은성숙_정본초고.md`
+- `manuscript/chapter5/E087_기억의장소_정본초고.md`
 - `manuscript/chapter5/E088_아린없는세계_정본초고.md`
+- `manuscript/chapter5/E090_다음문턱_정본초고.md`
 - `manuscript/chapter5/E097_내이야기의오류_정본초고.md`
 - `manuscript/chapter4/E063_말할수없는진실_정본초고.md`
 - `manuscript/chapter4/E064_흔들리는운율_정본초고.md`
@@ -274,6 +279,7 @@ Edit direction:
 - `manuscript/chapter4/E065_어긋난타이밍_정본초고.md`
 - `manuscript/chapter4/E066_큰충돌의시작_정본초고.md`
 - `manuscript/chapter4/E070_돌이킬수없는금_정본초고.md`
+- `manuscript/chapter4/E075_놓치고있는것_정본초고.md`
 - `manuscript/chapter4/E080_청취소실전환_정본초고.md`
 - `manuscript/chapter4/E068_rupture_정본초고.md`
 - `manuscript/chapter4/E078_결별_정본초고.md`
@@ -309,7 +315,7 @@ Edit direction:
 - chapter1-2 selected files: second pass applied
 - chapter3-4 selected files: second pass applied
 - chapter5-6 selected files: second pass applied
-- total applied files: 114
+- total applied files: 120
 - original priority 6 files: first pass applied
 - additional sweep files: `E002`, `E023`, `E043`, `E063`, `E086`, `E103`
 - additional sweep files 2: `E004`, `E025`, `E045`, `E064`, `E089`, `E112`
@@ -327,4 +333,5 @@ Edit direction:
 - additional sweep files 14: `E013`, `E026`, `E046`, `E065`, `E083`, `E105`
 - additional sweep files 15: `E014`, `E027`, `E044`, `E066`, `E084`, `E106`
 - additional sweep files 16: `E015`, `E028`, `E049`, `E070`, `E085`, `E108`
-- remaining files: expanded line-edit pending
+- additional sweep files 17: `E016`, `E017`, `E050`, `E075`, `E087`, `E090`
+- remaining files: selective line edit complete; vocabulary / style consistency pass pending

@@ -35,6 +35,8 @@ Range:
 - `E013_새로운운율_정본초고.md`
 - `E014_음악이야기_정본초고.md`
 - `E015_연결되는마음_정본초고.md`
+- `E016_체육대회_정본초고.md`
+- `E017_족구경기_정본초고.md`
 - `E012_방음실의고백_정본초고.md`
 
 현재 상태:
@@ -44,8 +46,8 @@ Range:
 
 다음 후보:
 
-- `E016_체육대회_정본초고.md`
-- `E017_족구경기_정본초고.md`
+- chapter selective line edit complete
+- next focus: vocabulary / style consistency pass
 
 ## 3. Chapter 2
 
@@ -110,6 +112,7 @@ Range:
 - `E042_낯선시선_정본초고.md`
 - `E044_다른방식의다정함_정본초고.md`
 - `E049_친구들의개입_정본초고.md`
+- `E050_일기의문장_정본초고.md`
 - `E046_행복의리듬_정본초고.md`
 - `E054_정점_정본초고.md`
 - `E060_돌아볼수없는선_정본초고.md`
@@ -121,7 +124,8 @@ Range:
 
 다음 후보:
 
-- `E050_일기의문장_정본초고.md`
+- chapter selective line edit complete
+- next focus: vocabulary / style consistency pass
 
 ## 5. Chapter 4
 
@@ -148,6 +152,7 @@ Range:
 - `E066_큰충돌의시작_정본초고.md`
 - `E068_rupture_정본초고.md`
 - `E070_돌이킬수없는금_정본초고.md`
+- `E075_놓치고있는것_정본초고.md`
 - `E078_결별_정본초고.md`
 - `E080_청취소실전환_정본초고.md`
 
@@ -158,7 +163,8 @@ Range:
 
 다음 후보:
 
-- `E075_놓치고있는것_정본초고.md`
+- chapter selective line edit complete
+- next focus: vocabulary / style consistency pass
 
 ## 6. Chapter 5
 
@@ -184,7 +190,9 @@ Range:
 - `E083_남겨진습관_정본초고.md`
 - `E084_혼자서배우는언어_정본초고.md`
 - `E085_작은성숙_정본초고.md`
+- `E087_기억의장소_정본초고.md`
 - `E088_아린없는세계_정본초고.md`
+- `E090_다음문턱_정본초고.md`
 - `E097_내이야기의오류_정본초고.md`
 
 현재 상태:
@@ -194,8 +202,8 @@ Range:
 
 다음 후보:
 
-- `E087_기억의장소_정본초고.md`
-- `E090_대화없는계절_정본초고.md`
+- chapter selective line edit complete
+- next focus: vocabulary / style consistency pass
 
 ## 7. Chapter 6
 
@@ -240,9 +248,9 @@ Range:
 
 Status:
 
-- selective line edit applied files: 114
+- selective line edit applied files: 120
 - chapter revision memo: complete
-- remaining work: expanded selective line edit, vocabulary/style consistency pass
+- remaining work: vocabulary / style consistency pass
 
 Director note:
 
