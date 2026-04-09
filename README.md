@@ -117,6 +117,7 @@ Core engine docs:
 - `ops/submission_facing_cosmetic_pass.md`
 - `ops/media_orchestra_opening_brief.md`
 - `ops/novel_post_lock_expert_orchestra_audit.md`
+- `ops/novel_marketability_orchestra_assessment.md`
 
 This means:
 - canon protects the project identity
