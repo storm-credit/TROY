@@ -18,10 +18,11 @@
 - `chapter_bundles/chapter5_E081-E100_bundle.md`
 - `chapter_bundles/chapter6_E101-E120_bundle.md`
 - `full_book/TROY_full_book_E001-E120_export.md`
+- `submission/너라는운율_submission_draft_v1.md`
 
 현재 상태:
 
 - chapter bundle export copies complete
 - full-book merged export complete
-- submission-facing cosmetic formatting not applied yet
+- submission-facing draft v1 complete
 - current full-book export keeps episode headings for editor readability

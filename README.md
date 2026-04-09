@@ -114,6 +114,7 @@ Core engine docs:
 - `ops/export_facing_layout_prep.md`
 - `ops/chapter_bundle_export_copies.md`
 - `ops/full_book_merged_export.md`
+- `ops/submission_facing_cosmetic_pass.md`
 
 This means:
 - canon protects the project identity
