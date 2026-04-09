@@ -34,6 +34,7 @@ Range:
 - `E011_첫공연_정본초고.md`
 - `E013_새로운운율_정본초고.md`
 - `E014_음악이야기_정본초고.md`
+- `E015_연결되는마음_정본초고.md`
 - `E012_방음실의고백_정본초고.md`
 
 현재 상태:
@@ -43,7 +44,6 @@ Range:
 
 다음 후보:
 
-- `E015_연결되는마음_정본초고.md`
 - `E016_체육대회_정본초고.md`
 - `E017_족구경기_정본초고.md`
 
@@ -70,6 +70,7 @@ Range:
 - `E022_익숙해진목소리_정본초고.md`
 - `E026_고백의예감_정본초고.md`
 - `E027_망설임_정본초고.md`
+- `E028_질문의문장_정본초고.md`
 - `E029_고백_정본초고.md`
 - `E034_아린의닫힘_정본초고.md`
 - `E036_연애시작_정본초고.md`
@@ -82,7 +83,8 @@ Range:
 
 다음 후보:
 
-- `E028_질문의문장_정본초고.md`
+- chapter selective line edit complete
+- next focus: vocabulary / style consistency pass
 
 ## 4. Chapter 3
 
@@ -107,6 +109,7 @@ Range:
 - `E041_세계의확장_정본초고.md`
 - `E042_낯선시선_정본초고.md`
 - `E044_다른방식의다정함_정본초고.md`
+- `E049_친구들의개입_정본초고.md`
 - `E046_행복의리듬_정본초고.md`
 - `E054_정점_정본초고.md`
 - `E060_돌아볼수없는선_정본초고.md`
@@ -118,7 +121,6 @@ Range:
 
 다음 후보:
 
-- `E049_친구들의개입_정본초고.md`
 - `E050_일기의문장_정본초고.md`
 
 ## 5. Chapter 4
@@ -145,6 +147,7 @@ Range:
 - `E065_어긋난타이밍_정본초고.md`
 - `E066_큰충돌의시작_정본초고.md`
 - `E068_rupture_정본초고.md`
+- `E070_돌이킬수없는금_정본초고.md`
 - `E078_결별_정본초고.md`
 - `E080_청취소실전환_정본초고.md`
 
@@ -155,7 +158,6 @@ Range:
 
 다음 후보:
 
-- `E070_돌이킬수없는금_정본초고.md`
 - `E075_놓치고있는것_정본초고.md`
 
 ## 6. Chapter 5
@@ -181,6 +183,7 @@ Range:
 - `E082_익숙하지않은평온_정본초고.md`
 - `E083_남겨진습관_정본초고.md`
 - `E084_혼자서배우는언어_정본초고.md`
+- `E085_작은성숙_정본초고.md`
 - `E088_아린없는세계_정본초고.md`
 - `E097_내이야기의오류_정본초고.md`
 
@@ -191,8 +194,8 @@ Range:
 
 다음 후보:
 
-- `E085_작은성숙_정본초고.md`
 - `E087_기억의장소_정본초고.md`
+- `E090_대화없는계절_정본초고.md`
 
 ## 7. Chapter 6
 
@@ -213,6 +216,7 @@ Range:
 - `E104_말로묻기_정본초고.md`
 - `E105_남겨진감정_정본초고.md`
 - `E106_재접속_정본초고.md`
+- `E108_들리지않아도_정본초고.md`
 - `E115_증명_정본초고.md`
 - `E116_마지막화음의시작_정본초고.md`
 - `E117_끝내피하지않는이유_정본초고.md`
@@ -229,13 +233,14 @@ Range:
 
 다음 후보:
 
-- `E108_들리지않아도_정본초고.md`
+- chapter selective line edit complete
+- next focus: vocabulary / style consistency pass
 
 ## 8. Director Status
 
 Status:
 
-- selective line edit applied files: 108
+- selective line edit applied files: 114
 - chapter revision memo: complete
 - remaining work: expanded selective line edit, vocabulary/style consistency pass
 

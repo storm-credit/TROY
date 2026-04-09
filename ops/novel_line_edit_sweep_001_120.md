@@ -198,6 +198,8 @@ Edit direction:
 - `manuscript/chapter1/E020_뒤풀이_정본초고.md`
 - `manuscript/chapter1/E011_첫공연_정본초고.md`
 - `manuscript/chapter1/E013_새로운운율_정본초고.md`
+- `manuscript/chapter1/E014_음악이야기_정본초고.md`
+- `manuscript/chapter1/E015_연결되는마음_정본초고.md`
 - `manuscript/chapter1/E012_방음실의고백_정본초고.md`
 - `manuscript/chapter2/E023_작은질투_정본초고.md`
 - `manuscript/chapter2/E024_기다리는사람_정본초고.md`
@@ -213,6 +215,8 @@ Edit direction:
 - `manuscript/chapter2/E021_가까워지는거리_정본초고.md`
 - `manuscript/chapter2/E022_익숙해진목소리_정본초고.md`
 - `manuscript/chapter2/E026_고백의예감_정본초고.md`
+- `manuscript/chapter2/E027_망설임_정본초고.md`
+- `manuscript/chapter2/E028_질문의문장_정본초고.md`
 - `manuscript/chapter2/E029_고백_정본초고.md`
 - `manuscript/chapter2/E034_아린의닫힘_정본초고.md`
 - `manuscript/chapter2/E036_연애시작_정본초고.md`
@@ -230,7 +234,9 @@ Edit direction:
 - `manuscript/chapter3/E051_가장행복한날들_정본초고.md`
 - `manuscript/chapter3/E041_세계의확장_정본초고.md`
 - `manuscript/chapter3/E042_낯선시선_정본초고.md`
+- `manuscript/chapter3/E044_다른방식의다정함_정본초고.md`
 - `manuscript/chapter3/E046_행복의리듬_정본초고.md`
+- `manuscript/chapter3/E049_친구들의개입_정본초고.md`
 - `manuscript/chapter3/E060_돌아볼수없는선_정본초고.md`
 - `manuscript/chapter3/E047_읽힌다는불편함_정본초고.md`
 - `manuscript/chapter3/E054_정점_정본초고.md`
@@ -248,6 +254,8 @@ Edit direction:
 - `manuscript/chapter5/E081_침묵이후_정본초고.md`
 - `manuscript/chapter5/E082_익숙하지않은평온_정본초고.md`
 - `manuscript/chapter5/E083_남겨진습관_정본초고.md`
+- `manuscript/chapter5/E084_혼자서배우는언어_정본초고.md`
+- `manuscript/chapter5/E085_작은성숙_정본초고.md`
 - `manuscript/chapter5/E088_아린없는세계_정본초고.md`
 - `manuscript/chapter5/E097_내이야기의오류_정본초고.md`
 - `manuscript/chapter4/E063_말할수없는진실_정본초고.md`
@@ -264,6 +272,8 @@ Edit direction:
 - `manuscript/chapter4/E061_후퇴_정본초고.md`
 - `manuscript/chapter4/E062_압박_정본초고.md`
 - `manuscript/chapter4/E065_어긋난타이밍_정본초고.md`
+- `manuscript/chapter4/E066_큰충돌의시작_정본초고.md`
+- `manuscript/chapter4/E070_돌이킬수없는금_정본초고.md`
 - `manuscript/chapter4/E080_청취소실전환_정본초고.md`
 - `manuscript/chapter4/E068_rupture_정본초고.md`
 - `manuscript/chapter4/E078_결별_정본초고.md`
@@ -277,6 +287,8 @@ Edit direction:
 - `manuscript/chapter6/E102_다시만난두사람_정본초고.md`
 - `manuscript/chapter6/E104_말로묻기_정본초고.md`
 - `manuscript/chapter6/E105_남겨진감정_정본초고.md`
+- `manuscript/chapter6/E106_재접속_정본초고.md`
+- `manuscript/chapter6/E108_들리지않아도_정본초고.md`
 - `manuscript/chapter6/E115_증명_정본초고.md`
 - `manuscript/chapter6/E116_마지막화음의시작_정본초고.md`
 - `manuscript/chapter6/E117_끝내피하지않는이유_정본초고.md`
@@ -297,7 +309,7 @@ Edit direction:
 - chapter1-2 selected files: second pass applied
 - chapter3-4 selected files: second pass applied
 - chapter5-6 selected files: second pass applied
-- total applied files: 108
+- total applied files: 114
 - original priority 6 files: first pass applied
 - additional sweep files: `E002`, `E023`, `E043`, `E063`, `E086`, `E103`
 - additional sweep files 2: `E004`, `E025`, `E045`, `E064`, `E089`, `E112`
@@ -314,4 +326,5 @@ Edit direction:
 - additional sweep files 13: `E011`, `E022`, `E042`, `E062`, `E082`, `E104`
 - additional sweep files 14: `E013`, `E026`, `E046`, `E065`, `E083`, `E105`
 - additional sweep files 15: `E014`, `E027`, `E044`, `E066`, `E084`, `E106`
+- additional sweep files 16: `E015`, `E028`, `E049`, `E070`, `E085`, `E108`
 - remaining files: expanded line-edit pending
