@@ -110,6 +110,7 @@ current ending audit docs:
 downstream package opening:
 
 - `ops/downstream_package_orchestra_opening.md`
+- `ops/package_readiness_audit_pilot_triplet.md`
 
 current motif audit docs:
 
