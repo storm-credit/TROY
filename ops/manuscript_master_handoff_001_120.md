@@ -135,6 +135,8 @@ downstream package opening:
 - `ops/submission_cosmetic_pass_001.md`
 - `ops/submission_cosmetic_pass_002.md`
 - `ops/packet_header_consistency_audit.md`
+- `ops/submission_release_readiness_audit.md`
+- `ops/stable_state_lock_submission_stack.md`
 - `ops/export_stack_series_map.md`
 
 current motif audit docs:
