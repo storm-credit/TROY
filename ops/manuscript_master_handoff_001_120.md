@@ -143,6 +143,10 @@ downstream package opening:
 - `ops/arin_inworld_album_vol1_production_pack.md`
 - `ops/music_producer_lane_matrix.md`
 - `ops/arin_inworld_album_vol1_producer_stack.md`
+- `ops/arin_inworld_album_vol1_pilot_lyric_lock.md`
+- `ops/E054_inworld_song_final_lock.md`
+- `ops/E113_inworld_song_final_lock.md`
+- `ops/E050_inworld_song_final_lock.md`
 - `ops/packet_header_consistency_audit.md`
 - `ops/submission_release_readiness_audit.md`
 - `ops/stable_state_lock_submission_stack.md`
