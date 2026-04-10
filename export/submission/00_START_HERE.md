@@ -5,6 +5,8 @@
 ## 1. 아주 짧게 작품 감 잡기
 
 - `showcase_index.md`
+- 평가 축까지 먼저 보고 싶다면:
+  - `01_EVALUATOR_NOTE.md`
 
 ## 2. 대표 샘플부터 보기
 
