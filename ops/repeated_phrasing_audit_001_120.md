@@ -163,6 +163,10 @@
   - `E021 / E023 / E024`의 `같았다` 중심 종결을 마지막으로 한 번 더 축소
   - `E022`는 4000 safe line이 딱 맞아 low-risk hold로 유지
   - opening cluster의 생활 리듬과 낮은 호감 속도는 유지
+- `chapter2 / E021-E022` low-risk hold
+  - `E021`은 관계 규칙을 설명하는 기능 문장 비중이 커서 현 상태 유지
+  - `E022`는 4000 safe line이 정확히 맞아 추가 수정 없이 유지
+  - opening cluster 초반의 생활 리듬과 답장 온도는 유지
 - `chapter5 / E096-E099`
   - `조금 / 것 같았다` 중심 완충 서술을 더 직접적인 감각어로 분산
   - 재독해와 재준비 구간의 낮은 온도는 유지
@@ -194,10 +198,10 @@
 
 ## 4. Next Recommended Order
 
-1. `chapter2 / E021-E022` low-risk hold check
-2. `chapter4 / E071-E075` low-risk hold check
-3. `chapter6 / E102-E105` maintenance watch
-4. `chapter5 / E093-E100` maintenance watch
+1. `chapter4 / E071-E075` low-risk hold check
+2. `chapter6 / E102-E105` maintenance watch
+3. `chapter5 / E093-E100` maintenance watch
+4. `chapter2 / E021-E022` maintenance watch
 
 ## 5. Director Note
 
