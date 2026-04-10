@@ -132,6 +132,7 @@ downstream package opening:
 - `ops/presentation_polish_pass_001.md`
 - `ops/presentation_polish_pass_002.md`
 - `ops/presentation_polish_pass_003.md`
+- `ops/submission_cosmetic_pass_001.md`
 - `ops/packet_header_consistency_audit.md`
 - `ops/export_stack_series_map.md`
 

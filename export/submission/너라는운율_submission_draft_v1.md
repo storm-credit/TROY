@@ -2,9 +2,12 @@
 
 Submission Draft v1
 
-Prepared from locked TROY manuscript export.
-Reading Range: E001-E120
-Format: full-book submission-facing copy
+외부 검토용 전체 원고
+수록 범위: E001-E120
+형식: full-book submission-facing copy
+
+이 파일은 작품 전체를 처음부터 끝까지 통독하기 위한 submission draft입니다.
+대표 샘플부터 먼저 보고 싶다면 같은 폴더의 `00_START_HERE.md`와 `showcase_index.md`를 참고하면 됩니다.
 
 ---
 
