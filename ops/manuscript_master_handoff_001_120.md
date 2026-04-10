@@ -104,6 +104,9 @@ current motif audit docs:
 - `ops/motif_audit_arin_exception.md`
 - `ops/motif_audit_arin_song_thread.md`
 - `ops/motif_audit_contact_equals_danger.md`
+- `ops/motif_audit_silence_deep_sea.md`
+- `ops/motif_audit_500_days_memory_editing.md`
+- `ops/motif_audit_self_hearing_prohibition.md`
 
 ## 6. Director Note
 
