@@ -15,6 +15,13 @@
 - `pilot_showcase/01_TROY_PILOT_ENDING_E118_packet.md`
 - `pilot_showcase/02_TROY_PILOT_OPENING_STAGE_E011_packet.md`
 - `pilot_showcase/03_TROY_PILOT_PEAK_LIGHT_E054_packet.md`
+- `wave1_showcase/README.md`
+- `wave1_showcase/01_TROY_WAVE1_THRESHOLD_E040_packet.md`
+- `wave1_showcase/02_TROY_WAVE1_RUPTURE_E078_packet.md`
+- `wave1_showcase/03_TROY_WAVE1_ENDING_E120_packet.md`
+- `wave1_showcase/04_TROY_WAVE1_CONFESSION_E029_packet.md`
+- `wave1_showcase/05_TROY_WAVE1_RECONNECTION_E110_packet.md`
+- `wave1_showcase/06_TROY_WAVE1_OPENING_E001_packet.md`
 
 현재 상태:
 
@@ -22,4 +29,5 @@
 - title page basic pass applied
 - episode heading softened for external readability
 - pilot showcase packet pack complete
+- wave1 showcase packet pack complete
 - final submission cosmetic pass is still optional
