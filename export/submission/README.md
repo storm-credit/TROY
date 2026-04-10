@@ -11,6 +11,7 @@
 
 현재 패키지:
 
+- `00_START_HERE.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -59,8 +60,10 @@
 권장 진입:
 
 1. 작품 전체 인상 빠르게 확인:
+   - `00_START_HERE.md`
+2. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-2. 대표 샘플 묶음부터 확인:
+3. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-3. 작품 전체를 처음부터 통독:
+4. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`

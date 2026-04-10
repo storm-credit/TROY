@@ -2,6 +2,7 @@
 
 이 문서는 `submission` 폴더 안의 showcase 묶음을 한 장으로 정리한다.
 짧은 샘플부터 보고 싶을 때는 아래 순서대로, 전체 통독이 필요할 때는 마지막의 full manuscript로 들어가면 된다.
+가장 빠른 진입은 `00_START_HERE.md`다.
 
 ## 1. full manuscript
 
