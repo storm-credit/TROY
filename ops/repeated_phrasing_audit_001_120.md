@@ -158,6 +158,9 @@
 - `chapter5 / E096-E099`
   - `조금 / 것 같았다` 중심 완충 서술을 더 직접적인 감각어로 분산
   - 재독해와 재준비 구간의 낮은 온도는 유지
+- `chapter5 / E097-E100` 잔여
+  - 남아 있던 `것 같았다 / 조금 / 잠깐` 중심 완충 서술을 한 번 더 축소
+  - 자기 서사 수정과 문턱 장면의 낮은 긴장은 유지
 - `chapter6 / E101-E103`
   - 재회 전후 구간의 `조금 / 것 같았다` 중심 완충 서술을 분산
   - 예감과 재회의 조심스러운 속도는 유지
@@ -167,10 +170,10 @@
 
 ## 4. Next Recommended Order
 
-1. `chapter5 / E093-E100` 마지막 잔여 완충어 점검
-2. `chapter6 / E101-E105` 마지막 잔여 완충어 점검
-3. `chapter3 / E046-E050` 마지막 잔여 응답 동사 점검
-4. `chapter2 / E021-E024` final watch pass
+1. `chapter6 / E101-E105` 마지막 잔여 완충어 점검
+2. `chapter3 / E046-E050` 마지막 잔여 응답 동사 점검
+3. `chapter2 / E021-E024` final watch pass
+4. `chapter4 / E071-E075` final watch pass
 
 ## 5. Director Note
 
