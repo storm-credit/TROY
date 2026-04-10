@@ -13,6 +13,10 @@
 - `ops/music_producer_lane_matrix.md`
 - `ops/arin_inworld_album_vol1_producer_stack.md`
 - `ops/arin_inworld_album_vol1_pilot_lyric_lock.md`
+- `ops/E054_inworld_suno_final.md`
+- `ops/E113_inworld_suno_final.md`
+- `ops/E050_inworld_suno_final.md`
+- `ops/arin_inworld_album_vol1_generation_test_gate.md`
 - key briefs:
   - `E054_song_brief.md`
   - `E113_song_brief.md`
@@ -55,3 +59,4 @@
 - 핵심은 `예쁜 러브송`이 아니라 `아린 authored voice`다
 - producer decision도 `유명인 모사`가 아니라 `producer-class lane 조합`으로 잠근다
 - pilot 3곡은 이제 `고정 제목 + 최종 가사 초안`까지 잠겨 있으므로, 다음 단계는 실제 generation test다
+- generation test는 `final Suno prompt + producer stack + lyric lock` 3축으로만 판단한다

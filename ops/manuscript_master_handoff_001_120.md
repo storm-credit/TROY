@@ -147,6 +147,10 @@ downstream package opening:
 - `ops/E054_inworld_song_final_lock.md`
 - `ops/E113_inworld_song_final_lock.md`
 - `ops/E050_inworld_song_final_lock.md`
+- `ops/E054_inworld_suno_final.md`
+- `ops/E113_inworld_suno_final.md`
+- `ops/E050_inworld_suno_final.md`
+- `ops/arin_inworld_album_vol1_generation_test_gate.md`
 - `ops/packet_header_consistency_audit.md`
 - `ops/submission_release_readiness_audit.md`
 - `ops/stable_state_lock_submission_stack.md`
