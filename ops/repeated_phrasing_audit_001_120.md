@@ -114,13 +114,19 @@
 - `chapter6 / E114`
   - 시험 전후 안도 표현의 반복을 축소
   - 직접 묻는 현재형 신뢰는 유지
+- `말할게 watchlist`
+  - `chapter2 / E030`, `chapter2 / E034`, `chapter2 / E036`, `chapter4 / E063`, `chapter6 / E113`
+  - 현재는 전부 기능 문장 1회 수준이라 추가 수정 없이 low-risk로 하향
+- `chapter3 / E042-E044`
+  - `바로` 중심 응답/전환 어휘를 분산
+  - 관계의 압력과 도현 대비축은 유지
 
 ## 4. Next Recommended Order
 
-1. `말할게` watchlist 1차 정리
-2. `chapter3 / E041-E045` 리듬 다양화 점검
-3. `chapter4 / E071-E075` 대화 응답어 분산 점검
-4. `chapter5 / E093-E100` 질문형 문장 말미 다양화 점검
+1. `chapter3 / E041-E045` 리듬 다양화 점검
+2. `chapter4 / E071-E075` 대화 응답어 분산 점검
+3. `chapter5 / E093-E100` 질문형 문장 말미 다양화 점검
+4. `chapter6 / E101-E105` 응답 동사 다양화 점검
 
 ## 5. Director Note
 
