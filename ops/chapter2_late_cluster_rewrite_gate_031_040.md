@@ -1,6 +1,6 @@
 # chapter2 late cluster rewrite gate 031 040
 
-Generated at: 2026-04-10 18:39:38
+Generated at: 2026-04-10 18:58:01
 
 ## Length Gate
 
@@ -11,11 +11,11 @@ Generated at: 2026-04-10 18:39:38
 | E033 | 4008 | 4414 | safe-line candidate |
 | E034 | 4000 | 4380 | safe-line candidate |
 | E035 | 4001 | 4489 | safe-line candidate |
-| E036 | 3548 | 3950 | safe-line under |
-| E037 | 3555 | 3921 | safe-line under |
-| E038 | 3521 | 3894 | safe-line under |
+| E036 | 4090 | 4519 | safe-line candidate |
+| E037 | 4070 | 4454 | safe-line candidate |
+| E038 | 4176 | 4578 | safe-line candidate |
 | E039 | 4209 | 4630 | safe-line candidate |
-| E040 | 3501 | 3883 | safe-line under |
+| E040 | 4170 | 4588 | safe-line candidate |
 
 ## Forbidden Pattern Sweep
 
