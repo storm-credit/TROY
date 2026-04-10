@@ -98,6 +98,7 @@ current reread docs:
 
 current motif audit docs:
 
+- `ops/motif_audit_master_handoff.md`
 - `ops/motif_setup_payoff_audit_opening.md`
 - `ops/motif_audit_heard_vs_said.md`
 - `ops/motif_audit_dohyun_contrast.md`
