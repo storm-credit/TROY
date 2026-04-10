@@ -155,6 +155,10 @@
   - 남아 있던 `조금` 중심 서술을 한 번 더 축소
   - `E022`는 safe line이 딱 맞아 이번 패스에서 의도적으로 유지
   - 초반 가까워짐 구간의 생활 압력은 유지
+- `chapter2 / E021-E024` final watch
+  - `E021 / E023 / E024`의 `같았다` 중심 종결을 마지막으로 한 번 더 축소
+  - `E022`는 4000 safe line이 딱 맞아 low-risk hold로 유지
+  - opening cluster의 생활 리듬과 낮은 호감 속도는 유지
 - `chapter5 / E096-E099`
   - `조금 / 것 같았다` 중심 완충 서술을 더 직접적인 감각어로 분산
   - 재독해와 재준비 구간의 낮은 온도는 유지
@@ -178,10 +182,10 @@
 
 ## 4. Next Recommended Order
 
-1. `chapter2 / E021-E024` final watch pass
-2. `chapter4 / E071-E075` final watch pass
-3. `chapter6 / E102-E105` low-risk hold check
-4. `chapter5 / E093-E100` low-risk hold check
+1. `chapter4 / E071-E075` final watch pass
+2. `chapter6 / E102-E105` low-risk hold check
+3. `chapter5 / E093-E100` low-risk hold check
+4. `chapter2 / E021-E022` low-risk hold check
 
 ## 5. Director Note
 
