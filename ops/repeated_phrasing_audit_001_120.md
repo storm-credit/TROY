@@ -181,6 +181,10 @@
   - `E093 / E095`는 safe line 여유가 거의 없어 유지
   - 여유가 있는 `E097 / E100`은 추정형 종결을 한 번 더 정리
   - 재독해와 문턱 구간의 느린 정조는 유지
+- `chapter5 / E093-E100` maintenance watch
+  - `E093 / E095`는 기능 문장과 정조 유지 비중이 커서 no-edit 유지
+  - `E097 / E100`은 직전 패스로 정리 완료, 현 단계 추가 수정 이득이 낮음
+  - chapter5 후반부의 재독해와 문턱 리듬은 안정적
 - `chapter6 / E101-E103`
   - 재회 전후 구간의 `조금 / 것 같았다` 중심 완충 서술을 분산
   - 예감과 재회의 조심스러운 속도는 유지
@@ -192,6 +196,10 @@
   - `E102 / E105`는 4000 safe line 여유가 너무 얇아 추가 수정 없이 유지
   - 남아 있는 완충어는 기능 문장과 직접 화법 위주라 현 단계에서는 low-risk
   - chapter6 opening cluster의 재회 문법과 여진 온도는 유지
+- `chapter6 / E102-E105` maintenance watch
+  - low-risk hold 재확인 완료
+  - `E102 / E105`는 no-edit 유지가 더 안전하다고 판단
+  - 재회 직후 구간의 현재형 대화 문법과 여진 온도는 안정적
 - `chapter3 / E046-E050` 잔여
   - 남아 있던 `말했다 / 입을 열었다 / 그래.` 축을 추가 분산
   - 행복, 읽힘, 해석, 개입, 일기 구간의 대화 온도는 유지
@@ -202,10 +210,10 @@
 
 ## 4. Next Recommended Order
 
-1. `chapter6 / E102-E105` maintenance watch
-2. `chapter5 / E093-E100` maintenance watch
-3. `chapter2 / E021-E022` maintenance watch
-4. `chapter4 / E071-E075` maintenance watch
+1. `maintenance watch` 현행 잔여 구간 재확인 완료
+2. 신규 재작성이나 대량 보강이 생길 때만 해당 range 재개방
+3. 다음 폴리시 패스는 `어휘 축소`보다 `리듬 다양화` 신규 hotspot 탐색 우선
+4. chapter-wide 통독이 필요할 때만 maintenance watch 재개
 
 ## 5. Director Note
 
@@ -219,3 +227,6 @@
   `리듬 다양화`를 우선 목표로 둔다
 - `괜찮아`는 상태 확인 질문이나
   관계상 직접 묻는 자리에서는 예외적으로 남길 수 있다
+- 현행 watchlist는 모두 `checked / low-risk` 상태로 간주한다
+- 이후 재개방 기준은
+  실제 재작성, 안전선 재조정, 또는 통독 중 새 hotspot 발견일 때만으로 제한한다
