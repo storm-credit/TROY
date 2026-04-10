@@ -56,6 +56,7 @@
    - `E054`
    - `E118`
 3. if wider package work opens, use `E118` schema depth as the house reference
+4. use `ops/pilot_export_stack_readiness.md` as the export-order and release-gate truth source
 
 ## 7. director note
 

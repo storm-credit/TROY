@@ -59,6 +59,13 @@
 - no song prompt should imply destiny, magical recovery, or forced reunion
 - no MV cutlist should invent canon events that the manuscript does not contain
 
+## 6A. pilot export stack note
+
+- downstream package flagship stack is tracked in:
+  - `ops/pilot_export_stack_readiness.md`
+- `package pilot triplet` and `music lane pilot 6곡` are different pilot groups
+- do not collapse them into one queue without lane-specific justification
+
 ## 7. director note
 
 - package work begins from already-locked prose
