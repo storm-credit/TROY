@@ -236,3 +236,12 @@ handoff check 항목:
 - 캐논, 구조, 음악, 비주얼, 문체는 개별 문서가 아니라 연결된 엔진으로 취급한다
 - MCP는 truth source를 가져오고, skills는 초안을 만들고, agents는 판단하고, hooks는 자동 검수한다
 - 마지막 반영 여부는 총괄만 잠근다
+
+실행 도구:
+- local hook scripts:
+  - `tools/Test-EpisodeLengthGate.ps1`
+  - `tools/Test-ForbiddenPatterns.ps1`
+  - `tools/New-RangeGateReport.ps1`
+  - `tools/Invoke-OrchestraRun.ps1`
+- 설명 문서:
+  - `ops/local_hook_tooling.md`

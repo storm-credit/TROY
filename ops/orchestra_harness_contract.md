@@ -138,6 +138,10 @@
 - forbidden language check
 - index/update reminder
 - archive/log consistency check
+- `tools/Test-EpisodeLengthGate.ps1`
+- `tools/Test-ForbiddenPatterns.ps1`
+- `tools/New-RangeGateReport.ps1`
+- `tools/Invoke-OrchestraRun.ps1`
 
 할 수 있는 것:
 
