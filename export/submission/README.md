@@ -11,6 +11,7 @@
 현재 패키지:
 
 - `너라는운율_submission_draft_v1.md`
+- `showcase_index.md`
 - `pilot_showcase/README.md`
 - `pilot_showcase/01_TROY_PILOT_ENDING_E118_packet.md`
 - `pilot_showcase/02_TROY_PILOT_OPENING_STAGE_E011_packet.md`
@@ -37,4 +38,5 @@
 - pilot showcase packet pack complete
 - wave1 showcase packet pack complete
 - wave2 showcase packet pack complete
+- showcase index complete
 - final submission cosmetic pass is still optional
