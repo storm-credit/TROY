@@ -25,8 +25,11 @@
 - `pilot_packets/TROY_PILOT_PEAK_LIGHT_E054/`
 - `pilot_packets/*/TROY_PILOT_*_packet.md`
 - `wave1_packets/README.md`
+- `wave1_packets/TROY_WAVE1_OPENING_E001/`
+- `wave1_packets/TROY_WAVE1_CONFESSION_E029/`
 - `wave1_packets/TROY_WAVE1_THRESHOLD_E040/`
 - `wave1_packets/TROY_WAVE1_RUPTURE_E078/`
+- `wave1_packets/TROY_WAVE1_RECONNECTION_E110/`
 - `wave1_packets/TROY_WAVE1_ENDING_E120/`
 
 현재 상태:

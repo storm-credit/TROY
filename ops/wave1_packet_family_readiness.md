@@ -24,8 +24,8 @@
 ## 3. current judgment
 
 - `E001`
-  - status: `ready / older but usable`
-  - note: opening identity packet으로 기능 안정
+  - status: `ready / normalized`
+  - note: opening identity packet, isolation grammar, sensory-origin packet
 - `E029`
   - status: `ready / normalized`
   - note: room-scale confession ethics packet
@@ -56,3 +56,5 @@
 - `pilot triplet`은 already-export-ready flagship 3종이다
 - `wave1 family`는 그다음 넓히는 패킷군이며,
   현재 가장 큰 이득은 `E040 / E078 / E120`의 대외 시연 가치다
+- 하지만 `E001 / E029 / E110`까지 포함하면
+  opening, confession, reconnection이 모두 실제 packet family 안에서 닫힌다

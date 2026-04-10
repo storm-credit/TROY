@@ -8,6 +8,9 @@
 1. `TROY_WAVE1_THRESHOLD_E040`
 2. `TROY_WAVE1_RUPTURE_E078`
 3. `TROY_WAVE1_ENDING_E120`
+4. `TROY_WAVE1_CONFESSION_E029`
+5. `TROY_WAVE1_RECONNECTION_E110`
+6. `TROY_WAVE1_OPENING_E001`
 
 구성:
 
@@ -22,3 +25,9 @@
   - deepest wound track / clean rupture
 - `E120`
   - signature ending track / approval without triumph
+- `E029`
+  - confession threshold track / waiting ethics
+- `E110`
+  - present-tense reconnection track / same-direction rhythm
+- `E001`
+  - character identity opener / isolation grammar
