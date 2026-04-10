@@ -107,6 +107,10 @@ current ending audit docs:
 - `ops/ending_emotional_grammar_audit_opening.md`
 - `ops/ending_line_audit_118_120.md`
 
+downstream package opening:
+
+- `ops/downstream_package_orchestra_opening.md`
+
 current motif audit docs:
 
 - `ops/motif_audit_master_handoff.md`
