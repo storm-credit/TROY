@@ -23,6 +23,7 @@
 - `pilot_packets/TROY_PILOT_ENDING_E118/`
 - `pilot_packets/TROY_PILOT_OPENING_STAGE_E011/`
 - `pilot_packets/TROY_PILOT_PEAK_LIGHT_E054/`
+- `pilot_packets/*/TROY_PILOT_*_packet.md`
 
 현재 상태:
 

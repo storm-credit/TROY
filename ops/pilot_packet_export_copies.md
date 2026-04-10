@@ -19,12 +19,15 @@
 - `export/pilot_packets/TROY_PILOT_ENDING_E118/E118_episode_harness.md`
 - `export/pilot_packets/TROY_PILOT_ENDING_E118/E118_ending_song_brief.md`
 - `export/pilot_packets/TROY_PILOT_ENDING_E118/E118_visual_cut_list.md`
+- `export/pilot_packets/TROY_PILOT_ENDING_E118/TROY_PILOT_ENDING_E118_packet.md`
 - `export/pilot_packets/TROY_PILOT_OPENING_STAGE_E011/E011_episode_harness.md`
 - `export/pilot_packets/TROY_PILOT_OPENING_STAGE_E011/E011_song_brief.md`
 - `export/pilot_packets/TROY_PILOT_OPENING_STAGE_E011/E011_visual_cut_list.md`
+- `export/pilot_packets/TROY_PILOT_OPENING_STAGE_E011/TROY_PILOT_OPENING_STAGE_E011_packet.md`
 - `export/pilot_packets/TROY_PILOT_PEAK_LIGHT_E054/E054_episode_harness.md`
 - `export/pilot_packets/TROY_PILOT_PEAK_LIGHT_E054/E054_song_brief.md`
 - `export/pilot_packets/TROY_PILOT_PEAK_LIGHT_E054/E054_visual_cut_list.md`
+- `export/pilot_packets/TROY_PILOT_PEAK_LIGHT_E054/TROY_PILOT_PEAK_LIGHT_E054_packet.md`
 
 ## 4. harness run
 
@@ -57,17 +60,20 @@
 - `E118`:
   - `final_song_brief.md`를 export 안에서 `E118_ending_song_brief.md`로 alias copy 처리
   - ending flagship packet으로 가장 먼저 외부 전달 가능
+  - merged packet까지 생성 완료
 - `E011`:
   - first-performance flagship
   - 공연 scale과 인간적 거리감 기준 packet
+  - merged packet까지 생성 완료
 - `E054`:
   - summer-peak flagship
   - brightest packet이지만 final-closure 금지 기준 유지
+  - merged packet까지 생성 완료
 
 ## 6. lock judgment
 
 - status:
   - pass with pilot packet export copies complete
 - conclusion:
-  - package pilot triplet은 이제 문서 기준이 아니라 실제 export copy 기준으로도 전달 가능하다
+  - package pilot triplet은 이제 문서 기준이 아니라 실제 export copy와 merged packet 기준으로도 전달 가능하다
   - 다음 단계는 wider packet family expansion 또는 제출/쇼케이스용 묶음 설계다

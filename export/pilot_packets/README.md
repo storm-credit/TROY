@@ -14,6 +14,11 @@
 2. `TROY_PILOT_OPENING_STAGE_E011`
 3. `TROY_PILOT_PEAK_LIGHT_E054`
 
+각 패킷 폴더 안에는:
+
+- source triad copy 3종
+- 바로 전달 가능한 merged packet 1종
+
 구성 규칙:
 
 - 각 패킷은 아래 3종만 포함한다
@@ -29,3 +34,5 @@
 - `TROY_PILOT_ENDING_E118`는 tone calibration reference다
 - `TROY_PILOT_OPENING_STAGE_E011`는 human-scale performance reference다
 - `TROY_PILOT_PEAK_LIGHT_E054`는 brightness-shadow balance reference다
+- merged packet filename rule:
+  - `TROY_PILOT_*_packet.md`
