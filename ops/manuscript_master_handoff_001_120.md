@@ -102,6 +102,11 @@ current seasonal audit docs:
 - `ops/seasonal_audit_spring_to_heat_001_040.md`
 - `ops/seasonal_audit_rupture_to_late_end_061_120.md`
 
+current ending audit docs:
+
+- `ops/ending_emotional_grammar_audit_opening.md`
+- `ops/ending_line_audit_118_120.md`
+
 current motif audit docs:
 
 - `ops/motif_audit_master_handoff.md`
