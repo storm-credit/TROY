@@ -13,12 +13,16 @@
 ## 2. Scope
 
 - target range: `E001-E010`
-- selected files:
-  - `manuscript/chapter1/E001_무료한일상_정본초고.md`
-  - `manuscript/chapter1/E002_서점에서의충격_정본초고.md`
+- coverage:
+  - `E001-E010` full opening cluster re-read complete
+- active polish files:
+  - `manuscript/chapter1/E003_아린이라는존재_정본초고.md`
   - `manuscript/chapter1/E004_네가들리는거리_정본초고.md`
+  - `manuscript/chapter1/E005_내일을기다리며_정본초고.md`
   - `manuscript/chapter1/E006_문학과철학_정본초고.md`
+  - `manuscript/chapter1/E007_같은조가되다_정본초고.md`
   - `manuscript/chapter1/E008_도서관첫미팅_정본초고.md`
+  - `manuscript/chapter1/E009_마음의비밀_정본초고.md`
   - `manuscript/chapter1/E010_특별한관심_정본초고.md`
 
 ## 3. Harness Run
@@ -47,16 +51,20 @@
 
 ## 4. Applied Focus
 
-- `E001`
-  - 세계 도입부의 설명 호흡을 더 곧게 정리
-- `E002`
-  - 서점 장면의 충격 리듬을 더 응축
+- `E003`
+  - 아린의 존재가 풍경에서 한 사람으로 분리되는 자각을 더 또렷하게 정리
 - `E004`
   - 거리 계산 강박의 흐름을 더 매끈하게 정리
+- `E005`
+  - 밤 장면의 자기방어와 기다림 감각을 더 선명하게 정리
 - `E006`
   - 대화 뒤 여운을 더 조용하게 정리
+- `E007`
+  - 조별 과제로 인한 생활 단위의 가까워짐을 더 자연스럽게 정리
 - `E008`
   - 도서관 첫 미팅의 감각 연결을 더 자연스럽게 정리
+- `E009`
+  - 가까워짐과 경계심이 동시에 커지는 내면 분열을 더 정교하게 정리
 - `E010`
   - 특별한 관심의 자각을 더 단단하게 정리
 
@@ -69,7 +77,7 @@ Status:
 결론:
 
 - `E001-E010` 오프닝 클러스터는 선택 심화 교열 기준으로도 잠금 가능하다
-- 초반 세계 진입, 거리감, 관심의 형성 리듬이 더 안정적으로 정리됐다
+- 초반 세계 진입, 거리감, 생활 단위의 가까워짐, 관심의 형성 리듬이 더 안정적으로 정리됐다
 - 이후 추가 작업은 필수가 아니라 선택적 인쇄본 리듬 조정 영역이다
 
 ## 6. Next

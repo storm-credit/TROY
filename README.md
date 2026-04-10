@@ -3,7 +3,7 @@
 `TROY` is the clean production repository for the novel project.
 
 Current mode:
-- canon first
+- working master + canon tightening
 - 120-episode target locked
 - full manuscript migration complete: E001-E120
 - no media asset commits yet
@@ -11,7 +11,10 @@ Current mode:
 
 ## Repo Rule
 
-Do not move raw drafts into this repo until the canon is locked.
+Do not move raw or unvetted drafts into this repo.
+
+The migrated manuscript already in `TROY` is the working master.
+From this point on, canon tightening, rewrite passes, music planning, and MV planning all happen under change control inside this repo.
 
 This repository exists to answer these questions first:
 - What is the final story identity?
@@ -39,11 +42,21 @@ TROY/
 
 ## Working Principle
 
+Original build order:
+
 1. Lock canon.
 2. Lock emotional identity.
 3. Lock audiovisual grammar.
 4. Lock the 120-episode structure and milestone beats.
 5. Only then migrate episodes one by one.
+
+Current operating order:
+
+1. Use the migrated manuscript as the working master.
+2. Tighten canon, relation speed, and cross-media consistency under orchestra control.
+3. Run episode and cluster rewrites through the expert-lane + hook flow.
+4. Open the next range only after the previous range handoff check is recorded.
+5. Move music and MV downstream from the locked story state.
 
 ## Change Control
 
@@ -145,4 +158,4 @@ The active source material still lives outside this repo:
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\기획`
 - `C:\Users\Storm Credit\Desktop\Novel\너라는운율\Obsidian`
 
-`TROY` is the clean master copy we will build from those materials.
+`TROY` is now the controlled working master built from those materials.
