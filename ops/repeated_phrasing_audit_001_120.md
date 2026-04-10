@@ -129,6 +129,10 @@
   - 여유가 있는 `E072`에서 추정형 종결을 한 번 더 축소
   - `E071 / E073 / E074 / E075`는 safe line 여유가 거의 없어 low-risk hold로 유지
   - 거리두기와 재시도 실패 직전의 조심스러운 긴장은 유지
+- `chapter4 / E071-E075` low-risk hold
+  - `E071 / E073 / E074 / E075`는 4000 safe line 여유가 얇아 현 상태 유지
+  - 남아 있는 추정형 종결은 기능 문장과 파열 전 불안 리듬에 가까워 low-risk
+  - chapter4 중후반의 거리두기와 소실 압력은 유지
 - `chapter5 / E094`
   - 질문형 문장 말미를 다양화해
     `~어?` 중심 리듬을 분산
@@ -198,10 +202,10 @@
 
 ## 4. Next Recommended Order
 
-1. `chapter4 / E071-E075` low-risk hold check
-2. `chapter6 / E102-E105` maintenance watch
-3. `chapter5 / E093-E100` maintenance watch
-4. `chapter2 / E021-E022` maintenance watch
+1. `chapter6 / E102-E105` maintenance watch
+2. `chapter5 / E093-E100` maintenance watch
+3. `chapter2 / E021-E022` maintenance watch
+4. `chapter4 / E071-E075` maintenance watch
 
 ## 5. Director Note
 
