@@ -113,6 +113,7 @@ downstream package opening:
 - `ops/package_readiness_audit_pilot_triplet.md`
 - `ops/pilot_export_stack_readiness.md`
 - `ops/pilot_export_stack_manifest.md`
+- `ops/pilot_packet_export_copies.md`
 
 current motif audit docs:
 

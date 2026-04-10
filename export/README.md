@@ -19,10 +19,15 @@
 - `chapter_bundles/chapter6_E101-E120_bundle.md`
 - `full_book/TROY_full_book_E001-E120_export.md`
 - `submission/너라는운율_submission_draft_v1.md`
+- `pilot_packets/README.md`
+- `pilot_packets/TROY_PILOT_ENDING_E118/`
+- `pilot_packets/TROY_PILOT_OPENING_STAGE_E011/`
+- `pilot_packets/TROY_PILOT_PEAK_LIGHT_E054/`
 
 현재 상태:
 
 - chapter bundle export copies complete
 - full-book merged export complete
 - submission-facing draft v1 complete
+- pilot packet export copies complete
 - current full-book export keeps episode headings for editor readability
