@@ -16,6 +16,7 @@
 - `02_ALPHA_READER_FEEDBACK_GUIDE.md`
 - `03_FEEDBACK_TEMPLATE.md`
 - `04_FEEDBACK_TRIAGE_NOTE.md`
+- `05_DELIVERY_CHECKLIST.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -71,9 +72,11 @@
    - `02_ALPHA_READER_FEEDBACK_GUIDE.md`
 4. 피드백 정리 방식 확인:
    - `04_FEEDBACK_TRIAGE_NOTE.md`
-5. 샘플 맵 먼저 확인:
+5. 전달 직전 체크:
+   - `05_DELIVERY_CHECKLIST.md`
+6. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-6. 대표 샘플 묶음부터 확인:
+7. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-7. 작품 전체를 처음부터 통독:
+8. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`

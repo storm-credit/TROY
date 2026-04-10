@@ -9,6 +9,8 @@
   - `01_EVALUATOR_NOTE.md`
 - 피드백 기준까지 같이 보려면:
   - `02_ALPHA_READER_FEEDBACK_GUIDE.md`
+- 실제 전달 직전 확인은:
+  - `05_DELIVERY_CHECKLIST.md`
 
 ## 2. 대표 샘플부터 보기
 
