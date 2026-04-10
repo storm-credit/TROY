@@ -125,6 +125,10 @@
     평평한 대화 리듬을 일부 분산
   - `E071`의 문자 한 글자 응답은 거리감 기능 때문에 유지
   - 갈등 직전의 조심스러운 온도는 유지
+- `chapter4 / E071-E075` final watch
+  - 여유가 있는 `E072`에서 추정형 종결을 한 번 더 축소
+  - `E071 / E073 / E074 / E075`는 safe line 여유가 거의 없어 low-risk hold로 유지
+  - 거리두기와 재시도 실패 직전의 조심스러운 긴장은 유지
 - `chapter5 / E094`
   - 질문형 문장 말미를 다양화해
     `~어?` 중심 리듬을 분산
@@ -182,10 +186,10 @@
 
 ## 4. Next Recommended Order
 
-1. `chapter4 / E071-E075` final watch pass
-2. `chapter6 / E102-E105` low-risk hold check
-3. `chapter5 / E093-E100` low-risk hold check
-4. `chapter2 / E021-E022` low-risk hold check
+1. `chapter6 / E102-E105` low-risk hold check
+2. `chapter5 / E093-E100` low-risk hold check
+3. `chapter2 / E021-E022` low-risk hold check
+4. `chapter4 / E071-E075` low-risk hold check
 
 ## 5. Director Note
 
