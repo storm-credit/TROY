@@ -103,6 +103,7 @@ current motif audit docs:
 - `ops/motif_audit_dohyun_contrast.md`
 - `ops/motif_audit_arin_exception.md`
 - `ops/motif_audit_arin_song_thread.md`
+- `ops/motif_audit_contact_equals_danger.md`
 
 ## 6. Director Note
 
