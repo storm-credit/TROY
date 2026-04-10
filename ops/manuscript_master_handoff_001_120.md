@@ -115,6 +115,8 @@ downstream package opening:
 - `ops/pilot_export_stack_manifest.md`
 - `ops/pilot_packet_export_copies.md`
 - `ops/pilot_showcase_submission_pack.md`
+- `ops/wave1_packet_family_readiness.md`
+- `ops/wave1_packet_export_copies.md`
 
 current motif audit docs:
 

@@ -24,6 +24,10 @@
 - `pilot_packets/TROY_PILOT_OPENING_STAGE_E011/`
 - `pilot_packets/TROY_PILOT_PEAK_LIGHT_E054/`
 - `pilot_packets/*/TROY_PILOT_*_packet.md`
+- `wave1_packets/README.md`
+- `wave1_packets/TROY_WAVE1_THRESHOLD_E040/`
+- `wave1_packets/TROY_WAVE1_RUPTURE_E078/`
+- `wave1_packets/TROY_WAVE1_ENDING_E120/`
 
 현재 상태:
 
@@ -31,4 +35,5 @@
 - full-book merged export complete
 - submission-facing draft v1 complete
 - pilot packet export copies complete
+- wave1 packet export copies complete
 - current full-book export keeps episode headings for editor readability
