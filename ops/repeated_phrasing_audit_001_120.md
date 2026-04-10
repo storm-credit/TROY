@@ -164,16 +164,20 @@
 - `chapter6 / E101-E103`
   - 재회 전후 구간의 `조금 / 것 같았다` 중심 완충 서술을 분산
   - 예감과 재회의 조심스러운 속도는 유지
+- `chapter6 / E101-E105` 잔여
+  - 여유가 있는 `E101 / E103 / E104`에서 추정형 종결과 완충어를 한 번 더 축소
+  - `E102 / E105`는 safe line 여유가 거의 없어 의도적으로 유지
+  - 재회-질문-남겨진 감정 구간의 현재형 대화 문법은 유지
 - `chapter3 / E046-E050` 잔여
   - 남아 있던 `말했다 / 입을 열었다 / 그래.` 축을 추가 분산
   - 행복, 읽힘, 해석, 개입, 일기 구간의 대화 온도는 유지
 
 ## 4. Next Recommended Order
 
-1. `chapter6 / E101-E105` 마지막 잔여 완충어 점검
-2. `chapter3 / E046-E050` 마지막 잔여 응답 동사 점검
-3. `chapter2 / E021-E024` final watch pass
-4. `chapter4 / E071-E075` final watch pass
+1. `chapter3 / E046-E050` final watch pass
+2. `chapter2 / E021-E024` final watch pass
+3. `chapter4 / E071-E075` final watch pass
+4. `chapter6 / E102-E105` low-risk hold check
 
 ## 5. Director Note
 
