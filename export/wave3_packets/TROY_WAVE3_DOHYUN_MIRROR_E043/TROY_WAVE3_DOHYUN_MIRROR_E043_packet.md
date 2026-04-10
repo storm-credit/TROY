@@ -1,3 +1,12 @@
+# TROY Wave3 Packet - Dohyun Mirror E043
+
+Export Label: TROY_WAVE3_DOHYUN_MIRROR_E043
+Export Type: Wave3 packet merged copy
+
+---
+
+## E043_episode_harness
+
 # E043 Episode Harness - 도현 등장
 
 ## Orchestration Harness
@@ -122,3 +131,97 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+---
+
+## E043_song_brief
+
+# E043 Song Brief - 도현 등장
+
+## Identity
+
+- Episode: E043
+- Song function: Seojun inner monologue
+- Emotional thesis: 맞는 사람처럼 보이는 누군가가 나타나자, 내 불안이 먼저 말을 걸었다.
+
+## Core Feeling
+
+- Chorus emotion line: "그가 온 게 아니라, 내 불안이 먼저 도착했다."
+- Seasonal air: composed campus room, controlled light, comparison pressure
+- Energy level: low-to-mid, controlled and tense
+
+## Sound Direction
+
+- Sonic palette: controlled rhythm, dry piano, low bass pulse, restrained strings
+- Tempo feel: steady but tight
+- Vocal distance: close, contained, slightly watchful
+- Arrangement: keep Dohyun's presence calm, not villainous
+
+## Lyrical Direction
+
+- Dominant image family: steady step, low voice, side frame, comparison shadow
+- Point of view: Seojun reading himself through Dohyun
+- Words to avoid: rival, villain, steal, perfect man, threat
+- Do not overstate: Dohyun is a mirror, not the antagonist.
+
+## Safe Prompt Rule
+
+No villain theme or named-song imitation. Keep it psychologically grounded.
+
+## Delivery
+
+The song should make comparison feel quieter and more dangerous than jealousy.
+
+```text
+Controlled Korean psychological romance track, dry piano, low bass pulse, restrained strings, tight steady rhythm, close watchful vocal. Mood: a calm new person appears and triggers the narrator's insecurity, steady steps, low voice, side-frame observation, comparison shadow. Avoid rival, villain, steal, perfect-man, and melodramatic triangle language.
+```
+
+
+---
+
+## E043_visual_cut_list
+
+# E043 Visual Cut List - 도현 등장
+
+## Episode Identity
+
+- Episode: E043
+- Song: E043 theme placeholder
+- Emotional thesis: 그가 온 게 아니라, 내 불안이 먼저 도착했다.
+- Cut count: 10
+
+## Master Look Prompt
+
+Cinematic live-action Korean campus drama stills, calm adult-like male student Dohyun introduced as grounded contrast, no villain coding, fictional Hyedam University interior, controlled light, realistic faces, no logos, no readable signage.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: Imagen for Dohyun entrance frame if needed
+
+## Cut List
+
+1. Dohyun entrance: composed young Korean male student entering a campus room, calm posture.
+2. Stable posture: Dohyun standing with relaxed shoulders and grounded expression.
+3. Arin conversation: Arin speaking normally with Dohyun, no romantic exaggeration.
+4. Seojun side frame: Seojun watching from side, half in shadow.
+5. Hand grip: Seojun's hand tightening on a strap or cup.
+6. Calm group shot: group composition with Dohyun integrated, not dominant.
+7. Comparison glance: Seojun's eyes move between Arin and Dohyun.
+8. Corridor split: Seojun separated by corridor architecture.
+9. Seojun alone: quiet close-up after the comparison.
+10. Neutral Dohyun exit: Dohyun leaving frame calmly, not as antagonist.
+
+## Continuity Anchors
+
+- Dohyun: grounded, respectful, stable; not predatory
+- Seojun: guarded comparison anxiety
+- Location: fictional Hyedam interior/corridor
+- Prohibition: no villain lighting
+
+## House Notes
+
+Dohyun should look like a mirror, not a threat.
+
+

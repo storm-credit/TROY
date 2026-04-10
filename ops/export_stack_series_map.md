@@ -66,6 +66,15 @@
   - support two:
     - `E050`
     - `E086`
+- wave3 showcase:
+  - `export/submission/wave3_showcase/`
+  - core three:
+    - `E103`
+    - `E043`
+    - `E071`
+  - support two:
+    - `E041`
+    - `E091`
 
 ## 5. reading logic
 
@@ -77,6 +86,8 @@
    - `wave1_showcase`
 4. quieter ethics/interiority review:
    - `wave2_showcase`
+5. public mirror / re-entry review:
+   - `wave3_showcase`
 
 ## 6. next likely expansion
 

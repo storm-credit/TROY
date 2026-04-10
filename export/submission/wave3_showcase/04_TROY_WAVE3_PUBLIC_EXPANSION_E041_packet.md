@@ -1,3 +1,12 @@
+# TROY Wave3 Packet - Public Expansion E041
+
+Export Label: TROY_WAVE3_PUBLIC_EXPANSION_E041
+Export Type: Wave3 packet merged copy
+
+---
+
+## E041_episode_harness
+
 # E041 Episode Harness - 세계의 확장
 
 ## Orchestration Harness
@@ -122,3 +131,98 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+---
+
+## E041_song_brief
+
+# E041 Song Brief - 세계의 확장
+
+## Identity
+
+- Episode: E041
+- Song function: Relationship theme
+- Emotional thesis: 행복이 넓어질수록, 시선도 함께 넓어졌다.
+
+## Core Feeling
+
+- Chorus emotion line: "우리의 빛이 넓어진 만큼, 낯선 눈들도 함께 들어왔다."
+- Seasonal air: bright campus square, summer threshold, public warmth
+- Energy level: mid, expansive but edged
+
+## Sound Direction
+
+- Sonic palette: warm summer pulse, light bass, soft electric piano, campus ambience
+- Tempo feel: open walking tempo
+- Vocal distance: clear and warm, with a small public-space lift
+- Arrangement: let crowd ambience sit behind the groove
+
+## Lyrical Direction
+
+- Dominant image family: campus square, wider light, distant glances, hand distance
+- Point of view: relationship expanding into public space
+- Words to avoid: official couple anthem, spotlight, destiny, forever
+- Do not overstate: Keep happiness and pressure balanced.
+
+## Safe Prompt Rule
+
+No named artist/song references. Translate public happiness and new pressure into original texture.
+
+## Delivery
+
+The song should feel wider than earlier episodes, but not safer.
+
+```text
+Warm Korean campus romance theme, summer threshold, soft electric piano, light bass, airy percussion, campus ambience, clear warm vocal. Mood: a relationship expanding from private routine into public campus space, happiness widening while unfamiliar glances enter. Lyrics should use campus square, wider light, distant eyes, and careful hand distance. Avoid destiny, forever, official-couple anthem, and glossy montage energy.
+```
+
+
+---
+
+## E041_visual_cut_list
+
+# E041 Visual Cut List - 세계의 확장
+
+## Episode Identity
+
+- Episode: E041
+- Song: E041 theme placeholder
+- Emotional thesis: 우리의 빛이 넓어진 만큼, 낯선 눈들도 함께 들어왔다.
+- Cut count: 10
+
+## Master Look Prompt
+
+Cinematic live-action Korean campus romance stills, fictional Hyedam University campus square, early summer light, public relationship pressure, realistic young-adult faces, warm light with cool shadow edges, no logos, no readable signage.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: Imagen for wide campus-square frame if needed
+
+## Cut List
+
+1. Campus square: wide Hyedam University square in early summer light, students as soft movement.
+2. Couple in crowd: Seojun and Arin visible together but not poster-framed.
+3. Distant glance: blurred students glancing, no hostile expression.
+4. Seojun reads space: Seojun looking at crowd instead of Arin.
+5. Arin natural smile: Arin responding ordinarily, grounded and unforced.
+6. Warm light: summer light crossing the square.
+7. Crowd blur: people pass between camera and couple.
+8. Hand distance: hands near but not clasped tightly.
+9. Wide shot: relationship small inside larger campus space.
+10. Light/shadow edge: warm light and cool shadow divide the frame.
+
+## Continuity Anchors
+
+- Face: same Seojun/Arin designs as E001-E040
+- Location: fictional Hyedam University square
+- Key prop: public space, hand distance
+- Palette: warm early-summer light with shadow edge
+- Prohibition: no real university logos or signs
+
+## House Notes
+
+The frame should widen. The relationship gets bigger, but so does pressure.
+
+

@@ -29,6 +29,12 @@
 - `wave2_showcase/03_TROY_WAVE2_ASKING_ETHICS_E094_packet.md`
 - `wave2_showcase/04_TROY_WAVE2_DIARY_SEED_E050_packet.md`
 - `wave2_showcase/05_TROY_WAVE2_MEMORY_CORRECTION_E086_packet.md`
+- `wave3_showcase/README.md`
+- `wave3_showcase/01_TROY_WAVE3_CHOSEN_REUNION_E103_packet.md`
+- `wave3_showcase/02_TROY_WAVE3_DOHYUN_MIRROR_E043_packet.md`
+- `wave3_showcase/03_TROY_WAVE3_PAUSE_E071_packet.md`
+- `wave3_showcase/04_TROY_WAVE3_PUBLIC_EXPANSION_E041_packet.md`
+- `wave3_showcase/05_TROY_WAVE3_OLD_WOUND_REENTRY_E091_packet.md`
 
 현재 상태:
 
@@ -38,5 +44,6 @@
 - pilot showcase packet pack complete
 - wave1 showcase packet pack complete
 - wave2 showcase packet pack complete
+- wave3 showcase packet pack complete
 - showcase index complete
 - final submission cosmetic pass is still optional

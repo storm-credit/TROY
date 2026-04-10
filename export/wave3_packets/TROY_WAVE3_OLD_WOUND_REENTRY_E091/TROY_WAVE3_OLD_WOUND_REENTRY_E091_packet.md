@@ -1,3 +1,12 @@
+# TROY Wave3 Packet - Old Wound Reentry E091
+
+Export Label: TROY_WAVE3_OLD_WOUND_REENTRY_E091
+Export Type: Wave3 packet merged copy
+
+---
+
+## E091_episode_harness
+
 # E091 Episode Harness - 우연한 재회
 
 ## Orchestration Harness
@@ -122,3 +131,94 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+---
+
+## E091_song_brief
+
+# E091 Song Brief - 우연한 재회
+
+## Identity
+
+- Episode: E091
+- Song function: Ending reflection
+- Emotional thesis: 다시 마주칠 가능성보다, 그 가능성을 견뎌야 한다는 사실이 더 무겁다.
+
+## Core Feeling
+
+- Chorus emotion line: "다시 본 얼굴보다, 다시 흔들리는 마음이 더 낯설었다."
+- Seasonal air: 혜담 외부 보행로, 늦게 멈춘 걸음, 얇은 가을 공기
+- Energy level: low, held, unsettled
+
+## Sound Direction
+
+- Sonic palette: low-saturation piano singles, thin room ambience, loose low drone, breath-gap rhythm
+- Tempo feel: delayed recognition, no surge
+- Vocal distance: medium-close, dry and careful
+- Arrangement: resist lift; let the air stay heavier than the melody
+
+## Lyrical Direction
+
+- Dominant image family: campus path, side glance, halted step, thin afternoon air
+- Point of view: seeing a past wound arrive in present time
+- Words to avoid: destiny, first love again, reunion, hearing returned
+- Do not overstate: This is not romantic re-entry; it is unfinished shock.
+
+## Safe Prompt Rule
+
+No heartbeat build, no string swell, no fate-like ascent.
+
+## Delivery
+
+The song should feel like standing still one beat too long after seeing someone you never finished understanding.
+
+```text
+Restrained Korean autumn reflection track, low-saturation piano singles, thin room ambience, loose low drone, breath-gap rhythm, medium-close dry vocal. Mood: Hyedam campus path, delayed recognition, halted step, side glance, thin autumn air, unfinished shock heavier than longing. Avoid destiny language, first-love-again framing, reunion warmth, hearing-return cues, heartbeat build, and famous song imitation.
+```
+
+---
+
+## E091_visual_cut_list
+
+# E091 Visual Cut List - 우연한 재회
+
+## Episode Identity
+
+- Episode: E091
+- Song: E091 theme placeholder
+- Emotional thesis: 과거의 사람이 다시 나타났을 때 흔들리는 것은 미련보다 미해결의 상처다.
+- Cut count: 10
+
+## Master Look Prompt
+
+Cinematic live-action Korean autumn campus stills, fictional Hyedam University walkway, delayed recognition, halted steps, side two-shot, restrained late-afternoon light, realistic faces, no anime, no magical recovery, no logos, no readable signage.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: Imagen for the delayed-recognition long shot if needed
+
+## Cut List
+
+1. Ordinary route: Seojun walking on a familiar Hyedam campus path.
+2. Late recognition: he notices someone only after passing the line of sight.
+3. Halted step: one foot stops mid-motion, no dramatic pose.
+4. Side two-shot: two people stand in profile with visible air between them.
+5. No approach: neither person runs forward or closes distance.
+6. Thin air close-up: a close shot where expression is held back rather than released.
+7. Short exchange: mouths move, but no subtitle-like emphasis.
+8. Look away first: one person turns first, leaving the air unfinished.
+9. Separate exits: two exit vectors remain distinct.
+10. Afterimage: empty walkway with the emotional pressure still hanging.
+
+## Continuity Anchors
+
+- Motif: halted step, side two-shot, thin air, separate exits
+- Reunion rule: real and awkward, not destined
+- Prohibition: no slow-motion rush, no crowd-disappears trick, no glowing backlight reunion
+
+## House Notes
+
+The strongest frame should be the side two-shot with too much ordinary air in it.
+

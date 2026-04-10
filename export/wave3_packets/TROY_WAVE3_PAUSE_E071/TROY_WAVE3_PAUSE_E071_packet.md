@@ -1,3 +1,12 @@
+# TROY Wave3 Packet - Pause E071
+
+Export Label: TROY_WAVE3_PAUSE_E071
+Export Type: Wave3 packet merged copy
+
+---
+
+## E071_episode_harness
+
 # E071 Episode Harness - 거리두기
 
 ## Orchestration Harness
@@ -122,3 +131,95 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+---
+
+## E071_song_brief
+
+# E071 Song Brief - 거리두기
+
+## Identity
+
+- Episode: E071
+- Song function: Ending reflection
+- Emotional thesis: 아직 관계 안에 있었지만, 같은 박자에 서 있지 않았다.
+
+## Core Feeling
+
+- Chorus emotion line: "끝내자는 말은 아닌데, 우리는 이미 한 걸음씩 멀어져 있었다."
+- Seasonal air: pillar split, glass door, rain-lit corridor
+- Energy level: low, damp, contained
+
+## Sound Direction
+
+- Sonic palette: sparse piano, thin room tone, delayed breath, unfinished chord loop
+- Tempo feel: slow held distance
+- Vocal distance: close but careful
+- Arrangement: let the lead line arrive one beat late
+
+## Lyrical Direction
+
+- Dominant image family: glass door, desk gap, shoulder distance, rain-lit corridor
+- Point of view: relationship inside distance
+- Words to avoid: breakup, goodbye, forever gone, final choice
+- Do not overstate: This is time apart, not the breakup.
+
+## Safe Prompt Rule
+
+No famous breakup-ballad imitation. Avoid cathartic chorus.
+
+## Delivery
+
+The song should sound like two people still inside a relationship, but no longer standing in the same rhythm.
+
+```text
+Restrained Korean relationship reflection track, sparse piano, thin room tone, delayed breath, unfinished chord loop, close careful vocal. Mood: glass door, desk gap, rain-lit corridor, two people still inside a relationship but standing out of rhythm. Avoid breakup language, goodbye, final-choice lyrics, cathartic chorus, and famous song imitation.
+```
+
+
+---
+
+## E071_visual_cut_list
+
+# E071 Visual Cut List - 거리두기
+
+## Episode Identity
+
+- Episode: E071
+- Song: E071 theme placeholder
+- Emotional thesis: 끝내자는 말은 아닌데, 우리는 이미 한 걸음씩 멀어져 있었다.
+- Cut count: 9
+
+## Master Look Prompt
+
+Cinematic live-action Korean rainy campus stills, fictional Hyedam University humanities campus, muted rainy realism, glass door, pillar split, desk gap, shoulder-over distance, natural lighting, realistic faces, no anime, no logos, no readable signage.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: none
+
+## Cut List
+
+1. Same frame split: Seojun and Arin in one frame divided by a pillar.
+2. Pause sentence: the moment after agreeing to take time.
+3. Glass door: one figure behind a glass door, softened.
+4. Desk gap: a table or desk gap stretched wider than before.
+5. No answer: phone or mouth paused, no readable text.
+6. Rain-lit corridor: Hyedam corridor with damp light.
+7. Shoulder back: over-the-shoulder shot that cannot reach the other.
+8. Two exits: two different hallway exits in one frame.
+9. Held distance: final still with distance inside the relationship.
+
+## Continuity Anchors
+
+- Motif: pillar, glass door, desk gap
+- Relationship rule: distance, not breakup
+- Prohibition: no farewell pose, no logo, no readable signage
+
+## House Notes
+
+The episode should make distance visible while keeping the relationship technically intact.
+
+

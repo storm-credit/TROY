@@ -37,6 +37,12 @@
 - `wave2_packets/TROY_WAVE2_MEMORY_CORRECTION_E086/`
 - `wave2_packets/TROY_WAVE2_ASKING_ETHICS_E094/`
 - `wave2_packets/TROY_WAVE2_MATURE_SILENCE_E119/`
+- `wave3_packets/README.md`
+- `wave3_packets/TROY_WAVE3_PUBLIC_EXPANSION_E041/`
+- `wave3_packets/TROY_WAVE3_DOHYUN_MIRROR_E043/`
+- `wave3_packets/TROY_WAVE3_PAUSE_E071/`
+- `wave3_packets/TROY_WAVE3_OLD_WOUND_REENTRY_E091/`
+- `wave3_packets/TROY_WAVE3_CHOSEN_REUNION_E103/`
 
 현재 상태:
 
@@ -46,4 +52,5 @@
 - pilot packet export copies complete
 - wave1 packet export copies complete
 - wave2 packet export copies complete
+- wave3 packet export copies complete
 - current full-book export keeps episode headings for editor readability

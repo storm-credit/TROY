@@ -27,14 +27,22 @@
 - 역할:
   - private closeness / diary seed / memory correction / asking ethics / mature silence를 보여 준다
 
-## 5. recommended outside reading order
+## 5. wave3 showcase
+
+- 위치:
+  - `wave3_showcase/`
+- 역할:
+  - public expansion / Dohyun mirror / pause / old-wound re-entry / chosen reunion을 보여 준다
+
+## 6. recommended outside reading order
 
 1. `pilot_showcase`
 2. `wave1_showcase`
 3. `wave2_showcase`
-4. `너라는운율_submission_draft_v1.md`
+4. `wave3_showcase`
+5. `너라는운율_submission_draft_v1.md`
 
-## 6. note
+## 7. note
 
 - showcase packs are sample packet bundles
 - full manuscript submission은 별도다
