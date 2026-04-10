@@ -116,6 +116,8 @@
   - schema depth는 `E118`
   - opening-scale restraint는 `E011`
   - brightness-shadow balance는 `E054`
+- manifest:
+  - `ops/pilot_export_stack_manifest.md`
 
 ## 8. director verdict
 
