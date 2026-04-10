@@ -171,13 +171,17 @@
 - `chapter3 / E046-E050` 잔여
   - 남아 있던 `말했다 / 입을 열었다 / 그래.` 축을 추가 분산
   - 행복, 읽힘, 해석, 개입, 일기 구간의 대화 온도는 유지
+- `chapter3 / E046-E050` final watch
+  - 여유가 있는 화에서 `것 같았다` 중심 추정형 종결을 한 번 더 축소
+  - `조금`은 기능 문장과 직접 화법에 남는 경우만 유지
+  - chapter3 후반의 읽힘/오독 압력과 일기 톤은 유지
 
 ## 4. Next Recommended Order
 
-1. `chapter3 / E046-E050` final watch pass
-2. `chapter2 / E021-E024` final watch pass
-3. `chapter4 / E071-E075` final watch pass
-4. `chapter6 / E102-E105` low-risk hold check
+1. `chapter2 / E021-E024` final watch pass
+2. `chapter4 / E071-E075` final watch pass
+3. `chapter6 / E102-E105` low-risk hold check
+4. `chapter5 / E093-E100` low-risk hold check
 
 ## 5. Director Note
 
