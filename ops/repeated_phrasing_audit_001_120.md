@@ -63,13 +63,25 @@
 - `chapter5 / E087`
   - 장소 재방문 구간의 걷기/해석 반복을 분산
   - 기억을 벗겨 보는 작업의 의미는 유지
+- `chapter2 / E031`
+  - awkward calibration 구간의 동작 묘사 반복을 분산
+  - `천천히 가자` 규칙 문장군은 유지
+- `chapter2 / E033`
+  - 기대/현실 구간의 반응 묘사 반복을 축소
+  - `나중에 천천히 따라오게 두기` 개념 문장은 유지
+- `chapter2 / E038`
+  - 둘만의 세계 구간의 대화/동작 묘사 반복을 축소
+  - 내부 세계를 덜 과열되게 보는 핵심 문장은 유지
+- `chapter2 / E040`
+  - 첫 키스 구간의 분위기/동작 묘사 반복을 축소
+  - 가까워짐 뒤 조심이 필요하다는 의미는 유지
 
 ## 4. Next Recommended Order
 
-1. `chapter1 / E012`
-2. `chapter2 / E031, E033, E038, E040`
-3. `chapter5 / E088-E092`
-4. `chapter6 / E116-E118`
+1. `chapter5 / E088-E092`
+2. `chapter6 / E116-E118`
+3. `괜찮아` watchlist 1차 정리
+4. `말할게` watchlist 1차 정리
 
 ## 5. Director Note
 
