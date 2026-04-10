@@ -115,6 +115,7 @@ handoff check 항목:
 | Cluster Planner | 같은 날/같은 이벤트 묶음의 회차 분리와 residue 설계 | gpt-5.1-codex-mini | multi-episode event arc를 기능별로 쪼개는 데 적합 |
 | Lyrics Director | 화별 가사 구조, 후렴 핵심, POV 선택 | gpt-5.2 low | 감정 압축과 문구 선택이 중요 |
 | Music Prompt Engineer | Suno 입력 문서 정리, 태그 규격화 | gpt-5.1-codex-mini | 포맷팅과 일관성 작업에 효율적 |
+| Producer-Class Stack Designer | 실존 프로듀서 모사가 아니라 기능 단위의 producer lane 조합을 설계 | gpt-5.2 low | 음악 퀄리티를 올리되 imitation risk를 피하는 데 필요 |
 | MV Storyboard Director | 장면 구성, 상징 반복, 샷 리스트 | gpt-5.2 low | 영상 감정선과 시각 모티프 해석 필요 |
 | Continuity QA | 이름, 설정, 장소, 회차 참조 검수 | gpt-5.1-codex-mini | 반복 검수에 최적 |
 

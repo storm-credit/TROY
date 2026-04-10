@@ -152,7 +152,15 @@
 - `ops/episode_song_prompt_sheet_001_010.md`
 - `ops/final_song_brief.md`
 - `ops/media_engine_contract.md`
+- `ops/music_producer_lane_matrix.md`
 
 ## 8. Engine Question
 
 이 곡은 `무슨 사건이 있었는가`가 아니라 `무슨 감정이 남았는가`를 노래하고 있는가?
+
+## 9. Producer Rule
+
+- 유명 프로듀서 이름을 직접 모사 타깃으로 삼지 않는다
+- 대신 `producer-class lane`을 조합해 제작 판단을 잠근다
+- 기본 참조:
+  - `ops/music_producer_lane_matrix.md`
