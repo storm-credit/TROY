@@ -176,6 +176,10 @@
   - 여유가 있는 `E101 / E103 / E104`에서 추정형 종결과 완충어를 한 번 더 축소
   - `E102 / E105`는 safe line 여유가 거의 없어 의도적으로 유지
   - 재회-질문-남겨진 감정 구간의 현재형 대화 문법은 유지
+- `chapter6 / E102-E105` low-risk hold
+  - `E102 / E105`는 4000 safe line 여유가 너무 얇아 추가 수정 없이 유지
+  - 남아 있는 완충어는 기능 문장과 직접 화법 위주라 현 단계에서는 low-risk
+  - chapter6 opening cluster의 재회 문법과 여진 온도는 유지
 - `chapter3 / E046-E050` 잔여
   - 남아 있던 `말했다 / 입을 열었다 / 그래.` 축을 추가 분산
   - 행복, 읽힘, 해석, 개입, 일기 구간의 대화 온도는 유지
@@ -186,10 +190,10 @@
 
 ## 4. Next Recommended Order
 
-1. `chapter6 / E102-E105` low-risk hold check
-2. `chapter5 / E093-E100` low-risk hold check
-3. `chapter2 / E021-E022` low-risk hold check
-4. `chapter4 / E071-E075` low-risk hold check
+1. `chapter5 / E093-E100` low-risk hold check
+2. `chapter2 / E021-E022` low-risk hold check
+3. `chapter4 / E071-E075` low-risk hold check
+4. `chapter6 / E102-E105` maintenance watch
 
 ## 5. Director Note
 
