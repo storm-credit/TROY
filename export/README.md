@@ -20,6 +20,7 @@
 - `chapter_bundles/chapter6_E101-E120_bundle.md`
 - `full_book/TROY_full_book_E001-E120_export.md`
 - `submission/너라는운율_submission_draft_v1.md`
+- `music/README.md`
 - `pilot_packets/README.md`
 - `pilot_packets/TROY_PILOT_ENDING_E118/`
 - `pilot_packets/TROY_PILOT_OPENING_STAGE_E011/`
@@ -61,6 +62,7 @@
 - wave2 packet export copies complete
 - wave3 packet export copies complete
 - wave4 packet export copies complete
+- music pilot export bundle complete
 - current full-book export keeps episode headings for editor readability
 
 권장 진입:
