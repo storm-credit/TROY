@@ -11,10 +11,15 @@
 현재 패키지:
 
 - `너라는운율_submission_draft_v1.md`
+- `pilot_showcase/README.md`
+- `pilot_showcase/01_TROY_PILOT_ENDING_E118_packet.md`
+- `pilot_showcase/02_TROY_PILOT_OPENING_STAGE_E011_packet.md`
+- `pilot_showcase/03_TROY_PILOT_PEAK_LIGHT_E054_packet.md`
 
 현재 상태:
 
 - submission-facing draft v1 complete
 - title page basic pass applied
 - episode heading softened for external readability
+- pilot showcase packet pack complete
 - final submission cosmetic pass is still optional
