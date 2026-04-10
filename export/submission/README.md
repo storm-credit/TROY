@@ -1,6 +1,7 @@
 # TROY Submission Package
 
 이 폴더는 실제 제출 직전 검토를 위한 `submission-facing copy`를 담는다.
+처음 읽는 외부 검토자는 보통 `showcase_index.md`로 들어가고, 전체 원고 검토자는 `너라는운율_submission_draft_v1.md`로 바로 들어가면 된다.
 
 원칙:
 
@@ -54,3 +55,12 @@
 - wave4 showcase packet pack complete
 - showcase index complete
 - final submission cosmetic pass is still optional
+
+권장 진입:
+
+1. 작품 전체 인상 빠르게 확인:
+   - `showcase_index.md`
+2. 대표 샘플 묶음부터 확인:
+   - `pilot_showcase/`
+3. 작품 전체를 처음부터 통독:
+   - `너라는운율_submission_draft_v1.md`

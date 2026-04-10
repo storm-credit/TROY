@@ -1,6 +1,7 @@
 # TROY Export Package
 
 이 폴더는 외부 편집, 알파리딩, 제출 준비를 위한 `export-facing copy`를 담는다.
+처음 보는 사람은 보통 `submission/`부터, 내부 검토자는 `chapter_bundles/` 또는 각 `wave packet`부터 보면 된다.
 
 원칙:
 
@@ -61,3 +62,12 @@
 - wave3 packet export copies complete
 - wave4 packet export copies complete
 - current full-book export keeps episode headings for editor readability
+
+권장 진입:
+
+1. 전체 원고 흐름 확인:
+   - `submission/너라는운율_submission_draft_v1.md`
+2. 대표 샘플 빠른 검토:
+   - `submission/showcase_index.md`
+3. 특정 감정 축이나 기능 확인:
+   - `pilot_packets/`, `wave1_packets/`, `wave2_packets/`, `wave3_packets/`, `wave4_packets/`

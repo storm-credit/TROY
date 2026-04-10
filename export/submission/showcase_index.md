@@ -1,10 +1,13 @@
 # TROY Showcase Index
 
 이 문서는 `submission` 폴더 안의 showcase 묶음을 한 장으로 정리한다.
+짧은 샘플부터 보고 싶을 때는 아래 순서대로, 전체 통독이 필요할 때는 마지막의 full manuscript로 들어가면 된다.
 
 ## 1. full manuscript
 
 - `너라는운율_submission_draft_v1.md`
+- 역할:
+  - 전체 장편의 완성본 통독용
 
 ## 2. pilot showcase
 
@@ -54,3 +57,4 @@
 
 - showcase packs are sample packet bundles
 - full manuscript submission은 별도다
+- showpieces를 먼저 보고 전체 원고로 넘어가는 읽기 흐름을 권장한다

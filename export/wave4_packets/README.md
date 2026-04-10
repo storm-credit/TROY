@@ -1,6 +1,7 @@
 # TROY Wave4 Packet Export
 
 이 폴더는 `wave4 packet family` 5종의 export-facing copy를 담는다.
+wave4는 큰 사건보다 안쪽 작동 규칙, 오해, 자기 수정의 순간을 대표하는 묶음이다.
 
 현재 패킷:
 
@@ -22,3 +23,11 @@
   - pre-loss instability and misread
 - `E097`
   - self-story error correction
+
+권장 확인 순서:
+
+1. `E097`
+2. `E018`
+3. `E047`
+4. `E028`
+5. `E064`

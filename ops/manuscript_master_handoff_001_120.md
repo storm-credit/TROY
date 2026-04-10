@@ -129,6 +129,7 @@ downstream package opening:
 - `ops/wave4_showcase_submission_pack.md`
 - `ops/wave_selection_discipline_opening.md`
 - `ops/presentation_polish_orchestra_opening.md`
+- `ops/presentation_polish_pass_001.md`
 - `ops/export_stack_series_map.md`
 
 current motif audit docs:
