@@ -169,6 +169,10 @@
 - `chapter5 / E097-E100` 잔여
   - 남아 있던 `것 같았다 / 조금 / 잠깐` 중심 완충 서술을 한 번 더 축소
   - 자기 서사 수정과 문턱 장면의 낮은 긴장은 유지
+- `chapter5 / E093-E100` low-risk hold
+  - `E093 / E095`는 safe line 여유가 거의 없어 유지
+  - 여유가 있는 `E097 / E100`은 추정형 종결을 한 번 더 정리
+  - 재독해와 문턱 구간의 느린 정조는 유지
 - `chapter6 / E101-E103`
   - 재회 전후 구간의 `조금 / 것 같았다` 중심 완충 서술을 분산
   - 예감과 재회의 조심스러운 속도는 유지
@@ -190,10 +194,10 @@
 
 ## 4. Next Recommended Order
 
-1. `chapter5 / E093-E100` low-risk hold check
-2. `chapter2 / E021-E022` low-risk hold check
-3. `chapter4 / E071-E075` low-risk hold check
-4. `chapter6 / E102-E105` maintenance watch
+1. `chapter2 / E021-E022` low-risk hold check
+2. `chapter4 / E071-E075` low-risk hold check
+3. `chapter6 / E102-E105` maintenance watch
+4. `chapter5 / E093-E100` maintenance watch
 
 ## 5. Director Note
 
