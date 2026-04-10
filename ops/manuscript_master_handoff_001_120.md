@@ -88,6 +88,14 @@
 3. `episode package / song / MV` 확장 작업
 4. `repeated phrasing` maintenance watch
 
+current reread docs:
+
+- `ops/chapter1_opening_reread_001_012.md`
+- `ops/chapter2_3_seam_reread_040_045.md`
+- `ops/chapter4_rupture_reread_061_080.md`
+- `ops/chapter5_return_reread_090_100.md`
+- `ops/chapter6_reunion_epilogue_reread_101_120.md`
+
 ## 6. Director Note
 
 - 지금 상태는 `분량 미달 draft`가 아니라,
