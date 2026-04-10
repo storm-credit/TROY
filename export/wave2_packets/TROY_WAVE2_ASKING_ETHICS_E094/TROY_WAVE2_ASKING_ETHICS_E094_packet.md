@@ -1,3 +1,12 @@
+# TROY Wave2 Packet - Asking Ethics E094
+
+Export Label: TROY_WAVE2_ASKING_ETHICS_E094
+Export Type: Wave2 packet merged copy
+
+---
+
+## E094_episode_harness
+
 # E094 Episode Harness - 말로 하는 이해
 
 ## Orchestration Harness
@@ -122,3 +131,94 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+---
+
+## E094_song_brief
+
+# E094 Song Brief - 말로 하는 이해
+
+## Identity
+
+- Episode: E094
+- Song function: Seojun inner monologue
+- Emotional thesis: 다시 만났다고 해서, 다시 알게 된 것은 아니었다.
+
+## Core Feeling
+
+- Chorus emotion line: "이번엔 들은 게 아니라, 끝까지 듣고 남겨둔 말이 있었다."
+- Seasonal air: 45도 대화 투샷, 차가운 패드 같은 공기, 끝난 뒤 남는 정적
+- Energy level: low-medium, focused, withheld
+
+## Sound Direction
+
+- Sonic palette: transformed old motif timbre, sparse piano gaps, cold pad, short noise-breath
+- Tempo feel: slow conversational pulse
+- Vocal distance: close, intent, unadorned
+- Arrangement: let silence between phrases do as much work as melody
+
+## Lyrical Direction
+
+- Dominant image family: angled talk, correction, pause, different gaze after speaking
+- Point of view: learning to ask and be corrected
+- Words to avoid: finally understand everything, our melody returns, healed conversation
+- Do not overstate: This improves ethics, not intimacy.
+
+## Safe Prompt Rule
+
+No past-theme reprise, no swelling reconciliation, no emotional victory cue.
+
+## Delivery
+
+The song should sound like language replacing certainty, but not replacing pain.
+
+```text
+Restrained Korean conversational reflection track, transformed old motif timbre, sparse piano gaps, cold pad, short noise-breath, close unadorned vocal. Mood: angled conversation, correction, pause, different gaze after speaking, language carrying more weight than certainty. Avoid total-understanding lyrics, melody-return framing, reconciliation swell, emotional victory cues, and famous song imitation.
+```
+
+---
+
+## E094_visual_cut_list
+
+# E094 Visual Cut List - 말로 하는 이해
+
+## Episode Identity
+
+- Episode: E094
+- Song: E094 theme placeholder
+- Emotional thesis: 감정을 감지하는 일과 이해하는 일은 전혀 다르다.
+- Cut count: 10
+
+## Master Look Prompt
+
+Cinematic live-action Korean dialogue stills, 45-degree two-shot, listening face, correction beat, separate gaze after conversation, clean autumn interior light, realistic faces, no anime, no reconciliation climax, no logos, no readable signage.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: Imagen for the listening-face frame if needed
+
+## Cut List
+
+1. 45-degree approach: the conversation starts at an angle, not head-on.
+2. Held caution: both bodies carry restraint.
+3. Question asked: one face opens but does not press forward.
+4. Correction beat: subtle reaction to being corrected.
+5. Listening close-up: the key image is a face that keeps listening.
+6. No interruption: open space remains between lines.
+7. Answer arrives: reaction is delayed and partial.
+8. Separate gaze: after speaking, both look away in different directions.
+9. Room remains: the room keeps its quiet weight.
+10. Unresolved exit: no hand touch, no embrace, only departure.
+
+## Continuity Anchors
+
+- Motif: angled talk, listening face, correction beat, different gazes
+- Understanding rule: partial, earned, unfinished
+- Prohibition: no tearful embrace, no hand-clasp climax, no “everything solved” shot
+
+## House Notes
+
+The strongest frame is not agreement. It is the face that stays long enough to hear correction.
+

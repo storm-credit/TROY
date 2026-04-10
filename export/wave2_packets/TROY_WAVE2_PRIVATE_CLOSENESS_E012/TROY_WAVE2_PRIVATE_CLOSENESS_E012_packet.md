@@ -1,3 +1,12 @@
+# TROY Wave2 Packet - Private Closeness E012
+
+Export Label: TROY_WAVE2_PRIVATE_CLOSENESS_E012
+Export Type: Wave2 packet merged copy
+
+---
+
+## E012_episode_harness
+
 # E012 Episode Harness - 방음실의 고백
 
 ## Orchestration Harness
@@ -122,3 +131,96 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+---
+
+## E012_song_brief
+
+# E012 Song Brief - 방음실의 고백
+
+## Identity
+
+- Episode: E012
+- Song function: Relationship theme
+- Emotional thesis: 닫힌 방 안에서 말보다 먼저 가까워지는 공기를 듣는다.
+
+## Core Feeling
+
+- Chorus emotion line: "문이 닫히자, 말하지 않은 것들이 더 가까워졌다."
+- Seasonal air: padded room warmth, muted spring afternoon
+- Energy level: low, close, held breath
+
+## Sound Direction
+
+- Sonic palette: sparse piano, muted guitar harmonics, soft pad, almost-room-tone percussion
+- Tempo feel: slow and suspended
+- Vocal distance: very close vocal, restrained and uncertain
+- Arrangement: keep empty space; let silence between lines matter
+
+## Lyrical Direction
+
+- Dominant image family: closed door, cable, dust in light, breath, soft wall
+- Point of view: Seojun's guarded inner monologue shaped as relationship tension
+- Words to avoid: confession as declaration, forever, destiny, secret room fantasy
+- Do not overstate: This is not the main romantic confession; it is acoustic closeness and pre-confession pressure.
+
+## Safe Prompt Rule
+
+No named-song imitation. Keep the sound original, small, and room-bound.
+
+## Delivery
+
+The song should feel like two people discovering that a quiet room can make distance louder.
+
+```text
+Intimate Korean indie ballad for a campus romance scene in a small soundproof practice room. Sparse piano, muted guitar harmonics, soft ambient pad, very close restrained vocal, slow suspended tempo. Mood: closed door, held breath, emotional closeness before confession. Lyrics should use images of dust in light, cable, soft wall, and words left unsaid. Avoid big chorus, destiny language, and explicit love confession.
+```
+
+
+---
+
+## E012_visual_cut_list
+
+# E012 Visual Cut List - 방음실의 고백
+
+## Episode Identity
+
+- Episode: E012
+- Song: E012 theme placeholder
+- Emotional thesis: 닫힌 방 안에서 말보다 먼저 가까워지는 공기가 생긴다.
+- Cut count: 8
+
+## Master Look Prompt
+
+Cinematic live-action stills inside a small Hyedam University soundproof practice room, padded wall texture, soft muted spring afternoon light through a narrow window, close but restrained framing, realistic Korean young adults, no logos, no readable signage.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: Imagen for the closed-door frame only
+
+## Cut List
+
+1. Door exterior: small practice-room door slightly ajar, muted hallway light, no room number text.
+2. Padded wall: close-up of soft acoustic wall, dust in a slant of light.
+3. Shared room: Seojun and Arin sitting with safe distance, cable on floor between them.
+4. Cable line: cable curves across floor like an unspoken sentence.
+5. Arin speaking: medium close-up, ordinary sincerity, not dramatic confession.
+6. Seojun listening: close-up, guarded shoulders, breath held.
+7. Empty space between them: two chairs and a narrow patch of light.
+8. Closed door after: hallway view, door now shut, quiet pressure left behind.
+
+## Continuity Anchors
+
+- Face: same Seojun/Arin as early episode packets
+- Outfit: everyday campus clothes, muted Seojun palette, soft Arin warmth
+- Key prop: practice-room cable, closed door
+- Light: muted spring afternoon
+- Location markers: fictional practice room, no real school branding
+
+## House Notes
+
+This episode should feel close but not romanticized into certainty. Let the room do the emotional work.
+
+

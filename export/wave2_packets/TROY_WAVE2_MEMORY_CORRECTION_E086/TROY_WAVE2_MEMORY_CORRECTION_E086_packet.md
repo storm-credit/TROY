@@ -1,3 +1,12 @@
+# TROY Wave2 Packet - Memory Correction E086
+
+Export Label: TROY_WAVE2_MEMORY_CORRECTION_E086
+Export Type: Wave2 packet merged copy
+
+---
+
+## E086_episode_harness
+
 # E086 Episode Harness - 과거의 직면
 
 ## Orchestration Harness
@@ -122,3 +131,94 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+---
+
+## E086_song_brief
+
+# E086 Song Brief - 과거의 직면
+
+## Identity
+
+- Episode: E086
+- Song function: Seojun inner monologue
+- Emotional thesis: 과거는 다시 들린 것이 아니라, 다르게 보이기 시작했다.
+
+## Core Feeling
+
+- Chorus emotion line: "그때의 소리가 아니라, 내가 덧붙인 뜻이 돌아왔다."
+- Seasonal air: old memo, empty seat, closed door, cold present hallway
+- Energy level: low-to-mid, clear but not dramatic
+
+## Sound Direction
+
+- Sonic palette: dry strings, old motif rhythm only, room noise, no melody return
+- Tempo feel: walking through evidence
+- Vocal distance: close, reflective
+- Arrangement: keep only rhythm/spacing from the past, not the full theme
+
+## Lyrical Direction
+
+- Dominant image family: old memo, empty seat, closed door, edited memory
+- Point of view: past wound without new romance
+- Words to avoid: she came back, I heard it again, destiny, first love returns
+- Do not overstate: This is reinterpretation, not reliving.
+
+## Safe Prompt Rule
+
+No flashback-theme replay and no romantic triangle energy.
+
+## Delivery
+
+The song should let the past become evidence of interpretation, not a new plot lure.
+
+```text
+Restrained Korean memory-reinterpretation track, dry strings, old motif rhythm only, room noise, no melody return, close reflective vocal. Mood: old memo, empty seat, closed door, cold present hallway, seeing the meaning he added to the past. Avoid she-came-back lyrics, heard-it-again cues, destiny framing, first-love-return energy, and famous song imitation.
+```
+
+
+---
+
+## E086_visual_cut_list
+
+# E086 Visual Cut List - 과거의 직면
+
+## Episode Identity
+
+- Episode: E086
+- Song: E086 theme placeholder
+- Emotional thesis: 과거는 다시 들리는 것이 아니라, 자신이 덧붙였던 의미를 보게 되는 현재의 사물로 돌아온다.
+- Cut count: 9
+
+## Master Look Prompt
+
+Cinematic live-action Korean memory-reinterpretation stills, old memo, empty seat, closed door, cold present hallway, edited memory without flashback faces, realistic faces, cool autumn-gray palette, no anime, no time-travel nostalgia, no logos, no readable text.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: Imagen for the closed-door present hallway frame if needed
+
+## Cut List
+
+1. Present trigger: Seojun notices a small ordinary object in a hallway.
+2. Old memo: an old memo edge appears, no readable words.
+3. Empty seat: a seat from the past is shown without a person filling it.
+4. Closed door: door closed in cold present light.
+5. Seojun looking: Seojun watches the door without forcing meaning.
+6. No flashback face: a memory-like angle with no face, only object and light.
+7. Edited memory object: object repeats from a different angle, less romantic.
+8. Cold hallway: present hallway reasserts itself.
+9. Unresolved past: Seojun remains in frame, not rescued by memory.
+
+## Continuity Anchors
+
+- Motif: old memo, empty seat, closed door, cold hallway
+- Memory rule: reinterpretation, not reliving
+- Prohibition: no heard-it-again cue, no destiny, no first-love-return energy
+
+## House Notes
+
+Keep the past faceless enough that the point is interpretation, not nostalgia.
+

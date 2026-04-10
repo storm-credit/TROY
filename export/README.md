@@ -31,6 +31,12 @@
 - `wave1_packets/TROY_WAVE1_RUPTURE_E078/`
 - `wave1_packets/TROY_WAVE1_RECONNECTION_E110/`
 - `wave1_packets/TROY_WAVE1_ENDING_E120/`
+- `wave2_packets/README.md`
+- `wave2_packets/TROY_WAVE2_PRIVATE_CLOSENESS_E012/`
+- `wave2_packets/TROY_WAVE2_DIARY_SEED_E050/`
+- `wave2_packets/TROY_WAVE2_MEMORY_CORRECTION_E086/`
+- `wave2_packets/TROY_WAVE2_ASKING_ETHICS_E094/`
+- `wave2_packets/TROY_WAVE2_MATURE_SILENCE_E119/`
 
 현재 상태:
 
@@ -39,4 +45,5 @@
 - submission-facing draft v1 complete
 - pilot packet export copies complete
 - wave1 packet export copies complete
+- wave2 packet export copies complete
 - current full-book export keeps episode headings for editor readability

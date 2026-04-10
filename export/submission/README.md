@@ -22,6 +22,12 @@
 - `wave1_showcase/04_TROY_WAVE1_CONFESSION_E029_packet.md`
 - `wave1_showcase/05_TROY_WAVE1_RECONNECTION_E110_packet.md`
 - `wave1_showcase/06_TROY_WAVE1_OPENING_E001_packet.md`
+- `wave2_showcase/README.md`
+- `wave2_showcase/01_TROY_WAVE2_MATURE_SILENCE_E119_packet.md`
+- `wave2_showcase/02_TROY_WAVE2_PRIVATE_CLOSENESS_E012_packet.md`
+- `wave2_showcase/03_TROY_WAVE2_ASKING_ETHICS_E094_packet.md`
+- `wave2_showcase/04_TROY_WAVE2_DIARY_SEED_E050_packet.md`
+- `wave2_showcase/05_TROY_WAVE2_MEMORY_CORRECTION_E086_packet.md`
 
 현재 상태:
 
@@ -30,4 +36,5 @@
 - episode heading softened for external readability
 - pilot showcase packet pack complete
 - wave1 showcase packet pack complete
+- wave2 showcase packet pack complete
 - final submission cosmetic pass is still optional

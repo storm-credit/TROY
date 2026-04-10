@@ -1,3 +1,12 @@
+# TROY Wave2 Packet - Diary Seed E050
+
+Export Label: TROY_WAVE2_DIARY_SEED_E050
+Export Type: Wave2 packet merged copy
+
+---
+
+## E050_episode_harness
+
 # E050 Episode Harness - 일기의 문장
 
 ## Orchestration Harness
@@ -122,3 +131,97 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+---
+
+## E050_song_brief
+
+# E050 Song Brief - 일기의 문장
+
+## Identity
+
+- Episode: E050
+- Song function: Ending reflection
+- Emotional thesis: 네가 모르는 곳에서, 내 문장은 조용히 닫혔다.
+
+## Core Feeling
+
+- Chorus emotion line: "어떻게 알았을까, 묻지 못한 문장이 밤에 접혔다."
+- Seasonal air: desk light, closed diary, summer night stillness
+- Energy level: low, private, literary
+
+## Sound Direction
+
+- Sonic palette: paper texture, soft electric piano, low room tone, sparse strings
+- Tempo feel: slow and private
+- Vocal distance: intimate but not confessional to Seojun
+- Arrangement: very restrained; the page closing should feel like the climax
+
+## Lyrical Direction
+
+- Dominant image family: closed diary, desk light, folded page, unreadable line, window at night
+- Point of view: Arin-adjacent privacy, not direct exposition
+- Words to avoid: mystery, secret revealed, supernatural, detective, evidence
+- Do not overstate: The phrase is foreshadow, not a reveal.
+
+## Safe Prompt Rule
+
+No mystery-thriller cue and no named-song imitation. Keep it private and literary.
+
+## Delivery
+
+The song should sound like a page closing in a room no one else can hear.
+
+```text
+Private Korean literary ending-reflection song, soft electric piano, paper texture, low room tone, sparse strings, intimate restrained vocal. Mood: a diary line written at night, a question folded into a closed page, desk light, unreadable words, window darkness. Avoid mystery-thriller tone, supernatural reveal, detective/evidence language, destiny, and dramatic climax.
+```
+
+
+---
+
+## E050_visual_cut_list
+
+# E050 Visual Cut List - 일기의 문장
+
+## Episode Identity
+
+- Episode: E050
+- Song: E050 theme placeholder
+- Emotional thesis: 어떻게 알았을까, 묻지 못한 문장이 밤에 접혔다.
+- Cut count: 10
+
+## Master Look Prompt
+
+Cinematic live-action Korean private diary scene, desk light, closed notebook, unreadable handwriting, summer night stillness, Arin's interiority protected, Seojun absent, no readable text, no mystery-thriller tone.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: Imagen for closed-diary desk-light frame
+
+## Cut List
+
+1. Desk light: small pool of desk light in summer night.
+2. Pen moving: Arin's hand writing, text unreadable.
+3. Unreadable line: page seen at angle, no legible words.
+4. Arin pause: Arin pauses above the page, private expression.
+5. Closed notebook: diary/notebook closes gently.
+6. Seojun elsewhere: Seojun in a separate night frame, unaware.
+7. Window at night: dark window beside the desk.
+8. Paper edge: page edge under warm light.
+9. Hand leaving notebook: Arin's hand moves away.
+10. Light off: desk light goes out or fades, privacy intact.
+
+## Continuity Anchors
+
+- Key prop: diary/notebook, pen, desk light
+- Character rule: Seojun must not see the diary
+- Text rule: no readable diary text in generated images
+- Tone: private and literary, not detective mystery
+
+## House Notes
+
+This is a major foreshadow seed. It must feel quiet, not like a reveal.
+
+

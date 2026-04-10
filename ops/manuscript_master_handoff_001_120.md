@@ -118,6 +118,9 @@ downstream package opening:
 - `ops/wave1_packet_family_readiness.md`
 - `ops/wave1_packet_export_copies.md`
 - `ops/wave1_showcase_submission_pack.md`
+- `ops/wave2_packet_family_readiness.md`
+- `ops/wave2_packet_export_copies.md`
+- `ops/wave2_showcase_submission_pack.md`
 
 current motif audit docs:
 
