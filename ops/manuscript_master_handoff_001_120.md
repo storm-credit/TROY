@@ -96,6 +96,14 @@ current reread docs:
 - `ops/chapter5_return_reread_090_100.md`
 - `ops/chapter6_reunion_epilogue_reread_101_120.md`
 
+current motif audit docs:
+
+- `ops/motif_setup_payoff_audit_opening.md`
+- `ops/motif_audit_heard_vs_said.md`
+- `ops/motif_audit_dohyun_contrast.md`
+- `ops/motif_audit_arin_exception.md`
+- `ops/motif_audit_arin_song_thread.md`
+
 ## 6. Director Note
 
 - 지금 상태는 `분량 미달 draft`가 아니라,
