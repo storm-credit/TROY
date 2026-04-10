@@ -1,3 +1,12 @@
+# TROY Wave4 Packet - Self Story Error E097
+
+Export Label: TROY_WAVE4_SELF_STORY_ERROR_E097
+Export Type: Wave4 packet merged copy
+
+---
+
+## E097_episode_harness
+
 # E097 Episode Harness - 내 이야기의 오류
 
 ## Orchestration Harness
@@ -122,3 +131,88 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+## E097_song_brief
+
+# E097 Song Brief - 내 이야기의 오류
+
+## Identity
+
+- Episode: E097
+- Song function: Seojun inner monologue
+- Emotional thesis: 아름다웠던 것이 아니라, 미처 이해하지 못했던 시간을 아름답다고 편집해 두고 있었다.
+
+## Core Feeling
+
+- Chorus emotion line: "남은 건 사랑의 부족이 아니라, 내가 믿어버린 이야기의 모양이었다."
+- Seasonal air: 어긋난 보폭, 얇은 테이프 질감, 길어지는 거리
+- Energy level: low, sharp, self-examining
+
+## Sound Direction
+
+- Sonic palette: broken motif repeat, thin tape texture, colorless piano, interval-led structure
+- Tempo feel: measured but unstable
+- Vocal distance: close, exposed, restrained
+- Arrangement: keep the motif partially broken; do not restore it
+
+## Lyrical Direction
+
+- Dominant image family: edited memory, uneven steps, spliced film, fading hallway
+- Point of view: confronting self-edited narrative without self-pity
+- Words to avoid: it was all fake, all my fault, punishment, tragic hero
+- Do not overstate: The point is correction, not self-destruction.
+
+## Safe Prompt Rule
+
+No photo-album warmth, no self-punishing melodrama, no sentimental rewind.
+
+## Delivery
+
+The song should expose the cut marks in memory without pretending love itself was false.
+
+```text
+Dry Korean introspective track, broken motif repeat, thin tape texture, colorless piano, interval-led structure, close restrained vocal. Mood: uneven steps, edited memory, spliced feeling, widening distance, realizing the story was shaped as much as it was lived. Avoid fake-love nihilism, tragic-hero self-punishment, sentimental rewind, and famous song imitation.
+```
+
+## E097_visual_cut_list
+
+# E097 Visual Cut List - 내 이야기의 오류
+
+## Episode Identity
+
+- Episode: E097
+- Song: E097 theme placeholder
+- Emotional thesis: 사랑을 망친 것은 감정 부족이 아니라 내 서사를 사실처럼 믿은 태도였다.
+- Cut count: 8
+
+## Master Look Prompt
+
+Cinematic live-action Korean memory-correction stills, uneven steps, near-but-not-close frames, widening distance, muted autumn-gray palette, realistic faces, no anime, no sentimental flashback gloss, no logos, no readable signage.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: Imagen for the uneven-steps frame if needed
+
+## Cut List
+
+1. Uneven steps: two walking patterns no longer fit the old story.
+2. Near shoulder frame: closeness without actual connection.
+3. Old angle re-seen: a once-romantic angle now looks incomplete.
+4. Detail mismatch: an object disrupts the old memory edit.
+5. Looking again: Seojun studies the frame rather than lives inside it.
+6. Distance grows: end of frame opens more space between figures.
+7. No montage gloss: memory remains dry and corrected.
+8. Quiet recognition: final frame acknowledges error without collapse.
+
+## Continuity Anchors
+
+- Motif: uneven steps, old angle, mismatch detail, widened distance
+- Narrative rule: correction, not self-punishment
+- Prohibition: no photo-album warmth, no tragic-hero pose, no idealized rewind
+
+## House Notes
+
+This should feel like seeing the edit points in an old film strip.
+

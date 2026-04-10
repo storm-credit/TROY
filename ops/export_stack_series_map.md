@@ -41,6 +41,22 @@
     - `E086`
     - `E094`
     - `E119`
+- wave3 family:
+  - `export/wave3_packets/`
+  - full-five:
+    - `E041`
+    - `E043`
+    - `E071`
+    - `E091`
+    - `E103`
+- wave4 family:
+  - `export/wave4_packets/`
+  - full-five:
+    - `E018`
+    - `E028`
+    - `E047`
+    - `E064`
+    - `E097`
 
 ## 4. submission showcase layer
 
@@ -75,6 +91,15 @@
   - support two:
     - `E041`
     - `E091`
+- wave4 showcase:
+  - `export/submission/wave4_showcase/`
+  - core three:
+    - `E097`
+    - `E018`
+    - `E047`
+  - support two:
+    - `E028`
+    - `E064`
 
 ## 5. reading logic
 
@@ -88,16 +113,20 @@
    - `wave2_showcase`
 5. public mirror / re-entry review:
    - `wave3_showcase`
+6. inner rule / self-story error review:
+   - `wave4_showcase`
 
 ## 6. next likely expansion
 
-- `wave3 packet family`
-  - likely candidates should not duplicate pilot / wave1 / wave2 emotional jobs
+- `wave4 packet family`
+  - now closed as internal rule / self-story error lane
+- likely next lane:
+  - selection discipline beyond current four waves
 - optional future lane:
   - media-vertical grouping by song-first / MV-first / adaptation-first
 
 ## 7. director note
 
-- 현재 export stack은 이미 `full manuscript + flagship packets + two expansion waves`까지 닫혔다
+- 현재 export stack은 이미 `full manuscript + flagship packets + four expansion waves`까지 닫혔다
 - 다음 이득은 양적 추가보다,
-  `wave3 selection discipline`과 `presentation polish` 쪽에서 나온다
+  `wave selection discipline`과 `presentation polish` 쪽에서 나온다

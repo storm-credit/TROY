@@ -43,6 +43,12 @@
 - `wave3_packets/TROY_WAVE3_PAUSE_E071/`
 - `wave3_packets/TROY_WAVE3_OLD_WOUND_REENTRY_E091/`
 - `wave3_packets/TROY_WAVE3_CHOSEN_REUNION_E103/`
+- `wave4_packets/README.md`
+- `wave4_packets/TROY_WAVE4_CONTACT_DANGER_E018/`
+- `wave4_packets/TROY_WAVE4_QUESTION_SPACE_E028/`
+- `wave4_packets/TROY_WAVE4_READING_DISCOMFORT_E047/`
+- `wave4_packets/TROY_WAVE4_PRELOSS_INSTABILITY_E064/`
+- `wave4_packets/TROY_WAVE4_SELF_STORY_ERROR_E097/`
 
 현재 상태:
 
@@ -53,4 +59,5 @@
 - wave1 packet export copies complete
 - wave2 packet export copies complete
 - wave3 packet export copies complete
+- wave4 packet export copies complete
 - current full-book export keeps episode headings for editor readability

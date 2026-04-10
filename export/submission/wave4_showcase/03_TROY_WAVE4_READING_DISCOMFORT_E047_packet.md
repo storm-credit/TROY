@@ -1,3 +1,12 @@
+# TROY Wave4 Packet - Reading Discomfort E047
+
+Export Label: TROY_WAVE4_READING_DISCOMFORT_E047
+Export Type: Wave4 packet merged copy
+
+---
+
+## E047_episode_harness
+
 # E047 Episode Harness - 읽힌다는 불편함
 
 ## Orchestration Harness
@@ -122,3 +131,92 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+## E047_song_brief
+
+# E047 Song Brief - 읽힌다는 불편함
+
+## Identity
+
+- Episode: E047
+- Song function: Relationship theme
+- Emotional thesis: 너무 빨리 알아주는 마음도, 때로는 문을 먼저 열어 버렸다.
+
+## Core Feeling
+
+- Chorus emotion line: "내가 말하기 전에, 네가 문을 열어 버렸다."
+- Seasonal air: glass cup, warm table, dry room air, small withdrawal
+- Energy level: low, intimate but uncomfortable
+
+## Sound Direction
+
+- Sonic palette: glassy electric piano, soft pulse, muted strings, dry room air
+- Tempo feel: slow and careful
+- Vocal distance: dual-feeling vocal: close but slightly recoiling
+- Arrangement: leave small gaps after phrases
+
+## Lyrical Direction
+
+- Dominant image family: glass cup, unfinished sentence, table distance, half-smile fading
+- Point of view: relationship discomfort, protecting Arin's boundary
+- Words to avoid: exposed, violated as explicit label, mind reader, secret power
+- Do not overstate: Arin feels discomfort, not full knowledge of the system.
+
+## Safe Prompt Rule
+
+No thriller or supernatural prompt. Keep it relational and subtle.
+
+## Delivery
+
+The song should make being understood too quickly feel uneasy.
+
+```text
+Subtle Korean relationship tension song, glassy electric piano, soft pulse, muted strings, dry room air, close vocal with slight recoil. Mood: someone answers before you finish speaking, intimacy turning uncomfortable, glass cup, unfinished sentence, table distance, half-smile fading. Avoid mind-reader, exposed, secret-power, thriller, and supernatural effect language.
+```
+
+
+## E047_visual_cut_list
+
+# E047 Visual Cut List - 읽힌다는 불편함
+
+## Episode Identity
+
+- Episode: E047
+- Song: E047 theme placeholder
+- Emotional thesis: 내가 말하기 전에, 네가 문을 열어 버렸다.
+- Cut count: 10
+
+## Master Look Prompt
+
+Cinematic live-action Korean relationship tension stills, cafe table, glass cup, unfinished sentence, emotional boundary, realistic Arin discomfort without supernatural awareness, dry room air, no logos, no readable signage.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: Imagen for glass-cup boundary frame if needed
+
+## Cut List
+
+1. Arin starts: Arin begins to speak, restrained expression.
+2. Seojun answers first: Seojun responds too quickly, believing he helped.
+3. Arin pause: Arin pauses, unsettled but not angry.
+4. Glass cup: clear glass cup between them on the table.
+5. Seojun relief: Seojun briefly relieved, unaware of boundary.
+6. Table distance: the table space feels wider than before.
+7. Window reflection: reflection separates their faces.
+8. Half-smile fades: Arin's small smile fades naturally.
+9. Quiet chair: chair gap after conversation.
+10. Empty table: glass cup and light remain after they leave.
+
+## Continuity Anchors
+
+- Key prop: glass cup
+- Character rule: Arin does not know the ability, only feels discomfort
+- Prohibition: no thriller/supernatural cue
+
+## House Notes
+
+Protect Arin's interiority. The discomfort is valid even without knowledge.
+
+

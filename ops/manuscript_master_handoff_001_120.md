@@ -124,6 +124,11 @@ downstream package opening:
 - `ops/wave3_packet_family_readiness.md`
 - `ops/wave3_packet_export_copies.md`
 - `ops/wave3_showcase_submission_pack.md`
+- `ops/wave4_packet_family_readiness.md`
+- `ops/wave4_packet_export_copies.md`
+- `ops/wave4_showcase_submission_pack.md`
+- `ops/wave_selection_discipline_opening.md`
+- `ops/presentation_polish_orchestra_opening.md`
 - `ops/export_stack_series_map.md`
 
 current motif audit docs:

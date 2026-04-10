@@ -35,6 +35,12 @@
 - `wave3_showcase/03_TROY_WAVE3_PAUSE_E071_packet.md`
 - `wave3_showcase/04_TROY_WAVE3_PUBLIC_EXPANSION_E041_packet.md`
 - `wave3_showcase/05_TROY_WAVE3_OLD_WOUND_REENTRY_E091_packet.md`
+- `wave4_showcase/README.md`
+- `wave4_showcase/01_TROY_WAVE4_SELF_STORY_ERROR_E097_packet.md`
+- `wave4_showcase/02_TROY_WAVE4_CONTACT_DANGER_E018_packet.md`
+- `wave4_showcase/03_TROY_WAVE4_READING_DISCOMFORT_E047_packet.md`
+- `wave4_showcase/04_TROY_WAVE4_QUESTION_SPACE_E028_packet.md`
+- `wave4_showcase/05_TROY_WAVE4_PRELOSS_INSTABILITY_E064_packet.md`
 
 현재 상태:
 
@@ -45,5 +51,6 @@
 - wave1 showcase packet pack complete
 - wave2 showcase packet pack complete
 - wave3 showcase packet pack complete
+- wave4 showcase packet pack complete
 - showcase index complete
 - final submission cosmetic pass is still optional

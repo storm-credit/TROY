@@ -1,3 +1,12 @@
+# TROY Wave4 Packet - Preloss Instability E064
+
+Export Label: TROY_WAVE4_PRELOSS_INSTABILITY_E064
+Export Type: Wave4 packet merged copy
+
+---
+
+## E064_episode_harness
+
 # E064 Episode Harness - 흔들리는 운율
 
 ## Orchestration Harness
@@ -122,3 +131,92 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+## E064_song_brief
+
+# E064 Song Brief - 흔들리는 운율
+
+## Identity
+
+- Episode: E064
+- Song function: Relationship theme
+- Emotional thesis: 익숙했던 소리는 사라진 게 아니라, 믿을 수 없을 만큼 흐려졌다.
+
+## Core Feeling
+
+- Chorus emotion line: "늘 알던 결이, 유리 너머의 빛처럼 멀어졌다."
+- Seasonal air: blurred glass, blind-shadow lines, unstable handrail
+- Energy level: low-to-mid, uneasy
+
+## Sound Direction
+
+- Sonic palette: delayed pulse, thin string pad, unstable piano attack, missing high motif fragment
+- Tempo feel: slightly late pulse, never obvious
+- Vocal distance: close but diffused
+- Arrangement: remove only one familiar layer so the absence is felt, not explained
+
+## Lyrical Direction
+
+- Dominant image family: glass distance, blind lines, one earbud, swaying handle
+- Point of view: Seojun trying to hear more and losing clarity
+- Words to avoid: deafness, silence complete, system failure, broken ability
+- Do not overstate: This is a foreshadow, not final listening loss.
+
+## Safe Prompt Rule
+
+No obvious hearing-loss sound effects. Make the missing frequency emotional.
+
+## Delivery
+
+The song should make listeners feel something familiar is no longer trustworthy.
+
+```text
+Subtle Korean relationship-tension track, delayed pulse, thin string pad, unstable piano attack, missing high motif fragment, close diffused vocal. Mood: familiar feeling becoming blurred behind glass, blind-shadow lines, one earbud, swaying handrail. Avoid deafness effects, complete silence language, system-failure wording, dramatic glitch, and famous song imitation.
+```
+
+
+## E064_visual_cut_list
+
+# E064 Visual Cut List - 흔들리는 운율
+
+## Episode Identity
+
+- Episode: E064
+- Song: E064 theme placeholder
+- Emotional thesis: 늘 알던 결이, 유리 너머의 빛처럼 멀어졌다.
+- Cut count: 10
+
+## Master Look Prompt
+
+Cinematic live-action Korean relationship-tension stills, blurred glass, blind-shadow lines like staff lines, one earbud, swaying bus handle, subtle handheld feeling, fictional Hyedam campus route, realistic faces, no anime style, no logos.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: Imagen for glass-distance frame if needed
+
+## Cut List
+
+1. Familiar face: Arin in a familiar campus frame.
+2. Glass reflection: her outline softened by reflected glass.
+3. One earbud: Seojun holding or wearing one earbud.
+4. Hand on rail: bus or stair rail swaying slightly.
+5. Focus close-up: Seojun trying too hard to read the moment.
+6. Blurred light: thin light losing its edge.
+7. Arin discomfort: Arin feeling watched, not knowing the ability.
+8. Seojun stare: his attention becomes too visible.
+9. Line shadow: blind shadows crossing the wall like broken staff lines.
+10. Unresolved cut: her figure behind glass, not gone.
+
+## Continuity Anchors
+
+- Motif: glass distance, one earbud, shadow lines
+- Canon rule: foreshadow only, no full listening loss
+- Prohibition: no deafness visual effect, no magical aura
+
+## House Notes
+
+The image should say "blurred," not "silent."
+
+

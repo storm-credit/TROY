@@ -1,3 +1,12 @@
+# TROY Wave4 Packet - Question Space E028
+
+Export Label: TROY_WAVE4_QUESTION_SPACE_E028
+Export Type: Wave4 packet merged copy
+
+---
+
+## E028_episode_harness
+
 # E028 Episode Harness - 질문의 문장
 
 ## Orchestration Harness
@@ -122,3 +131,91 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+## E028_song_brief
+
+# E028 Song Brief - 질문의 문장
+
+## Identity
+
+- Episode: E028
+- Song function: Seojun inner monologue
+- Emotional thesis: 사랑한다는 말보다 먼저, 네 대답이 들어올 자리를 비워 둔다.
+
+## Core Feeling
+
+- Chorus emotion line: "내 말의 끝에, 네가 들어올 자리를 남겨 두었다."
+- Seasonal air: cafe window, folded paper, soft evening approach
+- Energy level: low-to-mid, careful courage
+
+## Sound Direction
+
+- Sonic palette: gentle piano, close vocal, restrained guitar, paper-like percussion texture
+- Tempo feel: slow walking toward courage
+- Vocal distance: intimate, careful, clearer than E027
+- Arrangement: small lift in the chorus but no full resolution
+
+## Lyrical Direction
+
+- Dominant image family: folded paper, question, window light, empty chair, breath
+- Point of view: Seojun turning declaration into question
+- Words to avoid: demand, answer me, destiny, always, certainty
+- Do not overstate: Do not show the actual confession text too literally.
+
+## Safe Prompt Rule
+
+No named-song references. Keep the song about leaving room for another person's answer.
+
+## Delivery
+
+The song should make restraint feel like a form of courage.
+
+```text
+Careful Korean campus romance ballad, gentle piano, restrained guitar, close intimate vocal, subtle paper-like percussion texture. Mood: turning a confession into a question, leaving space for another person's answer, cafe window light, folded paper, empty chair, breath. Avoid demand language, destiny, forever, certainty, and direct plot recap.
+```
+
+
+## E028_visual_cut_list
+
+# E028 Visual Cut List - 질문의 문장
+
+## Episode Identity
+
+- Episode: E028
+- Song: E028 theme placeholder
+- Emotional thesis: 내 말의 끝에 네가 들어올 자리를 남겨 둔다.
+- Cut count: 8
+
+## Master Look Prompt
+
+Cinematic live-action Korean campus cafe-window stills, folded paper, careful courage, soft evening light, intimate restrained framing, no readable confession text, no logos, no real cafe branding.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: Imagen for folded-paper window frame if needed
+
+## Cut List
+
+1. Pen hover: pen above paper, sentence not visible.
+2. Crossed line: blurred page with unreadable crossed-out lines.
+3. Folded paper: paper folded small under Seojun's hand.
+4. Cafe window: soft evening light through fictional cafe window.
+5. Empty chair: chair across from Seojun, waiting for an answer.
+6. Breath pause: Seojun looking down, preparing to speak.
+7. Paper in pocket: folded paper partly hidden, no text.
+8. Path to meeting: exterior path toward cafe or meeting place, light fading.
+
+## Continuity Anchors
+
+- Key prop: folded paper
+- Location: fictional cafe window / campus path
+- Light: soft evening approach
+- Prohibition: no readable text, no proposal-coded imagery
+
+## House Notes
+
+The visual point is leaving room for another person's answer.
+
+

@@ -1,3 +1,12 @@
+# TROY Wave4 Packet - Contact Danger E018
+
+Export Label: TROY_WAVE4_CONTACT_DANGER_E018
+Export Type: Wave4 packet merged copy
+
+---
+
+## E018_episode_harness
+
 # E018 Episode Harness - 손이 닿은 순간
 
 ## Orchestration Harness
@@ -122,3 +131,93 @@
 
 - `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
 - `director lock note`가 비어 있으면 release 직전 초안으로 본다
+
+## E018_song_brief
+
+# E018 Song Brief - 손이 닿은 순간
+
+## Identity
+
+- Episode: E018
+- Song function: Relationship theme
+- Emotional thesis: 손끝 하나가 하루의 공기를 바꾸고, 가까움이 위험해진다.
+
+## Core Feeling
+
+- Chorus emotion line: "손끝이 스친 뒤로, 소란이 잠깐 멀어졌다."
+- Seasonal air: bright field light suddenly muted, held breath
+- Energy level: low-to-mid, intense but restrained
+
+## Sound Direction
+
+- Sonic palette: sparse piano, close breath texture, faint string swell, minimal pulse
+- Tempo feel: slow suspended moment
+- Vocal distance: hushed and trembling
+- Arrangement: hold silence before the chorus; no fantasy shimmer
+
+## Lyrical Direction
+
+- Dominant image family: sleeve, hand, water bottle, crowd blur, muted light
+- Point of view: relationship tension through Seojun's sensory shock
+- Words to avoid: magic, spell, electricity, destiny, soulmate
+- Do not overstate: Do not explain the contact law directly.
+
+## Safe Prompt Rule
+
+Avoid hit-song imitation and avoid fantasy effect language. Keep it physical and intimate.
+
+## Delivery
+
+The song should make a brief accidental touch feel like an emotional weather change.
+
+```text
+Intimate Korean cinematic relationship theme, sparse piano, close breath texture, faint restrained strings, minimal pulse, hushed trembling vocal. Mood: an accidental touch that makes the crowd feel far away, bright field light suddenly muted, dangerous closeness. Lyrics should use sleeve, hand, water bottle, crowd blur, and muted light. Avoid magic, electricity, destiny, soulmate, and direct explanation of any supernatural rule.
+```
+
+
+## E018_visual_cut_list
+
+# E018 Visual Cut List - 손이 닿은 순간
+
+## Episode Identity
+
+- Episode: E018
+- Song: E018 theme placeholder
+- Emotional thesis: 손끝 하나가 소란을 멀어지게 만든다.
+- Cut count: 10
+
+## Master Look Prompt
+
+Cinematic live-action Korean campus sports-day stills, accidental hand touch, field light suddenly muted, realistic skin texture, shallow depth of field, no visible supernatural effects, no logos, intimate restraint.
+
+## Tool Plan
+
+- Style exploration: Midjourney
+- Production stills: Nano Banana
+- Hero-shot enhancement: Imagen for the hand-contact hero frame
+
+## Cut List
+
+1. Object close-up: water bottle or small item between two hands.
+2. Approaching hands: Seojun and Arin's hands enter frame separately.
+3. Contact: sleeve and skin brush for a brief accidental touch.
+4. Crowd blur: background noise visually softened, no wave effects.
+5. Seojun eyes: close-up, startled but contained.
+6. Arin ordinary concern: Arin looking puzzled, not supernatural-aware.
+7. Withdrawal: hands separate, object still between them.
+8. Sleeve detail: Seojun's sleeve edge after contact.
+9. Wide distance: they stand in the same public field, suddenly too far.
+10. Evening afterimage: empty patch of field light, contact memory implied.
+
+## Continuity Anchors
+
+- Key prop: water bottle or shared object
+- Hands: accidental and brief, not romantic hand-holding
+- Light: bright-to-muted emotional shift
+- Prohibition: no visible magic, no energy waves
+
+## House Notes
+
+This is a foreshadow seed. The image must stay physical and plausible.
+
+
