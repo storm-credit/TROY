@@ -68,7 +68,8 @@
 다음 위험은 여전히 질적 영역에 남아 있다.
 
 - repeated phrasing risk:
-  - `천천히`, `말할게`, `기다릴게`, `괜찮아` 계열 반복 피로
+  - hot spot 1차는 정리 완료
+  - 현재는 `checked / low-risk` 상태이며 신규 재작성 때만 재개방
 - relation-speed risk:
   - chapter2 후반과 chapter3 초반이 감정상 빠르게 읽히지 않는지 통독 필요
 - interpretation motif risk:
@@ -83,9 +84,9 @@
 오케스트라 기준 다음 우선순위:
 
 1. `chapter full reread`
-2. `repeated phrasing audit`
-3. `motif / setup-payoff audit`
-4. `episode package / song / MV` 확장 작업
+2. `motif / setup-payoff audit`
+3. `episode package / song / MV` 확장 작업
+4. `repeated phrasing` maintenance watch
 
 ## 6. Director Note
 
@@ -95,3 +96,5 @@
   `통독 품질 정리`와 `후속 패키지 작업` 쪽으로 넘어가는 것이 맞다
 - 이후 오케스트라 판단은
   `숫자 추가`보다 `질감 정리`, `반복어 정리`, `리듬 편차 정리`에 우선권을 둔다
+- `ops/repeated_phrasing_audit_001_120.md` 기준으로
+  현행 반복어 hot spot 리스트는 닫힌 상태다
