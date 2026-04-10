@@ -96,6 +96,12 @@ current reread docs:
 - `ops/chapter5_return_reread_090_100.md`
 - `ops/chapter6_reunion_epilogue_reread_101_120.md`
 
+current seasonal audit docs:
+
+- `ops/seasonal_motif_audit_opening.md`
+- `ops/seasonal_audit_spring_to_heat_001_040.md`
+- `ops/seasonal_audit_rupture_to_late_end_061_120.md`
+
 current motif audit docs:
 
 - `ops/motif_audit_master_handoff.md`
@@ -115,6 +121,8 @@ motif audit watch note:
 
 - `Taeyul As Ethical Mirror` is currently provisional in canon and inactive in manuscript
 - treat it as a planning slot, not a missing prose payoff
+- seasonal outline note:
+  - locked prose currently lands slightly colder by late chapter5-6 than the original `가을 -> 늦가을` planning language
 
 ## 6. Director Note
 
