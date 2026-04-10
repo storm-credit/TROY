@@ -107,6 +107,13 @@ current motif audit docs:
 - `ops/motif_audit_silence_deep_sea.md`
 - `ops/motif_audit_500_days_memory_editing.md`
 - `ops/motif_audit_self_hearing_prohibition.md`
+- `ops/motif_audit_taeyul_ethical_mirror.md`
+- `ops/motif_audit_seojun_sensory_origin.md`
+
+motif audit watch note:
+
+- `Taeyul As Ethical Mirror` is currently provisional in canon and inactive in manuscript
+- treat it as a planning slot, not a missing prose payoff
 
 ## 6. Director Note
 
