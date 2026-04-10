@@ -13,6 +13,8 @@
 
 - `00_START_HERE.md`
 - `01_EVALUATOR_NOTE.md`
+- `02_ALPHA_READER_FEEDBACK_GUIDE.md`
+- `03_FEEDBACK_TEMPLATE.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -64,9 +66,11 @@
    - `00_START_HERE.md`
 2. 평가 축 먼저 확인:
    - `01_EVALUATOR_NOTE.md`
-3. 샘플 맵 먼저 확인:
+3. 피드백 기준 먼저 확인:
+   - `02_ALPHA_READER_FEEDBACK_GUIDE.md`
+4. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-4. 대표 샘플 묶음부터 확인:
+5. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-5. 작품 전체를 처음부터 통독:
+6. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`
