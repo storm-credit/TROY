@@ -1,103 +1,124 @@
-# E011 Episode Harness
+# E011 Episode Harness - 첫 공연
+
+## Orchestration Harness
+
+- orchestra mode: 직접 오케스트라 모드
+- director intent: 첫 공연을 재능 쇼가 아니라 `군중 속에서도 한 사람만 또렷해지는 경험`으로 잠근다
+- truth source: manuscript/chapter1/E011_첫공연_정본초고.md; ops/E011_song_brief.md; ops/E011_visual_cut_list.md; ops/orchestra_harness_contract.md; ops/motif_audit_arin_song_thread.md
+- MCP used: local source read only
+- skills run: episode-harness-fill, suno-brief-builder, mv-cutlist-builder
+- agent reviews: engine framing, motif continuity, performance-tone restraint
+- hook checks: harness-required-fields; forbidden-language-guard; naming-and-archive-check
+- escalation status: none
+- director lock note: 첫 공연은 고백도 스타 탄생도 아니다. 발신성과 선택적 전경화의 최초 잠금이다
 
 ## 1. Episode Identity
 
 - episode id: E011
 - movement: 제1악장: 얇은 봄빛
 - chapter: CH03
-- phase: Phase 1
-- phase purpose: 아린의 발신성을 다인 공간에서 음악적으로 확인하는 구간
-- episode logline: 첫 공연에서 서준은 많은 소리 속에서도 아린만 전경으로 떠오르는 경험을 한다
+- phase: Phase 1 - spring thin-light opening
+- phase purpose: 아린의 발신성을 다인 공간에서 처음 공적으로 확인한다
+- episode logline: 첫 공연에서 서준은 많은 소리 속에서도 아린만 전경으로 떠오르는 경험을 하며, 조용한 예외였던 아린을 `공간을 바꾸는 사람`으로 다시 본다
 - emotional thesis: 많은 사람들 사이에서도, 한 사람만 또렷해진다
 
 ## 2. TROY Input Packet
 
-- canon version: 120-episode beautiful-separation canon
-- series truth source: canon/series.md, canon/world.md, canon/characters.md, canon/style.md
+- canon version: TROY lock v1
+- series truth source: project/TROY/ops/orchestra_harness_contract.md + manuscript/chapter1/E011_첫공연_정본초고.md + motif audit docs
 - relationship delta: orientation lock -> public foregrounding
-- hearing / silence state: Arin exception active in group-noise setting, no fade progression
-- reveal state: reader sees Arin's signal holds inside crowd; Seojun still treats it as phenomenon plus fascination
+- hearing / silence state: Arin exception active in group-noise setting, fade progression 없음
+- reveal state: reader sees that Arin's signal survives crowd-noise and performance distance; Seojun still reads it as phenomenon plus fascination
 - motif set (1-3): stage light, microphone, crowd noise
-- continuity notes: must follow E010 direction into a public performance space without making it confession
-- allowed interpretation range: awe, focus, discomfort, early admiration
-- must include: group sound, Arin as performer, Seojun's selective foregrounding
+- continuity notes: E010의 특별한 관심에서 바로 이어져야 하며, 공연은 고백/아이돌 판타지로 과열되면 안 된다
+- allowed interpretation range: awe, selective focus, discomfort, early admiration
+- must include: 군중 소음, 아린의 떨림과 발신성, 서준의 선택적 전경화
 - must not include: idol fantasy, destiny language, full musical-theory explanation
 
 ## 3. Story Core
 
-- scene goal: 아린이 사람들 앞에서 발신하는 인물이라는 사실을 서준이 체감한다
-- conflict: 다인 공간은 서준에게 과부하를 주지만, 아린은 오히려 그 안에서 선명해진다
-- turn: 공연이 시작되자 군중의 소음보다 아린의 존재가 먼저 정리된다
-- residue: 서준은 아린을 더 이상 조용한 예외로만 볼 수 없게 된다
-- payoff link: 후반부 아린의 마지막 노래와 `발신하는 사람`의 장기 축
+- scene goal: 아린이 사람들 앞에서 자기 목소리로 공간을 바꾸는 인물이라는 사실을 서준이 체감한다
+- conflict: 다인 공간은 서준에게 과부하를 주지만, 아린은 오히려 그 안에서 더 선명해진다
+- turn: 공연이 시작되자 군중의 소음보다 아린의 존재와 목소리가 먼저 정리된다
+- residue: 서준은 아린을 더 이상 `조용한 예외`로만 볼 수 없게 된다
+- payoff link: 후반부 `Arin's Song Thread`, `발신하는 사람`, 마지막 노래 의미 축
 
 ## 4. Character State
 
-- Seojun state before: 아린을 특별한 방향성으로 받아들이기 시작했다
-- Seojun state after: 아린이 가진 발신성과 무대 위 선명함을 체감한다
-- Arin state before: 서준에게 조용한 대화의 상대이자 예외
-- Arin state after: 자기 목소리로 공간을 바꾸는 사람으로 보인다
-- support cast function: 밴드 동아리와 관객은 아린의 발신성을 증폭하는 배경이다
+- Seojun state before: 아린을 특별한 방향성으로 받아들이기 시작했지만 아직 조용한 장면 안에서만 이해하고 있다
+- Seojun state after: 아린이 공적인 공간에서도 자기 목소리로 결을 바꾸는 사람임을 체감한다
+- Arin state before: 서준에게 조용한 대화의 상대이자 개인적 예외
+- Arin state after: 떨리지만 발신할 수 있는 사람, 무대 위에서도 정직함을 유지하는 사람으로 보인다
+- support cast function: 밴드 동아리와 관객은 아린의 발신성을 증폭하고 서준의 과부하를 시험하는 배경이다
 
 ## 5. Canon Check
 
 - world rule touched: foreground separation in crowd, Arin exception under performance conditions
 - fade stage touched: stage 1 only
-- location used: Hyedam band room / small campus performance space
+- location used: Hyedam University small outdoor stage / band-room-adjacent performance space
 - continuity risk: performance must remain human and intimate, not celebrity-like
-- locked decision affected: none
+- locked decision affected: `Arin's Song Thread` first public seed, `Contact Equals Danger` 이전의 공적 전경화
 
 ## 6. Music Engine Module
 
-- music engine role: translate Arin's first performance presence into a restrained relationship theme
+- music engine role: 아린의 첫 공연 존재감을 절제된 관계 테마로 번역한다
 - song function: relationship theme
-- lyric theme: one voice becoming clear inside many sounds
-- chorus emotion line: 사람들 사이에서, 네 목소리만 먼저 길을 만들었다
+- lyric theme: 많은 소리 사이에서 한 목소리만 길을 만든다
+- chorus emotion line: 많은 소리 사이에서 너만 늦게까지 남았다
 - sound pressure: medium, live-room warmth, slightly lifted
-- sonic palette: piano, warm guitar, light live-room ambience, restrained percussion
-- refrain seed / echo / payoff: Arin voice motif seeded here; echoed in in-world songs; paid off in final song meaning
-- vocal point of view: relational voice leaning Seojun
+- sonic palette: soft piano, clean electric guitar swells, light room ambience, restrained strings
+- refrain seed / echo / payoff: seed=첫 공연의 목소리 전경화; echo=아린의 창작/발신성 누적; payoff=final song meaning and changed listening
+- vocal point of view: Seojun-leaning relational observation
 - vocal distance: close but room-aware vocal
-- forbidden cliches: idol stage fantasy, destiny, overblown applause language
-- Suno prompt status: pending dedicated E011 song brief
+- forbidden cliches: idol stage fantasy, destiny, miracle, overblown applause language
+- Suno prompt status: ready via `ops/E011_song_brief.md`
 
 ## 7. Image Engine Module
 
-- image engine role: stage Arin as a performer without fantasy stylization
+- image engine role: 아린을 판타지화하지 않고 첫 공연의 전경화를 시각화한다
 - hero cut vs bridge cut ratio: 3 hero / 7 bridge
-- master visual motif: microphone light inside small campus performance room
-- key prop: microphone, cable, stage light, earphones
-- location geometry: small stage, low ceiling, audience edge, Seojun at side distance
-- seasonal palette: spring indoor warmth with gray-blue Seojun contrast
-- light / weather: indoor practice-room light, modest stage glow
-- image tool plan: Nano Banana main, Midjourney for performance framing
-- continuity anchors: realistic campus band setting, Arin human warmth, Seojun restrained attention
+- master visual motif: small stage light inside crowded campus performance space
+- key prop: microphone stand, cable, stage light, Seojun's earphones
+- location geometry: low stage, audience edge, Seojun at side distance, backstage corridor exit
+- seasonal palette: thin spring evening, gray-blue shadows, pale yellow performance light
+- light / weather: late spring evening, modest stage glow, not glossy
+- image tool plan: Midjourney exploration, Nano Banana production stills, Imagen optional hero enhancement
+- continuity anchors: realistic Korean campus performance setting, Arin warm human scale, Seojun restrained side attention
 
 ## 8. Video Engine Module
 
-- video engine role: turn performance into selective memory fragments
+- video engine role: 첫 공연을 선택적 기억 파편으로 배열한다
 - MV cut count: 10
-- slot map: hook / setup / approach / hold / break / hold / tag
-- expectation / reality mode: single track, performance clarity
+- slot map: 군중 와이드 -> 서준 측면 -> 마이크 디테일 -> 아린 첫 프레임 -> 군중 블러 -> 서준 반응 -> 케이블/손 -> 공연 후 잔광 -> 아린 퇴장 -> 마이크 잔향
+- expectation / reality mode: performance clarity over spectacle
 - memory structure if used: seed only
-- ending frame type: microphone after-sound residue
-- carry-over continuity: leads into E012 private sound-space intimacy
+- ending frame type: empty microphone with after-sound residue
+- carry-over continuity: E012의 방음실 친밀 공간으로 연결
 
 ## 9. Prose Module
 
-- dominant sensory field: room sound, cable texture, small light, breath before singing
-- key metaphor family: one thread through noise, small light on a microphone, sound clearing a path
+- dominant sensory field: 군중 소음, 작은 무대 빛, 숨과 떨림, 케이블 질감
+- key metaphor family: one clear line through noise, light on a microphone, air clearing a path
 - must-avoid jargon: resonance, frequency, perfect pitch, idolized vocabulary
-- ending sentence mode: the crowd remains, but one person stays
+- ending sentence mode: 군중은 남아 있지만 한 사람만 끝까지 남는 잔향
 
 ## 10. Delivery Gate
 
+- orchestration pass: yes
 - canon pass: yes
 - structure pass: yes
-- pre-gen gate: pass
-- music pass: pending brief
-- visual pass: pending cut list
-- post-gen gate: pending
-- release gate: packet ready for downstream build
+- pre-gen gate: pass if performance stays intimate and non-idolized
+- music pass: yes
+- visual pass: yes
+- post-gen gate: pass if downstream song and MV keep low-spectacle rule
+- release gate: pass if `public foregrounding` and `human-scale performance` stay together
 - prose pass: yes
-- director approval: approved for harness stage
+- hook pass: yes
+- director approval: approved for orchestration-normalized packet
+
+이 템플릿을 통과한 회차만 `official in-engine episode`로 간주한다.
+
+추가 원칙:
+
+- `MCP used`, `skills run`, `agent reviews`, `hook checks` 중 생략한 항목이 있으면 이유를 남긴다
+- `director lock note`가 비어 있으면 release 직전 초안으로 본다
