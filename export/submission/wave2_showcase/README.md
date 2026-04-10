@@ -1,6 +1,7 @@
 # TROY Wave2 Showcase Pack
 
 이 폴더는 `wave2 packet family` 5종을 submission-facing showcase copy로 묶는다.
+읽는 사람이 이 작품의 조용한 윤리, 사적인 친밀감, 성숙한 침묵을 빠르게 파악하도록 배열했다.
 
 구성:
 
@@ -19,3 +20,12 @@
 - support two:
   - `E050`
   - `E086`
+
+읽기 포인트:
+
+- `E119`
+  - 낮고 성숙한 결말의 톤
+- `E012`
+  - 방음실 이후의 private closeness
+- `E094`
+  - 읽기 대신 묻는 윤리

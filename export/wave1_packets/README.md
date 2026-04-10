@@ -2,6 +2,7 @@
 
 이 폴더는 `music lane pilot 6곡`과 겹치는 wider packet family 가운데,
 다음 확장 가치가 높은 3종을 export-facing copy로 묶는다.
+wave1은 가장 넓게 읽히는 감정 축과 threshold-to-ending 궤적을 대표하는 묶음이다.
 
 현재 패킷:
 
@@ -31,3 +32,12 @@
   - present-tense reconnection track / same-direction rhythm
 - `E001`
   - character identity opener / isolation grammar
+
+권장 확인 순서:
+
+1. `E040`
+2. `E078`
+3. `E120`
+4. `E029`
+5. `E110`
+6. `E001`

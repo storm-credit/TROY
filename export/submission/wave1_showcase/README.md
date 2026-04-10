@@ -1,6 +1,7 @@
 # TROY Wave1 Showcase Pack
 
 이 폴더는 `wave1 packet family` 6종을 submission-facing showcase copy로 묶는다.
+읽는 사람이 작품의 가장 넓은 감정 진폭과 대표 turning point를 빠르게 파악하도록 배열했다.
 
 구성:
 
