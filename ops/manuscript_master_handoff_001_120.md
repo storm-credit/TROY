@@ -137,6 +137,7 @@ downstream package opening:
 - `ops/alpha_reader_feedback_intake_opening.md`
 - `ops/feedback_triage_protocol.md`
 - `ops/submission_delivery_checklist.md`
+- `ops/submission_send_scenarios.md`
 - `ops/packet_header_consistency_audit.md`
 - `ops/submission_release_readiness_audit.md`
 - `ops/stable_state_lock_submission_stack.md`

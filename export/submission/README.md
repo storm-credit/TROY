@@ -17,6 +17,7 @@
 - `03_FEEDBACK_TEMPLATE.md`
 - `04_FEEDBACK_TRIAGE_NOTE.md`
 - `05_DELIVERY_CHECKLIST.md`
+- `06_SEND_SCENARIOS.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -74,9 +75,11 @@
    - `04_FEEDBACK_TRIAGE_NOTE.md`
 5. 전달 직전 체크:
    - `05_DELIVERY_CHECKLIST.md`
-6. 샘플 맵 먼저 확인:
+6. 실제 전달 상황별 묶음 확인:
+   - `06_SEND_SCENARIOS.md`
+7. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-7. 대표 샘플 묶음부터 확인:
+8. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-8. 작품 전체를 처음부터 통독:
+9. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`
