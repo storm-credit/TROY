@@ -6,7 +6,8 @@ Current mode:
 - working master + canon tightening
 - 120-episode target locked
 - full manuscript migration complete: E001-E120
-- no media asset commits yet
+- media / music / MV module docs are now tracked downstream assets
+- current main release baseline: `ops/main_release_log_2026_04_11.md`
 - story, music, and MV decisions must all follow one shared canon
 
 ## Repo Rule
@@ -134,6 +135,11 @@ Core engine docs:
 - `ops/canon_to_media_bridge_memo.md`
 - `ops/music_lane_pilot_opening.md`
 - `ops/music_lane_pilot_production_pack.md`
+- `ops/media_orchestra_command_hierarchy.md`
+- `ops/media_tool_module_system.md`
+- `ops/tool_specific_prompt_optimization_matrix.md`
+- `ops/character_face_lock_harness.md`
+- `ops/main_release_log_2026_04_11.md`
 
 This means:
 - canon protects the project identity
