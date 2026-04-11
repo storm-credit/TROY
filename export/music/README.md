@@ -57,6 +57,11 @@ fourth-pass 번들 안에는:
 
 - `pilot + second_pass + third_pass + fourth_pass`로 아린 1집 12트랙 전부가 generation-ready packet 상태까지 올라왔다
 - 현재 판단은 `go-live ready`이며, 다음 실제 시작 순서는 `E054 -> E113 -> E050`이다
+- 현재 파일럿 3곡 queue:
+  - `E054-A01`
+  - `E113-A01`
+  - `E050-A01`
+- 세 queued run 모두 verdict는 `pending`이며, 실제 생성 음원 청취 후에만 `pass / revise / reject`를 기록한다
 
 운영 문서:
 
@@ -72,6 +77,7 @@ fourth-pass 번들 안에는:
 - `ops/arin_inworld_album_vol1_first_execution_wave.md`
 - `ops/orchestra_album_generation_expert_check_2026_04_11.md`
 - `ops/arin_album_generation_go_live_readiness_audit_2026_04_11.md`
+- `ops/arin_album_pilot_queue_preflight_audit_2026_04_12.md`
 - `ops/media_orchestra_command_hierarchy.md`
 - `ops/tool_specific_prompt_optimization_matrix.md`
 - `ops/character_face_lock_harness.md`
