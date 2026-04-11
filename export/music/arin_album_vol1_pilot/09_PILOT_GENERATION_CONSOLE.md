@@ -24,6 +24,8 @@
   - `export/music/arin_album_vol1_pilot/04_SESSION_RESULT_LOG.md`
 - Suno copy cards:
   - `export/music/arin_album_vol1_pilot/suno_copy_cards/`
+- visual/MV copy cards:
+  - `export/music/arin_album_vol1_pilot/visual_mv_copy_cards/`
 
 ## 3. run order
 
@@ -196,3 +198,7 @@ Original Korean private literary song with intimate restrained female vocal, sof
   - `suno_copy_cards/02_E113_SUNO_COPY_CARD.md`
   - `suno_copy_cards/03_E050_SUNO_COPY_CARD.md`
 - 생성기 입력은 위 copy card를 우선 사용한다
+- music pass 이후 visual/MV copy card:
+  - `visual_mv_copy_cards/01_E054_VISUAL_MV_COPY_CARD.md`
+  - `visual_mv_copy_cards/02_E113_VISUAL_MV_COPY_CARD.md`
+  - `visual_mv_copy_cards/03_E050_VISUAL_MV_COPY_CARD.md`

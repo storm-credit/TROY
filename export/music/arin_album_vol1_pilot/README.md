@@ -14,6 +14,7 @@
 8. `08_E050_integrated_media_packet.md`
 9. `09_PILOT_GENERATION_CONSOLE.md`
 10. `suno_copy_cards/`
+11. `visual_mv_copy_cards/`
 
 파일럿 목적:
 
@@ -30,4 +31,5 @@
 
 - `09_PILOT_GENERATION_CONSOLE.md`를 기준으로 생성기에 입력한다
 - full lyrics 입력이 필요하면 `suno_copy_cards/`를 사용한다
+- music pass 이후 still/MV 입력은 `visual_mv_copy_cards/`를 사용한다
 - 결과는 `04_SESSION_RESULT_LOG.md`, `../arin_album_vol1_first_execution_wave_sheet.md`, `../arin_album_vol1_master_session_log.md` 순서로 기록한다
