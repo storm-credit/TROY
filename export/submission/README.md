@@ -27,6 +27,7 @@
 - `13_PACKAGE_A_FIRST_WAVE_EXECUTION_BOARD.md`
 - `14_PACKAGE_A_CONTACT_QUALIFICATION_RUBRIC.md`
 - `15_PACKAGE_A_FOLLOWUP_MESSAGE.md`
+- `16_PACKAGE_A_RESPONSE_CAPTURE_SHEET.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -105,9 +106,11 @@
    - `14_PACKAGE_A_CONTACT_QUALIFICATION_RUBRIC.md`
 15. first wave follow-up 문구:
    - `15_PACKAGE_A_FOLLOWUP_MESSAGE.md`
-16. 샘플 맵 먼저 확인:
+16. first wave 회신 기록 시트:
+   - `16_PACKAGE_A_RESPONSE_CAPTURE_SHEET.md`
+17. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-17. 대표 샘플 묶음부터 확인:
+18. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-18. 작품 전체를 처음부터 통독:
+19. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`
