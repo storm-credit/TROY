@@ -10,3 +10,10 @@
 
 - `ops`의 설계 문서를 production-facing bundle로 다시 묶는다
 - 생성 테스트는 이 폴더를 기준으로 진행한다
+
+현재 파일럿 번들 안에는:
+
+- generation card 3종
+- session result log
+- integrated media packet index
+- 곡 / 이미지 / 영상 통합 생성 패킷 3종
