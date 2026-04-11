@@ -18,7 +18,7 @@
 1. `E011 첫 공연`
    - album role: debut spark / stage entrance
    - proposed track title: `남은 소리`
-   - status: convertible
+   - status: second-pass lock ready
 
 2. `E014 음악 이야기`
    - album role: shy conversation track
@@ -33,7 +33,7 @@
 4. `E030 대답`
    - album role: careful yes track
    - proposed track title: `천천히 열어 둔 문`
-   - status: convertible
+   - status: second-pass lock ready
 
 5. `E034 아린의 닫힘`
    - album role: withdrawal / interior protection track
@@ -71,9 +71,9 @@
     - status: strong conversion
 
 12. `E118 마지막 재회`
-    - album role: final dignified parting track
-    - proposed track title: `같은 말을 하던 저녁`
-    - status: convertible
+   - album role: final dignified parting track
+   - proposed track title: `같은 말을 하던 저녁`
+   - status: second-pass lock ready
 
 ## 4. side logic
 

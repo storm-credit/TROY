@@ -5,6 +5,7 @@
 현재 묶음:
 
 - `arin_album_vol1_pilot/`
+- `arin_album_vol1_second_pass/`
 
 역할:
 
@@ -15,5 +16,11 @@
 
 - generation card 3종
 - session result log
+- integrated media packet index
+- 곡 / 이미지 / 영상 통합 생성 패킷 3종
+
+second-pass 번들 안에는:
+
+- generation card 3종
 - integrated media packet index
 - 곡 / 이미지 / 영상 통합 생성 패킷 3종

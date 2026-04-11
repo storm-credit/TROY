@@ -39,6 +39,19 @@
 5. `E030`
 6. `E118`
 
+current lock:
+
+- `E011`:
+  - final title / lyric lock / Suno final ready
+- `E030`:
+  - final title / lyric lock / Suno final ready
+- `E118`:
+  - final title / lyric lock / Suno final ready
+
+export bundle:
+
+- `export/music/arin_album_vol1_second_pass/`
+
 ## 5. pass rule
 
 - 아린이 실제로 부를 만한 문장인가
