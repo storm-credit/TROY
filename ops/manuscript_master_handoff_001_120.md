@@ -23,6 +23,7 @@
 - `ops/hook_tail_watch_001_003_2026_04_11.md`
 - `ops/line_fatigue_watch_045_058_094_113_118_120_2026_04_11.md`
 - `ops/orchestra_execution_plan_post_evaluation_2026_04_11.md`
+- `ops/ten_point_upgrade_plan_2026_04_11.md`
 - `ops/director_orchestra.md`
 - `ops/orchestra_harness_contract.md`
 - `ops/required_expert_lane_matrix.md`

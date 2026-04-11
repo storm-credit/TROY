@@ -21,6 +21,7 @@
 - `07_EXTERNAL_EVALUATION_PACKAGE_PLAN.md`
 - `08_PACKAGE_SEND_REFERENCE.md`
 - `09_OUTREACH_MESSAGE_TEMPLATES.md`
+- `10_ALPHA_READER_TARGET_MATRIX.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -86,9 +87,11 @@
    - `08_PACKAGE_SEND_REFERENCE.md`
 9. 외부 연락 문구 초안:
    - `09_OUTREACH_MESSAGE_TEMPLATES.md`
-10. 샘플 맵 먼저 확인:
+10. 알파리더 타깃/질문 매트릭스:
+   - `10_ALPHA_READER_TARGET_MATRIX.md`
+11. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-11. 대표 샘플 묶음부터 확인:
+12. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-12. 작품 전체를 처음부터 통독:
+13. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`
