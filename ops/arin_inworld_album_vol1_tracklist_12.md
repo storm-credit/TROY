@@ -51,19 +51,19 @@
    - status: explicit in-world candidate
 
 8. `E064 흔들리는 운율`
-   - album role: pre-loss instability track
-   - proposed track title: `흔들리는 운율`
-   - status: convertible
+    - album role: pre-loss instability track
+    - proposed track title: `흔들리는 운율`
+    - status: fourth-pass lock ready
 
 9. `E094 말로 하는 이해`
-   - album role: correction / asking track
-   - proposed track title: `끝까지 들은 말`
-   - status: convertible
+    - album role: correction / asking track
+    - proposed track title: `끝까지 들은 말`
+    - status: fourth-pass lock ready
 
 10. `E108 들리지 않아도`
     - album role: uncertainty-with-attitude track
     - proposed track title: `정상인 불안`
-    - status: convertible
+    - status: fourth-pass lock ready
 
 11. `E113 아린의 선택`
     - album role: selfhood declaration track
@@ -97,3 +97,4 @@
 
 - 이 12곡은 `아린이 실제로 낼 수 있는 정규 1집` 기준으로 가장 균형이 좋다
 - 관계 서사만이 아니라 아린의 창작 주체성과 self-preserving line이 살아 있어야 한다
+- 현재 12트랙 전부가 lock-ready/generation-ready 상태까지 올라왔다

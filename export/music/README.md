@@ -7,6 +7,7 @@
 - `arin_album_vol1_pilot/`
 - `arin_album_vol1_second_pass/`
 - `arin_album_vol1_third_pass/`
+- `arin_album_vol1_fourth_pass/`
 
 역할:
 
@@ -31,3 +32,13 @@ third-pass 번들 안에는:
 - generation card 3종
 - integrated media packet index
 - 곡 / 이미지 / 영상 통합 생성 패킷 3종
+
+fourth-pass 번들 안에는:
+
+- generation card 3종
+- integrated media packet index
+- 곡 / 이미지 / 영상 통합 생성 패킷 3종
+
+현재 상태:
+
+- `pilot + second_pass + third_pass + fourth_pass`로 아린 1집 12트랙 전부가 generation-ready packet 상태까지 올라왔다

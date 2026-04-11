@@ -71,6 +71,25 @@ export bundle:
 
 - `export/music/arin_album_vol1_third_pass/`
 
+## 4B. fourth pass order
+
+10. `E064`
+11. `E094`
+12. `E108`
+
+current lock:
+
+- `E064`:
+  - final title / lyric lock / Suno final ready
+- `E094`:
+  - final title / lyric lock / Suno final ready
+- `E108`:
+  - final title / lyric lock / Suno final ready
+
+export bundle:
+
+- `export/music/arin_album_vol1_fourth_pass/`
+
 ## 5. pass rule
 
 - 아린이 실제로 부를 만한 문장인가
@@ -90,5 +109,6 @@ export bundle:
 - 아린 1집은 OST보다 더 조심스럽게 다뤄야 한다
 - 핵심은 `예쁜 러브송`이 아니라 `아린 authored voice`다
 - producer decision도 `유명인 모사`가 아니라 `producer-class lane 조합`으로 잠근다
-- pilot 3곡은 이제 `고정 제목 + 최종 가사 초안`까지 잠겨 있으므로, 다음 단계는 실제 generation test다
+- 현재 12트랙 전부가 `고정 제목 + 최종 가사 + Suno final + export media packet` 상태까지 올라왔다
+- 다음 단계는 실제 generation test와 결과 로그 기록이다
 - generation test는 `final Suno prompt + producer stack + lyric lock` 3축으로만 판단한다
