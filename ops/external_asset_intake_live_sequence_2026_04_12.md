@@ -21,10 +21,12 @@
 
 ```powershell
 .\tools\Invoke-MediaIntakeDashboard.ps1
+.\tools\Invoke-ExternalAssetReviewRun.ps1
 ```
 
 - audio / visual ready count를 동시에 본다
 - 아무 것도 없으면 그대로 blocked 상태를 유지한다
+- one-command orchestration이 필요하면 `Invoke-ExternalAssetReviewRun.ps1`를 우선 사용한다
 
 ### audio lane
 
