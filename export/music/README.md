@@ -25,20 +25,29 @@ second-pass 번들 안에는:
 
 - generation card 3종
 - integrated media packet index
+- session result log
 - 곡 / 이미지 / 영상 통합 생성 패킷 3종
 
 third-pass 번들 안에는:
 
 - generation card 3종
 - integrated media packet index
+- session result log
 - 곡 / 이미지 / 영상 통합 생성 패킷 3종
 
 fourth-pass 번들 안에는:
 
 - generation card 3종
 - integrated media packet index
+- session result log
 - 곡 / 이미지 / 영상 통합 생성 패킷 3종
 
 현재 상태:
 
 - `pilot + second_pass + third_pass + fourth_pass`로 아린 1집 12트랙 전부가 generation-ready packet 상태까지 올라왔다
+
+운영 문서:
+
+- `arin_album_vol1_master_generation_board.md`
+- `arin_album_vol1_master_session_log.md`
+- `arin_album_vol1_direction_note_template.md`
