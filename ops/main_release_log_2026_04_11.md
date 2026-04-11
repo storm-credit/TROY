@@ -4,7 +4,8 @@
 
 - source branch: `codex/120-canon-master-plan`
 - target branch: `main`
-- released commit: `84cfb37` `Lock push and main release gate`
+- initial released commit: `84cfb37` `Lock push and main release gate`
+- current released commit: `b261b0c` `Update export package status docs`
 - release method: fast-forward push from `HEAD` to `main`
 
 ## Scope
@@ -20,6 +21,9 @@
 - media orchestra module system
 - character face lock harness
 - push / main release gate
+- main release log
+- README release baseline update
+- export package status README update
 
 ## Verification
 
@@ -38,6 +42,14 @@
 - no unrelated dirty files included
 - branch push completed before main reflection
 - main was updated only after hook verification and fast-forward eligibility check
+
+## Post-Release Documentation Corrections
+
+- `aa315d4` `Record main release baseline`
+- `ee46097` `Update TROY release baseline docs`
+- `b261b0c` `Update export package status docs`
+
+These commits keep the release discoverable after the initial main fast-forward.
 
 ## Next Action
 
