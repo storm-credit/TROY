@@ -23,7 +23,7 @@
 1. `SUNO_MODULE`:
    - E054 / E113 / E050
 2. `EXTERNAL_ASSET_INTAKE_MODULE`:
-   - check audio arrival, image arrival, and dashboard state
+   - check audio arrival, image arrival, dashboard state, action packet, and verdict template
 3. `MIDJOURNEY_STILL_MODULE` or `IMAGEN_STILL_MODULE`:
    - Arin / Seojun master face reference candidates
 4. `NANO_BANANA_EDIT_MODULE`:
@@ -34,6 +34,7 @@
    - repair face/expression/prop drift
 7. `EXTERNAL_ASSET_INTAKE_MODULE`:
    - verify accepted still or verdict-ready asset before opening next stage
+   - export operator packet and fillable verdict template when real assets are present
 8. `KLING_I2V_MODULE` / `HIGGSFIELD_MOTION_MODULE` / `VEO_CINEMATIC_VIDEO_MODULE` / `SORA_STORYBOARD_VIDEO_MODULE`:
    - short motion test only after accepted still lock
 

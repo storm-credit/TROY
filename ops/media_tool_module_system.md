@@ -139,3 +139,4 @@
   4. E050 priority still module split
   5. intake / dashboard helpers keep real-asset status visible across the whole line
   6. when external assets first arrive, export an action packet before opening the next expert lane
+  7. export a fillable verdict template before writing back to logs and boards

@@ -25,6 +25,8 @@
    |     |-- asset intake 전문가
    |     |-- verdict routing 전문가
    |     |-- dashboard/status 전문가
+   |     |-- action packet 전문가
+   |     |-- verdict template 전문가
    |
    |-- 뮤비 감동 지휘
          |-- Midjourney 전문가
@@ -48,6 +50,7 @@
 - manuscript canon과 media output 사이의 불일치 차단
 - 툴별 결과가 좋아 보여도 작품의 감정 방향에서 벗어나면 reject
 - blocked state도 숨기지 않고 그대로 표기
+- ready asset이 생기면 operator packet과 fillable verdict template까지 같은 세션 안에서 뽑아 준다
 
 ## 4. music emotional direction
 
