@@ -38,11 +38,13 @@
 .\tools\Invoke-ExternalAssetReviewRun.ps1
 .\tools\Export-ExternalAssetReviewSnapshot.ps1
 .\tools\Export-ExternalAssetActionPacket.ps1
+.\tools\Export-ExternalAssetVerdictTemplate.ps1
 ```
 
 - 첫 실행은 항상 `Invoke-ExternalAssetReviewRun.ps1`로 시작한다.
 - snapshot이 필요하면 같은 세션에서 즉시 export한다.
 - 세션 체크리스트와 update target 묶음이 필요하면 `Export-ExternalAssetActionPacket.ps1`를 바로 뽑는다.
+- fillable verdict 초안이 필요하면 `Export-ExternalAssetVerdictTemplate.ps1`를 바로 뽑는다.
 - 실제 필드 반영은 `ops/external_asset_update_map_2026_04_12.md`를 따른다.
 
 ### audio first arrival

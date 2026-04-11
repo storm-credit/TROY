@@ -40,6 +40,7 @@
 - `tools/Invoke-ExternalAssetReviewRun.ps1`
 - `tools/Export-ExternalAssetReviewSnapshot.ps1`
 - `tools/Export-ExternalAssetActionPacket.ps1`
+- `tools/Export-ExternalAssetVerdictTemplate.ps1`
 - `tools/Test-ExternalAssetIntakeHarness.ps1`
 - `tools/Test-ExternalAssetReadyPath.ps1`
 
@@ -50,6 +51,7 @@
 - `ops/external_asset_first_arrival_runbook_2026_04_12.md`
 - `ops/external_asset_action_packet_audit_2026_04_12.md`
 - `ops/external_asset_update_map_2026_04_12.md`
+- `ops/external_asset_verdict_template_audit_2026_04_12.md`
 
 ## minimal live path
 
@@ -58,13 +60,14 @@
 3. if needed, inspect a specific worksheet in detail
 4. if a session record is needed, run `Export-ExternalAssetReviewSnapshot.ps1`
 5. if operator-facing next steps are needed, run `Export-ExternalAssetActionPacket.ps1`
-5. update the target logs or continuity board in the same session
-6. rerun dashboard before opening the next stage
+6. if fillable verdict blocks are needed, run `Export-ExternalAssetVerdictTemplate.ps1`
+7. update the target logs or continuity board in the same session
+8. rerun dashboard before opening the next stage
 
 ## harness check
 
 - run `Test-ExternalAssetIntakeHarness.ps1` when the intake stack changes
-- this checks dashboard json, review run json, snapshot export, and action packet export in one pass
+- this checks dashboard json, review run json, snapshot export, action packet export, and verdict template export in one pass
 - run `Test-ExternalAssetReadyPath.ps1` when you need a synthetic ready-path dry run without touching the real local media folders
 
 ## current tracked assets

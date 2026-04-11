@@ -12,15 +12,18 @@ $dashboardScript = Join-Path $PSScriptRoot "Invoke-MediaIntakeDashboard.ps1"
 $reviewRunScript = Join-Path $PSScriptRoot "Invoke-ExternalAssetReviewRun.ps1"
 $snapshotScript = Join-Path $PSScriptRoot "Export-ExternalAssetReviewSnapshot.ps1"
 $actionPacketScript = Join-Path $PSScriptRoot "Export-ExternalAssetActionPacket.ps1"
+$verdictTemplateScript = Join-Path $PSScriptRoot "Export-ExternalAssetVerdictTemplate.ps1"
 
 $tempOutput = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_review_snapshot_{0}.md" -f ([guid]::NewGuid().ToString("N")))
 $tempActionPacket = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_action_packet_{0}.md" -f ([guid]::NewGuid().ToString("N")))
+$tempVerdictTemplate = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_verdict_template_{0}.md" -f ([guid]::NewGuid().ToString("N")))
 
 try {
     $dashboard = & $dashboardScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -AsJson | ConvertFrom-Json
     $reviewRun = & $reviewRunScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -AsJson | ConvertFrom-Json
     $snapshotLine = & $snapshotScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $tempOutput
     $actionPacketLine = & $actionPacketScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $tempActionPacket
+    $verdictTemplateLine = & $verdictTemplateScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $tempVerdictTemplate
 
     $snapshotExists = Test-Path -LiteralPath $tempOutput
     $snapshotPreview = @()
@@ -32,6 +35,12 @@ try {
     $actionPacketPreview = @()
     if ($actionPacketExists) {
         $actionPacketPreview = @(Get-Content -LiteralPath $tempActionPacket | Select-Object -First 8)
+    }
+
+    $verdictTemplateExists = Test-Path -LiteralPath $tempVerdictTemplate
+    $verdictTemplatePreview = @()
+    if ($verdictTemplateExists) {
+        $verdictTemplatePreview = @(Get-Content -LiteralPath $tempVerdictTemplate | Select-Object -First 10)
     }
 
     $checks = @(
@@ -55,6 +64,11 @@ try {
             Status = if ($actionPacketExists) { "pass" } else { "fail" }
             Note = if ($actionPacketExists) { $tempActionPacket } else { "action packet file not created" }
         }
+        [pscustomobject]@{
+            Check = "verdict template export"
+            Status = if ($verdictTemplateExists) { "pass" } else { "fail" }
+            Note = if ($verdictTemplateExists) { $tempVerdictTemplate } else { "verdict template file not created" }
+        }
     )
 
     $failedChecks = @($checks | Where-Object { $_.Status -eq "fail" })
@@ -66,8 +80,10 @@ try {
         Checks = $checks
         SnapshotPreview = $snapshotPreview
         ActionPacketPreview = $actionPacketPreview
+        VerdictTemplatePreview = $verdictTemplatePreview
         SnapshotOutput = $tempOutput
         ActionPacketOutput = $tempActionPacket
+        VerdictTemplateOutput = $tempVerdictTemplate
         ReviewReady = $reviewRun.ReviewReady
         DashboardStatus = $dashboard.OverallStatus
     }
@@ -98,6 +114,14 @@ try {
                 Write-Output ("  {0}" -f $line)
             }
         }
+
+        if ($verdictTemplatePreview.Count -gt 0) {
+            Write-Output ""
+            Write-Output "VerdictTemplatePreview:"
+            foreach ($line in $verdictTemplatePreview) {
+                Write-Output ("  {0}" -f $line)
+            }
+        }
     }
 }
 finally {
@@ -106,5 +130,8 @@ finally {
     }
     if (Test-Path -LiteralPath $tempActionPacket) {
         Remove-Item -LiteralPath $tempActionPacket
+    }
+    if (Test-Path -LiteralPath $tempVerdictTemplate) {
+        Remove-Item -LiteralPath $tempVerdictTemplate
     }
 }

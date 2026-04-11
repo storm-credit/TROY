@@ -205,6 +205,7 @@ renders/
 exports/
 ops/external_asset_review_snapshot_*.md
 ops/external_asset_action_packet_20*.md
+ops/external_asset_verdict_template_[0-9]*.md
 *.wav
 *.mp3
 *.m4a
