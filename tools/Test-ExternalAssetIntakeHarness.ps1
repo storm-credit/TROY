@@ -11,18 +11,27 @@ $ErrorActionPreference = "Stop"
 $dashboardScript = Join-Path $PSScriptRoot "Invoke-MediaIntakeDashboard.ps1"
 $reviewRunScript = Join-Path $PSScriptRoot "Invoke-ExternalAssetReviewRun.ps1"
 $snapshotScript = Join-Path $PSScriptRoot "Export-ExternalAssetReviewSnapshot.ps1"
+$actionPacketScript = Join-Path $PSScriptRoot "Export-ExternalAssetActionPacket.ps1"
 
 $tempOutput = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_review_snapshot_{0}.md" -f ([guid]::NewGuid().ToString("N")))
+$tempActionPacket = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_action_packet_{0}.md" -f ([guid]::NewGuid().ToString("N")))
 
 try {
     $dashboard = & $dashboardScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -AsJson | ConvertFrom-Json
     $reviewRun = & $reviewRunScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -AsJson | ConvertFrom-Json
     $snapshotLine = & $snapshotScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $tempOutput
+    $actionPacketLine = & $actionPacketScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $tempActionPacket
 
     $snapshotExists = Test-Path -LiteralPath $tempOutput
     $snapshotPreview = @()
     if ($snapshotExists) {
         $snapshotPreview = @(Get-Content -LiteralPath $tempOutput | Select-Object -First 5)
+    }
+
+    $actionPacketExists = Test-Path -LiteralPath $tempActionPacket
+    $actionPacketPreview = @()
+    if ($actionPacketExists) {
+        $actionPacketPreview = @(Get-Content -LiteralPath $tempActionPacket | Select-Object -First 8)
     }
 
     $checks = @(
@@ -41,6 +50,11 @@ try {
             Status = if ($snapshotExists) { "pass" } else { "fail" }
             Note = if ($snapshotExists) { $tempOutput } else { "snapshot file not created" }
         }
+        [pscustomobject]@{
+            Check = "action packet export"
+            Status = if ($actionPacketExists) { "pass" } else { "fail" }
+            Note = if ($actionPacketExists) { $tempActionPacket } else { "action packet file not created" }
+        }
     )
 
     $failedChecks = @($checks | Where-Object { $_.Status -eq "fail" })
@@ -51,7 +65,9 @@ try {
         OverallStatus = if ($failedChecks.Count -eq 0) { "pass" } else { "fail" }
         Checks = $checks
         SnapshotPreview = $snapshotPreview
+        ActionPacketPreview = $actionPacketPreview
         SnapshotOutput = $tempOutput
+        ActionPacketOutput = $tempActionPacket
         ReviewReady = $reviewRun.ReviewReady
         DashboardStatus = $dashboard.OverallStatus
     }
@@ -74,10 +90,21 @@ try {
                 Write-Output ("  {0}" -f $line)
             }
         }
+
+        if ($actionPacketPreview.Count -gt 0) {
+            Write-Output ""
+            Write-Output "ActionPacketPreview:"
+            foreach ($line in $actionPacketPreview) {
+                Write-Output ("  {0}" -f $line)
+            }
+        }
     }
 }
 finally {
     if (Test-Path -LiteralPath $tempOutput) {
         Remove-Item -LiteralPath $tempOutput
+    }
+    if (Test-Path -LiteralPath $tempActionPacket) {
+        Remove-Item -LiteralPath $tempActionPacket
     }
 }

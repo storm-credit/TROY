@@ -8,11 +8,13 @@ $ErrorActionPreference = "Stop"
 $dashboardScript = Join-Path $PSScriptRoot "Invoke-MediaIntakeDashboard.ps1"
 $reviewRunScript = Join-Path $PSScriptRoot "Invoke-ExternalAssetReviewRun.ps1"
 $snapshotScript = Join-Path $PSScriptRoot "Export-ExternalAssetReviewSnapshot.ps1"
+$actionPacketScript = Join-Path $PSScriptRoot "Export-ExternalAssetActionPacket.ps1"
 
 $tempRoot = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_ready_{0}" -f ([guid]::NewGuid().ToString("N")))
 $audioRoot = Join-Path $tempRoot "audio"
 $imageRoot = Join-Path $tempRoot "image"
 $snapshotPath = Join-Path $tempRoot "ready_snapshot.md"
+$actionPacketPath = Join-Path $tempRoot "ready_action_packet.md"
 
 $audioFiles = @(
     "E054-A01.wav",
@@ -42,11 +44,18 @@ try {
     $dashboard = & $dashboardScript -AudioRoot $audioRoot -ImageRoot $imageRoot -AsJson | ConvertFrom-Json
     $reviewRun = & $reviewRunScript -AudioRoot $audioRoot -ImageRoot $imageRoot -AsJson | ConvertFrom-Json
     $snapshotLine = & $snapshotScript -AudioRoot $audioRoot -ImageRoot $imageRoot -OutputPath $snapshotPath
+    $actionPacketLine = & $actionPacketScript -AudioRoot $audioRoot -ImageRoot $imageRoot -OutputPath $actionPacketPath
 
     $snapshotExists = Test-Path -LiteralPath $snapshotPath
     $snapshotPreview = @()
     if ($snapshotExists) {
         $snapshotPreview = @(Get-Content -LiteralPath $snapshotPath | Select-Object -First 12)
+    }
+
+    $actionPacketExists = Test-Path -LiteralPath $actionPacketPath
+    $actionPacketPreview = @()
+    if ($actionPacketExists) {
+        $actionPacketPreview = @(Get-Content -LiteralPath $actionPacketPath | Select-Object -First 12)
     }
 
     $checks = @(
@@ -85,6 +94,11 @@ try {
             Status = if ($snapshotExists) { "pass" } else { "fail" }
             Note = if ($snapshotExists) { $snapshotPath } else { "snapshot file not created" }
         }
+        [pscustomobject]@{
+            Check = "action packet export"
+            Status = if ($actionPacketExists) { "pass" } else { "fail" }
+            Note = if ($actionPacketExists) { $actionPacketPath } else { "action packet file not created" }
+        }
     )
 
     $failedChecks = @($checks | Where-Object { $_.Status -eq "fail" })
@@ -98,6 +112,7 @@ try {
         ReviewReady = $reviewRun.ReviewReady
         Checks = $checks
         SnapshotPreview = $snapshotPreview
+        ActionPacketPreview = $actionPacketPreview
     }
 
     if ($AsJson) {
@@ -118,6 +133,14 @@ try {
             Write-Output ""
             Write-Output "SnapshotPreview:"
             foreach ($line in $snapshotPreview) {
+                Write-Output ("  {0}" -f $line)
+            }
+        }
+
+        if ($actionPacketPreview.Count -gt 0) {
+            Write-Output ""
+            Write-Output "ActionPacketPreview:"
+            foreach ($line in $actionPacketPreview) {
                 Write-Output ("  {0}" -f $line)
             }
         }

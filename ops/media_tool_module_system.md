@@ -138,3 +138,4 @@
   3. E113 priority still module split
   4. E050 priority still module split
   5. intake / dashboard helpers keep real-asset status visible across the whole line
+  6. when external assets first arrive, export an action packet before opening the next expert lane
