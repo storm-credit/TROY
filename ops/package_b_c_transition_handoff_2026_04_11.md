@@ -26,8 +26,10 @@
 
 - `package B`:
   - `export/submission/22_PACKAGE_B_FULL_MANUSCRIPT_HANDOFF.md`
+  - `export/submission/24_PACKAGE_B_FULL_READ_LOG.md`
 - `package C`:
   - `export/submission/23_PACKAGE_C_ALPHA_FEEDBACK_HANDOFF.md`
+  - `export/submission/25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`
 
 ## 6. orchestra note
 

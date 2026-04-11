@@ -23,6 +23,8 @@
 - 또는
   - 한 명이 강하게 full manuscript를 요청했고
   - 다른 한 명 이상이 최소한 tone / scene / continue intent를 긍정적으로 확인했을 때
+- 승급 후 기록:
+  - `export/submission/24_PACKAGE_B_FULL_READ_LOG.md`
 
 ## 4. promote to package C when
 
@@ -31,6 +33,8 @@
   - `where / why` 기준으로 피드백을 줄 수 있을 때
 - 단:
   - first wave 전체가 아직 충분히 돌지 않았는데 무조건 `package C`부터 넓히지는 않는다
+- 승급 후 기록:
+  - `export/submission/25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`
 
 ## 5. hold when
 
@@ -53,3 +57,4 @@
 
 - package A의 일은 심사 통과가 아니라 `어떤 문이 먼저 열리는지`를 확인하는 것이다
 - promotion은 enthusiasm보다 비교 가능한 signal이 모였을 때만 한다
+- `type C`는 기본 first-wave lane이 아니라 `package C` 상세 피드백 lane에서 더 유효하다

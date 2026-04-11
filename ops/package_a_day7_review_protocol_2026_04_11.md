@@ -34,6 +34,7 @@
 - action:
   - `package B` 후보를 tracker에 표시
   - full manuscript 요청용 대상만 좁혀서 다음 파동 설계
+  - 실제 승급 시 `export/submission/24_PACKAGE_B_FULL_READ_LOG.md` 입력 시작
 
 ### branch B - promote selected contact to package C
 
@@ -42,6 +43,7 @@
 - action:
   - `package C` 후보로 별도 분리
   - alpha feedback request 문서 세트 준비
+  - 실제 승급 시 `export/submission/25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md` 입력 시작
 
 ### branch C - hold and wait
 

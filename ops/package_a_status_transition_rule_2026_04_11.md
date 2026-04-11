@@ -51,6 +51,8 @@
   - response capture sheet
   중 필요한 문서를 같이 갱신한다
 - `replied` 이후 분기 판단은 반드시 response capture sheet를 먼저 적은 뒤 한다
+- `moved to package B`면 `export/submission/24_PACKAGE_B_FULL_READ_LOG.md`도 연다
+- `moved to package C`면 `export/submission/25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`도 연다
 
 ## 6. orchestra note
 
