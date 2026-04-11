@@ -32,6 +32,7 @@
 - `18_PACKAGE_A_SEND_SESSION_LOG.md`
 - `19_PACKAGE_A_ALIAS_MAPPING_SHEET.md`
 - `20_PACKAGE_A_OPERATOR_RUNBOOK.md`
+- `21_PACKAGE_A_HUMAN_INPUT_CHECKLIST.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -120,9 +121,11 @@
    - `19_PACKAGE_A_ALIAS_MAPPING_SHEET.md`
 20. first wave 운영 런북:
    - `20_PACKAGE_A_OPERATOR_RUNBOOK.md`
-21. 샘플 맵 먼저 확인:
+21. first wave 인간 입력 체크:
+   - `21_PACKAGE_A_HUMAN_INPUT_CHECKLIST.md`
+22. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-22. 대표 샘플 묶음부터 확인:
+23. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-23. 작품 전체를 처음부터 통독:
+24. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`
