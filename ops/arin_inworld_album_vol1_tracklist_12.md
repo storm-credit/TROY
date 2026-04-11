@@ -23,12 +23,12 @@
 2. `E014 음악 이야기`
    - album role: shy conversation track
    - proposed track title: `이름 없는 노래`
-   - status: convertible
+   - status: third-pass lock ready
 
 3. `E022 익숙해진 목소리`
    - album role: voice-memory track
    - proposed track title: `없는 시간에도`
-   - status: convertible
+   - status: third-pass lock ready
 
 4. `E030 대답`
    - album role: careful yes track
@@ -38,7 +38,7 @@
 5. `E034 아린의 닫힘`
    - album role: withdrawal / interior protection track
    - proposed track title: `유리 뒤의 여름`
-   - status: convertible
+   - status: third-pass lock ready
 
 6. `E050 일기의 문장`
    - album role: private diary track

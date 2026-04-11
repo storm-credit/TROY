@@ -52,6 +52,25 @@ export bundle:
 
 - `export/music/arin_album_vol1_second_pass/`
 
+## 4A. third pass order
+
+7. `E014`
+8. `E022`
+9. `E034`
+
+current lock:
+
+- `E014`:
+  - final title / lyric lock / Suno final ready
+- `E022`:
+  - final title / lyric lock / Suno final ready
+- `E034`:
+  - final title / lyric lock / Suno final ready
+
+export bundle:
+
+- `export/music/arin_album_vol1_third_pass/`
+
 ## 5. pass rule
 
 - 아린이 실제로 부를 만한 문장인가

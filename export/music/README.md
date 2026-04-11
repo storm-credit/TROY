@@ -6,6 +6,7 @@
 
 - `arin_album_vol1_pilot/`
 - `arin_album_vol1_second_pass/`
+- `arin_album_vol1_third_pass/`
 
 역할:
 
@@ -20,6 +21,12 @@
 - 곡 / 이미지 / 영상 통합 생성 패킷 3종
 
 second-pass 번들 안에는:
+
+- generation card 3종
+- integrated media packet index
+- 곡 / 이미지 / 영상 통합 생성 패킷 3종
+
+third-pass 번들 안에는:
 
 - generation card 3종
 - integrated media packet index
