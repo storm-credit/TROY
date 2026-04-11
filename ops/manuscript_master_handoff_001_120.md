@@ -153,6 +153,7 @@ downstream package opening:
 - `ops/arin_inworld_album_vol1_generation_test_gate.md`
 - `ops/arin_inworld_album_vol1_generation_bundle_export.md`
 - `ops/music_generation_review_rubric.md`
+- `ops/orchestra_expert_status_check_2026_04_11.md`
 - `ops/packet_header_consistency_audit.md`
 - `ops/submission_release_readiness_audit.md`
 - `ops/stable_state_lock_submission_stack.md`
