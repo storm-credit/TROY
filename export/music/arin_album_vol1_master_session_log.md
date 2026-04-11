@@ -9,12 +9,19 @@
 
 ### [date] / [episode] / [title]
 
+- wave:
+- run id:
 - attempt:
+- source packet:
 - verdict:
+- decision owner:
 - producer stack:
 - what worked:
 - what failed:
 - next action:
+- next gate:
+- output path:
+- retry due:
 - still-image follow-up:
 - MV follow-up:
 

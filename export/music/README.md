@@ -51,3 +51,10 @@ fourth-pass 번들 안에는:
 - `arin_album_vol1_master_generation_board.md`
 - `arin_album_vol1_master_session_log.md`
 - `arin_album_vol1_direction_note_template.md`
+- `arin_album_vol1_first_execution_wave_sheet.md`
+
+오케스트라 잠금 문서:
+
+- `ops/arin_inworld_album_vol1_full_generation_runway.md`
+- `ops/arin_inworld_album_vol1_first_execution_wave.md`
+- `ops/orchestra_album_generation_expert_check_2026_04_11.md`

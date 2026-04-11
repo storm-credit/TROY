@@ -112,3 +112,6 @@ export bundle:
 - 현재 12트랙 전부가 `고정 제목 + 최종 가사 + Suno final + export media packet` 상태까지 올라왔다
 - 다음 단계는 실제 generation test와 결과 로그 기록이다
 - generation test는 `final Suno prompt + producer stack + lyric lock` 3축으로만 판단한다
+- 첫 실행 웨이브는 아래 문서를 truth source로 사용한다
+  - `ops/arin_inworld_album_vol1_first_execution_wave.md`
+  - `export/music/arin_album_vol1_first_execution_wave_sheet.md`
