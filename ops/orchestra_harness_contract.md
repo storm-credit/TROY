@@ -30,6 +30,7 @@
 - 작업 모드를 선언한다
 - 잠금 대상과 비잠금 대상을 구분한다
 - 전문가 호출 여부를 결정한다
+- 전문가별 모델과 reasoning 강도를 배정한다
 - 충돌을 정리하고 최종 반영 여부를 잠근다
 - 작업 성격에 맞게 전문가를 적절하게 배치하고 병합한다
 
@@ -37,6 +38,7 @@
 
 - canon/structure/media 방향 승인
 - harness schema 승인
+- agent model routing 승인
 - escalation 결정
 - final merge 및 release 승인
 
@@ -123,6 +125,7 @@
 
 - 단독 반영 잠금
 - director 승인 없는 canon 변경
+- 자기 모델이나 reasoning 강도 임의 변경
 
 ### Hooks
 
@@ -168,6 +171,7 @@
 
 - director는 `전문가가 필요한 안건`과 `hook으로 끝나는 안건`을 먼저 분리한다
 - director는 필요한 전문가를 task-scoped로 붙이고, 쓰지 않은 레인은 이유를 남긴다
+- director는 역할별 모델과 reasoning 강도를 task risk 기준으로 먼저 잠근다
 - director는 전문가 의견을 그대로 복붙 승인하지 않고 충돌을 병합해 최종 판단한다
 
 ## 5. Required Expert Lane Lock
