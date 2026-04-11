@@ -24,6 +24,9 @@
         |-- HIGGSFIELD_MOTION_MODULE
         |-- VEO_CINEMATIC_VIDEO_MODULE
         |-- SORA_STORYBOARD_VIDEO_MODULE
+  |
+  |-- 운영 인테이크 지휘
+        |-- EXTERNAL_ASSET_INTAKE_MODULE
 ```
 
 ## 3. module registry
@@ -38,6 +41,7 @@
 | HIGGSFIELD_MOTION_MODULE | character-centric close-up motion | accepted face/still + motion brief | close-up motion test | no ad/idol drift |
 | VEO_CINEMATIC_VIDEO_MODULE | cinematic short video / reference-guided clip | text or reference image + shot prompt | cinematic clip | face lock check required |
 | SORA_STORYBOARD_VIDEO_MODULE | storyboard shot / recut / remix style video test | shot storyboard + optional first frame | storyboard clip | shot-level continuity check required |
+| EXTERNAL_ASSET_INTAKE_MODULE | audio/reference intake and verdict routing | expected asset list + local drop folders + worksheet rules | ready/waiting dashboard and review routing | no fake readiness |
 
 ## 4. routing rule
 
@@ -133,3 +137,4 @@
   2. E054 priority still module split
   3. E113 priority still module split
   4. E050 priority still module split
+  5. intake / dashboard helpers keep real-asset status visible across the whole line

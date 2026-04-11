@@ -16,20 +16,25 @@
 | video | HIGGSFIELD_MOTION_MODULE | blocked | accepted close-up still locked | close-up only |
 | video | VEO_CINEMATIC_VIDEO_MODULE | blocked | accepted still or storyboard pass | cinematic candidate |
 | video | SORA_STORYBOARD_VIDEO_MODULE | blocked | accepted still or storyboard pass | storyboard candidate |
+| ops | EXTERNAL_ASSET_INTAKE_MODULE | ready | whenever queue or expected asset list exists | dashboard / intake / worksheet routing |
 
 ## 3. pilot sequence
 
 1. `SUNO_MODULE`:
    - E054 / E113 / E050
-2. `MIDJOURNEY_STILL_MODULE` or `IMAGEN_STILL_MODULE`:
+2. `EXTERNAL_ASSET_INTAKE_MODULE`:
+   - check audio arrival, image arrival, and dashboard state
+3. `MIDJOURNEY_STILL_MODULE` or `IMAGEN_STILL_MODULE`:
    - Arin / Seojun master face reference candidates
-3. `NANO_BANANA_EDIT_MODULE`:
+4. `NANO_BANANA_EDIT_MODULE`:
    - repair candidate references if close
-4. `MIDJOURNEY_STILL_MODULE` / `IMAGEN_STILL_MODULE`:
+5. `MIDJOURNEY_STILL_MODULE` / `IMAGEN_STILL_MODULE`:
    - priority stills
-5. `NANO_BANANA_EDIT_MODULE`:
+6. `NANO_BANANA_EDIT_MODULE`:
    - repair face/expression/prop drift
-6. `KLING_I2V_MODULE` / `HIGGSFIELD_MOTION_MODULE` / `VEO_CINEMATIC_VIDEO_MODULE` / `SORA_STORYBOARD_VIDEO_MODULE`:
+7. `EXTERNAL_ASSET_INTAKE_MODULE`:
+   - verify accepted still or verdict-ready asset before opening next stage
+8. `KLING_I2V_MODULE` / `HIGGSFIELD_MOTION_MODULE` / `VEO_CINEMATIC_VIDEO_MODULE` / `SORA_STORYBOARD_VIDEO_MODULE`:
    - short motion test only after accepted still lock
 
 ## 4. hard stop

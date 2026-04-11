@@ -13,16 +13,21 @@
 ```text
 오케스트라 총괄
   |
-  |-- 음악 감동 지휘
-  |     |-- Suno 전문가
-  |     |-- 가사 전문가
-  |     |-- 보컬 디렉션 전문가
-  |     |-- 음악 프로듀서 전문가
-  |     |-- 믹스/편곡 감각 전문가
-  |     |-- 저작권/모사 방지 전문가
-  |
-  |-- 뮤비 감동 지휘
-        |-- Midjourney 전문가
+   |-- 음악 감동 지휘
+   |     |-- Suno 전문가
+   |     |-- 가사 전문가
+   |     |-- 보컬 디렉션 전문가
+   |     |-- 음악 프로듀서 전문가
+   |     |-- 믹스/편곡 감각 전문가
+   |     |-- 저작권/모사 방지 전문가
+   |
+   |-- 운영 인테이크 지휘
+   |     |-- asset intake 전문가
+   |     |-- verdict routing 전문가
+   |     |-- dashboard/status 전문가
+   |
+   |-- 뮤비 감동 지휘
+         |-- Midjourney 전문가
         |-- Nano Banana / Gemini Image 전문가
         |-- Imagen 전문가
         |-- Kling 전문가
@@ -42,6 +47,7 @@
 - `pass / revise / reject` 최종 판정
 - manuscript canon과 media output 사이의 불일치 차단
 - 툴별 결과가 좋아 보여도 작품의 감정 방향에서 벗어나면 reject
+- blocked state도 숨기지 않고 그대로 표기
 
 ## 4. music emotional direction
 
