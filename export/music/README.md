@@ -59,3 +59,5 @@ fourth-pass 번들 안에는:
 - `ops/arin_inworld_album_vol1_full_generation_runway.md`
 - `ops/arin_inworld_album_vol1_first_execution_wave.md`
 - `ops/orchestra_album_generation_expert_check_2026_04_11.md`
+- `ops/media_orchestra_command_hierarchy.md`
+- `ops/tool_specific_prompt_optimization_matrix.md`

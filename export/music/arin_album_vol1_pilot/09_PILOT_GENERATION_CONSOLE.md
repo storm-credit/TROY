@@ -16,6 +16,10 @@
 
 - first wave gate:
   - `ops/arin_inworld_album_vol1_first_execution_wave.md`
+- media command hierarchy:
+  - `ops/media_orchestra_command_hierarchy.md`
+- tool-specific prompt matrix:
+  - `ops/tool_specific_prompt_optimization_matrix.md`
 - master board:
   - `export/music/arin_album_vol1_master_generation_board.md`
 - attempt sheet:
@@ -190,6 +194,17 @@ Original Korean private literary song with intimate restrained female vocal, sof
   - pass verdict validated
 - 다음 오케스트라 행동:
   - 실제 attempt 결과를 듣고 `pass / revise / reject`를 기록한다
+
+## 9A. command hierarchy lock
+
+- 오케스트라 총괄:
+  - 전체 순서와 최종 verdict 담당
+- 음악 감동 지휘:
+  - Suno / 가사 / 보컬 / 프로듀서 / 믹스 / 모사 방지 담당
+- 뮤비 감동 지휘:
+  - Midjourney / Nano Banana / Imagen / Kling / Higgsfield / MV 연출 / 비주얼 연속성 담당
+- 툴별 전문가:
+  - 각 docs에 맞는 prompt slot으로 분화한다
 
 ## 10. copy-card shortcut
 
