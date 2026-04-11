@@ -79,6 +79,10 @@
 - 중간
 - 읽기 포인트를 2-3개만 제시
 
+기록 위치:
+
+- `24_PACKAGE_B_FULL_READ_LOG.md`
+
 주의:
 
 - 피드백 양식까지 같이 요구하지 않아도 된다
@@ -117,6 +121,10 @@
 - 가장 자세하게
 - 그래도 요구는 3-4개를 넘기지 않는다
 
+기록 위치:
+
+- `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`
+
 주의:
 
 - 처음 접촉부터 package C를 쓰지 않는다
@@ -134,3 +142,5 @@
 현재 기본값:
 
 - 첫 외부 접촉은 항상 `package A`
+- `package B`는 `24_PACKAGE_B_FULL_READ_LOG.md`
+- `package C`는 `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`

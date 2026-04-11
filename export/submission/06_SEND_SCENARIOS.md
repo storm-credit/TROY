@@ -17,6 +17,8 @@
   - `01_EVALUATOR_NOTE.md`
   - `showcase_index.md`
   - `너라는운율_submission_draft_v1.md`
+- 내부 기록:
+  - `24_PACKAGE_B_FULL_READ_LOG.md`
 
 ## 3. 실제 피드백까지 받고 싶을 때
 
@@ -28,6 +30,8 @@
   - `04_FEEDBACK_TRIAGE_NOTE.md`
   - `05_DELIVERY_CHECKLIST.md`
   - `너라는운율_submission_draft_v1.md`
+- 내부 기록:
+  - `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`
 
 ## 4. note
 

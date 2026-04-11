@@ -51,6 +51,7 @@
 - 장편 구조
 - 감정선 일관성
 - 결말 작동 여부
+- 내부 기록은 `24_PACKAGE_B_FULL_READ_LOG.md`에 남긴다
 
 ### package C - feedback collection
 
@@ -73,6 +74,7 @@
 - 피드백 양식 통일
 - 감상과 수정 의견 분리
 - 후속 triage 준비
+- 내부 기록은 `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`에 남긴다
 
 ## 3. risks
 

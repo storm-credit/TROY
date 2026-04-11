@@ -37,6 +37,7 @@
 용도:
 
 - `package B`와 함께 보내는 전체 통독 요청
+- 회신은 내부적으로 `24_PACKAGE_B_FULL_READ_LOG.md`에 남긴다
 
 메시지:
 
@@ -59,6 +60,7 @@
 용도:
 
 - `package C`와 함께 보내는 피드백 요청
+- 회신은 내부적으로 `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`에 남긴다
 
 메시지:
 
