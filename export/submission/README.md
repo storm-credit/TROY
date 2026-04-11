@@ -18,6 +18,9 @@
 - `04_FEEDBACK_TRIAGE_NOTE.md`
 - `05_DELIVERY_CHECKLIST.md`
 - `06_SEND_SCENARIOS.md`
+- `07_EXTERNAL_EVALUATION_PACKAGE_PLAN.md`
+- `08_PACKAGE_SEND_REFERENCE.md`
+- `09_OUTREACH_MESSAGE_TEMPLATES.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -77,9 +80,15 @@
    - `05_DELIVERY_CHECKLIST.md`
 6. 실제 전달 상황별 묶음 확인:
    - `06_SEND_SCENARIOS.md`
-7. 샘플 맵 먼저 확인:
+7. 패키지별 전달 전략 확인:
+   - `07_EXTERNAL_EVALUATION_PACKAGE_PLAN.md`
+8. 실제 전달 직전 빠른 레퍼런스:
+   - `08_PACKAGE_SEND_REFERENCE.md`
+9. 외부 연락 문구 초안:
+   - `09_OUTREACH_MESSAGE_TEMPLATES.md`
+10. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-8. 대표 샘플 묶음부터 확인:
+11. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-9. 작품 전체를 처음부터 통독:
+12. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`
