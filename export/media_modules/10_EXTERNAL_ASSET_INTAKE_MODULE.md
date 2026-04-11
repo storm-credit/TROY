@@ -49,6 +49,7 @@
 - `ops/external_asset_intake_release_readiness_audit_2026_04_12.md`
 - `ops/external_asset_first_arrival_runbook_2026_04_12.md`
 - `ops/external_asset_action_packet_audit_2026_04_12.md`
+- `ops/external_asset_update_map_2026_04_12.md`
 
 ## minimal live path
 
