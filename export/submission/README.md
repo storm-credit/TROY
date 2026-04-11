@@ -30,6 +30,7 @@
 - `16_PACKAGE_A_RESPONSE_CAPTURE_SHEET.md`
 - `17_PACKAGE_A_SLOT_SEND_CHECKLIST.md`
 - `18_PACKAGE_A_SEND_SESSION_LOG.md`
+- `19_PACKAGE_A_ALIAS_MAPPING_SHEET.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -114,9 +115,11 @@
    - `17_PACKAGE_A_SLOT_SEND_CHECKLIST.md`
 18. first wave 발송 세션 로그:
    - `18_PACKAGE_A_SEND_SESSION_LOG.md`
-19. 샘플 맵 먼저 확인:
+19. first wave alias 매핑 시트:
+   - `19_PACKAGE_A_ALIAS_MAPPING_SHEET.md`
+20. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-20. 대표 샘플 묶음부터 확인:
+21. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-21. 작품 전체를 처음부터 통독:
+22. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`
