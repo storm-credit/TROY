@@ -28,6 +28,7 @@
 - `14_PACKAGE_A_CONTACT_QUALIFICATION_RUBRIC.md`
 - `15_PACKAGE_A_FOLLOWUP_MESSAGE.md`
 - `16_PACKAGE_A_RESPONSE_CAPTURE_SHEET.md`
+- `17_PACKAGE_A_SLOT_SEND_CHECKLIST.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -108,9 +109,11 @@
    - `15_PACKAGE_A_FOLLOWUP_MESSAGE.md`
 16. first wave 회신 기록 시트:
    - `16_PACKAGE_A_RESPONSE_CAPTURE_SHEET.md`
-17. 샘플 맵 먼저 확인:
+17. first wave slot 발송 체크:
+   - `17_PACKAGE_A_SLOT_SEND_CHECKLIST.md`
+18. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-18. 대표 샘플 묶음부터 확인:
+19. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-19. 작품 전체를 처음부터 통독:
+20. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`
