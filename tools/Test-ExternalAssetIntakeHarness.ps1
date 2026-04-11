@@ -13,10 +13,12 @@ $reviewRunScript = Join-Path $PSScriptRoot "Invoke-ExternalAssetReviewRun.ps1"
 $snapshotScript = Join-Path $PSScriptRoot "Export-ExternalAssetReviewSnapshot.ps1"
 $actionPacketScript = Join-Path $PSScriptRoot "Export-ExternalAssetActionPacket.ps1"
 $verdictTemplateScript = Join-Path $PSScriptRoot "Export-ExternalAssetVerdictTemplate.ps1"
+$operatorSessionScript = Join-Path $PSScriptRoot "Invoke-ExternalAssetOperatorSession.ps1"
 
 $tempOutput = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_review_snapshot_{0}.md" -f ([guid]::NewGuid().ToString("N")))
 $tempActionPacket = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_action_packet_{0}.md" -f ([guid]::NewGuid().ToString("N")))
 $tempVerdictTemplate = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_verdict_template_{0}.md" -f ([guid]::NewGuid().ToString("N")))
+$tempOperatorSession = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_operator_session_{0}" -f ([guid]::NewGuid().ToString("N")))
 
 try {
     $dashboard = & $dashboardScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -AsJson | ConvertFrom-Json
@@ -24,6 +26,7 @@ try {
     $snapshotLine = & $snapshotScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $tempOutput
     $actionPacketLine = & $actionPacketScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $tempActionPacket
     $verdictTemplateLine = & $verdictTemplateScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $tempVerdictTemplate
+    $operatorSession = & $operatorSessionScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputDirectory $tempOperatorSession -AsJson | ConvertFrom-Json
 
     $snapshotExists = Test-Path -LiteralPath $tempOutput
     $snapshotPreview = @()
@@ -41,6 +44,15 @@ try {
     $verdictTemplatePreview = @()
     if ($verdictTemplateExists) {
         $verdictTemplatePreview = @(Get-Content -LiteralPath $tempVerdictTemplate | Select-Object -First 10)
+    }
+
+    $operatorSessionExists = Test-Path -LiteralPath $tempOperatorSession
+    $operatorSessionFilesExist = $false
+    if ($operatorSessionExists) {
+        $operatorSessionFilesExist =
+            (Test-Path -LiteralPath (Join-Path $tempOperatorSession "01_review_snapshot.md")) -and
+            (Test-Path -LiteralPath (Join-Path $tempOperatorSession "02_action_packet.md")) -and
+            (Test-Path -LiteralPath (Join-Path $tempOperatorSession "03_verdict_template.md"))
     }
 
     $checks = @(
@@ -69,6 +81,11 @@ try {
             Status = if ($verdictTemplateExists) { "pass" } else { "fail" }
             Note = if ($verdictTemplateExists) { $tempVerdictTemplate } else { "verdict template file not created" }
         }
+        [pscustomobject]@{
+            Check = "operator session bundle"
+            Status = if ($operatorSessionExists -and $operatorSessionFilesExist) { "pass" } else { "fail" }
+            Note = if ($operatorSessionExists -and $operatorSessionFilesExist) { $tempOperatorSession } else { "operator session files not created" }
+        }
     )
 
     $failedChecks = @($checks | Where-Object { $_.Status -eq "fail" })
@@ -84,6 +101,7 @@ try {
         SnapshotOutput = $tempOutput
         ActionPacketOutput = $tempActionPacket
         VerdictTemplateOutput = $tempVerdictTemplate
+        OperatorSessionOutput = $tempOperatorSession
         ReviewReady = $reviewRun.ReviewReady
         DashboardStatus = $dashboard.OverallStatus
     }
@@ -133,5 +151,8 @@ finally {
     }
     if (Test-Path -LiteralPath $tempVerdictTemplate) {
         Remove-Item -LiteralPath $tempVerdictTemplate
+    }
+    if (Test-Path -LiteralPath $tempOperatorSession) {
+        Remove-Item -LiteralPath $tempOperatorSession -Recurse -Force
     }
 }

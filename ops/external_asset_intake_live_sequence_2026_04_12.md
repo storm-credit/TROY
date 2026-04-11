@@ -21,6 +21,7 @@
 
 ```powershell
 .\tools\Invoke-MediaIntakeDashboard.ps1
+.\tools\Invoke-ExternalAssetOperatorSession.ps1
 .\tools\Invoke-ExternalAssetReviewRun.ps1
 .\tools\Export-ExternalAssetReviewSnapshot.ps1
 .\tools\Export-ExternalAssetActionPacket.ps1
@@ -30,11 +31,12 @@
 
 - audio / visual ready count를 동시에 본다
 - 아무 것도 없으면 그대로 blocked 상태를 유지한다
-- one-command orchestration이 필요하면 `Invoke-ExternalAssetReviewRun.ps1`를 우선 사용한다
+- operator-facing one-command orchestration이 필요하면 `Invoke-ExternalAssetOperatorSession.ps1`를 우선 사용한다
+- review state만 따로 확인해야 하면 `Invoke-ExternalAssetReviewRun.ps1`를 사용한다
 - session handoff or audit trail이 필요하면 `Export-ExternalAssetReviewSnapshot.ps1`로 markdown snapshot을 남긴다
 - operator-facing checklist가 필요하면 `Export-ExternalAssetActionPacket.ps1`로 이번 세션의 update target과 review 순서를 한 장으로 뽑는다
 - fillable verdict skeleton이 필요하면 `Export-ExternalAssetVerdictTemplate.ps1`로 ready asset용 빈 verdict 블록을 만든다
-- 하네스 수정 직후에는 `Test-ExternalAssetIntakeHarness.ps1`로 dashboard / review run / snapshot export / action packet export / verdict template export가 모두 통과하는지 확인한다
+- 하네스 수정 직후에는 `Test-ExternalAssetIntakeHarness.ps1`로 dashboard / review run / snapshot export / action packet export / verdict template export / operator session bundle이 모두 통과하는지 확인한다
 
 ### audio lane
 

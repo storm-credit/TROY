@@ -28,9 +28,11 @@
 - `../tools/Get-VisualReferenceWorksheet.ps1`
 - `../tools/Invoke-VisualReferenceAssist.ps1`
 - `../tools/Invoke-MediaIntakeDashboard.ps1`
+- `../tools/Invoke-ExternalAssetOperatorSession.ps1`
 - `../tools/Export-ExternalAssetActionPacket.ps1`
 - `../tools/Export-ExternalAssetVerdictTemplate.ps1`
 - `../ops/external_asset_update_map_2026_04_12.md`
+- `../ops/external_asset_operator_session_audit_2026_04_12.md`
 
 ## current state
 
@@ -38,5 +40,6 @@
 - actual master reference images are not yet present in the workspace
 - next practical move is to drop reference images into `local/generated_visual/character_lock/`
 - once images arrive, run `Test-VisualReferenceIntake.ps1` and `Invoke-VisualReferenceAssist.ps1` before updating the continuity board
+- if the operator wants a one-command session bundle first, run `Invoke-ExternalAssetOperatorSession.ps1`
 - if a same-session operator packet is needed, run `Export-ExternalAssetActionPacket.ps1` and then follow `external_asset_update_map_2026_04_12.md`
 - if a fillable review skeleton is needed, run `Export-ExternalAssetVerdictTemplate.ps1` in the same session

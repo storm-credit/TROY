@@ -35,13 +35,15 @@
 ### baseline
 
 ```powershell
+.\tools\Invoke-ExternalAssetOperatorSession.ps1
 .\tools\Invoke-ExternalAssetReviewRun.ps1
 .\tools\Export-ExternalAssetReviewSnapshot.ps1
 .\tools\Export-ExternalAssetActionPacket.ps1
 .\tools\Export-ExternalAssetVerdictTemplate.ps1
 ```
 
-- 첫 실행은 항상 `Invoke-ExternalAssetReviewRun.ps1`로 시작한다.
+- 첫 실행은 가능하면 `Invoke-ExternalAssetOperatorSession.ps1`로 시작한다.
+- review state만 따로 보고 싶을 때는 `Invoke-ExternalAssetReviewRun.ps1`를 쓴다.
 - snapshot이 필요하면 같은 세션에서 즉시 export한다.
 - 세션 체크리스트와 update target 묶음이 필요하면 `Export-ExternalAssetActionPacket.ps1`를 바로 뽑는다.
 - fillable verdict 초안이 필요하면 `Export-ExternalAssetVerdictTemplate.ps1`를 바로 뽑는다.

@@ -38,6 +38,7 @@
 - `tools/Invoke-VisualReferenceAssist.ps1`
 - `tools/Invoke-MediaIntakeDashboard.ps1`
 - `tools/Invoke-ExternalAssetReviewRun.ps1`
+- `tools/Invoke-ExternalAssetOperatorSession.ps1`
 - `tools/Export-ExternalAssetReviewSnapshot.ps1`
 - `tools/Export-ExternalAssetActionPacket.ps1`
 - `tools/Export-ExternalAssetVerdictTemplate.ps1`
@@ -52,17 +53,19 @@
 - `ops/external_asset_action_packet_audit_2026_04_12.md`
 - `ops/external_asset_update_map_2026_04_12.md`
 - `ops/external_asset_verdict_template_audit_2026_04_12.md`
+- `ops/external_asset_operator_session_audit_2026_04_12.md`
 
 ## minimal live path
 
 1. run `Invoke-MediaIntakeDashboard.ps1`
-2. run `Invoke-ExternalAssetReviewRun.ps1` for one-command orchestration
+2. run `Invoke-ExternalAssetOperatorSession.ps1` for operator-facing one-command orchestration
 3. if needed, inspect a specific worksheet in detail
-4. if a session record is needed, run `Export-ExternalAssetReviewSnapshot.ps1`
-5. if operator-facing next steps are needed, run `Export-ExternalAssetActionPacket.ps1`
-6. if fillable verdict blocks are needed, run `Export-ExternalAssetVerdictTemplate.ps1`
-7. update the target logs or continuity board in the same session
-8. rerun dashboard before opening the next stage
+4. if only review state is needed, run `Invoke-ExternalAssetReviewRun.ps1`
+5. if a session record is needed separately, run `Export-ExternalAssetReviewSnapshot.ps1`
+6. if operator-facing next steps are needed separately, run `Export-ExternalAssetActionPacket.ps1`
+7. if fillable verdict blocks are needed separately, run `Export-ExternalAssetVerdictTemplate.ps1`
+8. update the target logs or continuity board in the same session
+9. rerun dashboard before opening the next stage
 
 ## harness check
 

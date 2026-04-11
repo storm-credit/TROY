@@ -10,6 +10,7 @@ $reviewRunScript = Join-Path $PSScriptRoot "Invoke-ExternalAssetReviewRun.ps1"
 $snapshotScript = Join-Path $PSScriptRoot "Export-ExternalAssetReviewSnapshot.ps1"
 $actionPacketScript = Join-Path $PSScriptRoot "Export-ExternalAssetActionPacket.ps1"
 $verdictTemplateScript = Join-Path $PSScriptRoot "Export-ExternalAssetVerdictTemplate.ps1"
+$operatorSessionScript = Join-Path $PSScriptRoot "Invoke-ExternalAssetOperatorSession.ps1"
 
 $tempRoot = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_ready_{0}" -f ([guid]::NewGuid().ToString("N")))
 $audioRoot = Join-Path $tempRoot "audio"
@@ -17,6 +18,7 @@ $imageRoot = Join-Path $tempRoot "image"
 $snapshotPath = Join-Path $tempRoot "ready_snapshot.md"
 $actionPacketPath = Join-Path $tempRoot "ready_action_packet.md"
 $verdictTemplatePath = Join-Path $tempRoot "ready_verdict_template.md"
+$operatorSessionPath = Join-Path $tempRoot "operator_session"
 
 $audioFiles = @(
     "E054-A01.wav",
@@ -48,6 +50,7 @@ try {
     $snapshotLine = & $snapshotScript -AudioRoot $audioRoot -ImageRoot $imageRoot -OutputPath $snapshotPath
     $actionPacketLine = & $actionPacketScript -AudioRoot $audioRoot -ImageRoot $imageRoot -OutputPath $actionPacketPath
     $verdictTemplateLine = & $verdictTemplateScript -AudioRoot $audioRoot -ImageRoot $imageRoot -OutputPath $verdictTemplatePath
+    $operatorSession = & $operatorSessionScript -AudioRoot $audioRoot -ImageRoot $imageRoot -OutputDirectory $operatorSessionPath -AsJson | ConvertFrom-Json
 
     $snapshotExists = Test-Path -LiteralPath $snapshotPath
     $snapshotPreview = @()
@@ -65,6 +68,15 @@ try {
     $verdictTemplatePreview = @()
     if ($verdictTemplateExists) {
         $verdictTemplatePreview = @(Get-Content -LiteralPath $verdictTemplatePath | Select-Object -First 12)
+    }
+
+    $operatorSessionExists = Test-Path -LiteralPath $operatorSessionPath
+    $operatorSessionFilesExist = $false
+    if ($operatorSessionExists) {
+        $operatorSessionFilesExist =
+            (Test-Path -LiteralPath (Join-Path $operatorSessionPath "01_review_snapshot.md")) -and
+            (Test-Path -LiteralPath (Join-Path $operatorSessionPath "02_action_packet.md")) -and
+            (Test-Path -LiteralPath (Join-Path $operatorSessionPath "03_verdict_template.md"))
     }
 
     $checks = @(
@@ -112,6 +124,11 @@ try {
             Check = "verdict template export"
             Status = if ($verdictTemplateExists) { "pass" } else { "fail" }
             Note = if ($verdictTemplateExists) { $verdictTemplatePath } else { "verdict template file not created" }
+        }
+        [pscustomobject]@{
+            Check = "operator session bundle"
+            Status = if ($operatorSessionExists -and $operatorSessionFilesExist) { "pass" } else { "fail" }
+            Note = if ($operatorSessionExists -and $operatorSessionFilesExist) { $operatorSessionPath } else { "operator session files not created" }
         }
     )
 
