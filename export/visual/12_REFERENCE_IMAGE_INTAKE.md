@@ -54,6 +54,15 @@ PowerShell:
 
 ```powershell
 .\tools\Test-VisualReferenceIntake.ps1
+.\tools\Invoke-VisualReferenceAssist.ps1
+.\tools\Get-VisualReferenceWorksheet.ps1 -BaseName ARIN_MASTER_FRONT_v01
 ```
 
-이 명령은 expected reference file 4종이 실제로 들어왔는지 바로 보여 준다.
+이 명령들은 아래 역할을 맡는다.
+
+- `Test-VisualReferenceIntake.ps1`
+  - expected reference file 4종이 실제로 들어왔는지 바로 보여 준다.
+- `Invoke-VisualReferenceAssist.ps1`
+  - 현재 들어온 파일 중 review 가능한 reference를 모아 `pass / revise / reject` 검토용 체크포인트를 한 번에 뽑아 준다.
+- `Get-VisualReferenceWorksheet.ps1`
+  - 특정 reference 1장에 대해 pass anchor, reject signal, update target을 개별 조회한다.
