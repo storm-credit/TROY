@@ -31,7 +31,10 @@
 - pass anchor:
   - 밝고 선명하지만 finale가 아닌 여름 방의 잔광
 - attempt 1:
-  - verdict:
+  - run id: E054-A01
+  - external run status: queued / awaiting generated audio
+  - source copy card: `export/music/arin_album_vol1_pilot/suno_copy_cards/01_E054_SUNO_COPY_CARD.md`
+  - verdict: pending
   - truth:
   - voice:
   - restraint:
@@ -206,3 +209,5 @@
 - first 3 tracks 안에서 최소 1곡 `pass`
 - first 5 tracks 종료 시 최소 2곡 `pass` 또는 1곡 `pass` + 2곡 `strong revise`
 - 실패 시 개별 곡보다 `producer stack wording` 재정비가 우선
+- 현재 열린 외부 실행 대기:
+  - `E054-A01`

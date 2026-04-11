@@ -5,10 +5,13 @@
 ## E054 `밝은 창`
 
 - attempt 1:
-  - verdict:
-  - what worked:
-  - what failed:
-  - next action:
+  - run id: E054-A01
+  - status: queued / awaiting generated audio
+  - source copy card: `suno_copy_cards/01_E054_SUNO_COPY_CARD.md`
+  - verdict: pending
+  - what worked: not evaluated yet
+  - what failed: not evaluated yet
+  - next action: run first external music generation attempt, then record `pass / revise / reject`
 
 ## E113 `나를 잃지 않는 일`
 

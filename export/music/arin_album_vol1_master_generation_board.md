@@ -7,6 +7,7 @@
 상태값:
 
 - `ready`
+- `queued external run`
 - `in test`
 - `pass`
 - `revise`
@@ -18,7 +19,7 @@
 
 | order | episode | title | role | packet set | current status | attempts | next gate | notes |
 |---|---|---|---|---|---|---|
-| 1 | E054 | 밝은 창 | title-track-class candidate | pilot | ready | 0 | music test | bright room / unspoken shadow |
+| 1 | E054 | 밝은 창 | title-track-class candidate | pilot | queued external run | 0 | external music output | bright room / unspoken shadow / run id E054-A01 |
 | 2 | E113 | 나를 잃지 않는 일 | selfhood declaration | pilot | ready | 0 | music test | selfhood over payoff |
 | 3 | E050 | 접힌 문장 | private diary | pilot | ready | 0 | music test | diary air / no reveal |
 | 4 | E011 | 남은 소리 | debut spark | second pass | ready | 0 | music test | stage intimacy |
