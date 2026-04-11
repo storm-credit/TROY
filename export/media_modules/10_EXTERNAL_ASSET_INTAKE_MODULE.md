@@ -40,6 +40,7 @@
 - `tools/Invoke-ExternalAssetReviewRun.ps1`
 - `tools/Export-ExternalAssetReviewSnapshot.ps1`
 - `tools/Test-ExternalAssetIntakeHarness.ps1`
+- `tools/Test-ExternalAssetReadyPath.ps1`
 
 ## live ops lock
 
@@ -58,6 +59,7 @@
 
 - run `Test-ExternalAssetIntakeHarness.ps1` when the intake stack changes
 - this checks dashboard json, review run json, and snapshot export in one pass
+- run `Test-ExternalAssetReadyPath.ps1` when you need a synthetic ready-path dry run without touching the real local media folders
 
 ## current tracked assets
 
