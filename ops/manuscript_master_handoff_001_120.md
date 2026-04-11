@@ -20,6 +20,9 @@
 
 - `ops/manuscript_full_audit_001_120.md`
 - `ops/novel_literary_story_expert_evaluation_2026_04_11.md`
+- `ops/hook_tail_watch_001_003_2026_04_11.md`
+- `ops/line_fatigue_watch_045_058_094_113_118_120_2026_04_11.md`
+- `ops/orchestra_execution_plan_post_evaluation_2026_04_11.md`
 - `ops/director_orchestra.md`
 - `ops/orchestra_harness_contract.md`
 - `ops/required_expert_lane_matrix.md`
