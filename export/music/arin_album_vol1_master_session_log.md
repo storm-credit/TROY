@@ -41,7 +41,7 @@
 - what failed: not evaluated yet
 - next action: run first external music generation attempt
 - next gate: listen and record `pass / revise / reject`
-- output path: pending external output
+- output path: `local/generated_audio/arin_album_vol1_pilot/E054-A01.*`
 - retry due: after verdict
 - still-image follow-up: blocked until music `pass` or `strong revise`
 - MV follow-up: blocked until music `pass` or `strong revise`
@@ -59,7 +59,7 @@
 - what failed: not evaluated yet
 - next action: run first external music generation attempt
 - next gate: listen and record `pass / revise / reject`
-- output path: pending external output
+- output path: `local/generated_audio/arin_album_vol1_pilot/E113-A01.*`
 - retry due: after verdict
 - still-image follow-up: blocked until music `pass` or `strong revise`
 - MV follow-up: blocked until music `pass` or `strong revise`
@@ -77,7 +77,7 @@
 - what failed: not evaluated yet
 - next action: run first external music generation attempt
 - next gate: listen and record `pass / revise / reject`
-- output path: pending external output
+- output path: `local/generated_audio/arin_album_vol1_pilot/E050-A01.*`
 - retry due: after verdict
 - still-image follow-up: blocked until music `pass` or `strong revise`
 - MV follow-up: blocked until music `pass` or `strong revise`

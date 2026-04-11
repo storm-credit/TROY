@@ -69,6 +69,7 @@ fourth-pass 번들 안에는:
 - `arin_album_vol1_master_session_log.md`
 - `arin_album_vol1_direction_note_template.md`
 - `arin_album_vol1_first_execution_wave_sheet.md`
+- `arin_album_vol1_pilot/11_EXTERNAL_AUDIO_INTAKE.md`
 - `../media_modules/`
 
 오케스트라 잠금 문서:
