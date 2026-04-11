@@ -20,4 +20,6 @@
 
 - `ops/character_face_lock_harness.md`
 - `ops/character_face_lock_expert_check_2026_04_11.md`
+- `ops/media_tool_module_system.md`
+- `export/media_modules/`
 - `export/music/character_lock_pack/`

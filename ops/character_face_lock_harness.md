@@ -27,6 +27,10 @@
   - accepted still 기반 image-to-video와 subject consistency 관리
 - Higgsfield 전문가:
   - character-centric close-up motion test
+- Veo 전문가:
+  - accepted still 또는 reference 기반 cinematic clip test
+- Sora 전문가:
+  - storyboard 또는 first-frame 기반 shot test
 
 ## 3. face lock order
 
@@ -176,6 +180,38 @@
 - rule:
   - if it turns into fashion campaign energy, reject
 
+### Veo
+
+- use:
+  - cinematic atmosphere clip
+  - establishing motion
+  - reference-guided short video
+- required slots:
+  - accepted still or reference image
+  - subject continuity instruction
+  - camera direction
+  - motion objective
+  - duration
+  - negative video guardrails
+- rule:
+  - cinematic quality cannot override face lock or canon
+
+### Sora
+
+- use:
+  - storyboard shot
+  - first-frame video test
+  - recut/remix style variation
+- required slots:
+  - storyboard beat
+  - accepted first frame or reference still
+  - subject continuity instruction
+  - camera/framing
+  - timing
+  - negative story guardrails
+- rule:
+  - do not accept invented plot beats even if the clip looks good
+
 ## 7. drift checklist
 
 - face:
@@ -265,6 +301,10 @@
   - `https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-kling-ai-unveils-multi-image-reference-feature-further`
 - Higgsfield:
   - `https://higgsfield.ai/`
+- Veo:
+  - `https://ai.google.dev/gemini-api/docs/video`
+- Sora:
+  - `https://platform.openai.com/docs/guides/video-generation`
 
 ## 10. next output
 

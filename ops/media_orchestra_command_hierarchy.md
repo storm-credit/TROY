@@ -27,6 +27,8 @@
         |-- Imagen 전문가
         |-- Kling 전문가
         |-- Higgsfield 전문가
+        |-- Veo 전문가
+        |-- Sora 전문가
         |-- MV 연출 전문가
         |-- 비주얼 연속성 전문가
         |-- 컷 편집/리듬 전문가
@@ -93,6 +95,14 @@
     - character-centric cinematic motion
     - face / fashion / performance shot
     - reference-driven motion test
+  - Veo 전문가:
+    - cinematic short video
+    - reference-guided clip
+    - atmosphere / camera test
+  - Sora 전문가:
+    - storyboard-based shot
+    - recut / remix style iteration
+    - first-frame or reference-driven scene test
   - MV 연출 전문가:
     - cut order
     - music-screen sync
@@ -140,7 +150,10 @@
 - pilot:
   - `E054 / E113 / E050`
 - current next layer:
-  - tool-specific prompt split for Suno / Midjourney / Nano Banana / Imagen / Kling / Higgsfield
+  - tool-specific prompt split for Suno / Midjourney / Nano Banana / Imagen / Kling / Higgsfield / Veo / Sora
 - face/character lock:
   - `ops/character_face_lock_harness.md`
   - `export/music/character_lock_pack/`
+- media modules:
+  - `ops/media_tool_module_system.md`
+  - `export/media_modules/`

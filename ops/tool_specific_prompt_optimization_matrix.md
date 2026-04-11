@@ -18,6 +18,12 @@
   - `https://app.klingai.com/cn/quickstart/klingai-video-3-model-user-guide`
 - Higgsfield references:
   - `https://higgsfield.ai/`
+- Veo:
+  - `https://ai.google.dev/gemini-api/docs/video`
+  - `https://cloud.google.com/vertex-ai/generative-ai/docs/video/overview`
+- Sora:
+  - `https://platform.openai.com/docs/guides/video-generation`
+  - `https://help.openai.com/en/articles/9957612-generating-videos-on-sora`
 
 ## 3. Suno optimized structure
 
@@ -160,12 +166,64 @@ Use for:
 - expression/close-up tests
 - short cinematic performance shot
 
+## 8A. Veo optimized structure
+
+- reference:
+  - accepted still or reference image if available
+- subject / scene:
+  - who, where, what emotional action
+- camera:
+  - cinematic movement, lens feeling, pacing
+- motion:
+  - atmosphere and character movement
+- duration:
+  - short test clip
+- audio/environment:
+  - ambient note if supported
+- negative:
+  - no trailer spectacle
+  - no identity drift
+  - no romance/finale coding
+
+Use for:
+
+- cinematic atmospheric clip
+- establishing shot
+- room/campus motion
+- transition candidate
+
+## 8B. Sora optimized structure
+
+- storyboard beat:
+  - one shot objective at a time
+- first frame / reference:
+  - accepted still if available
+- subject continuity:
+  - face, outfit, place, emotional state
+- camera/framing:
+  - shot size and movement
+- timing:
+  - what changes over the shot
+- negative:
+  - no invented plot beats
+  - no identity drift
+  - no emotional overstatement
+
+Use for:
+
+- storyboard-style clip
+- recut/remix iteration
+- lyrical shot variation
+- scene bridge
+
 ## 9. orchestration rule
 
 - Midjourney / Imagen can generate first still candidates
 - Nano Banana / Gemini Image can repair or adapt accepted stills
 - Kling moves accepted stills into MV blocks
 - Higgsfield tests character-centric motion only after the still identity is stable
+- Veo tests cinematic atmosphere after accepted still or storyboard pass
+- Sora tests storyboard shots after accepted still or shot plan pass
 - MV director decides cut order after tool outputs exist
 - Orchestra decides final pass
 - face lock rule:
@@ -180,5 +238,10 @@ Use for:
   - `imagen_cards/`
   - `kling_cards/`
   - `higgsfield_cards/`
+  - `veo_cards/`
+  - `sora_cards/`
 - Character lock pack:
   - `export/music/character_lock_pack/`
+- Media module registry:
+  - `ops/media_tool_module_system.md`
+  - `export/media_modules/`

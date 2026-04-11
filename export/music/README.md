@@ -63,6 +63,7 @@ fourth-pass 번들 안에는:
 - `arin_album_vol1_master_session_log.md`
 - `arin_album_vol1_direction_note_template.md`
 - `arin_album_vol1_first_execution_wave_sheet.md`
+- `../media_modules/`
 
 오케스트라 잠금 문서:
 
@@ -73,3 +74,4 @@ fourth-pass 번들 안에는:
 - `ops/tool_specific_prompt_optimization_matrix.md`
 - `ops/character_face_lock_harness.md`
 - `ops/character_face_lock_expert_check_2026_04_11.md`
+- `ops/media_tool_module_system.md`
