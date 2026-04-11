@@ -32,6 +32,8 @@
 
 오디오를 넣은 뒤 오케스트라는 아래 순서로 갱신한다.
 
+0. optional check:
+   - `tools/Test-PilotAudioIntake.ps1`
 1. `export/music/arin_album_vol1_pilot/04_SESSION_RESULT_LOG.md`
 2. `export/music/arin_album_vol1_first_execution_wave_sheet.md`
 3. `export/music/arin_album_vol1_master_session_log.md`
@@ -42,3 +44,13 @@
 - 실제 음원을 듣기 전에는 `pending`을 유지한다
 - 파일명만 생겼다고 `pass`로 올리지 않는다
 - `pass / revise / reject`는 오케스트라가 실제로 들은 뒤에만 기록한다
+
+## 6. helper command
+
+PowerShell:
+
+```powershell
+.\tools\Test-PilotAudioIntake.ps1
+```
+
+이 명령은 `E054-A01`, `E113-A01`, `E050-A01` 중 어떤 run id에 실제 오디오 파일이 들어왔는지 바로 보여 준다.
