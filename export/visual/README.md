@@ -28,6 +28,8 @@
 - `../tools/Get-VisualReferenceWorksheet.ps1`
 - `../tools/Invoke-VisualReferenceAssist.ps1`
 - `../tools/Invoke-MediaIntakeDashboard.ps1`
+- `../tools/Export-ExternalAssetActionPacket.ps1`
+- `../ops/external_asset_update_map_2026_04_12.md`
 
 ## current state
 
@@ -35,3 +37,4 @@
 - actual master reference images are not yet present in the workspace
 - next practical move is to drop reference images into `local/generated_visual/character_lock/`
 - once images arrive, run `Test-VisualReferenceIntake.ps1` and `Invoke-VisualReferenceAssist.ps1` before updating the continuity board
+- if a same-session operator packet is needed, run `Export-ExternalAssetActionPacket.ps1` and then follow `external_asset_update_map_2026_04_12.md`

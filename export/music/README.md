@@ -74,6 +74,8 @@ fourth-pass 번들 안에는:
 - `../tools/Get-PilotVerdictWorksheet.ps1`
 - `../tools/Invoke-PilotVerdictAssist.ps1`
 - `../tools/Invoke-MediaIntakeDashboard.ps1`
+- `../tools/Export-ExternalAssetActionPacket.ps1`
+- `../ops/external_asset_update_map_2026_04_12.md`
 - `../media_modules/`
 
 오케스트라 잠금 문서:
@@ -88,3 +90,6 @@ fourth-pass 번들 안에는:
 - `ops/character_face_lock_harness.md`
 - `ops/character_face_lock_expert_check_2026_04_11.md`
 - `ops/media_tool_module_system.md`
+- `ops/external_asset_first_arrival_runbook_2026_04_12.md`
+- `ops/external_asset_action_packet_audit_2026_04_12.md`
+- `ops/external_asset_update_map_2026_04_12.md`
