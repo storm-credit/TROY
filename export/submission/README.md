@@ -35,6 +35,8 @@
 - `21_PACKAGE_A_HUMAN_INPUT_CHECKLIST.md`
 - `22_PACKAGE_B_FULL_MANUSCRIPT_HANDOFF.md`
 - `23_PACKAGE_C_ALPHA_FEEDBACK_HANDOFF.md`
+- `24_PACKAGE_B_FULL_READ_LOG.md`
+- `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -129,9 +131,13 @@
    - `22_PACKAGE_B_FULL_MANUSCRIPT_HANDOFF.md`
 23. package C handoff:
    - `23_PACKAGE_C_ALPHA_FEEDBACK_HANDOFF.md`
-24. 샘플 맵 먼저 확인:
+24. package B full-read log:
+   - `24_PACKAGE_B_FULL_READ_LOG.md`
+25. package C feedback intake log:
+   - `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`
+26. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-25. 대표 샘플 묶음부터 확인:
+27. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-26. 작품 전체를 처음부터 통독:
+28. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`
