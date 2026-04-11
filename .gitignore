@@ -203,6 +203,7 @@ cython_debug/
 local/
 renders/
 exports/
+ops/external_asset_review_snapshot_*.md
 *.wav
 *.mp3
 *.m4a

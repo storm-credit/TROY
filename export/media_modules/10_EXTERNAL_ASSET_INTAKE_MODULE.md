@@ -38,6 +38,7 @@
 - `tools/Invoke-VisualReferenceAssist.ps1`
 - `tools/Invoke-MediaIntakeDashboard.ps1`
 - `tools/Invoke-ExternalAssetReviewRun.ps1`
+- `tools/Export-ExternalAssetReviewSnapshot.ps1`
 
 ## live ops lock
 
@@ -48,8 +49,9 @@
 1. run `Invoke-MediaIntakeDashboard.ps1`
 2. run `Invoke-ExternalAssetReviewRun.ps1` for one-command orchestration
 3. if needed, inspect a specific worksheet in detail
-4. update the target logs or continuity board in the same session
-5. rerun dashboard before opening the next stage
+4. if a session record is needed, run `Export-ExternalAssetReviewSnapshot.ps1`
+5. update the target logs or continuity board in the same session
+6. rerun dashboard before opening the next stage
 
 ## current tracked assets
 
