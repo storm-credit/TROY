@@ -56,14 +56,21 @@
 5. `12_PACKAGE_A_FIRST_WAVE_CONTACT_TRACKER.md` 업데이트
 6. `18_PACKAGE_A_SEND_SESSION_LOG.md` 업데이트
 
-## 4. do-not-overthink
+## 4. after-response path
+
+- `package B` 승급 시:
+  - `24_PACKAGE_B_FULL_READ_LOG.md`
+- `package C` 승급 시:
+  - `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`
+
+## 5. do-not-overthink
 
 - primary 3명부터 시작한다
 - secondary slot은 지금 비워 둬도 된다
 - perfect candidate를 기다리느라 발송을 미루지 않는다
 - 첫 반응은 자료 검증이지 최종 심판이 아니다
 
-## 5. orchestra note
+## 6. orchestra note
 
 - 현재 시스템은 `go-live ready`
 - 남은 것은 운영자의 실제 입력뿐이다
