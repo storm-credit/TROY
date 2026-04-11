@@ -27,7 +27,10 @@
 ## E050 `접힌 문장`
 
 - attempt 1:
-  - verdict:
-  - what worked:
-  - what failed:
-  - next action:
+  - run id: E050-A01
+  - status: queued / awaiting generated audio
+  - source copy card: `suno_copy_cards/03_E050_SUNO_COPY_CARD.md`
+  - verdict: pending
+  - what worked: not evaluated yet
+  - what failed: not evaluated yet
+  - next action: run first external music generation attempt, then record `pass / revise / reject`

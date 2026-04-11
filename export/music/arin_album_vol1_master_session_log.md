@@ -63,3 +63,21 @@
 - retry due: after verdict
 - still-image follow-up: blocked until music `pass` or `strong revise`
 - MV follow-up: blocked until music `pass` or `strong revise`
+
+### 2026-04-12 / E050 / 접힌 문장
+
+- wave: pilot phase 1
+- run id: E050-A01
+- attempt: 1 queued
+- source packet: `export/music/arin_album_vol1_pilot/suno_copy_cards/03_E050_SUNO_COPY_CARD.md`
+- verdict: pending
+- decision owner: orchestra
+- producer stack: literary residue / vocal narrative / acoustic intimacy
+- what worked: not evaluated yet
+- what failed: not evaluated yet
+- next action: run first external music generation attempt
+- next gate: listen and record `pass / revise / reject`
+- output path: pending external output
+- retry due: after verdict
+- still-image follow-up: blocked until music `pass` or `strong revise`
+- MV follow-up: blocked until music `pass` or `strong revise`

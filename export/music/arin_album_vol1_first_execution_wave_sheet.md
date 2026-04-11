@@ -107,7 +107,10 @@
 - pass anchor:
   - 밝혀 버리는 곡이 아니라 접힌 채 남는 내면의 문장
 - attempt 1:
-  - verdict:
+  - run id: E050-A01
+  - external run status: queued / awaiting generated audio
+  - source copy card: `export/music/arin_album_vol1_pilot/suno_copy_cards/03_E050_SUNO_COPY_CARD.md`
+  - verdict: pending
   - truth:
   - voice:
   - restraint:
@@ -215,3 +218,4 @@
 - 현재 열린 외부 실행 대기:
   - `E054-A01`
   - `E113-A01`
+  - `E050-A01`
