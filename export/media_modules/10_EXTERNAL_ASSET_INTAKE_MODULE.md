@@ -39,6 +39,7 @@
 - `tools/Invoke-MediaIntakeDashboard.ps1`
 - `tools/Invoke-ExternalAssetReviewRun.ps1`
 - `tools/Export-ExternalAssetReviewSnapshot.ps1`
+- `tools/Test-ExternalAssetIntakeHarness.ps1`
 
 ## live ops lock
 
@@ -52,6 +53,11 @@
 4. if a session record is needed, run `Export-ExternalAssetReviewSnapshot.ps1`
 5. update the target logs or continuity board in the same session
 6. rerun dashboard before opening the next stage
+
+## harness check
+
+- run `Test-ExternalAssetIntakeHarness.ps1` when the intake stack changes
+- this checks dashboard json, review run json, and snapshot export in one pass
 
 ## current tracked assets
 
