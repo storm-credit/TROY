@@ -65,7 +65,8 @@
 - wave3 showcase packet pack complete
 - wave4 showcase packet pack complete
 - showcase index complete
-- final submission cosmetic pass is still optional
+- presentation / submission cosmetic passes complete
+- current stack is `pass / stable state` per `ops/submission_release_readiness_audit.md`
 
 권장 진입:
 

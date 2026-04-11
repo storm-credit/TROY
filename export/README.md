@@ -8,7 +8,8 @@
 - `manuscript/`가 truth source다
 - `export/`는 외부 전달용 복사본이다
 - export 파일은 repo 원고를 덮어쓰지 않는다
-- export copy는 song, MV, harness, governance 문서를 포함하지 않는다
+- submission-facing 원고 copy는 운영 문서를 포함하지 않는다
+- music / visual / media module folders는 downstream 제작 전달용으로 분리 관리한다
 
 현재 패키지:
 
@@ -20,6 +21,8 @@
 - `chapter_bundles/chapter6_E101-E120_bundle.md`
 - `full_book/TROY_full_book_E001-E120_export.md`
 - `submission/너라는운율_submission_draft_v1.md`
+- `media_modules/README.md`
+- `visual/README.md`
 - `music/README.md`
 - `pilot_packets/README.md`
 - `pilot_packets/TROY_PILOT_ENDING_E118/`
@@ -63,7 +66,11 @@
 - wave3 packet export copies complete
 - wave4 packet export copies complete
 - music pilot export bundle complete
+- Arin in-world album Vol.1 12-track generation packet complete
+- media tool module export complete
+- visual character continuity export complete
 - current full-book export keeps episode headings for editor readability
+- current main release baseline recorded in `ops/main_release_log_2026_04_11.md`
 
 권장 진입:
 
@@ -73,3 +80,5 @@
    - `submission/showcase_index.md`
 3. 특정 감정 축이나 기능 확인:
    - `pilot_packets/`, `wave1_packets/`, `wave2_packets/`, `wave3_packets/`, `wave4_packets/`
+4. 음악/이미지/MV 제작 준비 확인:
+   - `music/`, `visual/`, `media_modules/`
