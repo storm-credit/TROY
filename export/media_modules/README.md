@@ -24,3 +24,4 @@
 - `ops/media_orchestra_command_hierarchy.md`
 - `ops/tool_specific_prompt_optimization_matrix.md`
 - `ops/character_face_lock_harness.md`
+- `ops/external_asset_intake_live_sequence_2026_04_12.md`

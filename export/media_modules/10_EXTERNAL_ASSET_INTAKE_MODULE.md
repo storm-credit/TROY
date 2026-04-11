@@ -38,6 +38,18 @@
 - `tools/Invoke-VisualReferenceAssist.ps1`
 - `tools/Invoke-MediaIntakeDashboard.ps1`
 
+## live ops lock
+
+- `ops/external_asset_intake_live_sequence_2026_04_12.md`
+
+## minimal live path
+
+1. run `Invoke-MediaIntakeDashboard.ps1`
+2. if audio ready, run `Invoke-PilotVerdictAssist.ps1`
+3. if visual ready, run `Invoke-VisualReferenceAssist.ps1`
+4. update the target logs or continuity board in the same session
+5. rerun dashboard before opening the next stage
+
 ## current tracked assets
 
 - audio:
