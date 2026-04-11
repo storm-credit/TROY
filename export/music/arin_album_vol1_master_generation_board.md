@@ -18,9 +18,9 @@
 ## 2. board
 
 | order | episode | title | role | packet set | current status | attempts | next gate | notes |
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|
 | 1 | E054 | 밝은 창 | title-track-class candidate | pilot | queued external run | 0 | external music output | bright room / unspoken shadow / run id E054-A01 |
-| 2 | E113 | 나를 잃지 않는 일 | selfhood declaration | pilot | ready | 0 | music test | selfhood over payoff |
+| 2 | E113 | 나를 잃지 않는 일 | selfhood declaration | pilot | queued external run | 0 | external music output | selfhood over payoff / run id E113-A01 |
 | 3 | E050 | 접힌 문장 | private diary | pilot | ready | 0 | music test | diary air / no reveal |
 | 4 | E011 | 남은 소리 | debut spark | second pass | ready | 0 | music test | stage intimacy |
 | 5 | E030 | 천천히 열어 둔 문 | careful yes | second pass | ready | 0 | music test | warm but cautious |

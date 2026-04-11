@@ -69,7 +69,10 @@
 - pass anchor:
   - 성취보다 selfhood가 남는 조용한 선언
 - attempt 1:
-  - verdict:
+  - run id: E113-A01
+  - external run status: queued / awaiting generated audio
+  - source copy card: `export/music/arin_album_vol1_pilot/suno_copy_cards/02_E113_SUNO_COPY_CARD.md`
+  - verdict: pending
   - truth:
   - voice:
   - restraint:
@@ -211,3 +214,4 @@
 - 실패 시 개별 곡보다 `producer stack wording` 재정비가 우선
 - 현재 열린 외부 실행 대기:
   - `E054-A01`
+  - `E113-A01`

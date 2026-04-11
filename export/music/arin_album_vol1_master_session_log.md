@@ -45,3 +45,21 @@
 - retry due: after verdict
 - still-image follow-up: blocked until music `pass` or `strong revise`
 - MV follow-up: blocked until music `pass` or `strong revise`
+
+### 2026-04-12 / E113 / 나를 잃지 않는 일
+
+- wave: pilot phase 1
+- run id: E113-A01
+- attempt: 1 queued
+- source packet: `export/music/arin_album_vol1_pilot/suno_copy_cards/02_E113_SUNO_COPY_CARD.md`
+- verdict: pending
+- decision owner: orchestra
+- producer stack: vocal narrative / luminous pop restraint / album arc
+- what worked: not evaluated yet
+- what failed: not evaluated yet
+- next action: run first external music generation attempt
+- next gate: listen and record `pass / revise / reject`
+- output path: pending external output
+- retry due: after verdict
+- still-image follow-up: blocked until music `pass` or `strong revise`
+- MV follow-up: blocked until music `pass` or `strong revise`
