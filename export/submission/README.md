@@ -22,6 +22,7 @@
 - `08_PACKAGE_SEND_REFERENCE.md`
 - `09_OUTREACH_MESSAGE_TEMPLATES.md`
 - `10_ALPHA_READER_TARGET_MATRIX.md`
+- `11_PACKAGE_A_FIRST_WAVE_MESSAGES.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -90,9 +91,11 @@
    - `09_OUTREACH_MESSAGE_TEMPLATES.md`
 10. 알파리더 타깃/질문 매트릭스:
    - `10_ALPHA_READER_TARGET_MATRIX.md`
-11. 샘플 맵 먼저 확인:
+11. first wave 연락 문구 바로 쓰기:
+   - `11_PACKAGE_A_FIRST_WAVE_MESSAGES.md`
+12. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-12. 대표 샘플 묶음부터 확인:
+13. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-13. 작품 전체를 처음부터 통독:
+14. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`
