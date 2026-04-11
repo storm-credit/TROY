@@ -119,6 +119,48 @@ handoff check 항목:
 | MV Storyboard Director | 장면 구성, 상징 반복, 샷 리스트 | gpt-5.2 low | 영상 감정선과 시각 모티프 해석 필요 |
 | Continuity QA | 이름, 설정, 장소, 회차 참조 검수 | gpt-5.1-codex-mini | 반복 검수에 최적 |
 
+## 4A. Agent Model Routing Lock
+
+에이전트별 모델 최적화는 각 에이전트가 임의로 정하지 않는다.
+
+고정 원칙:
+
+- 어떤 전문가를 붙일지 먼저 오케스트라가 정한다
+- 어떤 모델과 reasoning 강도로 돌릴지도 오케스트라가 정한다
+- 에이전트는 배정된 역할과 범위 안에서만 판단한다
+- 같은 전문가라도 작업이 바뀌면 모델 배치도 오케스트라가 다시 조정할 수 있다
+
+총괄이 먼저 잠그는 항목:
+
+- task risk:
+  - low / medium / high
+- task type:
+  - 반복 정리 / 구조 판단 / 감정 판단 / 스타일 정교화 / 캐논 충돌
+- chosen model:
+  - mini / standard / higher reasoning
+- chosen reasoning:
+  - low / medium / high
+- escalation trigger:
+  - 어떤 조건이면 상위 모델로 올릴지
+
+## 4B. Per-Agent Optimization Table
+
+| Role | Default Model | Default Reasoning | Escalate When | Director Note |
+|---|---|---|---|---|
+| Director / Canon Arbiter | main thread | high | ending, canon, engine, release sign-off | 최종 병합과 잠금은 항상 총괄이 맡는다 |
+| Longform Narrative Craft Architect | gpt-5.2 | low | cluster 구조 변경, 결말 역산 수정 | 엔진 전문가는 작문법 추천기이자 서사 운용 전문가다 |
+| Story Bible Auditor | gpt-5.1-codex-mini | low | 설정 충돌이 다중 문서로 퍼질 때 | repo 탐색과 비교 작업이 많다 |
+| Narrative Motif Specialist | gpt-5.2 | low | 핵심 상징 의미가 결말과 충돌할 때 | 정서 해석 비중이 높다 |
+| Character Psychologist | gpt-5.2 | low | 윤리 충돌, intimacy ceiling 붕괴 위험 | 감정선 판단은 필요하지만 장문 고추론은 상시 필요하지 않다 |
+| Episode Planner | gpt-5.1-codex-mini | medium | 회차 분배가 phase 전체에 파급될 때 | 구조 정렬과 표 작업이 중심이다 |
+| Prose & Rhythm Director | gpt-5.2 | medium | 전면 재작성, 문체 톤 재설계 | 산문 리듬과 분량 설계를 함께 본다 |
+| Cluster Planner | gpt-5.1-codex-mini | medium | 같은 이벤트가 여러 chapter에 걸쳐 재배치될 때 | 범위 분리와 residue 관리가 핵심이다 |
+| Lyrics Director | gpt-5.2 | medium | POV 변경, refrain 의미 재설계 | 감정 압축과 후렴 통제가 중요하다 |
+| Music Prompt Engineer | gpt-5.1-codex-mini | low | generation schema가 바뀔 때 | 포맷 고정과 규격 통제가 중심이다 |
+| Producer-Class Stack Designer | gpt-5.2 | medium | lane 구성 변경이 앨범 전반에 영향 줄 때 | imitation risk를 피하면서 기능 조합을 설계한다 |
+| MV Storyboard Director | gpt-5.2 | medium | visual canon, shot grammar, ending image가 흔들릴 때 | 영상은 장면 해석과 모티프 반복을 함께 본다 |
+| Continuity QA | gpt-5.1-codex-mini | low | 다중 range 참조 충돌이 생길 때 | 반복 검수와 naming check에 가장 효율적이다 |
+
 ## 5. Required Lane Bundles
 
 총괄은 아래 작업에서 전문가 묶음을 잊지 않는다.

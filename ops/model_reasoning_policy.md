@@ -65,6 +65,13 @@
 - ending / canon / engine lock review: main orchestra or higher reasoning model, high reasoning
 - unresolved canon conflict: main orchestra final decision, high reasoning
 
+고정 추가 규칙:
+
+- 에이전트별 모델 최적화는 오케스트라가 배정한다
+- 에이전트가 자기 모델이나 reasoning 강도를 임의로 바꾸지 않는다
+- 같은 역할이라도 작업 리스크가 달라지면 오케스트라가 mini / standard / higher reasoning을 다시 고른다
+- 역할별 기본 배치는 `ops/director_orchestra.md`의 `Per-Agent Optimization Table`을 따른다
+
 ## 7. ChatGPT vs Codex Split
 
 `TROY` 기준에서 아래처럼 나누는 것이 가장 효율적이다.
