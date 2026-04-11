@@ -141,3 +141,6 @@
   - `E054 / E113 / E050`
 - current next layer:
   - tool-specific prompt split for Suno / Midjourney / Nano Banana / Imagen / Kling / Higgsfield
+- face/character lock:
+  - `ops/character_face_lock_harness.md`
+  - `export/music/character_lock_pack/`

@@ -168,6 +168,9 @@ Use for:
 - Higgsfield tests character-centric motion only after the still identity is stable
 - MV director decides cut order after tool outputs exist
 - Orchestra decides final pass
+- face lock rule:
+  - `ops/character_face_lock_harness.md` overrides tool convenience
+  - no accepted face reference means no production MV
 
 ## 10. next deliverable
 
@@ -177,3 +180,5 @@ Use for:
   - `imagen_cards/`
   - `kling_cards/`
   - `higgsfield_cards/`
+- Character lock pack:
+  - `export/music/character_lock_pack/`

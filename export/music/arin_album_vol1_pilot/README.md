@@ -33,4 +33,5 @@
 - full lyrics 입력이 필요하면 `suno_copy_cards/`를 사용한다
 - music pass 이후 still/MV 입력은 `visual_mv_copy_cards/`를 사용한다
 - 툴별 docs 최적화 분화 기준은 `ops/tool_specific_prompt_optimization_matrix.md`를 따른다
+- 얼굴/캐릭터 유지는 `../character_lock_pack/`와 `ops/character_face_lock_harness.md`를 먼저 따른다
 - 결과는 `04_SESSION_RESULT_LOG.md`, `../arin_album_vol1_first_execution_wave_sheet.md`, `../arin_album_vol1_master_session_log.md` 순서로 기록한다

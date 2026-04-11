@@ -4,6 +4,7 @@
 
 현재 묶음:
 
+- `character_lock_pack/`
 - `arin_album_vol1_pilot/`
 - `arin_album_vol1_second_pass/`
 - `arin_album_vol1_third_pass/`
@@ -13,6 +14,15 @@
 
 - `ops`의 설계 문서를 production-facing bundle로 다시 묶는다
 - 생성 테스트는 이 폴더를 기준으로 진행한다
+- 얼굴/캐릭터 일관성은 `character_lock_pack/`에서 먼저 잠근다
+
+character lock pack 안에는:
+
+- Arin face lock card
+- Seojun face lock card
+- tool reference routing card
+- face drift verdict sheet
+- `export/visual/` continuity board 연동
 
 현재 파일럿 번들 안에는:
 
@@ -61,3 +71,5 @@ fourth-pass 번들 안에는:
 - `ops/orchestra_album_generation_expert_check_2026_04_11.md`
 - `ops/media_orchestra_command_hierarchy.md`
 - `ops/tool_specific_prompt_optimization_matrix.md`
+- `ops/character_face_lock_harness.md`
+- `ops/character_face_lock_expert_check_2026_04_11.md`
