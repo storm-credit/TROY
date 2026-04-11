@@ -42,7 +42,7 @@
 ## 7. next step
 
 - 회신이 오면:
-  - `03_FEEDBACK_TEMPLATE.md` 또는 별도 intake log로 수집
+  - `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`에 위치와 이유 기준으로 수집
 - triage는:
   - `04_FEEDBACK_TRIAGE_NOTE.md`
   - `ops/feedback_triage_protocol.md`

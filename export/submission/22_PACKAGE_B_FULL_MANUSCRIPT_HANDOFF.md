@@ -39,6 +39,6 @@
 ## 7. next step
 
 - 회신이 오면:
-  - `16_PACKAGE_A_RESPONSE_CAPTURE_SHEET.md` 또는 별도 full-manuscript review log에 핵심을 남긴다
+  - `24_PACKAGE_B_FULL_READ_LOG.md`에 핵심을 남긴다
 - 상세 수정 의사가 분명하면:
   - `package C` 후보로 분기한다

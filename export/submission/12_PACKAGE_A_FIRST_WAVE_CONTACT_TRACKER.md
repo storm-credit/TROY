@@ -55,6 +55,8 @@ next move 값:
 - 한 명의 강한 호평만으로 바로 `package B` 전체 확장하지 않는다
 - 서로 다른 reader type에서 긍정 반응이 확인되면 `package B` 후보를 연다
 - 실제 수정 의견 의지가 분명할 때만 `package C`로 올린다
+- 상태가 `moved to package B`가 되면 `24_PACKAGE_B_FULL_READ_LOG.md`로 이어 적는다
+- 상태가 `moved to package C`가 되면 `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`로 이어 적는다
 
 ## 5. first-wave operating note
 

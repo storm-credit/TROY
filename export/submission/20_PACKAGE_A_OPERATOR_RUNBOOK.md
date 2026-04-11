@@ -113,6 +113,13 @@ day 7 전후:
 - `closed`
 - `secondary lane open`
 
+승급 후 기록:
+
+- `package B`:
+  - `24_PACKAGE_B_FULL_READ_LOG.md`
+- `package C`:
+  - `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`
+
 ## 9. minimal live path
 
 최소 실행 경로:
@@ -124,6 +131,7 @@ day 7 전후:
 5. `12_PACKAGE_A_FIRST_WAVE_CONTACT_TRACKER.md`
 6. `18_PACKAGE_A_SEND_SESSION_LOG.md`
 7. 회신 시 `16_PACKAGE_A_RESPONSE_CAPTURE_SHEET.md`
+8. 승급 시 `24_PACKAGE_B_FULL_READ_LOG.md` 또는 `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`
 
 ## 10. orchestra note
 

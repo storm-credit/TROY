@@ -46,6 +46,13 @@
 - `tone mismatch`:
   - 작품 적합 독자 타입인지 재검토
 
+downstream log:
+
+- `package B`로 승급하면:
+  - `24_PACKAGE_B_FULL_READ_LOG.md`
+- `package C`로 승급하면:
+  - `25_PACKAGE_C_FEEDBACK_INTAKE_LOG.md`
+
 ## 5. orchestra note
 
 - 여기서는 긴 감상문을 예쁘게 옮기는 것보다, 서로 다른 reader type의 반응을 같은 형식으로 비교 가능하게 남기는 것이 더 중요하다
