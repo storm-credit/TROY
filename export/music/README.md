@@ -20,6 +20,7 @@
 - session result log
 - integrated media packet index
 - 곡 / 이미지 / 영상 통합 생성 패킷 3종
+- pilot generation console
 
 second-pass 번들 안에는:
 

@@ -12,6 +12,7 @@
 6. `06_E054_integrated_media_packet.md`
 7. `07_E113_integrated_media_packet.md`
 8. `08_E050_integrated_media_packet.md`
+9. `09_PILOT_GENERATION_CONSOLE.md`
 
 파일럿 목적:
 
@@ -23,3 +24,8 @@
 
 - 음악 프롬프트, 가사, 컷별 이미지 프롬프트, 영상 블록 프롬프트를 한 파일에서 바로 확인
 - 파일럿 3곡을 `music first -> stills -> short MV` 순서로 실제 생성 가능한 상태로 올림
+
+실행 콘솔:
+
+- `09_PILOT_GENERATION_CONSOLE.md`를 기준으로 생성기에 입력한다
+- 결과는 `04_SESSION_RESULT_LOG.md`, `../arin_album_vol1_first_execution_wave_sheet.md`, `../arin_album_vol1_master_session_log.md` 순서로 기록한다
