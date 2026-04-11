@@ -11,6 +11,7 @@
 - `character_sheets/`
 - `stills/`
 - `i2v/`
+- `12_REFERENCE_IMAGE_INTAKE.md`
 
 ## board
 
@@ -23,3 +24,10 @@
 - `ops/media_tool_module_system.md`
 - `export/media_modules/`
 - `export/music/character_lock_pack/`
+- `../tools/Test-VisualReferenceIntake.ps1`
+
+## current state
+
+- face lock harness is ready
+- actual master reference images are not yet present in the workspace
+- next practical move is to drop reference images into `local/generated_visual/character_lock/`
