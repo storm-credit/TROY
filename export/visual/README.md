@@ -27,6 +27,7 @@
 - `../tools/Test-VisualReferenceIntake.ps1`
 - `../tools/Get-VisualReferenceWorksheet.ps1`
 - `../tools/Invoke-VisualReferenceAssist.ps1`
+- `../tools/Invoke-MediaIntakeDashboard.ps1`
 
 ## current state
 
