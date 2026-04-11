@@ -22,6 +22,8 @@
   - `export/music/arin_album_vol1_first_execution_wave_sheet.md`
 - pilot session log:
   - `export/music/arin_album_vol1_pilot/04_SESSION_RESULT_LOG.md`
+- Suno copy cards:
+  - `export/music/arin_album_vol1_pilot/suno_copy_cards/`
 
 ## 3. run order
 
@@ -186,3 +188,11 @@ Original Korean private literary song with intimate restrained female vocal, sof
   - pass verdict validated
 - 다음 오케스트라 행동:
   - 실제 attempt 결과를 듣고 `pass / revise / reject`를 기록한다
+
+## 10. copy-card shortcut
+
+- full lyrics 포함 copy card:
+  - `suno_copy_cards/01_E054_SUNO_COPY_CARD.md`
+  - `suno_copy_cards/02_E113_SUNO_COPY_CARD.md`
+  - `suno_copy_cards/03_E050_SUNO_COPY_CARD.md`
+- 생성기 입력은 위 copy card를 우선 사용한다
