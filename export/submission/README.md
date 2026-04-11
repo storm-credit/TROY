@@ -33,6 +33,8 @@
 - `19_PACKAGE_A_ALIAS_MAPPING_SHEET.md`
 - `20_PACKAGE_A_OPERATOR_RUNBOOK.md`
 - `21_PACKAGE_A_HUMAN_INPUT_CHECKLIST.md`
+- `22_PACKAGE_B_FULL_MANUSCRIPT_HANDOFF.md`
+- `23_PACKAGE_C_ALPHA_FEEDBACK_HANDOFF.md`
 - `너라는운율_submission_draft_v1.md`
 - `showcase_index.md`
 - `pilot_showcase/README.md`
@@ -123,9 +125,13 @@
    - `20_PACKAGE_A_OPERATOR_RUNBOOK.md`
 21. first wave 인간 입력 체크:
    - `21_PACKAGE_A_HUMAN_INPUT_CHECKLIST.md`
-22. 샘플 맵 먼저 확인:
+22. package B handoff:
+   - `22_PACKAGE_B_FULL_MANUSCRIPT_HANDOFF.md`
+23. package C handoff:
+   - `23_PACKAGE_C_ALPHA_FEEDBACK_HANDOFF.md`
+24. 샘플 맵 먼저 확인:
    - `showcase_index.md`
-23. 대표 샘플 묶음부터 확인:
+25. 대표 샘플 묶음부터 확인:
    - `pilot_showcase/`
-24. 작품 전체를 처음부터 통독:
+26. 작품 전체를 처음부터 통독:
    - `너라는운율_submission_draft_v1.md`
