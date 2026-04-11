@@ -37,9 +37,12 @@ next move 값:
 
 | Contact Label | Reader Type | Package | Message Version | Send Date | Status | First Reaction Summary | Next Move | Follow-Up Due | Notes |
 |---|---|---|---|---|---|---|---|---|---|
-| sample-A1 | type A | package A | type A message | pending | planned | pending | hold | pending | 문학형 로맨스 정독 독자 후보 |
-| sample-B1 | type B | package A | type B message | pending | planned | pending | hold | pending | 웹소설 플랫폼 감각 확인용 후보 |
-| sample-D1 | type D | package A | type D message | pending | planned | pending | hold | pending | 완독형 일반 독자 후보 |
+| A-primary-01 | type A | package A | type A message | pending | planned | pending | hold | pending | primary lane / 문장 결 / 낮은 종지 / 잔향 확인 |
+| B-primary-01 | type B | package A | type B message | pending | planned | pending | hold | pending | primary lane / 초반 진입감 / 다음 화 끌림 확인 |
+| D-primary-01 | type D | package A | type D message | pending | planned | pending | hold | pending | primary lane / 첫인상 / 감정 톤 / 추천 가능성 확인 |
+| A-secondary-02 | type A | package A | type A message | pending | planned | pending | hold | pending | secondary lane / ending temperature 보조 검증 |
+| B-secondary-02 | type B | package A | type B message | pending | planned | pending | hold | pending | secondary lane / 플랫폼 감각 재검증 |
+| D-secondary-02 | type D | package A | type D message | pending | planned | pending | hold | pending | secondary lane / 일반 독자 추천 가능성 재검증 |
 
 ## 3. interpretation rule
 
@@ -52,3 +55,8 @@ next move 값:
 - 한 명의 강한 호평만으로 바로 `package B` 전체 확장하지 않는다
 - 서로 다른 reader type에서 긍정 반응이 확인되면 `package B` 후보를 연다
 - 실제 수정 의견 의지가 분명할 때만 `package C`로 올린다
+
+## 5. first-wave operating note
+
+- first wave 최소 구성은 `A-primary-01`, `B-primary-01`, `D-primary-01`이다
+- secondary lane은 first-wave 반응이 약하거나 표본이 부족할 때만 연다
