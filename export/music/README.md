@@ -72,6 +72,7 @@ fourth-pass 번들 안에는:
 - `arin_album_vol1_pilot/11_EXTERNAL_AUDIO_INTAKE.md`
 - `../tools/Test-PilotAudioIntake.ps1`
 - `../tools/Get-PilotVerdictWorksheet.ps1`
+- `../tools/Invoke-PilotVerdictAssist.ps1`
 - `../media_modules/`
 
 오케스트라 잠금 문서:

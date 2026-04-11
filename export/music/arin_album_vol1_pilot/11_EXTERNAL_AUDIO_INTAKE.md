@@ -35,6 +35,7 @@
 0. optional check:
    - `tools/Test-PilotAudioIntake.ps1`
    - `tools/Get-PilotVerdictWorksheet.ps1 -RunId E054-A01`
+   - `tools/Invoke-PilotVerdictAssist.ps1`
 1. `export/music/arin_album_vol1_pilot/04_SESSION_RESULT_LOG.md`
 2. `export/music/arin_album_vol1_first_execution_wave_sheet.md`
 3. `export/music/arin_album_vol1_master_session_log.md`
@@ -61,3 +62,9 @@ PowerShell:
 ```
 
 이 명령은 특정 run id의 평가 기준과 업데이트 대상 파일을 한 번에 보여 준다.
+
+```powershell
+.\tools\Invoke-PilotVerdictAssist.ps1
+```
+
+이 명령은 실제 오디오가 들어온 run id만 골라서, verdict에 필요한 기준과 업데이트 대상 파일을 한 번에 보여 준다.
