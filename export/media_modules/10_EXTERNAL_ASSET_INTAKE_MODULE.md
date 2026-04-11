@@ -45,6 +45,7 @@
 ## live ops lock
 
 - `ops/external_asset_intake_live_sequence_2026_04_12.md`
+- `ops/external_asset_intake_release_readiness_audit_2026_04_12.md`
 
 ## minimal live path
 
