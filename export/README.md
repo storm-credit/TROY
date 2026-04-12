@@ -69,6 +69,7 @@
 - Arin in-world album Vol.1 12-track generation packet complete
 - media tool module export complete
 - visual character continuity export complete
+- external asset intake operator session bundle complete
 - current full-book export keeps episode headings for editor readability
 - current main release baseline recorded in `ops/main_release_log_2026_04_11.md`
 

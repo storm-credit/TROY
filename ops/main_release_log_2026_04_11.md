@@ -5,7 +5,7 @@
 - source branch: `codex/120-canon-master-plan`
 - target branch: `main`
 - initial released commit: `84cfb37` `Lock push and main release gate`
-- current released commit: `b261b0c` `Update export package status docs`
+- current released commit: `44b26ca` `Add external asset operator session bundle`
 - release method: fast-forward push from `HEAD` to `main`
 
 ## Scope
@@ -20,6 +20,9 @@
 - Arin in-world album production docs
 - media orchestra module system
 - character face lock harness
+- external asset intake dashboard / review run / snapshot export
+- external asset action packet / verdict template / operator session bundle
+- audio / visual intake helper stack and intake routing docs
 - push / main release gate
 - main release log
 - README release baseline update
@@ -31,10 +34,14 @@
   - `E001-E120` all `safe-line candidate`
 - forbidden pattern gate:
   - `E001-E120` all `PASS`
+- external asset blocked-path harness:
+  - `.\tools\Test-ExternalAssetIntakeHarness.ps1 -AsJson` `pass`
+- external asset synthetic ready-path harness:
+  - `.\tools\Test-ExternalAssetReadyPath.ps1 -AsJson` `pass`
 - git state before main push:
   - worktree clean
   - `origin/main` was ancestor of working branch
-  - ahead count: `219`
+  - ahead count: `16`
 
 ## Main Release Rules Applied
 
@@ -43,13 +50,21 @@
 - branch push completed before main reflection
 - main was updated only after hook verification and fast-forward eligibility check
 
-## Post-Release Documentation Corrections
+## Release Extension Commits
 
 - `aa315d4` `Record main release baseline`
 - `ee46097` `Update TROY release baseline docs`
 - `b261b0c` `Update export package status docs`
+- `74d1266` `Lock external asset intake release readiness`
+- `bc28bc2` `Add external asset first-arrival runbook`
+- `b56ec10` `Add external asset action packet exporter`
+- `9e8c8d6` `Add external asset update map`
+- `bb337bb` `Link external asset operator flow in readmes`
+- `2b89ec9` `Add external asset verdict template exporter`
+- `dd56f8e` `Align media routing with verdict template flow`
+- `44b26ca` `Add external asset operator session bundle`
 
-These commits keep the release discoverable after the initial main fast-forward.
+These commits extend the original main baseline into the media intake operator-ready release state.
 
 ## Next Action
 

@@ -8,6 +8,7 @@ Current mode:
 - full manuscript migration complete: E001-E120
 - media / music / MV module docs are now tracked downstream assets
 - current main release baseline: `ops/main_release_log_2026_04_11.md`
+- external asset intake stack is now operator-ready through `tools/Invoke-ExternalAssetOperatorSession.ps1`
 - story, music, and MV decisions must all follow one shared canon
 
 ## Repo Rule
