@@ -5,7 +5,7 @@
 - source branch: `codex/120-canon-master-plan`
 - target branch: `main`
 - initial released commit: `84cfb37` `Lock push and main release gate`
-- current released commit: `44b26ca` `Add external asset operator session bundle`
+- current released commit: `2d68470` `Add external asset update draft exporter`
 - release method: fast-forward push from `HEAD` to `main`
 
 ## Scope
@@ -38,10 +38,16 @@
   - `.\tools\Test-ExternalAssetIntakeHarness.ps1 -AsJson` `pass`
 - external asset synthetic ready-path harness:
   - `.\tools\Test-ExternalAssetReadyPath.ps1 -AsJson` `pass`
+- external asset operator session bundle:
+  - `01_review_snapshot.md`
+  - `02_action_packet.md`
+  - `03_verdict_template.md`
+  - `04_update_draft.md`
+  - blocked path and synthetic ready path both `pass`
 - git state before main push:
   - worktree clean
   - `origin/main` was ancestor of working branch
-  - ahead count: `16`
+  - ahead count: `1`
 
 ## Main Release Rules Applied
 
@@ -63,6 +69,8 @@
 - `2b89ec9` `Add external asset verdict template exporter`
 - `dd56f8e` `Align media routing with verdict template flow`
 - `44b26ca` `Add external asset operator session bundle`
+- `5997ed3` `Update main release baseline docs`
+- `2d68470` `Add external asset update draft exporter`
 
 These commits extend the original main baseline into the media intake operator-ready release state.
 
