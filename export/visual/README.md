@@ -31,8 +31,10 @@
 - `../tools/Invoke-ExternalAssetOperatorSession.ps1`
 - `../tools/Export-ExternalAssetActionPacket.ps1`
 - `../tools/Export-ExternalAssetVerdictTemplate.ps1`
+- `../tools/Export-ExternalAssetUpdateDraft.ps1`
 - `../ops/external_asset_update_map_2026_04_12.md`
 - `../ops/external_asset_operator_session_audit_2026_04_12.md`
+- `../ops/external_asset_update_draft_audit_2026_04_12.md`
 
 ## current state
 
@@ -43,3 +45,4 @@
 - if the operator wants a one-command session bundle first, run `Invoke-ExternalAssetOperatorSession.ps1`
 - if a same-session operator packet is needed, run `Export-ExternalAssetActionPacket.ps1` and then follow `external_asset_update_map_2026_04_12.md`
 - if a fillable review skeleton is needed, run `Export-ExternalAssetVerdictTemplate.ps1` in the same session
+- if file-by-file continuity update scaffolds are needed, run `Export-ExternalAssetUpdateDraft.ps1`

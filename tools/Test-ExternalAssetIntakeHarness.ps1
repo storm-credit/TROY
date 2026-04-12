@@ -13,11 +13,13 @@ $reviewRunScript = Join-Path $PSScriptRoot "Invoke-ExternalAssetReviewRun.ps1"
 $snapshotScript = Join-Path $PSScriptRoot "Export-ExternalAssetReviewSnapshot.ps1"
 $actionPacketScript = Join-Path $PSScriptRoot "Export-ExternalAssetActionPacket.ps1"
 $verdictTemplateScript = Join-Path $PSScriptRoot "Export-ExternalAssetVerdictTemplate.ps1"
+$updateDraftScript = Join-Path $PSScriptRoot "Export-ExternalAssetUpdateDraft.ps1"
 $operatorSessionScript = Join-Path $PSScriptRoot "Invoke-ExternalAssetOperatorSession.ps1"
 
 $tempOutput = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_review_snapshot_{0}.md" -f ([guid]::NewGuid().ToString("N")))
 $tempActionPacket = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_action_packet_{0}.md" -f ([guid]::NewGuid().ToString("N")))
 $tempVerdictTemplate = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_verdict_template_{0}.md" -f ([guid]::NewGuid().ToString("N")))
+$tempUpdateDraft = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_update_draft_{0}.md" -f ([guid]::NewGuid().ToString("N")))
 $tempOperatorSession = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_operator_session_{0}" -f ([guid]::NewGuid().ToString("N")))
 
 try {
@@ -26,6 +28,7 @@ try {
     $snapshotLine = & $snapshotScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $tempOutput
     $actionPacketLine = & $actionPacketScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $tempActionPacket
     $verdictTemplateLine = & $verdictTemplateScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $tempVerdictTemplate
+    $updateDraftLine = & $updateDraftScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $tempUpdateDraft
     $operatorSession = & $operatorSessionScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputDirectory $tempOperatorSession -AsJson | ConvertFrom-Json
 
     $snapshotExists = Test-Path -LiteralPath $tempOutput
@@ -46,13 +49,20 @@ try {
         $verdictTemplatePreview = @(Get-Content -LiteralPath $tempVerdictTemplate | Select-Object -First 10)
     }
 
+    $updateDraftExists = Test-Path -LiteralPath $tempUpdateDraft
+    $updateDraftPreview = @()
+    if ($updateDraftExists) {
+        $updateDraftPreview = @(Get-Content -LiteralPath $tempUpdateDraft | Select-Object -First 12)
+    }
+
     $operatorSessionExists = Test-Path -LiteralPath $tempOperatorSession
     $operatorSessionFilesExist = $false
     if ($operatorSessionExists) {
         $operatorSessionFilesExist =
             (Test-Path -LiteralPath (Join-Path $tempOperatorSession "01_review_snapshot.md")) -and
             (Test-Path -LiteralPath (Join-Path $tempOperatorSession "02_action_packet.md")) -and
-            (Test-Path -LiteralPath (Join-Path $tempOperatorSession "03_verdict_template.md"))
+            (Test-Path -LiteralPath (Join-Path $tempOperatorSession "03_verdict_template.md")) -and
+            (Test-Path -LiteralPath (Join-Path $tempOperatorSession "04_update_draft.md"))
     }
 
     $checks = @(
@@ -82,6 +92,11 @@ try {
             Note = if ($verdictTemplateExists) { $tempVerdictTemplate } else { "verdict template file not created" }
         }
         [pscustomobject]@{
+            Check = "update draft export"
+            Status = if ($updateDraftExists) { "pass" } else { "fail" }
+            Note = if ($updateDraftExists) { $tempUpdateDraft } else { "update draft file not created" }
+        }
+        [pscustomobject]@{
             Check = "operator session bundle"
             Status = if ($operatorSessionExists -and $operatorSessionFilesExist) { "pass" } else { "fail" }
             Note = if ($operatorSessionExists -and $operatorSessionFilesExist) { $tempOperatorSession } else { "operator session files not created" }
@@ -98,9 +113,11 @@ try {
         SnapshotPreview = $snapshotPreview
         ActionPacketPreview = $actionPacketPreview
         VerdictTemplatePreview = $verdictTemplatePreview
+        UpdateDraftPreview = $updateDraftPreview
         SnapshotOutput = $tempOutput
         ActionPacketOutput = $tempActionPacket
         VerdictTemplateOutput = $tempVerdictTemplate
+        UpdateDraftOutput = $tempUpdateDraft
         OperatorSessionOutput = $tempOperatorSession
         ReviewReady = $reviewRun.ReviewReady
         DashboardStatus = $dashboard.OverallStatus
@@ -140,6 +157,14 @@ try {
                 Write-Output ("  {0}" -f $line)
             }
         }
+
+        if ($updateDraftPreview.Count -gt 0) {
+            Write-Output ""
+            Write-Output "UpdateDraftPreview:"
+            foreach ($line in $updateDraftPreview) {
+                Write-Output ("  {0}" -f $line)
+            }
+        }
     }
 }
 finally {
@@ -151,6 +176,9 @@ finally {
     }
     if (Test-Path -LiteralPath $tempVerdictTemplate) {
         Remove-Item -LiteralPath $tempVerdictTemplate
+    }
+    if (Test-Path -LiteralPath $tempUpdateDraft) {
+        Remove-Item -LiteralPath $tempUpdateDraft
     }
     if (Test-Path -LiteralPath $tempOperatorSession) {
         Remove-Item -LiteralPath $tempOperatorSession -Recurse -Force

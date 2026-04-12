@@ -12,6 +12,7 @@ $reviewRunScript = Join-Path $PSScriptRoot "Invoke-ExternalAssetReviewRun.ps1"
 $snapshotScript = Join-Path $PSScriptRoot "Export-ExternalAssetReviewSnapshot.ps1"
 $actionPacketScript = Join-Path $PSScriptRoot "Export-ExternalAssetActionPacket.ps1"
 $verdictTemplateScript = Join-Path $PSScriptRoot "Export-ExternalAssetVerdictTemplate.ps1"
+$updateDraftScript = Join-Path $PSScriptRoot "Export-ExternalAssetUpdateDraft.ps1"
 
 if (-not $OutputDirectory) {
     $stamp = Get-Date -Format "yyyyMMdd_HHmmss"
@@ -27,10 +28,12 @@ $reviewRun = & $reviewRunScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -AsJ
 $snapshotPath = Join-Path $OutputDirectory "01_review_snapshot.md"
 $actionPacketPath = Join-Path $OutputDirectory "02_action_packet.md"
 $verdictTemplatePath = Join-Path $OutputDirectory "03_verdict_template.md"
+$updateDraftPath = Join-Path $OutputDirectory "04_update_draft.md"
 
 $null = & $snapshotScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $snapshotPath
 $null = & $actionPacketScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $actionPacketPath
 $null = & $verdictTemplateScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $verdictTemplatePath
+$null = & $updateDraftScript -AudioRoot $AudioRoot -ImageRoot $ImageRoot -OutputPath $updateDraftPath
 
 $payload = [pscustomobject]@{
     OutputDirectory = $OutputDirectory
@@ -42,6 +45,7 @@ $payload = [pscustomobject]@{
         ReviewSnapshot = $snapshotPath
         ActionPacket = $actionPacketPath
         VerdictTemplate = $verdictTemplatePath
+        UpdateDraft = $updateDraftPath
     }
 }
 
@@ -58,4 +62,5 @@ else {
     Write-Output ("ReviewSnapshot: {0}" -f $payload.Files.ReviewSnapshot)
     Write-Output ("ActionPacket: {0}" -f $payload.Files.ActionPacket)
     Write-Output ("VerdictTemplate: {0}" -f $payload.Files.VerdictTemplate)
+    Write-Output ("UpdateDraft: {0}" -f $payload.Files.UpdateDraft)
 }

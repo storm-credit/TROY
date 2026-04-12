@@ -42,6 +42,7 @@
 - `tools/Export-ExternalAssetReviewSnapshot.ps1`
 - `tools/Export-ExternalAssetActionPacket.ps1`
 - `tools/Export-ExternalAssetVerdictTemplate.ps1`
+- `tools/Export-ExternalAssetUpdateDraft.ps1`
 - `tools/Test-ExternalAssetIntakeHarness.ps1`
 - `tools/Test-ExternalAssetReadyPath.ps1`
 
@@ -54,6 +55,7 @@
 - `ops/external_asset_update_map_2026_04_12.md`
 - `ops/external_asset_verdict_template_audit_2026_04_12.md`
 - `ops/external_asset_operator_session_audit_2026_04_12.md`
+- `ops/external_asset_update_draft_audit_2026_04_12.md`
 
 ## minimal live path
 
@@ -64,8 +66,9 @@
 5. if a session record is needed separately, run `Export-ExternalAssetReviewSnapshot.ps1`
 6. if operator-facing next steps are needed separately, run `Export-ExternalAssetActionPacket.ps1`
 7. if fillable verdict blocks are needed separately, run `Export-ExternalAssetVerdictTemplate.ps1`
-8. update the target logs or continuity board in the same session
-9. rerun dashboard before opening the next stage
+8. if file-level update scaffolds are needed, run `Export-ExternalAssetUpdateDraft.ps1`
+9. update the target logs or continuity board in the same session
+10. rerun dashboard before opening the next stage
 
 ## harness check
 

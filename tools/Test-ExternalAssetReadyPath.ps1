@@ -10,6 +10,7 @@ $reviewRunScript = Join-Path $PSScriptRoot "Invoke-ExternalAssetReviewRun.ps1"
 $snapshotScript = Join-Path $PSScriptRoot "Export-ExternalAssetReviewSnapshot.ps1"
 $actionPacketScript = Join-Path $PSScriptRoot "Export-ExternalAssetActionPacket.ps1"
 $verdictTemplateScript = Join-Path $PSScriptRoot "Export-ExternalAssetVerdictTemplate.ps1"
+$updateDraftScript = Join-Path $PSScriptRoot "Export-ExternalAssetUpdateDraft.ps1"
 $operatorSessionScript = Join-Path $PSScriptRoot "Invoke-ExternalAssetOperatorSession.ps1"
 
 $tempRoot = Join-Path ([System.IO.Path]::GetTempPath()) ("troy_external_asset_ready_{0}" -f ([guid]::NewGuid().ToString("N")))
@@ -18,6 +19,7 @@ $imageRoot = Join-Path $tempRoot "image"
 $snapshotPath = Join-Path $tempRoot "ready_snapshot.md"
 $actionPacketPath = Join-Path $tempRoot "ready_action_packet.md"
 $verdictTemplatePath = Join-Path $tempRoot "ready_verdict_template.md"
+$updateDraftPath = Join-Path $tempRoot "ready_update_draft.md"
 $operatorSessionPath = Join-Path $tempRoot "operator_session"
 
 $audioFiles = @(
@@ -50,6 +52,7 @@ try {
     $snapshotLine = & $snapshotScript -AudioRoot $audioRoot -ImageRoot $imageRoot -OutputPath $snapshotPath
     $actionPacketLine = & $actionPacketScript -AudioRoot $audioRoot -ImageRoot $imageRoot -OutputPath $actionPacketPath
     $verdictTemplateLine = & $verdictTemplateScript -AudioRoot $audioRoot -ImageRoot $imageRoot -OutputPath $verdictTemplatePath
+    $updateDraftLine = & $updateDraftScript -AudioRoot $audioRoot -ImageRoot $imageRoot -OutputPath $updateDraftPath
     $operatorSession = & $operatorSessionScript -AudioRoot $audioRoot -ImageRoot $imageRoot -OutputDirectory $operatorSessionPath -AsJson | ConvertFrom-Json
 
     $snapshotExists = Test-Path -LiteralPath $snapshotPath
@@ -70,13 +73,20 @@ try {
         $verdictTemplatePreview = @(Get-Content -LiteralPath $verdictTemplatePath | Select-Object -First 12)
     }
 
+    $updateDraftExists = Test-Path -LiteralPath $updateDraftPath
+    $updateDraftPreview = @()
+    if ($updateDraftExists) {
+        $updateDraftPreview = @(Get-Content -LiteralPath $updateDraftPath | Select-Object -First 12)
+    }
+
     $operatorSessionExists = Test-Path -LiteralPath $operatorSessionPath
     $operatorSessionFilesExist = $false
     if ($operatorSessionExists) {
         $operatorSessionFilesExist =
             (Test-Path -LiteralPath (Join-Path $operatorSessionPath "01_review_snapshot.md")) -and
             (Test-Path -LiteralPath (Join-Path $operatorSessionPath "02_action_packet.md")) -and
-            (Test-Path -LiteralPath (Join-Path $operatorSessionPath "03_verdict_template.md"))
+            (Test-Path -LiteralPath (Join-Path $operatorSessionPath "03_verdict_template.md")) -and
+            (Test-Path -LiteralPath (Join-Path $operatorSessionPath "04_update_draft.md"))
     }
 
     $checks = @(
@@ -126,6 +136,11 @@ try {
             Note = if ($verdictTemplateExists) { $verdictTemplatePath } else { "verdict template file not created" }
         }
         [pscustomobject]@{
+            Check = "update draft export"
+            Status = if ($updateDraftExists) { "pass" } else { "fail" }
+            Note = if ($updateDraftExists) { $updateDraftPath } else { "update draft file not created" }
+        }
+        [pscustomobject]@{
             Check = "operator session bundle"
             Status = if ($operatorSessionExists -and $operatorSessionFilesExist) { "pass" } else { "fail" }
             Note = if ($operatorSessionExists -and $operatorSessionFilesExist) { $operatorSessionPath } else { "operator session files not created" }
@@ -145,6 +160,7 @@ try {
         SnapshotPreview = $snapshotPreview
         ActionPacketPreview = $actionPacketPreview
         VerdictTemplatePreview = $verdictTemplatePreview
+        UpdateDraftPreview = $updateDraftPreview
     }
 
     if ($AsJson) {
@@ -181,6 +197,14 @@ try {
             Write-Output ""
             Write-Output "VerdictTemplatePreview:"
             foreach ($line in $verdictTemplatePreview) {
+                Write-Output ("  {0}" -f $line)
+            }
+        }
+
+        if ($updateDraftPreview.Count -gt 0) {
+            Write-Output ""
+            Write-Output "UpdateDraftPreview:"
+            foreach ($line in $updateDraftPreview) {
                 Write-Output ("  {0}" -f $line)
             }
         }

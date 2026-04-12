@@ -77,6 +77,7 @@ fourth-pass 번들 안에는:
 - `../tools/Invoke-ExternalAssetOperatorSession.ps1`
 - `../tools/Export-ExternalAssetActionPacket.ps1`
 - `../tools/Export-ExternalAssetVerdictTemplate.ps1`
+- `../tools/Export-ExternalAssetUpdateDraft.ps1`
 - `../ops/external_asset_update_map_2026_04_12.md`
 - `../media_modules/`
 
@@ -97,3 +98,4 @@ fourth-pass 번들 안에는:
 - `ops/external_asset_update_map_2026_04_12.md`
 - `ops/external_asset_verdict_template_audit_2026_04_12.md`
 - `ops/external_asset_operator_session_audit_2026_04_12.md`
+- `ops/external_asset_update_draft_audit_2026_04_12.md`

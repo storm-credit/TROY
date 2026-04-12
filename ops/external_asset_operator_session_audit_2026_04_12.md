@@ -29,6 +29,7 @@ Result:
   - `01_review_snapshot.md`
   - `02_action_packet.md`
   - `03_verdict_template.md`
+  - `04_update_draft.md`
 - ready items:
   - `0`
 
@@ -53,6 +54,7 @@ Result:
   - `01_review_snapshot.md`
   - `02_action_packet.md`
   - `03_verdict_template.md`
+  - `04_update_draft.md`
 - ready items:
   - `7`
 
