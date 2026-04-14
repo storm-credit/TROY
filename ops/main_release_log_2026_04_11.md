@@ -5,7 +5,7 @@
 - source branch: `codex/120-canon-master-plan`
 - target branch: `main`
 - initial released commit: `84cfb37` `Lock push and main release gate`
-- current released commit: `2d68470` `Add external asset update draft exporter`
+- current released commit: `c6f9e8e` `Polish reverse-design craft watchpoints`
 - release method: fast-forward push from `HEAD` to `main`
 
 ## Scope
@@ -44,6 +44,10 @@
   - `03_verdict_template.md`
   - `04_update_draft.md`
   - blocked path and synthetic ready path both `pass`
+- reverse-design craft polish:
+  - `E045 / E058 / E094 / E113 / E119` selected polish complete
+  - `E001-E120` length gate all `safe-line candidate`
+  - `E001-E120` forbidden pattern sweep all `pass`
 - git state before main push:
   - worktree clean
   - `origin/main` was ancestor of working branch
@@ -71,6 +75,8 @@
 - `44b26ca` `Add external asset operator session bundle`
 - `5997ed3` `Update main release baseline docs`
 - `2d68470` `Add external asset update draft exporter`
+- `8652e55` `Refresh main release log`
+- `c6f9e8e` `Polish reverse-design craft watchpoints`
 
 These commits extend the original main baseline into the media intake operator-ready release state.
 
