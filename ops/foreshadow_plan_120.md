@@ -36,6 +36,10 @@
 - echo: pressure on Seojun's use of the ability
 - payoff: boundary-setting rather than exposure gimmick
 - ending dependency: medium
+- current manuscript status:
+  - `provisional / inactive`
+  - do not insert a late cameo only to satisfy the planning slot
+  - treat as future expansion or formal deactivation unless a later revision intentionally activates the thread
 
 ## 6. Dohyun Contrast
 

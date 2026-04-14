@@ -1,8 +1,13 @@
 # Ending Reverse Design: 120 Episodes
 
-## 1. Locked Ending Sentence
+## 1. Locked Ending Emotional Line
 
 여름이 끝난 뒤의 공기처럼, 뜨겁지 않은데도 확실한 사랑.
+
+운영 주석:
+- 이 문장은 실제 마지막 문장 고정이 아니라 `E118-E120` 전체의 정서 온도 고정선이다.
+- 실제 원고의 마지막 문장은 회차 장면과 생활성에 맞게 달라질 수 있다.
+- 수정 기준은 문장 일치가 아니라 `뜨겁지 않은 확실함`이 끝까지 유지되는가이다.
 
 ## 2. Final Emotional Definition
 

@@ -51,6 +51,10 @@
 - if future revision opens one thread for slightly clearer late reinforcement,
   this is a candidate,
   but not a current failure
+- 2026-04-14 polish note:
+  - if reinforced, keep it as body-memory residue in `E119`
+  - do not explain diagnosis or mechanics
+  - the goal is to show the old tension settling into ordinary bodily presence
 
 ## 7. director note
 

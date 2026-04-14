@@ -48,3 +48,10 @@
 
 에필로그의 장소는 Han River or equivalent open-air recall space로 유지할 수 있다.  
 하지만 `관계의 실제 종결`은 Cafe Dal outside split moment에서 이미 끝난 것으로 본다.
+
+## 7. Post-Closure Encounter Rule
+
+- `E119`에서 발생하는 짧은 대면은 `Last Face-To-Face`의 재개방이 아니다.
+- 그 장면은 관계 종결 이후의 사후 확인 / 생활 속 조우로 취급한다.
+- 따라서 `E118`의 Cafe Dal outside split은 여전히 관계 선택의 최종 장면이고,
+  `E119`는 그 선택 이후 서준이 해석 없이 현실을 받아들이는 증명 장면이다.
