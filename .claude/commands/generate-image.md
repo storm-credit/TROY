@@ -1,6 +1,8 @@
 ---
 description: Generate illustration for a track scene
 ---
+
+> 🔁 **TROY mode**: 본 명령의 `localhost:8899/api/generate/image` · `outputs/stills/` · `outputs/registry/` 는 oddengine 전용. TROY 는 외부 도구(MJ/Imagen/NB) 결과를 `export/` 로 회수하는 방식. 트랙 ID 는 `KR-XX` 가 아닌 TROY 12 트랙 ID (E054/E113/...). 매핑은 `CLAUDE.md §13` 참조.
 Generate image for track $ARGUMENTS scene.
 
 Usage: /generate-image {track_id} {scene_id} [prompt] [style_ref]

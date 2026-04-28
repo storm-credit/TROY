@@ -1,6 +1,8 @@
 ---
 description: Generate complete MV for a track (full pipeline)
 ---
+
+> 🔁 **TROY mode**: 본 명령의 `outputs/songs|videos|conti|registry/` 와 `npx remotion render` 는 oddengine 전용. TROY 편집 스택은 미정(외부 NLE 사용 예정), 자산은 `export/music/...` 로 회수. 트랙 ID 는 TROY 12 트랙 ID(E054~E108). 매핑은 `CLAUDE.md §13` 참조.
 Generate complete music video for track $ARGUMENTS.
 
 Usage: /generate-mv {track_id}

@@ -1,6 +1,8 @@
 ---
 description: Convert still image to motion clip
 ---
+
+> 🔁 **TROY mode**: 본 명령의 `localhost:8899/api/generate/video` · `outputs/stills|videos|registry/` 는 oddengine 전용. TROY 는 외부 도구(Kling/Higgsfield/Veo/Sora) 결과를 `export/` 로 회수. 트랙 ID 는 TROY 12 트랙 ID. 매핑은 `CLAUDE.md §13` 참조.
 Generate video from image for track $ARGUMENTS.
 
 Usage: /generate-video {track_id} {scene_id} {image_asset_id} [motion_prompt] [duration_s]

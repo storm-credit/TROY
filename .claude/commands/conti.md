@@ -1,6 +1,8 @@
 ---
 description: Generate or review a conti/shot list for a track
 ---
+
+> 🔁 **TROY mode**: 본 명령의 `outputs/manifests/`, `outputs/conti/` 경로는 oddengine 전용. TROY는 `ops/E###_visual_cut_list.md`, `export/music/.../generation_card.md` 사용. 매핑은 `CLAUDE.md §13` 참조.
 Generate a conti (shot list) for track $ARGUMENTS.
 
 1. Load manifest: outputs/manifests/{trackId}.yaml

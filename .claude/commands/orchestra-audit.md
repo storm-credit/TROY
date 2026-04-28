@@ -3,6 +3,8 @@ description: Orchestra 전체 감사 — L2 팀장 5명 병렬 실행 → L3 전
 argument-hint: "[track_id]"
 ---
 
+> 🔁 **TROY mode**: 본 명령의 `docker exec oddengine-backend` · `curl localhost:8899/api/health` · `outputs/audits/` 는 oddengine 전용. TROY 환경에선 `ops/novel_orchestra_report_*.md`, `ops/orchestra_expert_audit_*.md` 형식으로 리포트 작성. Docker/API 헬스 체크 단계는 SKIP. 트랙 ID 기본값은 `KR-01` 이 아니라 TROY 12 트랙 중 하나(예: `E054`). 매핑은 `CLAUDE.md §13` 참조.
+
 # /orchestra-audit — Orchestra Full Audit
 
 L1 Conductor가 **전 팀(5)·전 전문가(17)** 를 한 번에 점검하는 스킬.

@@ -1,6 +1,8 @@
 ---
 description: Run a full health check on a track
 ---
+
+> 🔁 **TROY mode**: 본 명령의 `localhost:8899` API · `scripts/*.py` · `outputs/*` 경로는 oddengine 전용. TROY 환경 매핑은 `CLAUDE.md §13` 참조.
 Run comprehensive health check on track $ARGUMENTS:
 
 1. Validate manifest: python scripts/validate_manifest.py {trackId}
