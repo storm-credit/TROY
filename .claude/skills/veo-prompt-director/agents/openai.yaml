@@ -1,0 +1,4 @@
+interface:
+  display_name: "Veo Prompt Director"
+  short_description: "Build precise Google Veo 3.1 hero-shot prompt packets."
+  default_prompt: "Turn this video idea into a Veo 3.1 continuity-safe hero-shot prompt packet."

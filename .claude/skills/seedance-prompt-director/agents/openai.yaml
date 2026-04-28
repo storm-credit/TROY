@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance Prompt Director"
+  short_description: "Build continuity-locked Seedance 2.0 prompt packets."
+  default_prompt: "Turn this video idea into a Seedance 2.0 continuity-safe shot prompt packet."

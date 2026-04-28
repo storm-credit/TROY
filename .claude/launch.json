@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "oddengine-frontend",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd frontend && npx next dev"],
+      "port": 3201,
+      "autoPort": true
+    },
+    {
+      "name": "oddengine-frontend-docker",
+      "runtimeExecutable": "cmd.exe",
+      "runtimeArgs": ["/c", "ver"],
+      "port": 3101
+    }
+  ]
+}

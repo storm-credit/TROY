@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Orchestrator"
+  short_description: "Coordinate AI video models with continuity-safe shot planning."
+  default_prompt: "Turn this video idea into a continuity-safe model routing plan and prompt packet."

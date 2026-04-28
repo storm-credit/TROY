@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:/Users/Storm Credit/Desktop/Music/TROY"
+      ]
+    },
+    "suno": {
+      "command": "python",
+      "args": ["-m", "mcp_suno"],
+      "env": {
+        "SUNO_COOKIE": "${SUNO_COOKIE}"
+      }
+    },
+    "cloudflare": {
+      "command": "npx",
+      "args": ["-y", "@cloudflare/mcp-server-cloudflare"],
+      "env": {
+        "CLOUDFLARE_ACCOUNT_ID": "${CLOUDFLARE_ACCOUNT_ID}",
+        "CLOUDFLARE_API_TOKEN": "${CLOUDFLARE_API_TOKEN}"
+      }
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(python scripts/*)",
+      "Bash(docker compose *)",
+      "Bash(git *)",
+      "Bash(curl *)",
+      "Bash(npx next build)"
+    ]
+  }
+}

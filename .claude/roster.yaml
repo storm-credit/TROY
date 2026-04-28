@@ -1,0 +1,243 @@
+# TROY — Organization Roster
+# (이식 원본: ODD ENGINE roster v3 / TROY-adapted v1)
+# Orchestra 3-tier hierarchy (L1 Conductor → L2 Team Leads → L3 Specialists)
+#
+# TROY 컨텍스트:
+#   - 작품: 「너라는 운율」 (You are the Rhyme), 120화 시리얼 + 화당 1곡 + 화당 1 MV 패킷
+#   - 캐논 위치: canon/{series,world,characters,style,motif_ledger,canon_lock_matrix,open_questions}.md
+#   - 엔진 문서: ops/orchestra_engine.md, music_engine.md, image_engine.md, video_engine.md, troy_engine_method.md
+#   - 미디어 라우팅: export/media_modules/09_MODULE_ROUTING_BOARD.md
+#
+# 트랙 ID 체계 (oddengine KR-01~10 → TROY E### 에피소드 번호):
+#   1.  E054 — 밝은 창              (title-track candidate, pilot)
+#   2.  E113 — 나를 잃지 않는 일    (selfhood declaration, pilot)
+#   3.  E050 — 접힌 문장            (private diary, pilot)
+#   4.  E011 — 남은 소리            (debut spark, second pass)
+#   5.  E030 — 천천히 열어 둔 문    (careful yes, second pass)
+#   6.  E118 — 같은 말을 하던 저녁  (dignified parting, second pass)
+#   7.  E014 — 이름 없는 노래       (shy conversation, third pass)
+#   8.  E022 — 없는 시간에도        (voice-memory, third pass)
+#   9.  E034 — 유리 뒤의 여름       (withdrawal, third pass)
+#   10. E064 — 흔들리는 운율        (pre-loss instability, fourth pass)
+#   11. E094 — 끝까지 들은 말       (correction/asking, fourth pass)
+#   12. E108 — 정상인 불안          (livable uncertainty, fourth pass)
+#   진행 보드: export/music/arin_album_vol1_master_generation_board.md
+#
+# 캐릭터 매핑 (oddengine 한국 귀신 크루 → TROY 인물):
+#   주연:   윤서준 (수신자, 공감각, 22세, 경영학)
+#           지아린 (발신자, 보컬, 21세, 국문학)
+#   조연:   최이든 (룸메이트), 강도현 (연적), 송유빈 (16세 첫사랑/트라우마),
+#           배소나 (아린 현실거울), 이태율 (Phase 5-6 윤리적 거울)
+#   상세:   canon/characters.md
+#
+# Model routing 참고: oddengine briefs/system/MODEL_ROUTING_MATRIX.md (TROY 자체 라우팅 매트릭스 작성 전까지 참조)
+
+version: 3
+updated: 2026-04-28
+project: TROY
+source_repo: ODD ENGINE
+
+levels:
+  L1: "Conductor — 전체 지휘, 최종 승인"
+  L2: "Team Lead — 팀 운영, 하위 전문가 분배, 크로스팀 협업"
+  L3: "Specialist — 실제 작업 수행"
+
+# ──────────────────────────────────────────────────
+# L1: CONDUCTOR
+# ──────────────────────────────────────────────────
+conductor:
+  name: orchestra
+  file: .claude/commands/orchestra.md
+  responsibilities:
+    - 트랙 전체 흐름 총괄
+    - 팀장 간 충돌 조정
+    - 최종 출시 승인
+    - 우선순위 재배정
+
+# ──────────────────────────────────────────────────
+# L2 + L3: TEAMS
+# ──────────────────────────────────────────────────
+teams:
+
+  creative:
+    lead:
+      name: creative-team-lead
+      file: .claude/teams/creative/team_lead.md
+      default_model: claude-opus
+    specialists:
+      - name: story-director
+        file: .claude/teams/creative/story-director.md
+        hiring: permanent
+        default_model: claude-opus
+      - name: lyrics-director
+        file: .claude/teams/creative/lyrics-director.md
+        hiring: permanent
+        default_model: claude-opus
+      - name: mv-director
+        file: .claude/teams/creative/mv-director.md
+        hiring: permanent
+        default_model: claude-opus
+      - name: subtitle-translator        # ★ NEW
+        file: .claude/teams/creative/subtitle-translator.md
+        hiring: permanent
+        default_model: gpt-5
+
+  visual:
+    lead:
+      name: visual-team-lead
+      file: .claude/teams/visual/team_lead.md
+      default_model: claude-sonnet
+    specialists:
+      - name: character-designer
+        file: .claude/teams/visual/character-designer.md
+        hiring: permanent
+        default_model: gemini-2.5-pro-vertex
+      - name: art-director
+        file: .claude/teams/visual/art-director.md
+        hiring: permanent
+        default_model: gemini-2.5-pro-vertex
+      - name: motion-director
+        file: .claude/teams/visual/motion-director.md
+        hiring: permanent
+        default_model: gemini-2.5-flash-vertex
+      - name: prompt-engineer
+        file: .claude/teams/visual/prompt-engineer.md
+        hiring: permanent
+        default_model: gemini-2.5-flash-vertex
+      - name: prompt-curator             # ★ NEW
+        file: .claude/teams/visual/prompt-curator.md
+        hiring: permanent
+        default_model: gemini-2.5-flash-vertex
+
+  tech:
+    lead:
+      name: tech-team-lead
+      file: .claude/teams/tech/team_lead.md
+      default_model: claude-sonnet
+    specialists:
+      - name: backend-engineer
+        file: .claude/teams/tech/backend-engineer.md
+        hiring: permanent
+        default_model: claude-sonnet
+      - name: frontend-engineer
+        file: .claude/teams/tech/frontend-engineer.md
+        hiring: permanent
+        default_model: claude-sonnet
+      - name: devops
+        file: .claude/teams/tech/devops.md
+        hiring: permanent
+        default_model: claude-sonnet
+      - name: vfx-engineer
+        file: .claude/teams/tech/vfx-engineer.md
+        hiring: on-demand
+        default_model: claude-sonnet
+      - name: clip-matcher               # ★ NEW
+        file: .claude/teams/tech/clip-matcher.md
+        hiring: permanent
+        default_model: claude-sonnet
+
+  production:
+    lead:
+      name: production-team-lead
+      file: .claude/teams/production/team_lead.md
+      default_model: claude-sonnet
+    specialists:
+      - name: producer
+        file: .claude/teams/production/producer.md
+        hiring: permanent
+        default_model: claude-sonnet
+      - name: sound-sync
+        file: .claude/teams/production/sound-sync.md
+        hiring: permanent
+        default_model: claude-sonnet
+      - name: marketing-director
+        file: .claude/teams/production/marketing-director.md
+        hiring: permanent
+        default_model: claude-opus
+
+  qa:
+    lead:
+      name: qa-team-lead
+      file: .claude/teams/qa/team_lead.md
+      default_model: claude-sonnet
+    specialists:
+      - name: code-reviewer
+        file: .claude/teams/qa/code-reviewer.md
+        hiring: on-demand
+        default_model: claude-sonnet
+      - name: visual-qa
+        file: .claude/teams/qa/visual-qa.md
+        hiring: on-demand
+        default_model: gemini-2.5-pro-vertex
+      - name: security
+        file: .claude/teams/qa/security.md
+        hiring: on-demand
+        default_model: claude-sonnet
+      - name: manifest-validator         # ★ NEW
+        file: .claude/teams/qa/manifest-validator.md
+        hiring: permanent
+        default_model: claude-sonnet
+
+# ──────────────────────────────────────────────────
+# SUMMARY
+# ──────────────────────────────────────────────────
+summary:
+  total_team_leads: 5
+  permanent_specialists: 17          # 13 + 4 new (prompt-curator, subtitle-translator, clip-matcher, manifest-validator)
+  on_demand_specialists: 3
+  grand_total_including_conductor: 26
+  default_model_note: "각 에이전트의 default_model 필드 참조. 세부는 briefs/system/MODEL_ROUTING_MATRIX.md"
+
+# ──────────────────────────────────────────────────
+# CROSS-TEAM COLLABORATION RULES
+# ──────────────────────────────────────────────────
+collaboration:
+  direct:
+    - creative ↔ visual: "콘티 → 프롬프트 전환 협의"
+    - visual ↔ tech: "aspect_ratio·폴더 규칙, Vertex 호환성"
+    - creative ↔ production: "컷 길이 조정, 사운드 싱크"
+    - visual ↔ production: "썸네일 후보 프레임"
+    - tech ↔ production: "렌더링 사양·배포 환경"
+    - "* → qa": "리뷰 요청 (필요시)"
+
+  escalation:
+    - "팀장 간 충돌 발생 시 orchestra(L1)에 에스컬레이션"
+    - "최종 출시 승인은 orchestra 전용"
+
+# ──────────────────────────────────────────────────
+# VERTEX / DOCKER DEPENDENCY POLICY (TROY-adapted)
+# ──────────────────────────────────────────────────
+# TROY 는 ODD ENGINE의 Docker/FastAPI/Vertex AI 백엔드를 사용하지 않는다.
+# 본 roster의 default_model 필드 중 `gemini-*-vertex` 라고 적힌 6 라인은
+# 사용자가 ★시작 전 직접 교체★ 한다 (Anthropic SDK / Direct Gemini API / OpenAI 등 자유 선택).
+#
+# 영향 라인 (자동 갱신 시 주의):
+#   L94  character-designer  : gemini-2.5-pro-vertex      ← USER REPLACE
+#   L98  art-director        : gemini-2.5-pro-vertex      ← USER REPLACE
+#   L102 motion-director     : gemini-2.5-flash-vertex    ← USER REPLACE
+#   L106 prompt-engineer     : gemini-2.5-flash-vertex    ← USER REPLACE
+#   L110 prompt-curator      : gemini-2.5-flash-vertex    ← USER REPLACE
+#   L171 visual-qa           : gemini-2.5-pro-vertex      ← USER REPLACE
+# (라인 번호는 본 헤더 추가로 +N 시프트 가능 — 정확한 매칭은 `default_model: gemini-` 패턴 검색)
+#
+# Docker/SA-key/FastAPI 점검 항목 (TROY 무관, 휴면 처리):
+#   - .claude/teams/tech/backend-engineer.md   (FastAPI/Vertex 백엔드)        → SUSPENDED
+#   - .claude/teams/tech/devops.md             (Docker/SA 키 로테이션)        → SUSPENDED
+#   - .claude/commands/orchestra-audit.md:42   (docker exec ... )             → SUSPENDED
+#   - .claude/commands/orchestra.md:61         (Vertex .env/vertex-sa-key)    → SUSPENDED
+#   - .claude/commands/tech-director.md:32     (vertex-sa-key gitignore)      → 새 tech/team_lead.md 로 대체됨
+#   - .claude/teams/qa/security.md:14,19       (Vertex SA 키 보안)            → SUSPENDED
+#   - .claude/commands/producer.md:15          ("Vertex 일일 쿼터")           → "외부 생성 도구 크레딧"으로 일반화 해석
+#   - .claude/teams/production/producer.md:15  (위와 동일)                    → 동일 해석
+#   - .claude/teams/production/team_lead.md:17 (Vertex 쿼터 예산)             → 동일 해석
+#
+# 위 SUSPENDED 항목은 호출 시 Conductor 가 "TROY 무관 → SKIP" 으로 판정 (CLAUDE.md §11 참조).
+
+# ──────────────────────────────────────────────────
+# HIRING DECISION
+# ──────────────────────────────────────────────────
+hiring_notes:
+  permanent_reason: "트랙마다 반드시 호출되는 역할. 일관성 유지 위해 고정."
+  on_demand_reason: "특정 상황에만 필요. 호출 오버헤드 절감."
+  promotion_to_permanent:
+    trigger: "on-demand 전문가가 한 트랙 내 3회 이상 호출되면 permanent 승격 검토"

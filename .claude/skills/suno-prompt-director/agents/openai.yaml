@@ -1,0 +1,6 @@
+interface:
+  display_name: "Suno Prompt Director"
+  short_description: "Suno-ready Korean song prompt packs"
+  default_prompt: "Use $suno-prompt-director to turn this song idea into a Suno-ready Title, Style, Lyrics, and audit."
+policy:
+  allow_implicit_invocation: true

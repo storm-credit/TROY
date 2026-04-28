@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kling Prompt Director"
+  short_description: "Build motion-safe Kling 3.0 prompt packets."
+  default_prompt: "Turn this video idea into a Kling 3.0 motion-and-continuity prompt packet."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sora Prompt Director"
+  short_description: "Build cinematic Sora 2 prompt packets with continuity."
+  default_prompt: "Turn this video idea into a Sora 2 cinematic continuity-safe prompt packet."
