@@ -12,7 +12,7 @@
 | 우선순위 | 캐릭터 | 캐논 위치 | Prompt 상태 | Sheet 상태 | 파일 |
 |---|---|---|---|---|---|
 | 1 | **윤서준** (Yoon Seojun) | 메인 남주, 모든 트랙 | ✅ prompt-ready (v1) | ⏳ pending | `yoon_seojun_sheet_v1.md` |
-| 2 | **지아린** (Ji Arin) | 메인 여주, vol1 가창자 | ⏳ pending | ⏳ pending | (다음) |
+| 2 | **지아린** (Ji Arin) | 메인 여주, vol1 가창자 | ✅ prompt-ready (v2) | ⚠️ v1 calibrating · v2 pending | `ji_arin_sheet_v2.md` |
 | 3 | **최이든** (Choi Iden) | 룸메, 조연 | ⏳ pending | ⏳ pending | (다음) |
 | 4 | **강도현** (Kang Dohyun) | 연적, Phase 2-4 | ⏳ pending | ⏳ pending | (다음) |
 | 5 | **배소나** (Bae Sona) | 아린 현실거울, Phase 2+ | ⏳ pending | ⏳ pending | (다음) |
@@ -47,3 +47,27 @@
 음악·MV 비주얼 모드 = Modern Korean cinematic illustration (도구: GPT Image 2 + Seedance 2.0 + Suno).
 소설 prose 톤은 그대로 유지 (canon/style.md §6 의 cinematic live-action 은 prose 에만 적용).
 별도 문서로 `canon/style.md §6` 갱신 예정 (다음 turn).
+
+## Calibration History
+
+### 지아린 v1 → v2 (2026-04-30)
+
+**v1 sheet 결과 평가** (사용자 보고): "너무 밋밋하고 수수해, 청바지 때문인가, 볼륨감이 없어"
+
+**오케스트라 5팀 점검 결과** — v1 캐논 lock 위반 3건:
+1. ❌ **밴드 보컬 visible trait** (canon §3) — 무대 의상이 sub
+2. ❌ **image keyword "warmth"** (canon §3) — cream 위주, 노란/코랄 약함
+3. ❌ **밝고 사교적 surface** (canon §3) — baseline 차분 과함
+
+**캐논 사전 read 추가 발견** (E002 §46, §145, E003 §15, §32, §69, §90, face_lock_harness §4, §7):
+1. ⭐ **"옅은 노란 가디건"** lock (E002 §46) — v1 의 cream + 청바지가 가장 큰 미스
+2. ⭐ **"긴 머리"** lock (E002 §46) — v1 의 shoulder-length 보다 길어야
+3. ⭐ **기타 케이스 signature prop** (E003 §15) — v1 누락
+4. **expression set 4 canonical** (face_lock §4): calm / hidden thought / quiet selfhood / private pause — v1 6개와 미스매치
+5. **outfit anchor 3** (face_lock §4): music room / campus walking ⭐MAIN / private room
+6. **신체 습관**: 발끝 박자 (E003 §15), 무심코 흥얼 (E003 §90), 부름 직전 (E003 §69)
+7. **anti-rule** (face_lock §7): NO performance flex, subject-not-object, NO possessive romance pose
+
+**v2 통합 보정 10개**: 위 발견 모두 prompt 에 lock. Marketing 의 "강한 무대 hook" 권고는 face_lock §7 위반이라 부분 reject — 대신 "옅은 노란빛 = 유일한 발신자" 캐논 lock 이 진짜 hook.
+
+**v2 산출 권장 위치**: `export/music/character_lock_pack/ji_arin_sheet_v2.png` (face_lock_harness §10 표준 위치)
