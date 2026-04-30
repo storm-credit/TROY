@@ -14,7 +14,7 @@
 | 1 | **윤서준** (Yoon Seojun) | 메인 남주, 모든 트랙 | ✅ prompt-ready (v1) | ⏳ pending | `yoon_seojun_sheet_v1.md` |
 | 2 | **지아린** (Ji Arin) | 메인 여주, vol1 가창자 | ✅ prompt-ready (v2) | ⚠️ v1 calibrating · v2 pending | `ji_arin_sheet_v2.md` |
 | 3 | **최이든** (Choi Iden) | 룸메, 조연 | ⏳ pending | ⏳ pending | (다음) |
-| 4 | **강도현** (Kang Dohyun) | 연적, Phase 2-4 | ✅ prompt-ready (v2) | ⚠️ v1 calibrating · v2 pending | `kang_dohyun_sheet_v2.md` |
+| 4 | **강도현** (Kang Dohyun) | 연적, Phase 2-4 | ✅ prompt-ready (v2) | 🔒 **LOCKED** (v2 검증 완료) | `kang_dohyun_sheet_v2.md` |
 | 5 | **배소나** (Bae Sona) | 아린 현실거울, Phase 2+ | ⏳ pending | ⏳ pending | (다음) |
 | 6 | **송유빈** (Song Yubin) | 16세 첫사랑, Phase 4-5 | ⏳ pending | ⏳ pending | (다음) |
 | 7 | **이태율** (Lee Taeyul) | 윤리적 거울, Phase 5-6 | ⏳ pending | ⏳ pending | (다음) |
