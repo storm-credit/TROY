@@ -14,7 +14,7 @@
 | 1 | **윤서준** (Yoon Seojun) | 메인 남주, 모든 트랙 | ✅ prompt-ready (v1) | ⏳ pending | `yoon_seojun_sheet_v1.md` |
 | 2 | **지아린** (Ji Arin) | 메인 여주, vol1 가창자 | ✅ prompt-ready (v2) | ⚠️ v1 calibrating · v2 pending | `ji_arin_sheet_v2.md` |
 | 3 | **최이든** (Choi Iden) | 룸메, 조연 | ⏳ pending | ⏳ pending | (다음) |
-| 4 | **강도현** (Kang Dohyun) | 연적, Phase 2-4 | ⏳ pending | ⏳ pending | (다음) |
+| 4 | **강도현** (Kang Dohyun) | 연적, Phase 2-4 | ✅ prompt-ready (v2) | ⚠️ v1 calibrating · v2 pending | `kang_dohyun_sheet_v2.md` |
 | 5 | **배소나** (Bae Sona) | 아린 현실거울, Phase 2+ | ⏳ pending | ⏳ pending | (다음) |
 | 6 | **송유빈** (Song Yubin) | 16세 첫사랑, Phase 4-5 | ⏳ pending | ⏳ pending | (다음) |
 | 7 | **이태율** (Lee Taeyul) | 윤리적 거울, Phase 5-6 | ⏳ pending | ⏳ pending | (다음) |
@@ -71,3 +71,33 @@
 **v2 통합 보정 10개**: 위 발견 모두 prompt 에 lock. Marketing 의 "강한 무대 hook" 권고는 face_lock §7 위반이라 부분 reject — 대신 "옅은 노란빛 = 유일한 발신자" 캐논 lock 이 진짜 hook.
 
 **v2 산출 권장 위치**: `export/music/character_lock_pack/ji_arin_sheet_v2.png` (face_lock_harness §10 표준 위치)
+
+### 강도현 v1 → v2 (2026-04-30)
+
+**v1 sheet 결과 평가** (사용자 보고): "**얼굴이 너무 겹친다**" — 윤서준과 face mold 유사
+
+**오케스트라 진단 — 두 가지 미스**:
+1. **얼굴 차별화 부족** — 둘 다 검은 머리 + 무표정 계열 + 22-23세 동급. silhouette/분위기는 차별되지만 face mold 자체가 비슷
+2. **manuscript 사전 read 누락** — v1 prompt 가 canon §5 음악 메타포 (피아노) 만 적용. 실제 in-world 활동 (문예지 편집) + 외형 시그니처 (소매 두 번 걷음) 누락
+
+**manuscript E043 (도현 첫 등장) read 발견 9개**:
+1. ⭐ "흰 셔츠 소매를 두 번 걷어 올린 남자" (§68) — silhouette 시그니처
+2. 학생회관 옆 야외 테이블 + 문예지 편집 (§7-8, §38) = 공간·활동
+3. "먼저 손 내밀지 않음" (§97-99) — 인사 매너
+4. "할 말만 하고 괜한 여운 X" (§89-90) — 말투
+5. "원고 끝까지 한 번 더 읽고 답변" (§124-125) — 행동
+6. "판단의 기준을 하나 놓아 주는 사람 / 말을 정리해 놓는 사람" (§142-145) — 사고
+7. "웃지도 않고 그냥 사실처럼 말함" (§198-199) — 표정 baseline
+8. "어깨를 가볍게 으쓱" (§225) — 제스처
+9. "너무 적절해서 누군가를 불안하게 만드는 매끈함" (§176, §180-183) — 핵심 인상
+
+**얼굴 차별화 lock 5개 추가**:
+1. 나이감 — 23세 mature (서준 22세 student 와 차별)
+2. Jawline / cheekbone — sharper / more defined
+3. 머리 — neat side part (NOT messy, NOT overgrown bangs)
+4. Gaze — direct level (NOT withdrawn lowered)
+5. Mature shading — eye corner + cheek 미세 그림자
+
+**v2 통합 보정 10개**: manuscript lock 9개 + 얼굴 차별화 5개 + canon §5 음악 메타포 layer + canon §4 후퇴 lock + 핵심 대사 ("맞는 게 중요하진 않지. 네가 납득해야지.") panel 추가.
+
+**v2 산출 권장 위치**: `export/music/character_lock_pack/kang_dohyun_sheet_v2.png`
