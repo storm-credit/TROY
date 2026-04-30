@@ -15,7 +15,7 @@
 | 2 | **지아린** (Ji Arin) | 메인 여주, vol1 가창자 | ✅ prompt-ready (v2) | ⚠️ v1 calibrating · v2 pending | `ji_arin_sheet_v2.md` |
 | 3 | **최이든** (Choi Iden) | 룸메, 조연 | ⏳ pending | ⏳ pending | (다음) |
 | 4 | **강도현** (Kang Dohyun) | 연적, Phase 2-4 | ✅ prompt-ready (v2) | 🔒 **LOCKED** (v2 검증 완료) | `kang_dohyun_sheet_v2.md` |
-| 5 | **배소나** (Bae Sona) | 아린 현실거울, Phase 2+ | ⏳ pending | ⏳ pending | (다음) |
+| 5 | **배소나** (Bae Sona) | 아린 현실거울, Phase 2+ | ✅ prompt-ready (v2) | ⚠️ v1 baseline · v2 pending | `bae_sona_sheet_v2.md` |
 | 6 | **송유빈** (Song Yubin) | 16세 첫사랑, Phase 4-5 | ⏳ pending | ⏳ pending | (다음) |
 | 7 | **이태율** (Lee Taeyul) | 윤리적 거울, Phase 5-6 | ⏳ pending | ⏳ pending | (다음) |
 
@@ -101,3 +101,31 @@
 **v2 통합 보정 10개**: manuscript lock 9개 + 얼굴 차별화 5개 + canon §5 음악 메타포 layer + canon §4 후퇴 lock + 핵심 대사 ("맞는 게 중요하진 않지. 네가 납득해야지.") panel 추가.
 
 **v2 산출 권장 위치**: `export/music/character_lock_pack/kang_dohyun_sheet_v2.png`
+
+### 배소나 v1 → v2 (2026-04-30)
+
+**v1 prompt 진단**: manuscript 사전 read 없이 canon §4 추상 정의 ("calm intelligent baseline") 만 적용. 실제 캐릭터 정체성과 결정적 미스매치.
+
+**manuscript E020 (첫 등장 뒤풀이) + E049 (활약 신 친구들의 개입) read 발견 9개**:
+1. ⭐ "지나치게 단순해서 오히려 더 정확한" 핵심 인상 (E049 §157-158)
+2. ⭐ "아이스티 컵 뚜껑을 손톱으로 톡톡 두드림" 시그니처 신체 습관 (E049 §31)
+3. 즉각 reaction: 받아치기, 피식/물 뿜듯 웃음 (E049 §82, §192, §342)
+4. 직설 톤: "표현은 또 왜 그렇게 해" / "그럼 싫겠다" (E049 §83, §155)
+5. 정확한 통찰: "오빠는 상대 마음 빨리 알아차리는 게 다정한 거라고 생각하죠" (E049 §168-170)
+6. 관찰력: "언니가 다 참으면서 괜찮은 척할 때 표정이 더 보여요" (E049 §339-340)
+7. 호칭: 서준 = "오빠" / 아린 = "언니" — 친밀 후배 톤 (E049 §168, §337)
+8. 둘만 대화 만들어 주는 장치: "잠깐 화장실 하며 일어남" (E049 §307-308)
+9. 위로보다 현실 조언: "그럼 또 말해야죠. 언니가 안 말하면 오빠는 자기가 맞았다고 착각할걸요" (E049 §371-374)
+
+**얼굴 차별화 lock 5개 추가** (vs 아린·송유빈):
+- 머리: bob (vs 아린 long wavy)
+- 컬러: cool gray (vs 아린 warm yellow)
+- 나이감: 21세 active (vs 송유빈 22세 calm mature)
+- 눈: sharp intelligent (NOT dreamy)
+- 시그니처: round-frame glasses
+
+**사용자 결정**: A — 안경 keep + 컵 손동작 추가 (둘 다 살림)
+
+**v2 통합 보정 10개**: manuscript lock 9개 + 얼굴 차별화 5개 + 핵심 대사 panel 2개 (오빠/언니 호칭 사용) + active direct baseline 전환.
+
+**v2 산출 권장 위치**: `export/music/character_lock_pack/bae_sona_sheet_v2.png`
