@@ -16,7 +16,7 @@
 | 3 | **최이든** (Choi Iden) | 룸메, 조연 | ⏳ pending | ⏳ pending | (다음) |
 | 4 | **강도현** (Kang Dohyun) | 연적, Phase 2-4 | ✅ prompt-ready (v2) | 🔒 **LOCKED** (v2 검증 완료) | `kang_dohyun_sheet_v2.md` |
 | 5 | **배소나** (Bae Sona) | 아린 현실거울, Phase 2+ | ✅ prompt-ready (v2) | ⚠️ v1 baseline · v2 pending | `bae_sona_sheet_v2.md` |
-| 6 | **송유빈** (Song Yubin) | 16세 첫사랑, Phase 4-5 | ⏳ pending | ⏳ pending | (다음) |
+| 6 | **송유빈** (Song Yubin) | 16세 첫사랑, Phase 4-5 | ✅ prompt-ready (v2) | ⚠️ v1 baseline · v2 pending | `song_yubin_sheet_v2.md` |
 | 7 | **이태율** (Lee Taeyul) | 윤리적 거울, Phase 5-6 | ⏳ pending | ⏳ pending | (다음) |
 
 ## 상태 정의
@@ -129,3 +129,32 @@
 **v2 통합 보정 10개**: manuscript lock 9개 + 얼굴 차별화 5개 + 핵심 대사 panel 2개 (오빠/언니 호칭 사용) + active direct baseline 전환.
 
 **v2 산출 권장 위치**: `export/music/character_lock_pack/bae_sona_sheet_v2.png`
+
+### 송유빈 v1 → v2 (2026-04-30)
+
+**v1 prompt 진단**: manuscript 사전 read 없이 canon §4 추상 정의만 적용. dual-age 캐릭터의 풍부한 디테일 lock 누락.
+
+**manuscript E086 (과거의 직면, 22세 첫 재등장) + ops/motif_audit_seojun_sensory_origin read 발견 10개**:
+1. ⭐ "예전보다 머리가 조금 짧아져" (E086 §11) — dual-age 머리 길이 차별 (22세 < 16세)
+2. ⭐ "가방을 멘 어깨가 전보다 단단했다" + "시간은 얼굴보다 자세에 먼저 남는다" (§12-13) — 자세 lock
+3. ⭐⭐ "플라스틱 컵 겉면 물방울을 엄지로 느리게 문지름" (§111-112) — signature 신체 습관
+4. ⭐⭐ "그때도 유빈은 긴장할 때 컵을 그런 식으로 만지곤 했다" (§115-116) — 16세에도 동일 (dual-age 일관 신체)
+5. "슬픈 표정에 가까운 웃음" / "아주 작은 웃음" (§171-172, §271-272) — wistful smile baseline
+6. ⭐⭐⭐ 핵심 대사 1 — "그때 넌, 늘 내가 무슨 생각을 하는지 이미 알고 있는 사람처럼 굴었어" (§192-194) = 트라우마 진단
+7. ⭐⭐⭐ 핵심 대사 2 — "우리 둘 다 언젠가 한 번은 제대로 마주 봐야 하는 과거라는 걸 알고 있었던 것 같아서" (§174-177) = 봉합 인상
+8. "제대로 끝나기 위해 돌아온 과거" (§332) — core impression
+9. "늦었지만 정확했다" (§415-416) — 늦은 설명자 정체성
+10. 호칭 lock: 둘 다 "너" 직접 + 이름 ("유빈"/"서준") — 오랜 친구·과거 연인 톤
+
+**얼굴 차별화 lock 5개 추가** (vs 아린·소나):
+- 22세 mature settled (vs 21세 active 둘)
+- 단단한 어깨 (자세 lock)
+- 머리: shoulder-length 짧아진 (현재) / longer (16세)
+- 표정 baseline: calm wistful slight smile
+- 신체 습관: 컵 물방울 엄지 문지름 (16세에도 동일)
+
+**dual-age 정밀 처리**: 16세 "사랑해" 표정 = 본인은 honest young (평범, 능력 모름), micro-bored 는 서준 청취 결과의 그림자 hint 만 (NOT villain framing)
+
+**v2 통합 보정 10개 + 얼굴 차별화 5개 + 핵심 대사 panel 2개 + dual-age 정밀 처리**: manuscript lock 완전 흡수.
+
+**v2 산출 권장 위치**: `export/music/character_lock_pack/song_yubin_sheet_v2.png`
