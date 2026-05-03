@@ -17,12 +17,12 @@
 | 4 | **강도현** (Kang Dohyun) | 연적, Phase 2-4 | ✅ v2 | 🔒 **LOCKED** | `kang_dohyun_sheet_v2.md` |
 | 5 | **배소나** (Bae Sona) | 아린 현실거울, Phase 2+ | ✅ v2 | 🔒 **LOCKED** | `bae_sona_sheet_v2.md` |
 | 6 | **송유빈** (Song Yubin) | 16세 첫사랑, Phase 4-5 dual-age | ✅ v3 (face-mold 보강) | 🔒 **LOCKED** (8장 시트 중 2장 — 22세 + 16세) | `song_yubin_sheet_v3.md` |
-| 7 | **이태율** (Lee Taeyul) | 동아리 선배·실질 조력자, Phase 5-6 | ✅ v2 (사용자 보정 — 24세 4학년 멘토) | 🔒 **LOCKED** | `lee_taeyul_sheet_v2.md` |
+| 7 | **이태율** (Lee Taeyul) | Phase 5-6 윤리적 거울 + 절대음감 음악인 | ✅ v3 (camel 시트 + 핵심 대사 4개) | 🔒 **LOCKED** | `lee_taeyul_sheet_v3.md` |
 
 **총 8장 (송유빈 dual-age 2장 포함) · 7 캐릭터 face-lock baseline 완료** 🎬
 
 7 색상 시그니처:
-회색(서준) / 옅은 노란(아린) / warm cream(이든) / 카멜+슬레이트(도현) / mid gray(소나) / autumn beige+brown(유빈) / **charcoal black+steel blue(태율)**
+회색(서준) / 옅은 노란(아린) / warm cream(이든) / 카멜+슬레이트(도현) / mid gray(소나) / autumn beige+brown(유빈) / **camel + deep dusk navy(태율)** ← v3 갱신
 
 ## 상태 정의
 
@@ -246,6 +246,28 @@
 **얼굴 차별화 vs 강도현·송유빈 (3 mature 톤)**: 차가운 눈매 + 왼쪽 눈 밑 작은 점 (signature) + dark monochrome silhouette = 명확 분리 ✓
 
 **산출 권장 위치**: `export/music/character_lock_pack/lee_taeyul_sheet_v2.png`
+
+### 이태율 v2 → v3 (2026-04-30) — black suit 폐기, camel 절대음감 채택
+
+**v2 사용자 paste 결과 1**: black suit 시트 (24세 4학년 사업가, charcoal+steel blue) — 시각 임팩트는 강력했으나 캐논 §4 정합 약함 (절대음감 음악인 정체성 약화) → **폐기**
+
+**v2 사용자 paste 결과 2**: camel + 절대음감 시트 (25세 졸업생/대학원생, 부드럽게 뒤로 넘긴 머리, 카멜 베이지 레이어드 + 크림 티 + 다크 트라우저, 악보 + 가죽 시계, 윤리적 거리를 둔 절대음감 음악인) — v2 prompt 의 원래 비전 정확 적용 → ⭐ **이게 정답**
+
+**v3 = 결과 2 (camel) 기반 + 결과 1 핵심 대사 1개 흡수**:
+- 베이스: 사용자 검증 완료 camel + 절대음감 시트
+- 흡수: ⭐⭐ "**너는 감정으로 결정하고, 나는 결과로 책임질게. 그래서 우리가 제일 잘 맞는 거야.**" (사용자 직접 작성 — 캐릭터 voice 강력)
+- 핵심 대사 panel = 총 4개 (foreshadow paraphrase 3 + 사용자 작성 1)
+
+**얼굴 차별화 vs 강도현·송유빈·서준 6 rules strict**:
+- ⚠️ NOT 강도현 "흰셔츠 + 카멜 카디건 + 깔끔한 사이드파트" 단정한 편집자
+- ⚠️ NOT 서준 "흐트러진 앞머리"
+- ⚠️ NOT cold black suit corporate
+- ⭐ 긴 타원형 + 부드럽게 내려간 턱선 + 조용한 무게
+- ⭐ 앞머리 없이 부드럽게 뒤로 넘긴 블랙 헤어
+- ⭐ 카멜 베이지 레이어드 + 크림 티 + 다크 트라우저
+- ⭐ 사람을 조용히 읽는 통찰의 시선
+
+**v3 산출 권장 위치**: `export/music/character_lock_pack/lee_taeyul_sheet_v3.png`
 
 ---
 
