@@ -16,7 +16,7 @@
 | 3 | **최이든** (Choi Iden) | 룸메, 조연 | ⏳ pending | ⏳ pending | (다음) |
 | 4 | **강도현** (Kang Dohyun) | 연적, Phase 2-4 | ✅ prompt-ready (v2) | 🔒 **LOCKED** (v2 검증 완료) | `kang_dohyun_sheet_v2.md` |
 | 5 | **배소나** (Bae Sona) | 아린 현실거울, Phase 2+ | ✅ prompt-ready (v2) | ⚠️ v1 baseline · v2 pending | `bae_sona_sheet_v2.md` |
-| 6 | **송유빈** (Song Yubin) | 16세 첫사랑, Phase 4-5 | ✅ prompt-ready (v2) | ⚠️ v1 baseline · v2 pending | `song_yubin_sheet_v2.md` |
+| 6 | **송유빈** (Song Yubin) | 16세 첫사랑, Phase 4-5 | ✅ prompt-ready (v3) | ⚠️ v2 face-mold 충돌 (배소나) · v3 pending | `song_yubin_sheet_v3.md` |
 | 7 | **이태율** (Lee Taeyul) | 윤리적 거울, Phase 5-6 | ⏳ pending | ⏳ pending | (다음) |
 
 ## 상태 정의
@@ -158,3 +158,30 @@
 **v2 통합 보정 10개 + 얼굴 차별화 5개 + 핵심 대사 panel 2개 + dual-age 정밀 처리**: manuscript lock 완전 흡수.
 
 **v2 산출 권장 위치**: `export/music/character_lock_pack/song_yubin_sheet_v2.png`
+
+### 송유빈 v2 → v3 (2026-04-30)
+
+**v2 sheet 결과 사용자 피드백**: "**송유빈 vs 배소나 얼굴이 너무 똑같다**"
+
+**진행 룰 적용**: 배소나 v2 = 먼저 LOCKED (baseline) → 나중 작성된 송유빈이 차별화 책임. 배소나는 그대로 유지, 송유빈만 v3 보정.
+
+**v2 진단 — face mold 차별화 부족**:
+- v2 의 "5 rules" (22 mature / 단단한 어깨 / shoulder-length / wistful / 컵 물방울) 는 자세·표정 layer 중심
+- 같은 일러스트 hand 의 default face mold 가 그대로 작동 → 두 캐릭터 얼굴 mold 거의 동일
+- 자세·머리 길이만으로는 face mold 분리 불가능
+
+**v3 face mold 독립 차별 lock 10개**:
+1. 얼굴 윤곽 — softer oval (vs 배소나 sharp compact)
+2. ⭐ 눈매 끝 — downturned outer corner (vs 배소나 lifted sharp) — wistful 시각화 핵심
+3. 속눈썹 — longer + under-eye shadow
+4. ⭐ 입술 — fuller lower lip slightly parted (vs 배소나 thin smile-readiness)
+5. 턱선 — softer (vs 배소나 sharp pointed)
+6. 광대 — softer cheek shading
+7. ⭐ 머리 길이 — chest-length (vs 배소나 bob) + 16세 waist-length
+8. 머리 스타일 — soft side part with natural wave (vs 배소나 blunt cut)
+9. ⭐ 피부 undertone — warm autumn (vs 배소나 cool gray)
+10. ⭐ NEW prop — 책 (book) 추가 — 늦은 설명자 정체성 시각화 + 안경 X (안경은 배소나 lock)
+
+**핵심 차별 명령**: "Must look like a different actor from 배소나, even within the same illustration hand and matching set."
+
+**v3 산출 권장 위치**: `export/music/character_lock_pack/song_yubin_sheet_v3.png`
