@@ -100,15 +100,35 @@
 - 캐릭터 외형, 계절 팔레트, 공간 상징은 화마다 흔들리면 안 된다
 - 같은 장소는 같은 감정 기억 장치로 다시 호출되어야 한다
 
-### visual mode lock
+### visual mode lock — TWO TRACKS (Z 갈래, 2026-04-30 갱신)
 
+본 작품의 비주얼 모드는 **두 트랙으로 분리**된다.
+
+**track 1: prose / 본편 텍스트 묘사**
 - base visual mode is cinematic live-action style
-- anime styling is not the default house look
-- illustrated or semi-animated treatment is allowed only for memory, inner hearing, symbolic inserts, or lyric-video accents
-- faces, skin, and posture should remain realistic and filmic
+- prose 묘사는 시네마틱 라이브액션 (실제 공간·인물·필름 룩 같은 묘사)
+- anime / illustrated styling 으로 prose 를 쓰지 않음
+- faces, skin, and posture should remain realistic and filmic in prose
 
-see:
-- `ops/visual_bible.md`
+**track 2: music video / character lock pack / image+video assets**
+- base visual mode is **modern Korean cinematic illustration** (Z 갈래)
+- 도구: GPT Image 2 (캐릭터 시트·스토리보드) + Seedance 2.0 (영상) + Suno (음악)
+- 캐릭터 시트 = 일러스트 톤 (matching set, identical artist hand)
+- MV 컷 = 일러스트 톤 (storyboard + Seedance 비디오 prompt)
+- 도구 매칭 + "해치의 이상한 나라 v9" production bible 의 검증된 메커니즘 (M1-M5) 따름
+
+**왜 분리하는가** (Z 갈래 결정 사유):
+- prose = 작품 정체성·문학적 깊이 보존 (cinematic live-action 묘사가 본질)
+- MV = 도구·시각 임팩트·시청자 매력 (GPT Image 2 + Seedance 가 일러스트 톤에 강함)
+- 두 매체의 시청자 다름 = grammar 분리 자연스러움
+
+**visual_bible.md 보강 예정**: 본 §6 갱신과 함께 별도 visual_bible 문서 정식 갱신.
+
+참조:
+- `ops/character_sheets/README.md` — character_lock_pack 7명 LOCKED (Z 갈래 적용 결과)
+- `.claude/skills/troy-production-bible-builder/SKILL.md` — 5부 production bible (메커니즘 M1-M5)
+- `ops/E001_production_bible.md` — Z 갈래 적용 첫 production bible (1부 재작성 예정)
+- `ops/visual_bible.md` — visual bible (별도 갱신 예정)
 
 ## 7. House Style Goal
 

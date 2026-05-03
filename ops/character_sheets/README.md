@@ -11,13 +11,18 @@
 
 | 우선순위 | 캐릭터 | 캐논 위치 | Prompt 상태 | Sheet 상태 | 파일 |
 |---|---|---|---|---|---|
-| 1 | **윤서준** (Yoon Seojun) | 메인 남주, 모든 트랙 | ✅ prompt-ready (v1) | ⏳ pending | `yoon_seojun_sheet_v1.md` |
-| 2 | **지아린** (Ji Arin) | 메인 여주, vol1 가창자 | ✅ prompt-ready (v2) | ⚠️ v1 calibrating · v2 pending | `ji_arin_sheet_v2.md` |
-| 3 | **최이든** (Choi Iden) | 룸메, 조연 | ⏳ pending | ⏳ pending | (다음) |
-| 4 | **강도현** (Kang Dohyun) | 연적, Phase 2-4 | ✅ prompt-ready (v2) | 🔒 **LOCKED** (v2 검증 완료) | `kang_dohyun_sheet_v2.md` |
-| 5 | **배소나** (Bae Sona) | 아린 현실거울, Phase 2+ | ✅ prompt-ready (v2) | ⚠️ v1 baseline · v2 pending | `bae_sona_sheet_v2.md` |
-| 6 | **송유빈** (Song Yubin) | 16세 첫사랑, Phase 4-5 | ✅ prompt-ready (v3) | ⚠️ v2 face-mold 충돌 (배소나) · v3 pending | `song_yubin_sheet_v3.md` |
-| 7 | **이태율** (Lee Taeyul) | 윤리적 거울, Phase 5-6 | ⏳ pending | ⏳ pending | (다음) |
+| 1 | **윤서준** (Yoon Seojun) | 메인 남주, 모든 트랙 | ✅ v1 (사용자 일러스트 직접 paste) | 🔒 **LOCKED** | `yoon_seojun_sheet_v1.md` |
+| 2 | **지아린** (Ji Arin) | 메인 여주, vol1 가창자 | ✅ v2 | 🔒 **LOCKED** | `ji_arin_sheet_v2.md` |
+| 3 | **최이든** (Choi Iden) | 룸메, 조연 | ✅ v1 (사용자 직접 paste) | 🔒 **LOCKED** | `choi_iden_sheet_v1.md` |
+| 4 | **강도현** (Kang Dohyun) | 연적, Phase 2-4 | ✅ v2 | 🔒 **LOCKED** | `kang_dohyun_sheet_v2.md` |
+| 5 | **배소나** (Bae Sona) | 아린 현실거울, Phase 2+ | ✅ v2 | 🔒 **LOCKED** | `bae_sona_sheet_v2.md` |
+| 6 | **송유빈** (Song Yubin) | 16세 첫사랑, Phase 4-5 dual-age | ✅ v3 (face-mold 보강) | 🔒 **LOCKED** (8장 시트 중 2장 — 22세 + 16세) | `song_yubin_sheet_v3.md` |
+| 7 | **이태율** (Lee Taeyul) | 동아리 선배·실질 조력자, Phase 5-6 | ✅ v2 (사용자 보정 — 24세 4학년 멘토) | 🔒 **LOCKED** | `lee_taeyul_sheet_v2.md` |
+
+**총 8장 (송유빈 dual-age 2장 포함) · 7 캐릭터 face-lock baseline 완료** 🎬
+
+7 색상 시그니처:
+회색(서준) / 옅은 노란(아린) / warm cream(이든) / 카멜+슬레이트(도현) / mid gray(소나) / autumn beige+brown(유빈) / **charcoal black+steel blue(태율)**
 
 ## 상태 정의
 
@@ -220,3 +225,35 @@
 **산출 시 주의**: manuscript 본문 직접 lock 자료 부재 — 향후 manuscript 활성화 시 v3 보정 가능. 현재는 계획 문서 + 캐논 lock 으로 정밀 lock 가능 수준.
 
 **v2 산출 권장 위치**: `export/music/character_lock_pack/lee_taeyul_sheet_v2.png`
+
+### 이태율 v2 사용자 보정 (2026-04-30)
+
+**v2 prompt 사용자 보정 사항** (사용자가 paste 시 prompt 변경, 시트 결과 매우 우수):
+
+| 항목 | v2 prompt | 사용자 보정 |
+|---|---|---|
+| 나이 | 25세 졸업생/대학원생 | **24세 경영학 4학년** |
+| Role | 절대음감 음악인 + Phase 5-6 윤리적 거울 | **서준 대학 선배 + 동아리 멘토 + "보이지 않는 손" 실질 조력자** |
+| 컬러 | camel + deep dusk navy (autumn) | **charcoal gray + deep black + stone beige + cool white + steel blue (cold monochrome)** |
+| Outfit | camel cardigan + 베이지 | **블랙 셋업 수트 + 차콜 니트 + 셔츠+코트 (formal black)** |
+| Prop | 악보·튜닝 포크·이어폰 (음악인) | **노트북·펜·서류·블랙 텀블러·스마트폰 (실무 멘토)** |
+| 호칭 | "너" 직접 | **서준 = "선배" / 아린 = "태율 선배" (대학 선배)** |
+| 음악 인상 | 절대음감 (정확한 음 식별) | **피아노 & 첼로 기반 미니멀 클래식, 절제된 선율 + 안정감** |
+| 핵심 대사 | foreshadow paraphrase 3개 | ⭐ **"너는 감정으로 결정하고, 나는 결과로 책임질게. 그래서 우리가 제일 잘 맞는 거야."** |
+
+**캐논 정합 점검**: canon §4 의 "Phase 5-6 윤리적 거울 + 로맨스 경쟁자 X" 룰 유지. 사용자가 활성 멘토로 재정의 — 향후 manuscript 활성화 가능 컨셉.
+
+**얼굴 차별화 vs 강도현·송유빈 (3 mature 톤)**: 차가운 눈매 + 왼쪽 눈 밑 작은 점 (signature) + dark monochrome silhouette = 명확 분리 ✓
+
+**산출 권장 위치**: `export/music/character_lock_pack/lee_taeyul_sheet_v2.png`
+
+---
+
+## 🔒 character_lock_pack 7 캐릭터 종결 (2026-04-30)
+
+**8장 (송유빈 dual-age 2장 포함) 모두 LOCKED.** vol1 12트랙 모든 MV 의 face-lock baseline 완전 확보. 후속 production bible 의 storyboard sheet (3부) + Seedance 비디오 prompt (4부) 의 reference image 로 attach 가능.
+
+다음 단계:
+- `canon/style.md §6` Z 갈래 정식 반영 (다음 commit)
+- `ops/E001_production_bible.md` 1부 일러스트 톤 + 8장 attach 형태 재작성
+- vol1 첫 트랙 (E054) production bible 풀패킷 진행
