@@ -185,3 +185,38 @@
 **핵심 차별 명령**: "Must look like a different actor from 배소나, even within the same illustration hand and matching set."
 
 **v3 산출 권장 위치**: `export/music/character_lock_pack/song_yubin_sheet_v3.png`
+
+### 이태율 v1 → v2 (2026-04-30)
+
+**v1 prompt 진단**: canon §4 추상 정의 ("25세 mature 윤리적 거울") 만 적용. manuscript 사전 read 결과 = **본문 등장 0건** (motif_audit + Grep 모든 패턴 확인). 다른 6명처럼 manuscript 직접 lock 불가능.
+
+**그러나 ops/ 계획·복선 문서에 매우 풍부한 lock 자료 존재**:
+
+**ops/foreshadow_plan_120 §5 Taeyul As Ethical Mirror — ⭐⭐⭐ 결정적 NEW 발견**:
+- seed: "**suspicion, absolute pitch, psychological insight**"
+- echo: "pressure on Seojun's use of the ability"
+- payoff: "boundary-setting rather than exposure gimmick"
+
+**ops/support_exit_map §6 Lee Taeyul**:
+- role: "ethical mirror, adulthood shadow, the possibility that **leaving can also be mature**"
+- limit rule: NOT romantic rival
+- exit rule: "**does not steal ending focus**"
+
+**ops/foreshadow_plan §13 ending tone**:
+- "**여름이 끝난 뒤의 공기처럼, 뜨겁지 않은데도 확실한 사랑**"
+
+**v2 통합 보정 10개**:
+1. ⭐ 절대음감 음악인 정체성 추가 (악보·튜닝 포크·이어폰 prop)
+2. ⭐ 심리 통찰가 (quiet observant suspicious gaze)
+3. suspicion 톤 (서준 능력 의심, ethical distance)
+4. boundary-setting payoff 표정 lock
+5. "떠남도 성숙" 포즈 4 walking-away
+6. "does not steal ending focus" exit 룰
+7. Phase 5-6 deep dusk navy DOMINANT
+8. "여름이 끝난 뒤의 공기" ending tone 시각화
+9. 얼굴 차별화 (vs 강도현 23 sharp neat / 송유빈 22 softer oval) — 25 가장 mature, longer face, soft swept-back hair
+10. 핵심 대사 panel 3개 (계획 문서 paraphrase, manuscript 등장 0건이므로)
+
+**산출 시 주의**: manuscript 본문 직접 lock 자료 부재 — 향후 manuscript 활성화 시 v3 보정 가능. 현재는 계획 문서 + 캐논 lock 으로 정밀 lock 가능 수준.
+
+**v2 산출 권장 위치**: `export/music/character_lock_pack/lee_taeyul_sheet_v2.png`
