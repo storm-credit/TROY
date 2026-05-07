@@ -183,6 +183,43 @@ button { font-family: inherit; }
   margin-bottom: var(--space-2xs);
 }
 
+.troy-sidebar__jump {
+  margin-top: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+}
+.troy-sidebar__jump-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xs);
+}
+.troy-sidebar__jump-input {
+  flex: 1;
+  height: 28px;
+  padding: 0 var(--space-sm);
+  background: var(--surface-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-feature-settings: var(--num-tabular);
+  min-width: 0;
+}
+.troy-sidebar__jump-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.troy-sidebar__jump-input::placeholder {
+  color: var(--text-faint);
+}
+.troy-sidebar__jump-btn {
+  flex-shrink: 0;
+  min-width: 28px;
+  padding: 0 var(--space-sm);
+}
+
 /* =========================================================================
    Page header
    ========================================================================= */
