@@ -1,0 +1,328 @@
+/* =========================================================================
+   TROY Console — Design Tokens
+   v1.0
+   Drop-in replacement for the design layer of globals.css.
+   This file defines CSS custom properties only. No component styles.
+   ========================================================================= */
+
+/* -------------------------------------------------------------------------
+   Font loading
+   -------------------------------------------------------------------------
+   The user has 3 install options for Pretendard. Pick ONE; comments below.
+
+   Option A — system fallback (simplest, no install):
+      Do nothing. Stack falls back to -apple-system / SF Pro Text / Apple SD
+      Gothic Neo. Korean rendering remains acceptable.
+
+   Option B — npm package (recommended for repeatability):
+      `npm i pretendard` then in app/layout.tsx:
+        import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css'
+      No @font-face needed here.
+
+   Option C — self-hosted woff2 (offline-safe):
+      Drop pretendard-variable.woff2 into frontend/public/fonts/, then
+      uncomment the @font-face below.
+
+   Noto Serif KR (page H1 only) — recommended via Google Fonts CSS in
+   app/layout.tsx <head> with display=swap, or self-hosted similarly.
+   ------------------------------------------------------------------------- */
+
+/*
+@font-face {
+  font-family: 'Pretendard Variable';
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/pretendard-variable.woff2') format('woff2-variations');
+}
+@font-face {
+  font-family: 'Noto Serif KR';
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/noto-serif-kr.woff2') format('woff2');
+}
+*/
+
+/* =========================================================================
+   :root — DARK theme (primary)
+   ========================================================================= */
+:root {
+  color-scheme: dark;
+
+  /* ---------- Color: surfaces ---------- */
+  --surface-canvas:    #101013;
+  --surface-panel:     #16171B;
+  --surface-raised:    #1C1E23;
+  --surface-sunken:    #0C0D10;
+  --surface-overlay:   rgba(20, 21, 25, 0.72);   /* modal scrim */
+
+  /* ---------- Color: borders ---------- */
+  --border-subtle:     #22242A;
+  --border-default:    #2A2D34;
+  --border-strong:     #3A3E47;
+  --border-focus:      #7FA9C9;
+
+  /* ---------- Color: text ---------- */
+  --text-strong:       #E8E6E1;
+  --text:              #C8C7C2;
+  --text-dim:          #878680;
+  --text-faint:        #5A5955;
+  --text-on-accent:    #0E1218;
+
+  /* ---------- Color: accent ---------- */
+  --accent:            #7FA9C9;
+  --accent-strong:     #9BC2DF;
+  --accent-dim:        rgba(127, 169, 201, 0.16);
+  --accent-glow:       rgba(127, 169, 201, 0.28);
+
+  /* ---------- Color: status (semantic) ---------- */
+  --status-ok:         #7AB28A;
+  --status-ok-bg:      rgba(122, 178, 138, 0.14);
+  --status-progress:   #C9A96E;
+  --status-progress-bg: rgba(201, 169, 110, 0.14);
+  --status-pending:    #5A5E68;
+  --status-pending-bg: rgba(90, 94, 104, 0.14);
+  --status-warn:       #D4A24C;
+  --status-warn-bg:    rgba(212, 162, 76, 0.14);
+  --status-fail:       #C76F6A;
+  --status-fail-bg:    rgba(199, 111, 106, 0.14);
+  --status-info:       #7FA9C9;
+  --status-info-bg:    rgba(127, 169, 201, 0.14);
+
+  /* ---------- Color: phase (Phase 1–6 of the novel) ---------- */
+  /* Public API: do not rename. Used by app/page.tsx cell stripes. */
+  --ph1: #9FB3C8;   /* Phase 1 · 얇은 봄빛 — cool blue-grey, dawn */
+  --ph2: #A8C4A2;   /* Phase 2 · 닿기 시작하는 거리 — late spring green */
+  --ph3: #E0C896;   /* Phase 3 · 겹쳐지는 운율 — warm earth yellow */
+  --ph4: #D9A6A0;   /* Phase 4 · 어긋남 — muted coral, late summer */
+  --ph5: #B5A4C9;   /* Phase 5 · 다시 들리는 자리 — lavender grey, dusk */
+  --ph6: #8FA0A8;   /* Phase 6 · 고요의 완성 — slate grey, late autumn */
+
+  --ph1-bg: rgba(159, 179, 200, 0.10);
+  --ph2-bg: rgba(168, 196, 162, 0.10);
+  --ph3-bg: rgba(224, 200, 150, 0.10);
+  --ph4-bg: rgba(217, 166, 160, 0.10);
+  --ph5-bg: rgba(181, 164, 201, 0.10);
+  --ph6-bg: rgba(143, 160, 168, 0.10);
+
+  /* ---------- Typography: families ---------- */
+  --font-sans:  'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont,
+                'SF Pro Text', 'Helvetica Neue', 'Apple SD Gothic Neo',
+                'Malgun Gothic', sans-serif;
+  --font-serif: 'Noto Serif KR', 'Sandoll Myungjo', 'Apple SD Gothic Neo',
+                Georgia, 'Times New Roman', serif;
+  --font-mono:  'JetBrains Mono', 'SF Mono', 'Cascadia Code', 'D2Coding',
+                ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* ---------- Typography: scale ---------- */
+  --text-2xs: 10px;
+  --text-xs:  11px;
+  --text-sm:  12px;
+  --text-md:  13px;
+  --text-lg:  14px;
+  --text-xl:  16px;
+  --text-2xl: 20px;
+  --text-3xl: 26px;
+  --text-4xl: 34px;
+
+  /* ---------- Typography: weights ---------- */
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+
+  /* ---------- Typography: line-height ---------- */
+  --leading-tight:   1.2;
+  --leading-snug:    1.35;
+  --leading-normal:  1.55;
+  --leading-relaxed: 1.75;
+
+  /* ---------- Typography: letter-spacing ---------- */
+  --tracking-tight:  -0.01em;
+  --tracking-normal: 0;
+  --tracking-wide:   0.04em;
+  --tracking-caps:   0.08em;
+
+  /* ---------- Typography: feature settings ---------- */
+  --num-tabular: 'tnum' 1, 'ss01' 1;
+
+  /* ---------- Spacing scale ---------- */
+  --space-0:    0px;
+  --space-2xs:  2px;
+  --space-xs:   4px;
+  --space-sm:   8px;
+  --space-md:   12px;
+  --space-lg:   16px;
+  --space-xl:   24px;
+  --space-2xl:  32px;
+  --space-3xl:  48px;
+
+  /* ---------- Layout constants ---------- */
+  --sidebar-w:           240px;
+  --sidebar-w-collapsed:  64px;
+  --content-pad-x:        32px;
+  --content-pad-y:        28px;
+  --content-max:        1440px;
+  --grid-gap:              5px;
+  --grid-cols:              20;
+
+  /* ---------- Radius ---------- */
+  --radius-xs:   3px;
+  --radius-sm:   6px;
+  --radius-md:  10px;
+  --radius-lg:  14px;
+  --radius-pill: 999px;
+
+  /* ---------- Border weights ---------- */
+  --border-w-thin:    1px;
+  --border-w-default: 1px;
+  --border-w-strong:  2px;
+
+  /* ---------- Shadow / elevation ---------- */
+  --shadow-none: 0 0 0 0 transparent;
+  --shadow-sm:   inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  --shadow-md:   inset 0 1px 0 rgba(255, 255, 255, 0.05),
+                 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-lg:   inset 0 1px 0 rgba(255, 255, 255, 0.06),
+                 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 0 1px var(--accent),
+                 0 0 0 4px var(--accent-glow);
+  --shadow-focus: 0 0 0 2px var(--surface-canvas),
+                  0 0 0 4px var(--accent);
+
+  /* ---------- Motion ---------- */
+  --ease-standard:    cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasis:    cubic-bezier(0.3, 0, 0, 1);
+  --ease-decelerate:  cubic-bezier(0, 0, 0.2, 1);
+  --ease-linear:      linear;
+
+  --duration-instant: 80ms;
+  --duration-quick:   140ms;
+  --duration-base:    220ms;
+  --duration-slow:    400ms;
+
+  /* ---------- Z-index scale ---------- */
+  --z-base:    0;
+  --z-raised:  10;
+  --z-overlay: 100;
+  --z-popover: 200;
+  --z-modal:   1000;
+  --z-toast:   2000;
+}
+
+/* =========================================================================
+   Light theme — secondary, opt-in via [data-theme="light"] OR media query
+   The dark theme is the default and primary. Light is a courtesy for daytime.
+   ========================================================================= */
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+
+    --surface-canvas:    #FBFAF7;   /* warm off-white, not paper-white */
+    --surface-panel:     #FFFFFF;
+    --surface-raised:    #F4F2EE;
+    --surface-sunken:    #F0EEEA;
+    --surface-overlay:   rgba(20, 18, 14, 0.42);
+
+    --border-subtle:     #ECEAE5;
+    --border-default:    #DEDBD3;
+    --border-strong:     #BDB9AF;
+    --border-focus:      #4A7896;
+
+    --text-strong:       #1C1B17;
+    --text:              #3F3D38;
+    --text-dim:          #7A7872;
+    --text-faint:        #ADABA4;
+    --text-on-accent:    #FFFFFF;
+
+    --accent:            #4A7896;
+    --accent-strong:     #355F7C;
+    --accent-dim:        rgba(74, 120, 150, 0.12);
+    --accent-glow:       rgba(74, 120, 150, 0.22);
+
+    --status-ok:         #4F8E63;
+    --status-ok-bg:      rgba(79, 142, 99, 0.12);
+    --status-progress:   #A07E36;
+    --status-progress-bg: rgba(160, 126, 54, 0.12);
+    --status-pending:    #9A9892;
+    --status-pending-bg: rgba(154, 152, 146, 0.12);
+    --status-warn:       #B8862E;
+    --status-warn-bg:    rgba(184, 134, 46, 0.12);
+    --status-fail:       #A04742;
+    --status-fail-bg:    rgba(160, 71, 66, 0.12);
+    --status-info:       #4A7896;
+    --status-info-bg:    rgba(74, 120, 150, 0.12);
+
+    --ph1: #6E8AA8;
+    --ph2: #6E956C;
+    --ph3: #B89358;
+    --ph4: #B57068;
+    --ph5: #806D9A;
+    --ph6: #5E727B;
+
+    --ph1-bg: rgba(110, 138, 168, 0.10);
+    --ph2-bg: rgba(110, 149, 108, 0.10);
+    --ph3-bg: rgba(184, 147, 88, 0.10);
+    --ph4-bg: rgba(181, 112, 104, 0.10);
+    --ph5-bg: rgba(128, 109, 154, 0.10);
+    --ph6-bg: rgba(94, 114, 123, 0.10);
+
+    --shadow-sm:   inset 0 1px 0 rgba(0, 0, 0, 0.02);
+    --shadow-md:   inset 0 1px 0 rgba(0, 0, 0, 0.02),
+                   0 1px 2px rgba(20, 18, 14, 0.06);
+    --shadow-lg:   inset 0 1px 0 rgba(0, 0, 0, 0.02),
+                   0 8px 24px rgba(20, 18, 14, 0.10);
+  }
+}
+
+/* Explicit override switch — wins over media query */
+[data-theme="light"] {
+  color-scheme: light;
+  /* Repeats for explicit toggle. Engineers may move these into a separate
+     light-theme.css if preferred. */
+  --surface-canvas: #FBFAF7;
+  --surface-panel:  #FFFFFF;
+  --surface-raised: #F4F2EE;
+  --surface-sunken: #F0EEEA;
+  --border-subtle:  #ECEAE5;
+  --border-default: #DEDBD3;
+  --border-strong:  #BDB9AF;
+  --text-strong:    #1C1B17;
+  --text:           #3F3D38;
+  --text-dim:       #7A7872;
+  --text-faint:     #ADABA4;
+  --accent:         #4A7896;
+  --accent-strong:  #355F7C;
+  --accent-dim:     rgba(74, 120, 150, 0.12);
+  --accent-glow:    rgba(74, 120, 150, 0.22);
+}
+
+/* =========================================================================
+   Reduced motion
+   ========================================================================= */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-instant: 0ms;
+    --duration-quick:   0ms;
+    --duration-base:    60ms;
+    --duration-slow:    60ms;
+  }
+}
+
+/* =========================================================================
+   Backwards-compat aliases (transitional only — remove after migration)
+   The current globals.css uses --bg, --panel, --panel-2, --border, --text,
+   --text-dim, --accent, --ok, --warn, --bad. Map them so the migration PR
+   can be incremental.
+   ========================================================================= */
+:root {
+  --bg:      var(--surface-canvas);
+  --panel:   var(--surface-panel);
+  --panel-2: var(--surface-raised);
+  --border:  var(--border-default);
+  --ok:      var(--status-ok);
+  --warn:    var(--status-warn);
+  --bad:     var(--status-fail);
+}

@@ -203,6 +203,13 @@ cython_debug/
 local/
 renders/
 exports/
+
+# TROY web console intake + render outputs (local-only, never committed)
+external_intake/
+export/mv/
+frontend/node_modules/
+frontend/.next/
+frontend/*.tsbuildinfo
 ops/external_asset_review_snapshot_*.md
 ops/external_asset_action_packet_20*.md
 ops/external_asset_verdict_template_[0-9]*.md
