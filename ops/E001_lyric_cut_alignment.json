@@ -1,0 +1,21 @@
+{
+  "episodeId": "E001",
+  "songLengthSec": 210,
+  "cutCount": 14,
+  "alignments": [
+    { "cutNumber": 1, "lyricLine": "—", "confidence": 0.4 },
+    { "cutNumber": 2, "lyricLine": "잘 지내냐는 말에 잘 지낸다고 답했어", "confidence": 0.6 },
+    { "cutNumber": 3, "lyricLine": "방은 조용한데 머릿속이 시끄러워서", "confidence": 0.5 },
+    { "cutNumber": 4, "lyricLine": "오늘도 안부 같은 것들이 도착했고", "confidence": 0.5 },
+    { "cutNumber": 5, "lyricLine": "가까이 오는 건 다 무거운 것 같아", "confidence": 0.5 },
+    { "cutNumber": 6, "lyricLine": "괜찮다는 말이 입에서 자꾸 굳어", "confidence": 0.5 },
+    { "cutNumber": 7, "lyricLine": "마음들이 너무 많아서", "confidence": 0.6 },
+    { "cutNumber": 8, "lyricLine": "나는 내 귀부터 닫고 살았어", "confidence": 0.6 },
+    { "cutNumber": 9, "lyricLine": "닿지 않아도 알아 버려서", "confidence": 0.5 },
+    { "cutNumber": 10, "lyricLine": "거울 속 얼굴이 한 박자 늦게 웃어", "confidence": 0.5 },
+    { "cutNumber": 11, "lyricLine": "어쩌면 나는 듣고 싶었던 건지도 몰라", "confidence": 0.5 },
+    { "cutNumber": 12, "lyricLine": "그게 다정인지 도망인지", "confidence": 0.5 },
+    { "cutNumber": 13, "lyricLine": "같은 자리에 오래 앉아 있으면", "confidence": 0.5 },
+    { "cutNumber": 14, "lyricLine": "나는 내 귀부터 닫아 두었어", "confidence": 0.6 }
+  ]
+}
