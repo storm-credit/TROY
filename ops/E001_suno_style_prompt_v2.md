@@ -38,16 +38,16 @@ Korean modern indie folk, intimate restrained lane, gray late-spring campus air,
 - Vocal Gender: Female
 - Weirdness: 40 (controlled, intimate; not experimental)
 - Style Influence: 70 (high adherence — we want the "vocal in by 0:07" and "no reverb tail" to actually land)
-- Persona: leave blank (Suno v5 instruction per user)
-- Model: v5 (v5.5 not required — no Voices/custom-voice need on this track)
+- Persona: leave blank
+- Model: **v5.5** (Pro/Premier 기준 latest; baseline 음질 + 보컬 개선; Voices 불필요해도 newer model = better default; v5 는 8-12 takes 모두 실망 시 A/B fallback)
 
 ## 4. Run Plan — 3 versions x N takes
 
 | Version | BPM | Texture lean | Take target | Suno mode |
 |---|---|---|---|---|
-| Master | 75 | balanced muted piano + nylon | 8-12 takes | v5 |
-| Var A Lo-fi | 70 | tape hiss, vinyl crackle, narrower mix | 5-8 takes | v5 |
-| Var B Alt-folk | 80 | brushed drum ghost, slight pull, broader mix | 5-8 takes | v5 |
+| Master | 75 | balanced muted piano + nylon | 8-12 takes | v5.5 |
+| Var A Lo-fi | 70 | tape hiss, vinyl crackle, narrower mix | 5-8 takes | v5.5 |
+| Var B Alt-folk | 80 | brushed drum ghost, slight pull, broader mix | 5-8 takes | v5.5 |
 | Total | — | — | 18-28 generations | — |
 
 Per-version delta in the Style block (one-line edits only — vocal config identical across all three, BPM is the headline differentiator):

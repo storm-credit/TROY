@@ -14,7 +14,7 @@
 | **Weirdness** | 40 |
 | **Style Influence** | 70 |
 | **Persona** | (비워둠) |
-| **Model** | v5 |
+| **Model** | **v5.5** (최신, Pro/Premier 기준 baseline 음질·보컬 개선; v5 는 fallback) |
 | **Lyrics Mode** | Manual |
 
 ---

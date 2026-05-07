@@ -7,6 +7,7 @@ import { WorkbenchDropZone } from '@/components/WorkbenchClient'
 import { StoryboardCard } from '@/components/StoryboardCard'
 import { PipelineStrip, type PipelineStage } from '@/components/PipelineStrip'
 import { RenderButton } from '@/components/RenderButton'
+import { SunoPastePanel } from '@/components/SunoPastePanel'
 import { Card } from '@/components/ui/Card'
 import { Badge, phaseBadgeVariant } from '@/components/ui/Badge'
 import { ButtonLink } from '@/components/ui/Button'
@@ -151,7 +152,10 @@ export default async function WorkbenchPage({ params }: { params: Promise<Params
           </Card.Body>
         </Card>
 
-        {/* 2. Audio */}
+        {/* 2. Suno paste card (lyrics + style + UI settings) */}
+        <SunoPastePanel episodeId={id} />
+
+        {/* 3. Audio */}
         <Card>
           <Card.Header
             title="오디오"

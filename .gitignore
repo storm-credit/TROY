@@ -210,6 +210,10 @@ export/mv/
 frontend/node_modules/
 frontend/.next/
 frontend/*.tsbuildinfo
+
+# Override the python `lib/` ignore for the Next.js frontend lib directory.
+!frontend/lib/
+!frontend/lib/**
 ops/external_asset_review_snapshot_*.md
 ops/external_asset_action_packet_20*.md
 ops/external_asset_verdict_template_[0-9]*.md
