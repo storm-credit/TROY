@@ -30,11 +30,12 @@
 **Anchor lane. E001 v8 paste card 가 정의해 둔 baseline.**
 
 ### Reference artists (§reference only — Suno prompt 미포함)
-- 검정치마 (강아지, Everything)
-- 9와 숫자들 (보물)
-- 정밀아 (그리운 그대)
-- 짙은 (우리의 밤은 당신의 낮보다 아름답다)
-- 신해경 (나는)
+- 정밀아 (그리운 그대) — first-phrase intimate female, walking-pulse 70s feel
+- 김사월 (수많은 이야기) — withdrawn alto, dry close, walking 75bpm
+- 시와 (일곱 번째 노래) — paper-thin nylon, conversational Korean, no buildup
+- 강아솔 (정직한 마음) — fingerpicked nylon counterpoint, room-quiet female vocal
+- 새소년 (그대로) — restrained acoustic mode, female-fronted indie alto
+- 신해경 (나는) — paper-thin air, low-energy chord economy (vocal gender mismatch noted, mix character only)
 
 ### Suno style prompt (Master, paste-ready, 850 chars)
 
@@ -62,13 +63,13 @@ Korean modern indie folk, intimate restrained lane, gray late-spring campus air,
 
 피아노 멜로디 중심 lane. felt-damper grand 가 lead, 보컬과 1:1 대화. 가장 "고전적" 인 OST 톤이지만 power-ballad 함정에 절대 들어가지 않는다.
 
-### Reference artists (§reference only)
-- 정승환 (이 바보야) — 0:00 felt piano, 즉발 vocal, 발라드 OST 첫인상 표본
-- 정밀아 (그리운 그대) — 첫 phrase 즉시 intimate female, breath-forward
-- 토이 (집착) — 발라드 챔버 톤, 단일 피아노 + 미세 strings
-- 헤리티지 (낯선 시간 속 너) — 절제된 felt grand, key change 없음
-- 박혜진 박하잎 (미공개 demos) — late-evening lamp 톤 표본
-- Adele "Someone Like You" — 톤 only, vocal gender 일치 caveat 없음 (mix character만 참조)
+### Reference artists (§reference only — Suno prompt 미포함)
+- 박혜진 박하잎 (어제 너는 내 생각이 났을까) — felt grand + intimate alto, no swell
+- 권진아 (끝없는 밤) — felt-grand intimate female, no-uplift restraint
+- 이진아 (잘 있나요) — chamber-ballad pulse, melodic-but-restrained female alto
+- 선우정아 (도망가자) — restrained female alto, intimate piano dialogue
+- 정승환 (이 바보야) — 0:00 felt piano, instant vocal entry (vocal gender mismatch noted, intro architecture only)
+- Adele (Someone Like You) — single-piano + alto vocal-forward (foreign, mix character only)
 
 ### First-impression diagnosis (this lane's risk modes)
 1. Suno 가 "K-ballad" 입력 즉시 power-ballad piano arpeggio + strings ensemble swell 로 점프 → felt-damper / chorus-only-violin 으로 차단
@@ -101,12 +102,13 @@ Korean acoustic ballad, intimate piano-led lane, restrained chamber warmth, tend
 
 흐릿하고 atmosphere 한 톤. 가사보다 분위기. 안개 속 보컬. 유일하게 vocal 에 short-plate reverb 가 허용되는 lane (vocal-modifier lane).
 
-### Reference artists (§reference only)
-- Wave to Earth (seasons) — 한국 dream pop 표본, hazy clean electric
-- Adoy (Wonder) — chorus pedal + tremolo, 한국 인디
-- Stella Jang (Colors) — soft female intimate, atmospheric
-- 새소년 (집에) — 흐릿한 acoustic 텍스처 + female 동행 vocal
-- Beach House (Space Song) — 톤 only (vocal gender mismatch noted, mix character 참조 only)
+### Reference artists (§reference only — Suno prompt 미포함)
+- 새소년 (집에) — hazy female alto over fingerpicked acoustic counter, drift pulse
+- 백예린 (Bunny) — close-mic alto + chorus pedal hazy electric
+- Stella Jang (Colors) — soft female intimate, atmospheric narrow stereo
+- 한로로 (i) — recent indie female, drifting electric texture, no shoegaze
+- Wave to Earth (seasons) — slow-tremolo electric template (vocal gender mismatch noted, mix character only)
+- Beach House (Space Song) — short-plate vocal modifier reference (foreign, mix character only)
 
 ### First-impression diagnosis (this lane's risk modes)
 1. Suno 가 "dream pop" 입력 시 shoegaze fuzz-wall 로 미끄러짐 → "not shoegaze, no fuzz" 명시
@@ -139,12 +141,13 @@ Korean dream pop, hazy atmospheric lane, gentle reverberant warmth, drifting int
 
 테이프 hiss + narrow stereo. 누군가 작은 방에서 혼자 부른 noise floor 있는 톤. boom-bap lo-fi-hip-hop 트렌드와 정확히 거리.
 
-### Reference artists (§reference only)
-- 신해경 (나는) — paper-thin air, dry close, lo-fi 인접 톤
-- Yerin Baek (Square) — 좁은 mix, intimate female demo 톤
-- Standing Egg (lo-fi mode tracks) — bedroom intimacy
-- Adoy (Wonder live demo) — narrow stereo, tape coloration
-- Cigarettes After Sex — 톤 only (vocal gender mismatch noted, mix character 참조)
+### Reference artists (§reference only — Suno prompt 미포함)
+- 백예린 (Square) — narrow mono-leaning mix, demo-tape intimacy, female alto
+- 김사월 (농담) — bedroom-quiet female folk, hushed dry close
+- 이진아 (시간아 천천히) — felt-tape coloration, intimate female demo lean
+- 옥상달빛 (없는 게 메리트 acoustic) — narrow stereo fingerpick, female intimate
+- 신해경 (나는) — paper-thin air, mono-leaning narrow stereo (vocal gender mismatch noted, mix character only)
+- Cigarettes After Sex (Apocalypse) — vinyl-crackle bed template (foreign, mix character only)
 
 ### First-impression diagnosis (this lane's risk modes)
 1. Suno 가 "lo-fi" 입력 즉시 boom-bap 드럼 + jazz chord lo-fi-chill-beats 트랜드로 점프 → "no drum machine boom-bap, no chill-beats trope" 명시
@@ -177,12 +180,13 @@ Korean lo-fi bedroom pop, intimate tape-feel lane, narrow restrained warmth, hus
 
 가벼운 samba groove. 슬프지만 발이 움직이는 톤. 변주용으로 귀중. **Phase 4·5·6 에서는 절대 사용 X** (PHASE_EMOTIONAL_PALETTE.md 강제).
 
-### Reference artists (§reference only)
-- 잔나비 (참 어른) acoustic samba mode — 한국 boss-folk 표본
-- 박재정 (헤어지자 말해요 acoustic) — light groove + ballad
-- 검정치마 (Hollywood) — bossa fingerpicking + intimate
-- Karina (어떻게 사랑이 그래요 acoustic remake) — soft female bossa
-- João Gilberto — 톤 only (vocal gender mismatch noted, fingerpicking pattern 참조)
+### Reference artists (§reference only — Suno prompt 미포함)
+- 선우정아 (구애) — female alto with melodic glide, walking-but-bittersweet
+- 이바다 (산책) — walking-tempo female nylon, no Latin big-band drift
+- Karina (어떻게 사랑이 그래요 acoustic remake) — soft female bossa, light groove
+- 검정치마 (Hollywood) — bossa fingerpick bass-thumb pattern (vocal gender mismatch noted, fingerpicking only)
+- 박재정 (헤어지자 말해요 acoustic) — light groove + ballad lean (vocal gender mismatch noted, pulse only)
+- João Gilberto (Chega de Saudade) — bossa fingerpick canonical (foreign, pattern only, vocal mismatch)
 
 ### First-impression diagnosis (this lane's risk modes)
 1. Suno 가 "bossa" 입력 즉시 Latin big-band + horn section 으로 점프 → "no Latin big-band, no horn, no samba percussion" 강조
@@ -215,13 +219,13 @@ Korean bossa-folk fusion, gentle restrained groove lane, intimate-but-walking wa
 
 가장 sparse 한 lane. 거의 음악이 없는 음악. Phase 6 고요 수용 의 핵심.
 
-### Reference artists (§reference only)
-- 해변연구실 (Sea Lab — 겨울방) — sparse felt grand 한국 ambient
-- 박혜진 박하잎 (quiet mode demo) — minimal vocal, breath-spaced
-- 이주영 (피아노 OST tracks) — felt-damper grand only
-- 김광민 (Inside) — empty room piano 톤
-- Olafur Arnalds (saman — solo piano version) — 톤 only (instrumental, vocal mismatch N/A)
-- Nils Frahm (Says) — 톤 only, hammer-felt + pedal-action 표본
+### Reference artists (§reference only — Suno prompt 미포함)
+- 이주영 (Letter — solo piano) — felt-damper grand alone, decay-listening pauses (instrumental, vocal mismatch N/A)
+- 김광민 (Inside) — empty-room piano tone, sparse phrase economy (instrumental, vocal mismatch N/A)
+- 해변연구실 (Sea Lab — 겨울방) — Korean ambient sparse felt grand (instrumental, vocal mismatch N/A)
+- 박혜진 박하잎 (quiet mode demo) — minimal vocal, breath-spaced female alto for sung sections
+- Olafur Arnalds (saman — solo piano) — hammer-felt + pedal-action (foreign, instrumental, NOT cinematic-Olafur swell variant)
+- Nils Frahm (Says) — pedal-action audible, decay-into-silence (foreign, instrumental)
 
 ### First-impression diagnosis (this lane's risk modes)
 1. Suno 가 "ambient" 입력 시 new-age pad / synth wash 추가 → "no synth, no pad, no new-age" 명시
@@ -254,12 +258,13 @@ Korean ambient piano lane, sparse minimal warmth, suspended not climactic, almos
 
 포크 위에 절제된 synth pulse. 어긋남·긴장 phase 4 의 핵심 lane. EDM 함정과 정확히 거리.
 
-### Reference artists (§reference only)
-- 실리카겔 (NO PAIN — quiet sections) — 한국 folk-electronic 인접 톤
-- 이랑 (잘 알지도 못하면서) — folk + electronic underlay
-- 새소년 (난춘) — quiet electronic-tinged
-- Adoy (Beautiful) — clean folk + low synth pulse
-- Bon Iver (715 - CR∑∑KS — 22, A Million era) — 톤 only (vocal gender mismatch noted, electronic underlay 참조)
+### Reference artists (§reference only — Suno prompt 미포함)
+- 새소년 (난춘) — female alto, quiet electronic-tinged unease
+- 이랑 (잘 알지도 못하면서) — folk + electronic underlay, female intimate
+- 김사월 (광인) — withdrawn female alto, low-tension synth-bed-compatible
+- 한로로 (먼지) — recent indie female, restrained synth-pulse texture
+- 실리카겔 (NO PAIN — quiet sections) — folk-electronic adjacency (vocal gender mismatch noted, synth-pulse texture only)
+- Bon Iver (715 - CR∑∑KS) — granular texture template (foreign, electronic underlay only, vocal mismatch)
 
 ### First-impression diagnosis (this lane's risk modes)
 1. Suno 가 "electronic" 입력 즉시 four-on-the-floor EDM kick 로 점프 → "no four-on-the-floor, no EDM, no drop, no dubstep" 강조
@@ -292,12 +297,13 @@ Korean folk-electronic, restrained hybrid lane, intimate-but-tense warmth, strai
 
 소울 텍스처 + intimate 절제. 보컬이 조금 더 melodic 하게 미끄러짐. **vocal-modifier lane** (Lane 3 와 함께).
 
-### Reference artists (§reference only)
-- 이하이 (한숨 quiet sections) — soulful 절제 female alto
-- 효린 (See the Light unplugged) — controlled soulful glide
-- 거미 (다 알면서) — measured K-soul ballad lean
-- 박재정 (헤어지자 말해요) — 보컬 glide + Rhodes hint
-- 다비치 (안녕 이라고 말하지마 acoustic) — neo-soul 인접 톤
+### Reference artists (§reference only — Suno prompt 미포함)
+- 이하이 (한숨) — soulful-restrained female alto, controlled phrase-end glide
+- 효린 (Bae unplugged) — measured K-soul, no melisma, female alto
+- 백예린 (0310) — Rhodes-tinted soulful lean, female intimate, behind-the-beat
+- 헤이즈 (And July acoustic) — soft-glide female vocal, no R&B acrobatics
+- 거미 (다 알면서 acoustic remake) — restrained K-soul ballad lean, controlled riffs
+- 죠지 (마음대로) — Rhodes layer + glide phrasing (vocal gender mismatch noted, phrasing only)
 
 ### First-impression diagnosis (this lane's risk modes)
 1. Suno 가 "K-soul" 입력 즉시 R&B vocal acrobatics + melisma run 으로 폭발 → "controlled riffs only at phrase ends, no melisma" 명시
@@ -330,13 +336,13 @@ Korean quiet K-soul, intimate soulful lane, restrained warmth with melodic depth
 
 현악 + 피아노. 편곡 가장 풍부한 lane (그러나 여전히 절제). 앨범 highlight 후보. E054 (밝은 창) title-track candidate 의 home lane.
 
-### Reference artists (§reference only)
-- 이바다 (Yia) — 한국 chamber pop, 절제된 현악
-- 권진아 (운이 좋았지) — chamber arrangement + female intimate
-- 정승환 (눈사람 chamber tracks) — felt grand + small string section
-- 박원 (이대로 가자) — chamber pop walk-tempo
-- 헤리티지 (낯선 시간 속 너) — small ensemble restraint
-- Lana Del Rey (Mariners Apartment Complex) — 톤 only (vocal gender match, mix character 참조)
+### Reference artists (§reference only — Suno prompt 미포함)
+- 권진아 (운이 좋았지) — chamber arrangement + female intimate, gentle bloom not swell
+- 이바다 (Yia) — Korean chamber-pop anchor, restrained string color
+- 백예린 (Los Angeles) — close-mic alto over felt grand + small string color
+- 헤리티지 (낯선 시간 속 너) — small ensemble restraint (vocal gender mismatch noted, ensemble-balance only)
+- 카더가든 (가까운 듯 먼 그대여) — chamber-pop walk-tempo (vocal gender mismatch noted, arrangement only)
+- Lana Del Rey (Mariners Apartment Complex) — alto + chamber strings (foreign, vocal gender match, mix character only)
 
 ### First-impression diagnosis (this lane's risk modes)
 1. Suno 가 "chamber pop" 입력 즉시 full Hollywood orchestra swell 로 점프 → "small string section (2vn + 1va + 1vc, chamber not orchestral)" 명시 + "no full ensemble"
@@ -369,12 +375,13 @@ Korean chamber pop, intimate orchestral-lite lane, restrained warmth with string
 
 90 년대 한국 발라드 챔버 톤. 빈티지 따뜻함. 결말 phase 6 ending 적합. 90s power-ballad swell 함정과 정확히 거리.
 
-### Reference artists (§reference only)
-- 이문세 (옛사랑 90s era) — vintage chamber tone 표본
-- 김광석 (서른 즈음에) — restrained chamber ballad
-- 신승훈 (아이 빌리브 — early ballads) — cassette-era hush 표본
-- 김동률 (다시 사랑한다 말할까) — chamber arrangement + dignified
-- 변진섭 (희망사항 acoustic remake) — 90s vintage warmth + female 변주 인접
+### Reference artists (§reference only — Suno prompt 미포함)
+- 장재인 (분홍신 acoustic) — female alto with vintage phrasing, restrained
+- 권진아 (감기) — intimate female + chamber warmth, cassette-era hush adjacency
+- 윤하 (사건의 지평선 acoustic remake) — female alto + 90s chamber lean, no power-ballad swell
+- 이문세 (옛사랑) — vintage chamber tone exemplar (vocal gender mismatch noted, arrangement template only)
+- 김광석 (서른 즈음에) — restrained chamber ballad (vocal gender mismatch noted, dignified phrasing only)
+- 김동률 (다시 사랑한다 말할까) — chamber arrangement + dignified (vocal gender mismatch noted, hollow-body + cello palette only)
 
 ### First-impression diagnosis (this lane's risk modes)
 1. Suno 가 "90s ballad" 입력 즉시 gated reverb snare + power-ballad swell 로 점프 → "no gated snare, no 90s power-ballad swell" 강조
@@ -416,3 +423,4 @@ Korean 90s vintage ballad, restrained chamber warmth lane, dignified measured, n
 
 - 2026-05-06: v1 initial Wheel by Conductor (Opus quota hit, direct write). Lane 1 from E001 v8 anchor verbatim. Lanes 2-10 first draft. Style prompts paste-ready. Reference artists §reference only.
 - 2026-05-07: v2 Sound Director audit + refine pass (Lanes 2-10). Each lane now matches Lane 1 craft depth: (a) first-impression diagnosis (2-4 risk modes per lane), (b) reference calibration (5-6 specific Korean tracks per lane with ≤12-word first-impression notes), (c) tightened anti-Suno-genre-average cues, (d) explicit "vocal enters by 0:0X" hard-code per lane, (e) lane-specific no-go list (5-9 items each), (f) Phase compatibility validated against PHASE_EMOTIONAL_PALETTE.md. Corrections: Lane 5 (`bossa-folk`) Phase 5 removed (palette forbids); Lane 9 (`chamber-pop`) Phase 5 added (palette dominant). All 9 master prompts re-fit to 600-850 char target (842-849 chars). TS mirror at `frontend/lib/suno-generate/lanes.ts` synced. Lane 1 untouched (anchor lock).
+- 2026-05-09: v3 Reference panel rewrite (all 10 lanes). Trigger: user feedback "왜 검정치마를 좋아해? 다른 유명한 것들도 있잖아?" — diagnosed as reference-panel drift away from locked Arin vocal identity (female intimate withdrawn alto). Orchestra: Conductor → 2 parallel Opus experts (Music Reference Curator + Sound Director QA), independent panels cross-checked. Changes: (a) 검정치마 / 9와 숫자들 / 짙은 / 잔나비 / 박원 / 변진섭 / 다비치 / 박재정-Lane8 / 토이 / Standing Egg / Adoy 모두 panel hero 자리에서 제거 (full-band 남성 lead → Suno 가 alto lock 깨뜨림); (b) 검정치마 (Hollywood) Lane 5 에서만 caveat 로 잔류 (bossa fingerpick pattern); (c) 새 anchor: 백예린 (3 lanes), 김사월 (3 lanes), 권진아 (3 lanes), 정밀아·시와·강아솔·새소년·선우정아·이진아·박혜진 박하잎 + 한로로·장재인·윤하 등 여성 alto 풀 분산; (d) 모든 남성/외국 reference 는 `(vocal gender mismatch noted, [specific aspect] only)` 명시 — Suno 가 vocal timbre latch 안 하도록 caveat 강화; (e) 모든 pick = `아티스트 (대표 트랙)` track-specific (Suno 는 artist-name 을 catalogue union 으로 읽음 — 트랙 명시가 lane lock 정확성 ↑). Style prompts / swap rules / spec / first-impression diagnosis 는 v2 그대로 유지. 다음 lane 점검 시 이 v3 panel 이 lane lock 의 calibration 기준.
