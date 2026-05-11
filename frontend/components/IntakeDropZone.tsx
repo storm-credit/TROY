@@ -5,6 +5,7 @@ import { DropZone } from './ui/DropZone'
 import { Card } from './ui/Card'
 import { Badge } from './ui/Badge'
 import { useToast } from './ui/Toast'
+import { AUDIO_VARIANTS, type AudioVariant } from '@/lib/intake-spec'
 
 type SavedItem = {
   episode: string
@@ -27,6 +28,14 @@ type UploadResult = {
 
 export type IntakeKindFilter = 'audio' | 'stills' | 'clips' | 'subs' | 'any'
 
+const AUDIO_VARIANT_LABELS: Record<AudioVariant, string> = {
+  master: 'Master',
+  var_a_lofi: 'Var A · Lo-fi',
+  var_b_altfolk: 'Var B · Alt-folk',
+}
+
+const ALLOWED_AUDIO_EXT = ['.mp3', '.wav', '.m4a'] as const
+
 export function IntakeDropZone({
   episodeId,
   onUpload,
@@ -44,6 +53,7 @@ export function IntakeDropZone({
   const [result, setResult] = useState<UploadResult>(null)
   const [error, setError] = useState<string | null>(null)
   const [flash, setFlash] = useState<'success' | 'error' | null>(null)
+  const [audioVariant, setAudioVariant] = useState<AudioVariant>('master')
   const toast = useToast()
 
   const accept =
@@ -66,8 +76,27 @@ export function IntakeDropZone({
       setResult(null)
       setFlash(null)
       try {
+        // ── Client-side rename for audio ─────────────────────────────────────
+        // The server's parseFilename() requires `E###_(master|var_a_lofi|var_b_altfolk).ext`.
+        // Suno downloads use freeform names (e.g. "Arin - 밝은 창.mp3"), so without
+        // a rename the server would put the file in unrouted[] (returns 200 OK but
+        // does NOT save). Since workbench knows episodeId + the user-selected
+        // variant, we rename here so Suno-default filenames "just work."
         const fd = new FormData()
-        for (const f of arr) fd.append('files', f, f.name)
+        for (const f of arr) {
+          if (kindFilter === 'audio') {
+            const lowerName = f.name.toLowerCase()
+            const ext =
+              ALLOWED_AUDIO_EXT.find((e) => lowerName.endsWith(e)) ?? '.mp3'
+            const targetName = `${episodeId}_${audioVariant}${ext}`
+            const renamed = new File([f], targetName, {
+              type: f.type || 'audio/mpeg',
+            })
+            fd.append('files', renamed, renamed.name)
+          } else {
+            fd.append('files', f, f.name)
+          }
+        }
         const res = await fetch('/api/intake', { method: 'POST', body: fd })
         if (!res.ok) {
           const txt = await res.text().catch(() => '')
@@ -100,12 +129,12 @@ export function IntakeDropZone({
         setTimeout(() => setFlash(null), 2200)
       }
     },
-    [onUpload, toast],
+    [onUpload, toast, episodeId, audioVariant, kindFilter],
   )
 
   const expectedExamples =
     kindFilter === 'audio'
-      ? `${episodeId}_master.mp3 · ${episodeId}_var_a_lofi.mp3 · ${episodeId}_var_b_altfolk.mp3`
+      ? `자동: ${episodeId}_${audioVariant}.mp3 (Suno 파일명 그대로 OK)`
       : kindFilter === 'stills'
         ? `${episodeId}_cut_01.png … ${episodeId}_cut_16.png`
         : kindFilter === 'clips'
@@ -116,12 +145,63 @@ export function IntakeDropZone({
 
   const titleText = busy
     ? '업로드 중…'
-    : (hint ?? `${kindLabel(kindFilter)} 드롭 또는 클릭`)
+    : kindFilter === 'audio'
+      ? (hint ?? `Suno mp3 드롭 또는 클릭 → ${AUDIO_VARIANT_LABELS[audioVariant]} 슬롯`)
+      : (hint ?? `${kindLabel(kindFilter)} 드롭 또는 클릭`)
 
   return (
     <Card>
       {label && <Card.Header title={label} />}
       <Card.Body>
+        {kindFilter === 'audio' && (
+          <div
+            role="radiogroup"
+            aria-label="오디오 variant 선택"
+            style={{
+              display: 'flex',
+              gap: 'var(--space-xs)',
+              marginBottom: 'var(--space-md)',
+              flexWrap: 'wrap',
+            }}
+          >
+            {AUDIO_VARIANTS.map((v) => {
+              const selected = audioVariant === v
+              return (
+                <button
+                  key={v}
+                  type="button"
+                  role="radio"
+                  aria-checked={selected}
+                  disabled={busy}
+                  onClick={() => setAudioVariant(v)}
+                  className={
+                    selected
+                      ? 'troy-variant-pill troy-variant-pill--on'
+                      : 'troy-variant-pill'
+                  }
+                  style={{
+                    padding: 'var(--space-xs) var(--space-md)',
+                    fontSize: 'var(--text-xs)',
+                    letterSpacing: 'var(--tracking-wide)',
+                    border: selected
+                      ? '1px solid var(--accent)'
+                      : '1px solid var(--border)',
+                    background: selected
+                      ? 'var(--accent-soft, rgba(120,160,240,0.15))'
+                      : 'transparent',
+                    color: selected ? 'var(--accent)' : 'var(--text-dim)',
+                    borderRadius: 'var(--radius-pill, 999px)',
+                    cursor: busy ? 'not-allowed' : 'pointer',
+                    opacity: busy ? 0.6 : 1,
+                    transition: 'all 0.15s ease',
+                  }}
+                >
+                  {AUDIO_VARIANT_LABELS[v]}
+                </button>
+              )
+            })}
+          </div>
+        )}
         <DropZone
           accept={accept}
           state={flash}
@@ -131,7 +211,7 @@ export function IntakeDropZone({
           title={titleText}
           hint={
             <>
-              허용 파일명: <code>{expectedExamples}</code>
+              {kindFilter === 'audio' ? '저장 경로' : '허용 파일명'}: <code>{expectedExamples}</code>
             </>
           }
         />
