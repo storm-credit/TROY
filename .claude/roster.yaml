@@ -69,6 +69,10 @@ teams:
         file: .claude/teams/creative/story-director.md
         hiring: permanent
         default_model: claude-opus
+      - name: song-curator                  # ★ NEW (2026-05-13) — Mood archetype + multi-tradition reference curator. Runs ONE STEP BEFORE lyrics-director on every song. Owns: ops/song_mood_archetypes_v2.md + ops/120_song_brief_catalog.json + lyrics-director's reference panel.
+        file: .claude/teams/creative/song-curator.md
+        hiring: permanent
+        default_model: claude-opus
       - name: lyrics-director
         file: .claude/teams/creative/lyrics-director.md
         hiring: permanent
