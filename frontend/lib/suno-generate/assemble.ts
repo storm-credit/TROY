@@ -151,13 +151,19 @@ function extractPasteBlock(text: string): string {
 
 /**
  * Try to load lyrics for an episode in priority order:
- *   E001 (anchor) → ops/E001_lyrics_v8.md
- *   v6 batch     → ops/E###_lyrics_v6.md
- *   v8 hand      → ops/E###_lyrics_v8.md (if locked later)
+ *   v9 hand-curated → ops/E###_lyrics_v9.md (post-Suno-feedback rewrites)
+ *   v8 dedicated    → ops/E###_lyrics_v8.md (per-episode Opus craft pass)
+ *   v6 batch        → ops/E###_lyrics_v6.md (batch initial draft)
  * Returns a placeholder if no file exists.
+ *
+ * v9 is added when a specific episode is re-crafted after user listened to the
+ * Suno output and reported the v8 lyric didn't grip (e.g. E002 after the
+ * 2026-05-12 feedback). v9 files exist only where needed; most episodes still
+ * use v8 as the canonical version.
  */
 async function loadLyrics(episodeId: string): Promise<string> {
   const candidates = [
+    `${episodeId}_lyrics_v9.md`,
     `${episodeId}_lyrics_v8.md`,
     `${episodeId}_lyrics_v6.md`,
   ]
