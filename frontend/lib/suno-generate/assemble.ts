@@ -162,7 +162,11 @@ function extractPasteBlock(text: string): string {
  * use v8 as the canonical version.
  */
 async function loadLyrics(episodeId: string): Promise<string> {
+  // Higher version wins. v10+ exists only where the songwriter brief was
+  // reframed away from OST-mode (novel-anchor) to standalone-song-mode after
+  // user feedback. Most episodes still resolve to v8.
   const candidates = [
+    `${episodeId}_lyrics_v10.md`,
     `${episodeId}_lyrics_v9.md`,
     `${episodeId}_lyrics_v8.md`,
     `${episodeId}_lyrics_v6.md`,
