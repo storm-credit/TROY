@@ -1,0 +1,44 @@
+# TROY workbench — Docker Compose
+#
+# Single container: Next.js production server on port 3211.
+# Data directories mounted from host so edits (lyric files, archetype
+# palette, episode JSON) reflect inside the container without rebuild.
+#
+# Image rebuild only needed when frontend code itself changes.
+#
+# Usage:
+#   docker compose up -d --build    # first time / after code change
+#   docker compose up -d            # daily start (no rebuild)
+#   docker compose down             # stop + remove container
+#   docker compose restart          # restart container
+#   docker compose logs -f          # tail logs
+#   docker compose ps               # status
+#
+# Or use the .bat helpers in scripts/docker/ for double-click control.
+
+services:
+  troy:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    image: troy-frontend:latest
+    container_name: troy-server
+    ports:
+      - "3211:3211"
+    volumes:
+      # Read-mostly data (lyric files, episode JSON, archetype palette,
+      # genre wheel, etc.) — host-side edits visible in-container instantly
+      - ./ops:/app/ops
+      - ./manuscript:/app/manuscript
+      - ./canon:/app/canon
+      - ./frontend/design:/app/frontend/design
+      # Output sinks — mp3 uploads, MV renders
+      - ./external_intake:/app/external_intake
+      - ./export:/app/export
+    restart: unless-stopped
+    # Logging: cap at 10MB per file × 3 files (saves disk)
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
