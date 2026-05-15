@@ -2,13 +2,15 @@
 setlocal EnableExtensions EnableDelayedExpansion
 
 REM ====================================================================
-REM  TROY Dev Service Installer (ASCII safe)
-REM  - Downloads NSSM if missing
-REM  - Registers TROY-Dev Windows service (Next.js dev, no console window)
-REM  - Auto-start at boot, auto-restart on crash
-REM  - Copies control files to Desktop\TROY-Control\
+REM  TROY Dev Service Installer (PRODUCTION mode, ASCII safe)
 REM
-REM  Usage: Right-click this .bat -> "Run as administrator"  (one time)
+REM  Runs `next start` (production), not `next dev`.
+REM  Production mode:  ~200-300MB RAM, no file watcher, no on-demand
+REM                    compile, near-zero idle CPU.
+REM  Trade-off:        no hot-reload (irrelevant for end-user workbench).
+REM                    Code updates require Build-Troy.bat.
+REM
+REM  Usage: Right-click -> "Run as administrator"  (one time)
 REM ====================================================================
 
 REM --- Admin check ----------------------------------------------------
@@ -89,12 +91,40 @@ if %errorlevel% == 0 (
     echo.
 )
 
+REM --- Install dependencies + build Next.js production bundle --------
+echo ====================================================================
+echo Step 1/2: npm install (this may take 1-2 minutes the first time)
+echo ====================================================================
+pushd "%TROY_FRONTEND%"
+call "%NPM_CMD%" install
+if %errorlevel% neq 0 (
+    echo.
+    echo [ERROR] npm install failed.
+    popd
+    pause
+    exit /b 1
+)
+echo.
+echo ====================================================================
+echo Step 2/2: npm run build (production build, ~30-90 seconds)
+echo ====================================================================
+call "%NPM_CMD%" run build
+if %errorlevel% neq 0 (
+    echo.
+    echo [ERROR] npm run build failed.
+    popd
+    pause
+    exit /b 1
+)
+popd
+echo.
+
 REM --- Ensure .next dir exists (for log files) -----------------------
 if not exist "%TROY_FRONTEND%\.next" mkdir "%TROY_FRONTEND%\.next"
 
-REM --- Register service ----------------------------------------------
-echo Registering TROY-Dev service ...
-"%NSSM_EXE%" install TROY-Dev "%NPM_CMD%" "run dev"
+REM --- Register service (PRODUCTION mode: `npm start`) ---------------
+echo Registering TROY-Dev service (production mode) ...
+"%NSSM_EXE%" install TROY-Dev "%NPM_CMD%" "start"
 "%NSSM_EXE%" set TROY-Dev AppDirectory "%TROY_FRONTEND%"
 "%NSSM_EXE%" set TROY-Dev AppStdout "%TROY_FRONTEND%\.next\troy-dev.log"
 "%NSSM_EXE%" set TROY-Dev AppStderr "%TROY_FRONTEND%\.next\troy-dev.err.log"
@@ -105,8 +135,8 @@ echo Registering TROY-Dev service ...
 "%NSSM_EXE%" set TROY-Dev Start SERVICE_AUTO_START
 "%NSSM_EXE%" set TROY-Dev AppExit Default Restart
 "%NSSM_EXE%" set TROY-Dev AppRestartDelay 5000
-"%NSSM_EXE%" set TROY-Dev DisplayName "TROY Dev Server (Next.js)"
-"%NSSM_EXE%" set TROY-Dev Description "TROY workbench Next.js dev server on http://localhost:3211"
+"%NSSM_EXE%" set TROY-Dev DisplayName "TROY Server (Next.js production)"
+"%NSSM_EXE%" set TROY-Dev Description "TROY workbench Next.js production server on http://localhost:3211"
 echo Service registered.
 echo.
 
@@ -118,15 +148,16 @@ timeout /t 3 /nobreak >nul
 REM --- Create Desktop control folder ---------------------------------
 echo.
 echo Creating Desktop\TROY-Control folder ...
-powershell -NoProfile -ExecutionPolicy Bypass -Command "& { $ctrl = Join-Path $env:USERPROFILE 'Desktop\TROY-Control'; New-Item -ItemType Directory -Force -Path $ctrl | Out-Null; Copy-Item -Force '%SCRIPT_DIR%start-troy.vbs'   (Join-Path $ctrl 'TROY-Start.vbs'); Copy-Item -Force '%SCRIPT_DIR%stop-troy.vbs'    (Join-Path $ctrl 'TROY-Stop.vbs'); Copy-Item -Force '%SCRIPT_DIR%restart-troy.vbs' (Join-Path $ctrl 'TROY-Restart.vbs'); Copy-Item -Force '%SCRIPT_DIR%status-troy.bat'  (Join-Path $ctrl 'TROY-Status.bat'); Write-Host ('  -> ' + $ctrl) }"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "& { $ctrl = Join-Path $env:USERPROFILE 'Desktop\TROY-Control'; New-Item -ItemType Directory -Force -Path $ctrl | Out-Null; Copy-Item -Force '%SCRIPT_DIR%start-troy.vbs'   (Join-Path $ctrl 'TROY-Start.vbs'); Copy-Item -Force '%SCRIPT_DIR%stop-troy.vbs'    (Join-Path $ctrl 'TROY-Stop.vbs'); Copy-Item -Force '%SCRIPT_DIR%restart-troy.vbs' (Join-Path $ctrl 'TROY-Restart.vbs'); Copy-Item -Force '%SCRIPT_DIR%status-troy.bat'  (Join-Path $ctrl 'TROY-Status.bat'); Copy-Item -Force '%SCRIPT_DIR%build-troy.bat'   (Join-Path $ctrl 'TROY-Build.bat'); Write-Host ('  -> ' + $ctrl) }"
 
 REM --- Done message ---------------------------------------------------
 echo.
 echo ====================================================================
-echo  TROY-Dev service installed
+echo  TROY-Dev service installed (PRODUCTION mode, light)
 echo ====================================================================
 echo.
 echo  Browser:        http://localhost:3211
+echo  Mode:           Production (next start) - ~200-300MB RAM, no watcher
 echo  Auto-start:     boots with Windows (no window)
 echo  Auto-restart:   5 seconds after crash
 echo.
@@ -135,6 +166,9 @@ echo    TROY-Start.vbs    - double-click (no window)
 echo    TROY-Stop.vbs     - double-click (no window)
 echo    TROY-Restart.vbs  - double-click (no window)
 echo    TROY-Status.bat   - double-click (shows status)
+echo    TROY-Build.bat    - double-click after code update (rebuild+restart)
+echo.
+echo  After git pull or code edit, run TROY-Build.bat to refresh.
 echo.
 echo  OS-native GUI: Win+R -^> services.msc -^> TROY-Dev -^> right-click
 echo.
