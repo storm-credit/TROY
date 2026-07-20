@@ -69,7 +69,7 @@ These are planning anchors, not final scene locks.
 | dating peak | 54-55 |
 | rupture | 68-70 |
 | breakup | 78-80 |
-| re-encounter | 103-105 |
+| re-encounter | 103-105 (E091 우연 재회 = 예비 접촉 시드) |
 | ending | 118-120 |
 
 ## 8. Ending Model Lock

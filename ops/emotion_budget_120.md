@@ -108,3 +108,9 @@
 - secondary residue: tenderness, caution, shame, self-recognition
 - recovery present: medium
 - escalation note: do not collapse into rupture yet; this is the stage where joy and damage must coexist
+
+## Scope Note — 2026-07-20
+
+- 이 문서는 CH01-04, CH09-10만 회차 단위 예산이 작성된 부분 문서다 (Phase 2·4·5·6 결손).
+- 2026-07-19 구조 감사 판정: Phase 4 압력 과소지출(설계 high, 체감 중강 — 원인은 사건이 아니라 경구·교훈 화법)과 Phase 5-6 절제 어휘 반복에 의한 감정 과소비는 Phase 2~3 정밀 패스로 상당 부분 해소됨.
+- 결손 구간의 회차 단위 예산 신규 작성은 현 시점 불요 판정 — 원고가 완결·정밀 패스 단계이므로, 이 문서는 이후 개정판·스핀오프 설계 시 참조용 부분 문서로 유지한다.
