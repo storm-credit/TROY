@@ -77,6 +77,11 @@ recommended:
 - start from something small and external
 - let emotion bloom one beat later
 
+### epigraph exception (2026-07-21 명문화)
+
+- 각 회차 맨 앞의 2~3행 **에피그래프(주제 잠언)**는 위 4모드의 예외로 **허용**한다. 이는 120화 전 회차 공통의 의도된 프레이밍 장치(회차 주제를 압축)이며, 씬 오프닝과 별개 요소다.
+- 규칙: 에피그래프 **직후의 실제 씬 오프닝**은 여전히 §5 4모드(날씨/사물/자세/공간)를 따른다. 감사·수정 시 에피그래프 자체를 §5 위반으로 잡지 말 것.
+
 ## 6. Ending Sentence Modes
 
 allowed episode ending types:
