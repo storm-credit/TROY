@@ -45,6 +45,12 @@
 - middle meaning: misread intimacy
 - ending meaning: clear but not possessive warmth
 
+### The Song (운율) — 표제 모티프
+
+- first meaning: 아린의 발신성이 소리로 응결된 것 / 미완성 멜로디
+- middle meaning: 함께 만든 시간의 흔적, 말하지 못한 것(가사 메모 `말하지 않은 그림자`)
+- ending meaning: 관계는 끝나도 곡은 혼자 힘으로 완성됨 — 소유 없는 창작. 제목 「너라는 운율」의 최종 회수점
+
 ## 3. Seasonal Motif Rule
 
 계절은 장식이 아니라 정서적 시간의 증거다.
@@ -113,3 +119,11 @@
 - echo episodes: E045, E048, E050, E118, E119
 - changed meaning: from safe pause to site of misread intimacy to final honest warmth
 - ending residue: clear light without possession
+
+### The Song (운율)
+
+- first episode: E011 (첫 공연) / 씨앗 E054 (미완성 멜로디 + 가사 메모 `말하지 않은 그림자`)
+- first meaning: 아린이 자기 세계를 여는 창작 행위, 서준이 유일하게 계속 듣고 싶은 선율
+- echo episodes: E054, E086, E113, E116, E120
+- changed meaning: 함께 듣던 곡 → 말하지 못한 것의 저장소 → 혼자 힘으로 끝을 얻은 노래
+- ending residue: 미완성으로 끝난 관계와 대비되는, 완성된 곡 (E120 공연 영상에서 회수)

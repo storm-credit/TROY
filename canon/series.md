@@ -43,8 +43,8 @@
 | Item | Value |
 |---|---:|
 | total episodes | 120 |
-| total chapters | 24 |
-| chapter size | 5 episodes |
+| total chapters | 6 |
+| chapter size | 20 episodes |
 | total phases | 6 |
 
 ## 6. Phase Structure
