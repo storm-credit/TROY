@@ -289,3 +289,17 @@ ODD ENGINE 백엔드(Docker / FastAPI / Vertex SA-key) 점검을 위해 작성�
 - **적용 흐름**: 로그 전건 보고 → 바로 적용(절삭 꼬리·캐논 충돌 항목만 질의) → `Test-EpisodeLengthGate.ps1`+`Test-ForbiddenPatterns.ps1` → export 번들 6개+통합본 재생성 → 커밋·푸시.
 
 **진행 상태 (챕터1 라인에디트 캠페인)**: E001~E007 완료. **박자/리듬 과밀**(E003 8회·E007 10회)은 챕터 누적 이슈 — 개별 화는 저자 어휘 존중, **ch1 종료 후 "박자/리듬 씨닝 패스" 통합 실행** 예정. 상세 상태는 메모리 `troy-project-state.md`.
+
+## 19. Minimum Action Agent OS (2026-08-06 채택 — 작업 방법론)
+
+이 프로젝트는 `minimum-action-agent-os`의 **작업 방식**을 따른다. OS 문서 전문은 이 레포에 복사하지 않는다.
+
+- **Local action space 최소화**: 각 reasoning node가 한 번에 직접 선택하는 agent/tool/skill/MCP/callable을 기본 **≤ 5**로 유지한다.
+- 이는 **전체 Agent 총수 제한이 아니다.** 확장은 router/specialist 계층으로 한다 (현행 L1→L2→L3 **27명** 구조 유지 — Conductor 1 + 팀장 5 + 전문가 21).
+- **Least tool / least context / least authority.** 서브에이전트로 넘길 땐 목표·정본 근거·제약·수용 기준만 넘기고 대화 전문은 넘기지 않는다.
+- 새 Agent는 **실제 경계**(툴·권한·컨텍스트·독립평가·증거 체계·실패 양상)가 있을 때만 만든다. 없으면 규칙이나 Skill로 둔다.
+- **트랙 라우팅**: 세션은 T1 소설(기본) / T2 음악 / T3 영상 / T4 총괄 중 하나를 선택하고 해당 트랙 자산만 활성으로 본다. 전환은 명시 보고한다. **§9의 슬래시 목록은 삭제되지 않았으며, 트랙별 자산으로 읽는다**(§9 = 전체 카탈로그, §19 = 세션 진입 라우팅).
+- **도메인 정본 우선**: `canon/`·`ops/prose_house_bible.md`·원고가 항상 내용의 정본이다. OS는 "어떻게 일할지"만 규정하며 이를 덮어쓰지 않는다.
+- 감사 결과·라우팅 맵·예외 기록: **`ops/local_action_space.md`**
+- 워크플로 프리미티브(의도 확인·맹점·함정·4시안·본보기·메타프롬프팅·독립평가·harness·이탈기록·상태갱신)는 **§14~§18과 tools/에 이미 존재**한다. 중복 생성하지 않는다.
+- OS 플러그인 설치 시에만 `/minimum-action-agent-os:os-preflight`, `os-state`, `independent-critic`을 *추가 옵션*으로 사용한다 (현재 미설치).
